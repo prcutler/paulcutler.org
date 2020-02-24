@@ -29,8 +29,8 @@ education:
   courses:
   - course: Poliça
     institution: When We Stay Alive
-  - course: Wolf Parade
-    institution: Thin Mind
+  - course: Best Coast
+    institution: Always Tomorrow
   - course: Drive-By Truckers
     institution: The Unraveling
 
