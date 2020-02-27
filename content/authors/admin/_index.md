@@ -56,7 +56,7 @@ social:
   link:  https://keybase.io/prcutler
 - icon: linkedin
   icon_pack: fab
-  link:  https://keybase.io/prcutler
+  link:  https://linkedin.com/paulrcutler
 - icon: rss-square
   icon_pack: fas
   link: https://feeds.feedburner.com/pcutler
