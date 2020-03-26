@@ -109,7 +109,7 @@ contact_links = [
   {icon = "keybase", icon_pack = "fab", name = "Keybase", link = "https://keybase.io/prcutler"},
   # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
   {icon = "github", icon_pack = "fab", name = "Github", link = "https://github.com/prcutler"},
-  {icon = "linkedin", icon_pack = "fab", name = "LinkedIn", link = "https://linkedin.com/paulrcutler"}
+  {icon = "linkedin", icon_pack = "fab", name = "LinkedIn", link = "https://www.linkedin.com/in/paulrcutler/"}
   ]
 
 ############################
