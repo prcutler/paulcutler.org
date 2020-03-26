@@ -37,7 +37,8 @@ In 2015, the same group of friends decided to re-create the league, but for foot
 MLBPool2 and NFLPool is that MLBPool2 allows you to change your picks at mid-season and NFLPool does not. 
 Like MLBPool2, the first two years of NFLPool featured all of the updates done by hand. In early 2016, looking 
 for a hobby, I decided to learn Python to automate the scoring process and to keep historical records.  NFLPool is 
-the first Python (and first Pyramid) app I have ever created.
+the first Python (and first Pyramid) app I ever created.  NFLPool ran over the 2017 and 2018 seasons and came to an 
+end in 2020.  The code is open source, licensed under the MIT / X11 license, and archived on Github.
 
 Learn more:
 
