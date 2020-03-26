@@ -43,6 +43,6 @@ Learn more:
 
 * [MLBpool2.com](https://mlbpool2.com)
 * [Github (Source Code)](https://github.com/prcutler/mlbpool2) - Licensed under the MIT license
-* [MLBPool Rules](https://mlbpool.xyz/home/rules)
+* [MLBPool Rules](https://mlbpool2.com/home/rules)
 * [MLBPool User and Developer Documentation](http://mlbpool2.readthedocs.io/en/latest/) (Including how to play)
-* [Site Credits](https://mlbpool.xyz/home/credits)
+* [Site Credits](https://mlbpool2.com/home/credits)
