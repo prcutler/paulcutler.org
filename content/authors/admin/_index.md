@@ -23,16 +23,15 @@ bio:
 interests:
 - Music & Vinyl Records
 - Python
-- Football
 
 education:
   courses:
-  - course: Poliça
-    institution: When We Stay Alive
+  - course: Pearl Jam
+    institution: Gigaton
   - course: Best Coast
     institution: Always Tomorrow
-  - course: Drive-By Truckers
-    institution: The Unraveling
+  - course: Anna Burch
+    institution: If You're Dreaming
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
