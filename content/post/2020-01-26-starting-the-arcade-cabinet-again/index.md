@@ -21,10 +21,12 @@ Some random things I've done today:
     - 4 different arcade plans for sale (or included in their subscription)
     - I liked the 2 player standup - it seems easier that [Koenigs](http://koenigs.dk/mame/eng/index.htm) in trying to change the size
     
+    
 *  Reviewed plans again from [Koenigs](http://koenigs.dk/mame/eng/index.htm)
     * Metric only - conversion to Imperial doesn’t seem exact enough
     * Going to be difficult to build in Imperial
     * These were the plans I wanted to use for the longest time, but going to go with The Geek Pub
+
 
 * Watched 2 circular saw videos
 * The end of January may not be the best time for woodworking in the garage in Minnesota...
