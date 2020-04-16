@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Father. Husband. Vinyl Music Lover.  Football fan. Python student. He / him.
+role: Father. Husband. Vinyl Music Lover. Python student. He / him.
 
 # Organizations/Affiliations
 organizations:
@@ -23,6 +23,7 @@ bio:
 interests:
 - Music & Vinyl Records
 - Python
+- Classic 80s Arcade Games
 
 education:
   courses:
@@ -81,5 +82,5 @@ software industry.  When he's not attending his kids sports activities or introd
 he can be found listening to his vinyl record collection, watching football, or learning Python.  Paul is a former
 gamer (known as Silwenae) and was formerly involved in open source software projects.  Paul is a fervent believer
 in civil liberties and privacy and is a vocal supporter of the [Electronic Frontier Foundation](https://eff.org).
-Paul has been blogging about nothing for over 15 years, but most recently about learning to code with 
- [Python](https://www.python.org).
+He has been blogging about nothing for over 15 years, but most recently about learning to code with 
+ [Python](https://www.python.org) and building an arcade cabinet.
