@@ -1,7 +1,7 @@
 ---
 title: Starting the Arcade Cabinet Again
 author: Paul Cutler
-type: draft
+type: post
 date: 2020-01-26T13:00:00
 categories:
   - Arcade
