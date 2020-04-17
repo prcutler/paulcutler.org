@@ -16,7 +16,11 @@ I sold a bunch of my old Sonos equipment and decided to splurge on the arcade.  
 
 And then I found the [Pixelcade](https://pixelcade.org/), which is an LED marquee.  Available in five different sizes, I went with the P4, a 20" x 5" marquee made of 2 LED panels.  It should work out of the box with LEDBlinky (on Windows) and RetroPie on the Raspberry Pi.  (I'm still undecided what OS I'm going to run if I don't use the Raspberry Pi 3 B+.)
 
-Depending on the game you're playing, the marquee will display the game art / title for that game.  Here's just a small sample from the Pixelcade homepage:
+Depending on the game you're playing, the marquee will display the game art / title for that game.  From their website, here's an a cabinet when playing Pac-Man:
+
+![Pac-Man](pacman.jpeg)
+
+Here's just a small sample of the game art Pixelcade supports from their homepage:
 
 ![Pixelcade Art](pixelcade-art.jpg)
 
