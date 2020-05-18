@@ -27,12 +27,12 @@ interests:
 
 education:
   courses:
+  - course: Jason Isbell and the 400 Unit
+    institution: Reunions
   - course: Pearl Jam
     institution: Gigaton
   - course: Best Coast
     institution: Always Tomorrow
-  - course: Anna Burch
-    institution: If You're Dreaming
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
