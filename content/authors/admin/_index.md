@@ -60,6 +60,9 @@ social:
 - icon: rss-square
   icon_pack: fas
   link: https://feeds.feedburner.com/pcutler
+- icon: record-vinyl
+  icon_pack: fas
+  link: https://www.discogs.com/user/prcutler
     
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
