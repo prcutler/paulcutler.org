@@ -28,6 +28,9 @@ caption = "Fantasy Football for the Lazy"
 
 +++
 
+![NFLPool](featured.png)
+
+
 NFLPool is based on MLBPool, originally created by Jason Theros. MLBPool came to an end in 2011 and in 2013, a 
 small group of friends resurrected it as MLBPool2. (Original, huh?) Unfortunately, we weren't as smart as Mr. Theros, 
 who had created a website written in ASP which auto-updated the standings and the code was no longer available. 
