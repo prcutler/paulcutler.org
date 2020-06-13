@@ -58,7 +58,7 @@ disableHugoGeneratorInject = false
   keywords = ""
   images = [""]
 
-  homeSubtitle = "Father. Husband. Vinyl Music Lover. Python student. He / him."
+  homeSubtitle = "father & husband. vinyl music lover. python student. he / him."
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   # gitUrl = ""
@@ -108,16 +108,8 @@ disableHugoGeneratorInject = false
     url  = "https://discogs.com/user/prcutler"
 
   [[params.social]]
-    name = "email"
-    url  = "mailto:paul@paulcutler.org"
-
-  [[params.social]]
     name = "github"
     url  = "https://github.com/prcutler"
-
-  [[params.social]]
-    name = "linkedin"
-    url  = "https://www.linkedin.com/in/paulrcutler"
 
 #  [[params.social]]
 #    name = "stackoverflow"
@@ -126,6 +118,14 @@ disableHugoGeneratorInject = false
   [[params.social]]
     name = "keybase"
     url  = "https://keybase.io/prcutler"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/paulrcutler"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:paul@paulcutler.org"
 
 [languages]
   [languages.en]
@@ -151,3 +151,7 @@ disableHugoGeneratorInject = false
     identifier = "projects"
     name       = "Projects"
     url        = "project/"
+  [[menu.main]]
+    identifier = "spinning"
+    name       = "Spinning"
+    url        = "spinning/"
