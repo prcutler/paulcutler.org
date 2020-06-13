@@ -151,7 +151,20 @@ disableHugoGeneratorInject = false
     identifier = "projects"
     name       = "Projects"
     url        = "project/"
+#  [[menu.main]]
+#    identifier = "spinning"
+#    name       = "Spinning"
+#    url        = "spinning/"
+
   [[menu.main]]
     identifier = "spinning"
-    name       = "Spinning"
-    url        = "spinning/"
+    name = "Spinning"
+    url = "/spinning/"
+#    weight = -110
+
+  [[menu.main]]
+    identifier = "testing"
+    name = "testing"
+    url = "/spinning/"
+    pre = "<img src='https://paulcutler.org/files/discogs.svg'/"
+    weight = -110
