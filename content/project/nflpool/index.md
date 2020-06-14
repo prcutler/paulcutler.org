@@ -1,6 +1,6 @@
 +++
 # Date this page was created.
-date = "2018-04-03"
+date = "2017-08-15"
 
 # Project title.
 title = "NFLPool"
@@ -27,6 +27,9 @@ image = "project/nflpool.png"
 caption = "Fantasy Football for the Lazy"
 
 +++
+
+![NFLPool](featured.png)
+
 
 NFLPool is based on MLBPool, originally created by Jason Theros. MLBPool came to an end in 2011 and in 2013, a 
 small group of friends resurrected it as MLBPool2. (Original, huh?) Unfortunately, we weren't as smart as Mr. Theros, 

@@ -27,6 +27,7 @@ math = false
 # caption = "Fantasy Baseball for the Lazy"
 
 +++
+![MLBPool2](featured.png)
 
 MLBPool was originally created by Jason Theros as a web application in ASP.net. MLBPool came to an end in 2011 and in 
 2013, a small group of friends resurrected it as MLBPool2. (Original, huh?) Unfortunately, we weren't as smart 
