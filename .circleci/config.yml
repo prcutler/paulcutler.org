@@ -34,4 +34,4 @@ jobs:
           fingerprints:
             - "37:60:6e:f8:37:8f:13:54:6f:db:15:53:ed:d2:03:4d"
       - run: ssh-keyscan -H nflpool.xyz >> ~/.ssh/known_hosts
-      - run: hugo && rsync -avz ~/hugo/public/* pcutler@nflpool.xyz:/srv/paulcutler.org/public_html/
+      - run: sudo hugo && rsync -avze ~/hugo/public/ pcutler@nflpool.xyz:/srv/paulcutler.org/public_html/
