@@ -11,7 +11,7 @@ title = "Now Spinning"
 * Pearl Jam - Gigaton
 * Best Coast - Always Tomorrow
 
-![Sturgill Simpson and turntable](/img/soundandfury.png)
+![Phoebe Bridger - Punisher (Blue with kind of Swirly Silver)](/img/punisher.jpg)
 
 
 
