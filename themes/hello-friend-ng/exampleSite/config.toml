@@ -1,5 +1,5 @@
-baseURL = "https://paulcutler.org"
-title   = "Paul Cutler"
+baseURL = "https://example.com"
+title   = "Hello Friend NG"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 
@@ -8,7 +8,7 @@ PygmentsStyle = "monokai"
 
 paginate  = 10
 rssLimit  = 10  # Maximum number of items in the RSS feed.
-copyright = "Paul Cutler" # This message is only used by the RSS template.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
 # googleAnalytics = ""
 # disqusShortname = ""
@@ -37,7 +37,7 @@ disableHugoGeneratorInject = false
   posts = "/posts/:year/:month/:title/"
 
 [author]
-  name = "Paul Cutler"
+  name = "Jane Doe"
 
 [blackfriday]
   hrefTargetBlank = true
@@ -54,11 +54,11 @@ disableHugoGeneratorInject = false
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   # Metadata mostly used in document's head
-  description = "Paul Cutler Homepage"
-  keywords = "Paul Cutler"
+  description = "Nice theme for homepages and blogs"
+  keywords = ""
   images = [""]
 
-  homeSubtitle = "Father. Husband. Vinyl music lover. Python student. He / Him."
+  homeSubtitle = "Hello Friend NG"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   # gitUrl = ""
@@ -75,7 +75,7 @@ disableHugoGeneratorInject = false
   justifyContent = false  # Set "text-align: justify" to .content.
 
   # Default theme "light" or "dark"
-  defaultTheme = "light"
+  defaultTheme = "dark"
   themeColor = "#252627"
 
   # Colors for favicons
@@ -85,7 +85,7 @@ disableHugoGeneratorInject = false
     theme = "#252627"
 
   [params.logo]
-    logoText     = " paulcutler.org"
+    logoText     = "$ cd /home/"
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
@@ -94,49 +94,41 @@ disableHugoGeneratorInject = false
     # Set to a valid CSS time value to change the animation duration, "0s" to disable.
     # logoCursorAnimate  = "2s"
 
-#  [params.portrait]
-#    path = "img/portrait.jpg"
-#    alt = "Portrait"
+  [params.portrait]
+    path = "/img/image.jpg"
+    alt = "Portrait"
 
   # Social icons
   [[params.social]]
     name = "twitter"
-    url  = "https://twitter.com/prcutler"
-
-    [[params.social]]
-    name = "discogs"
-    url  = "https://discogs.com/user/prcutler"
-
-  [[params.social]]
-    name = "github"
-    url  = "https://github.com/prcutler"
-
-#  [[params.social]]
-#    name = "stackoverflow"
-#    url  = "https://www.stackoverflow.com/"
-
-  [[params.social]]
-    name = "keybase"
-    url  = "https://keybase.io/prcutler"
-
-  [[params.social]]
-    name = "linkedin"
-    url  = "https://www.linkedin.com/in/paulrcutler"
+    url  = "https://twitter.com/"
 
   [[params.social]]
     name = "email"
-    url  = "mailto:paul@paulcutler.org"
+    url  = "mailto:nobody@example.com"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/"
+
+  [[params.social]]
+    name = "stackoverflow"
+    url  = "https://www.stackoverflow.com/"
 
 [languages]
   [languages.en]
-    subtitle  = "Paul Cutler Homepage"
+    subtitle  = "Hello Friend NG Theme"
     weight    = 1
-#    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
-#  [languages.fr]
-#    subtitle  = "Hello Friend NG Theme"
-#    weight    = 2
-#    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  [languages.fr]
+    subtitle  = "Hello Friend NG Theme"
+    weight    = 2
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 [menu]
   [[menu.main]]
@@ -145,10 +137,5 @@ disableHugoGeneratorInject = false
     url        = "about/"
   [[menu.main]]
     identifier = "posts"
-    name       = "Blog"
+    name       = "Posts"
     url        = "posts/"
-  [[menu.main]]
-    identifier = "projects"
-    name       = "Projects"
-    url        = "project/"
-

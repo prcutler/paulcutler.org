@@ -1,0 +1,22 @@
+<header class="header">
+    <span class="header__inner">
+        {{ partial "logo.html" . }}
+
+        <span class="header__right">
+            {{ if len .Site.Menus }}
+                {{ partial "menu.html" . }}
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            {{ end }}
+
+            <span class="header__right">
+                <a href="/spinning">
+                <a title="Now Spinning" href="/spinning/"><img width="32" alt="Vinyl record" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Vinyl_record.svg/256px-Vinyl_record.svg.png"></a>
+            </span>
+        </span>
+    </span>
+</header>
