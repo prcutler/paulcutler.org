@@ -1,5 +1,5 @@
 ---
-title: Practice Cuts
+title: RetroPie Update
 author: Paul Cutler
 type: post
 date: 2020-04-14T20:00:00
