@@ -103,7 +103,7 @@ disableHugoGeneratorInject = false
     name = "twitter"
     url  = "https://twitter.com/prcutler"
 
-    [[params.social]]
+  [[params.social]]
     name = "discogs"
     url  = "https://discogs.com/user/prcutler"
 
