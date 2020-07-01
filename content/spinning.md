@@ -3,7 +3,7 @@
 date = "2020-06-12"
 
 # Project title.
-title = "Now Spinning - June 2020"
+title = "Now Spinning - July 2020"
 
 +++
 
@@ -15,7 +15,7 @@ title = "Now Spinning - June 2020"
 ## Old Records
 * New Pornographers - Mass Romantic
 * Janet Jackson - Rhythm Nation
-* Siouxsie & The Banshees - Superstition
+* Extreme - Pornograffiti
 
 ## Streaming
 * Haim - Women in Music, Vol. 3
