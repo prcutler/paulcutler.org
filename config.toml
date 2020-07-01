@@ -108,6 +108,10 @@ disableHugoGeneratorInject = false
     url  = "https://discogs.com/user/prcutler"
 
   [[params.social]]
+    name = "discord"
+    url  = "https://discord.gg/YCkSPX6"
+
+  [[params.social]]
     name = "github"
     url  = "https://github.com/prcutler"
 
