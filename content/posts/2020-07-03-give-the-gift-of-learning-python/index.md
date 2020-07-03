@@ -21,6 +21,6 @@ Michael Kennedy referred me to the [Hidden Genius Project](https://www.hiddengen
 * Can they take the giftable link from Humble Bundle and get it to someone who will use it?
 * Can they also take individual parts of the Humble Bundle?  For example, I have a paid PyCharm license already - can they take the 6 month license I received in the bundle I bought for myself and pass that on to someone?
 
-I also [posted about this on Reddit](https://www.reddit.com/r/Python/comments/hkl4mx/idea_give_the_gift_of_learning_python_with_the/).  If you know of a deserving organization that can take and use any part of the Humble Bundle, add a comment there or email me or message me on Twitter.  I'll figure out a way to keep the list published.
+I also [posted about this on Reddit](https://www.reddit.com/r/Python/comments/hkl4mx/idea_give_the_gift_of_learning_python_with_the/).  If you know of a deserving organization that can take and use any part of the Humble Bundle, add a comment there or [email me](https://paulcutler.org) or [message me on Twitter](https://twitter.com/prcutler).  I'll figure out a way to keep the list published.
 
-If Python has been good to you and if you have the means (I know there is pandemic going on and a lot of people are in different financial situations) think about buying a Humble Bundle for $25 and giving it as a gift.
+If Python has been good to you and if you have the means (I know there is pandemic going on and a lot of people are in different financial situations) think about buying a Humble Bundle for $25 and giving it as a gift. 
