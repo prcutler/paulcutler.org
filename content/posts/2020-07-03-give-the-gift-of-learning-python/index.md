@@ -23,4 +23,4 @@ Michael Kennedy referred me to the [Hidden Genius Project](https://www.hiddengen
 
 I also [posted about this on Reddit](https://www.reddit.com/r/Python/comments/hkl4mx/idea_give_the_gift_of_learning_python_with_the/).  If you know of a deserving organization that can take and use any part of the Humble Bundle, add a comment there or [email me](https://paulcutler.org) or [message me on Twitter](https://twitter.com/prcutler).  I'll figure out a way to keep the list published.
 
-If Python has been good to you and if you have the means (I know there is pandemic going on and a lot of people are in different financial situations) think about buying a Humble Bundle for $25 and giving it as a gift. 
+If Python has been good to you and if you have the means (I know there is pandemic going on and a lot of people are in different financial situations) think about buying a Humble Bundle for $25 and giving it as a gift.  Once we've got some organizations identified, I will match the first $100 in donations to the same groups.
