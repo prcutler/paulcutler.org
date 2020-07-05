@@ -30,5 +30,5 @@ And here is why I love open source:   Github user [leopuleo](https://github.com/
 
 This is all licensed under the MIT License, giving you the ability to take it and modify as you need to.  *leopuleo* didn't have to do this, nor did he have to share it, or give it a license that just gives it away and let's you do anything you want with it.  This is just one reason why open source is awesome - someone builds something, shares it with the world, and even better, let's you build on top of it.
 
-Open source and free software rocks.
+Open source and free software rock.
 
