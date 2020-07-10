@@ -9,7 +9,7 @@ title = "MLBPool2"
 summary = "A fantasy baseball like application written in Python and built with Pyramid to track and report MLB season pool picks and points for league play."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-# image_preview = "project/mlbpool2.png"
+image_preview = "project/mlbpool2.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
@@ -23,11 +23,11 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 # [header]
-# image = "project/mlbpool2.png"
-# caption = "Fantasy Baseball for the Lazy"
+image = "project/mlbpool2.png"
+caption = "Fantasy Baseball for the Lazy"
 
 +++
-![MLBPool2](featured.png)
+![MLBPool2](mlbpool2.png)
 
 MLBPool was originally created by Jason Theros as a web application in ASP.net. MLBPool came to an end in 2011 and in 
 2013, a small group of friends resurrected it as MLBPool2. (Original, huh?) Unfortunately, we weren't as smart 
