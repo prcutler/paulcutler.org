@@ -18,8 +18,6 @@ tags:
 # Introducing Silver Saucer
 I’ve started my next Python project:  Silver Saucer, which will be hosted at silversaucer.com.  I originally bought the domain about ten years ago when I was thinking of going into business for myself, which never happened and I hung onto the domain name because I liked it.  It was inspired by Neil Gaiman’s poem, *The Day The Saucers Came*, which I also have a framed art print of:
 
-![The Day the Saucers Came](day-the-saucers-came.jpg)
-
 {{< figure src="day-the-saucers-came.jpg" title="The Day the Saucers Came" link="day-the-saucers-came-original.jpeg" >}}
 
 Once upon a time, I was also a big fan of *The X-Files*, so it seems fitting.
