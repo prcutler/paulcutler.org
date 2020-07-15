@@ -6,8 +6,7 @@ date = "2020-07-15"
 title = "Silver Saucer"
 
 # Project summary to display on homepage.
-summary = "A web application built with the [Pyramid web framework](https://trypyramid.com) and Python 
-that interfaces with the [Discogs API](https://www.discogs.com) to interact with my music collection."
+summary = "A web application built with the [Pyramid web framework](https://trypyramid.com) and Python that interfaces with the [Discogs API](https://www.discogs.com) to interact with my music collection."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "project/silversaucer/silversaucer.png"
