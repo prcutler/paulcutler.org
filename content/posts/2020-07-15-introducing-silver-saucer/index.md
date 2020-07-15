@@ -47,4 +47,6 @@ I’ve blogged about it before, but I struggle to learn `pytest`.  I’m going t
 ## Infrastructure
 I’ve already hooked up Silver Saucer to Azure Pipelines to automatically do continuous integration.  I want to integrate `pytest` and code coverage next.  After that I may look into continuous delivery, but there’s is a lot about Azure that I don’t know. 
 
-Plenty of things to learn and keep me busy during these interesting times.
+Plenty of things to learn and keep me busy during these interesting times.  Here's a teaser for making it to the end:
+
+{{< figure src="silversaucer.png" title="Silver Saucer screenshot" link="silversaucer.png" >}}
