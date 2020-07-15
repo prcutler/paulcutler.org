@@ -1,5 +1,7 @@
 # Check https://circleci.com/docs/2.0/language-go/ for more details
-version: 2
+version: 2.1
+orbs:
+  slack: circleci/slack@3.4.2
 general:
   branches:
     only: master
@@ -35,3 +37,11 @@ jobs:
             - "37:60:6e:f8:37:8f:13:54:6f:db:15:53:ed:d2:03:4d"
       - run: ssh-keyscan -H nflpool.xyz >> ~/.ssh/known_hosts
       - run: hugo && rsync -avce ssh ~/hugo/public/ pcutler@nflpool.xyz:/srv/paulcutler.org/public_html/
+
+steps:
+      - run: exit 0
+      - slack/status:
+          fail_only: false
+          mentions: '@prcutler'
+          only_for_branches: main
+          webhook: webhook
