@@ -2,7 +2,7 @@
 title: Introducing Silver Saucer
 author: Paul Cutler
 type: post
-date: 2020-07-55T09:00:00
+date: 2020-07-15T09:00:00
 categories:
   - Python
 tags:
