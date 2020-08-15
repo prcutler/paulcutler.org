@@ -16,7 +16,7 @@ title = "Now Spinning - August 2020"
 
 ## Old Records
 * Soul Coughing - Irresistible Bliss
-* Phoenix - Liztomania
+* Phoenix - Wolfgang Amadeus Phoenix
 * Spoon - Telephono
 
 ## Streaming
