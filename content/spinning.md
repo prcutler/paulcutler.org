@@ -9,18 +9,17 @@ title = "Now Spinning - August 2020"
 
 ## New Records
 * Haim - [Women in Music Pt. III](https://www.discogs.com/Haim-Women-In-Music-Pt-III/release/15532255)
-* Alanis Morrisette - [Such Pretty Forks In The Road](https://www.discogs.com/Alanis-Morissette-Such-Pretty-Forks-In-The-Road/release/15698911)
-* Fiona Apple - [Fetch the Boltcutters](https://www.discogs.com/Fiona-Apple-Fetch-The-Bolt-Cutters/release/15628825)
+* Sylvan Esso - [With](https://www.discogs.com/Sylvan-Esso-With/release/15766569)
 * Gordi - Our Two Skins
-* Phoebe Bridgers - Punisher
+
 
 ## Old Records
-* Soul Coughing - Irresistible Bliss
-* Phoenix - Wolfgang Amadeus Phoenix
-* Spoon - Telephono
+* Spoon - [Girls Can Tell](https://www.discogs.com/Spoon-Girls-Can-Tell/release/15717957)
+* Garbage - [Version 2.0](https://www.discogs.com/Garbage-Version-20/release/12172591)
+
 
 ## Streaming
-* The Beths - Jump Rope Gazers
+* Bully - Sugaregg
 * Taylor Swift - folklore
 
 
