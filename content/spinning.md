@@ -3,25 +3,25 @@
 date = "2020-06-12"
 
 # Project title.
-title = "Now Spinning - September 2020"
+title = "Now Spinning - October 2020"
 
 +++
 
 ## New Records
+* Bob Mould - [Blue Hearts](https://www.discogs.com/Bob-Mould-Blue-Hearts/release/15934028)
+* Semisonic - [You're Not Alone](https://www.discogs.com/Semisonic-Youre-Not-Alone/release/15951881)
 * Bully - [Sugaregg](https://www.discogs.com/Bully-Sugaregg/release/15814859)
 
 
 ## Old Records
-* Spoon - [Girls Can Tell](https://www.discogs.com/Spoon-Girls-Can-Tell/release/15717957)
-* Spoon - [Kill The Moonlight](https://www.discogs.com/Spoon-Kill-The-Moonlight/master/43632)
-* The Stone Roses - [The Stone Roses](https://www.discogs.com/The-Stone-Roses-The-Stone-Roses/master/12458)
-* Dum Dum Girls - [Too True](https://www.discogs.com/Dum-Dum-Girls-Too-True/release/5347731)
+* [Johnny Cash - American III: Solitary Man](https://www.discogs.com/Johnny-Cash-American-III-Solitary-Man/release/5469776)
 
 
 ## Streaming
 * Save Stereogum - '00s Covers
-* Taylor Swift - folklore
-
+* [	
+Good Music to Avert the Collapse of American Democracy, Volume 2](https://goodmusic2020.bandcamp.com/album/good-music-to-avert-the-collapse-of-american-democracy-volume-2)
+* Sad13 - [Haunted Painting](https://www.discogs.com/Sad13-Haunted-Painting/master/1815593)
 
 ![Phoebe Bridger - Punisher (Blue with kind of Swirly Silver)](/img/punisher.jpg)
 
