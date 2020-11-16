@@ -3,25 +3,22 @@
 date = "2020-06-12"
 
 # Project title.
-title = "Now Spinning - October 2020"
+title = "Now Spinning - November 2020"
 
 +++
 
 ## New Records
-* Bob Mould - [Blue Hearts](https://www.discogs.com/Bob-Mould-Blue-Hearts/release/15934028)
-* Semisonic - [You're Not Alone](https://www.discogs.com/Semisonic-Youre-Not-Alone/release/15951881)
-* Sad13 - [Haunted Painting](https://www.discogs.com/Sad13-Haunted-Painting/master/1815593)
-
+* Rilo Kiley - [Rilo Kiley](https://www.discogs.com/Rilo-Kiley-Rilo-Kiley/release/16106497)
+* The Bird and the Bee - [The Bird and the Bee](https://www.discogs.com/The-Bird-And-The-Bee-The-Bird-And-The-Bee/release/16152353)
+* Japandroids - [Massey Fucking Hall](https://www.discogs.com/Japandroids-Massey-Fucking-Hall/release/16118824)
 
 ## Old Records
-* [Johnny Cash - American III: Solitary Man](https://www.discogs.com/Johnny-Cash-American-III-Solitary-Man/release/5469776)
-* Rilo Kiley discography
+* Pearl Jam discography
+* Van Halen discography
 
 
 ## Streaming
-* Save Stereogum - '00s Covers
-* [Good Music to Avert the Collapse of American Democracy, Volume 2](https://goodmusic2020.bandcamp.com/album/good-music-to-avert-the-collapse-of-american-democracy-volume-2)
-
+* Tom Petty - Wildflowers
 
 ![Phoebe Bridger - Punisher (Blue with kind of Swirly Silver)](/img/punisher.jpg)
 
