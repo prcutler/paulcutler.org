@@ -2,7 +2,7 @@
 title: Stupid Pandemic
 author: Paul Cutler
 type: post
-date: 2020-12-02T011:00:00
+date: 2020-12-02T11:00:00
 categories:
   - Python
 tags:
