@@ -3,7 +3,7 @@
 date = "2020-06-12"
 
 # Project title.
-title = "Now Spinning - November 2020"
+title = "Now Spinning - December 2020"
 
 +++
 
@@ -18,10 +18,10 @@ title = "Now Spinning - November 2020"
 
 ## Streaming
 * Taylor Swift - everlore
-* Sturgill Simpson Cuttin' Grass Vol. 2 - Cowboy Arms Sessions)
+* Sturgill Simpson Cuttin' Grass Vol. 2 (Cowboy Arms Sessions)
 * Miley Cyrus - Plastic Hearts
 
-![Phoebe Bridger - Punisher (Blue with kind of Swirly Silver)](/img/punisher.jpg)
+![Phoebe Bridgers - Punisher (Blue with kind of Swirly Silver)](/img/punisher.jpg)
 
 ## White Whales
 * Garbage - [Beautifulgarbage](https://www.discogs.com/Garbage-Beautifulgarbage/release/6193359)
