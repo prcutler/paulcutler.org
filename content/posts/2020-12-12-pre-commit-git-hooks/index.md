@@ -4,10 +4,10 @@ author: Paul Cutler
 type: post 
 date: 2020-12-12T08:45:00 
 categories:
-   - Python 
+  - Python 
  tags:
-   - Python
-   - Podcasts
+  - Python
+  - Podcasts
 
 ---
 It was a pleasant surprise recently to get an email from Michael Kennedy
