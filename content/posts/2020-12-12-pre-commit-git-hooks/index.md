@@ -11,7 +11,7 @@ tags:
 
 ---
 It was a pleasant surprise recently to get an email from Michael Kennedy
-at [Talk Python/](https://talkpython.fm/). As a previous buyer of one of
+at [Talk Python](https://talkpython.fm/). As a previous buyer of one of
 the [Talk Python Everything Bundle](https://training.talkpython.fm/) which includes a number of different Python
 training courses, I was eligible for the “Pro” [Talk Python podcast](https://talkpython.fm/episodes/all) subscription,
 which doesn’t included ads.
