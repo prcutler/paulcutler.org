@@ -8,17 +8,18 @@ title = "Now Spinning - November 2020"
 +++
 
 ## New Records
-* Rilo Kiley - [Rilo Kiley](https://www.discogs.com/Rilo-Kiley-Rilo-Kiley/release/16106497)
-* The Bird and the Bee - [The Bird and the Bee](https://www.discogs.com/The-Bird-And-The-Bee-The-Bird-And-The-Bee/release/16152353)
-* Japandroids - [Massey Fucking Hall](https://www.discogs.com/Japandroids-Massey-Fucking-Hall/release/16118824)
+* Sturgill Simpson - [Cuttin' Grass Vol. 1 -  The Butcher Shoppe Sessions ](https://www.discogs.com/Sturgill-Simpson-Cuttin-Grass-Vol1-The-Butcher-Shoppe-Sessions/release/16416111)
+* Taylor Swift - [folklore](https://www.discogs.com/Taylor-Swift-Folklore/release/16257536)
+* The Bangles - [Doll Revolution](https://www.discogs.com/The-Bangles-Doll-Revolution/release/16281071)
 
 ## Old Records
-* Pearl Jam discography
-* Van Halen discography
+* The Hold Steady discography
 
 
 ## Streaming
-* Tom Petty - Wildflowers
+* Taylor Swift - everlore
+* Sturgill Simpson Cuttin' Grass Vol. 2 - Cowboy Arms Sessions)
+* Miley Cyrus - Plastic Hearts
 
 ![Phoebe Bridger - Punisher (Blue with kind of Swirly Silver)](/img/punisher.jpg)
 
