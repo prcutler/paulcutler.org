@@ -11,7 +11,7 @@ rssLimit  = 10  # Maximum number of items in the RSS feed.
 copyright = "Paul Cutler" # This message is only used by the RSS template.
 
 # googleAnalytics = ""
-# disqusShortname = ""
+disqusShortname = "prcutler"
 
 archetypeDir = "archetypes"
 contentDir   = "content"
