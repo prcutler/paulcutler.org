@@ -58,7 +58,4 @@ pagination request to get the album ID.
 
 Next up:  Either fix the pagination method to reduce the if / else statement or move on to getting the album release
 information. I also need to remove a ton of print statements and clean up and remove all the methods I don’t have to use
-after refactoring this. Progress!m hoping to fix looping over the list in the dictionary and also fix API call that
-deals with the pagination of results from Discogs. You can see what a mess it is in the `play_service.py` file and I
-know there has to be a better way to programmatically determine the pagination than a long `if / else` statement.  (And
-if I ever get over a 1000 records it will break!  Or my wife will break me when I have that many…)
+after refactoring this. Progress!
