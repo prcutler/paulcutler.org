@@ -17,7 +17,7 @@ title = "Now Spinning - December 2020"
 
 
 ## Streaming
-* Taylor Swift - everlore
+* Taylor Swift - evermore
 * Sturgill Simpson Cuttin' Grass Vol. 2 (Cowboy Arms Sessions)
 * Miley Cyrus - Plastic Hearts
 
