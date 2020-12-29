@@ -69,8 +69,8 @@ Looking at Debbie Gibson's *Electric Youth*, the *Genre* key in the dictionary r
 With some trial and error I was able to display the list, but it showed up as code, looking like:
 `['Electronic', 'Pop']`.  No one wants to see that.  The challenge is that Chameleon templates use something like a 
 shorthand for Python code.  I revisited two of my former projects where I would iterate over a list and show the 
-results, but after lots of trial and error I felt like I was going backwards.  After lots of search engine queries and 
-Stack Overflow searching I did what I always do when I get stuck:  I ask my wife.  It took her about 15 minutes to 
+results, but after lots of trial and error I felt like I was going backwards.  Some more search engine queries and 
+Stack Overflow searching I did what I always do when I get stuck:  I asked my wife.  It took her about 15 minutes to 
 figure out how to loop over the list and show it in bullets:
 
 ```
