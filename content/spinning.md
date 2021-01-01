@@ -8,10 +8,12 @@ title = "Now Spinning - January 2021"
 +++
 
 ## Newish Records
+
 * Sturgill Simpson - [Cuttin' Grass Vol. 1 -  The Butcher Shoppe Sessions ](https://www.discogs.com/Sturgill-Simpson-Cuttin-Grass-Vol1-The-Butcher-Shoppe-Sessions/release/16416111)
 * Taylor Swift - [folklore](https://www.discogs.com/Taylor-Swift-Folklore/release/16257536)
+* Secret Machines - [Awake in the Brain Chamber](https://www.discogs.com/Secret-Machines-Awake-In-The-Brain-Chamber/release/1647956)
 
-## Old Records
+## Older Records
 * Trent Reznor / Atticus Ross soundtracks (Watchmen, Gone Girl, etc.) (Perfect for when coding!)
 
 
