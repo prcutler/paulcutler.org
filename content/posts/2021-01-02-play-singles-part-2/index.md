@@ -2,7 +2,7 @@
 title: Play Singles Part 2
 author: Paul Cutler 
 type: post 
-date: 2021-02-01T17:00:00 
+date: 2021-01-02T17:00:00 
 comments: true
 categories:
   - Python
