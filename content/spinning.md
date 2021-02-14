@@ -3,31 +3,29 @@
 date = "2020-06-12"
 
 # Project title.
-title = "Now Spinning - January 2021"
+title = "Now Spinning - Feburary 2021"
 
 +++
 
-## Newish Records
+2021 Goal:  [Listening to my Record Collection Alphabetically](https://paulcutler.org/posts/2021/02/listening-to-my-record-collection-alphabetically/)
 
-* Sturgill Simpson - [Cuttin' Grass Vol. 1 -  The Butcher Shoppe Sessions ](https://www.discogs.com/Sturgill-Simpson-Cuttin-Grass-Vol1-The-Butcher-Shoppe-Sessions/release/16416111)
-* Taylor Swift - [folklore](https://www.discogs.com/Taylor-Swift-Folklore/release/16257536)
-* Secret Machines - [Awake in the Brain Chamber](https://www.discogs.com/Secret-Machines-Awake-In-The-Brain-Chamber/release/1647956)
+## Newish Records
+* Claude - [Super Monster](https://www.discogs.com/Claud-Super-Monster/release/17354443)
 
 ## Older Records
 * Trent Reznor / Atticus Ross soundtracks (Watchmen, Gone Girl, etc.) (Perfect for when coding!)
-
+* Johnny Cash - American Recordings Volumes I - VI
 
 ## Streaming
-* Víkingur Ólafsson - [Debussy - Rameau](https://music.apple.com/us/album/debussy-rameau/1492313510)
-* Aero Flynn - [Madeline](https://music.apple.com/us/album/madeline/1546436080)
-* Taylor Swift - evermore
-* Sturgill Simpson Cuttin' Grass Vol. 2 (Cowboy Arms Sessions)
+* The Staves - Good Woman
+* Ani DiFranco - Revolutionary Love
 
 ![Phoebe Bridgers - Punisher (Blue with kind of Swirly Silver)](/img/punisher.jpg)
 
 ## White Whales
 * Garbage - [Beautifulgarbage](https://www.discogs.com/Garbage-Beautifulgarbage/release/6193359)
 * Rilo Kiley - [Under the Blacklight](https://www.discogs.com/Rilo-Kiley-Under-The-Blacklight/release/3077280)
+* Free Energy - [Stuck On Nothing](https://www.discogs.com/Free-Energy-Stuck-On-Nothing/release/2260616)
 
 
 
