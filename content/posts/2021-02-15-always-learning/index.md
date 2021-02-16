@@ -9,8 +9,7 @@ categories:
 tags:
   - Raspberry Pi
   - Python
-  - Vinyl
-  - Discogs
+  - Home Assistant
 
 ---
 I haven’t blogged about my progress on Silver Saucer over the last month, but that doesn't mean I haven't been up to 
@@ -24,7 +23,8 @@ listening to records. It took 30 minutes to throw some code together using [RUMP
  to make the applet and the [denonavr](https://github.com/scarface-4711/denonavr) Python module to control the receiver.
 
 That led me down a path of looking into making a hardware project to make a dial to control the volume. Adafruit has
-a [great tutorial on building one](https://learn.adafruit.com/media-dial/overview), but I don’t have a 3D printer (yet).
+a [great tutorial on building one](https://learn.adafruit.com/media-dial/overview) using Circuit Python, but I don’t 
+have a 3D printer (yet).
 
 That led me into looking more into the `denonavr` Python module - which is also the same module that
 powers [Home Assistant](https://www.home-assistant.io/). I’ve now reinstalled Home Assistant - it’s been a couple of
