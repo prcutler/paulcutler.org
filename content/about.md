@@ -18,5 +18,4 @@ of the [Electronic Frontier Foundation](https://eff.org). I have been blogging h
 about nothing, but most recently about learning [Python](https://paulcutler.org/tags/python)
 and [building an arcade cabinet](https://paulcutler.org/tags/arcade).
 
-This website is powered by [Hugo](https://gohugo.io) and the [Hello Friend NG](https://github.
-com/rhazdon/hugo-theme-hello-friend-ng) theme.
+This website is powered by [Hugo](https://gohugo.io) and the [Hello Friend NG](https://github.com/rhazdon/hugo-theme-hello-friend-ng) theme.
