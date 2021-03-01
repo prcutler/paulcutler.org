@@ -3,7 +3,7 @@
 date = "2020-06-12"
 
 # Project title.
-title = "Now Spinning - Feburary 2021"
+title = "Now Spinning - March 2021"
 
 +++
 
@@ -11,14 +11,15 @@ title = "Now Spinning - Feburary 2021"
 
 ## Newish Records
 * Claude - [Super Monster](https://www.discogs.com/Claud-Super-Monster/release/17354443)
+* The Hold Steady - [Open Door Policy](https://www.discogs.com/The-Hold-Steady-Open-Door-Policy/release/17495656)
+* Julien Baker - [Little Oblivions](https://www.discogs.com/Julien-Baker-Little-Oblivions/release/17483470)
 
 ## Older Records
-* Trent Reznor / Atticus Ross soundtracks (Watchmen, Gone Girl, etc.) (Perfect for when coding!)
-* Johnny Cash - American Recordings Volumes I - VI
+* March 1st: Finishing "B" in [Listening to my Record Collection Alphabetically](https://paulcutler.org/posts/2021/02/listening-to-my-record-collection-alphabetically/)
 
 ## Streaming
 * The Staves - Good Woman
-* Ani DiFranco - Revolutionary Love
+
 
 ![Phoebe Bridgers - Punisher (Blue with kind of Swirly Silver)](/img/punisher.jpg)
 
