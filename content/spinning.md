@@ -10,7 +10,7 @@ title = "Now Spinning - March 2021"
 2021 Goal:  [Listening to my Record Collection Alphabetically](https://paulcutler.org/posts/2021/02/listening-to-my-record-collection-alphabetically/)
 
 ## Newish Records
-* Claude - [Super Monster](https://www.discogs.com/Claud-Super-Monster/release/17354443)
+* Sylvan Esso - [With Love](https://www.discogs.com/Sylvan-Esso-With-Love/release/17705353)
 * The Hold Steady - [Open Door Policy](https://www.discogs.com/The-Hold-Steady-Open-Door-Policy/release/17495656)
 * Julien Baker - [Little Oblivions](https://www.discogs.com/Julien-Baker-Little-Oblivions/release/17483470)
 
@@ -19,6 +19,7 @@ title = "Now Spinning - March 2021"
 
 ## Streaming
 * The Staves - Good Woman
+* Har Mar Superstar - Roseville
 
 
 ![Phoebe Bridgers - Punisher (Blue with kind of Swirly Silver)](/img/punisher.jpg)
