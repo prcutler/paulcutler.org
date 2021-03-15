@@ -23,9 +23,8 @@ finished my Coursera class on HTML, CSS and Javascript I would have figured it o
 A bad habit that I have is when I get stuck, I move on to a different project. I’m hoping that my subconscious will fix
 it, but it’s more out of frustration. So what did I do? I bought more training courses from Talk Python and decided to
 learn the [https://fastapi.tiangolo.com/](https://fastapi.tiangolo.com/) web framework instead. I was surprised to see
-such a new
-project [https://www.jetbrains.com/lp/python-developers-survey-2020/](https://www.jetbrains.com/lp/python-developers-survey-2020/)
-in the recent PSF survey, especially as it was the first time being included as a question.
+such a new project [https://www.jetbrains.com/lp/python-developers-survey-2020/](https://www.jetbrains.com/lp/python-developers-survey-2020/)
+in the recent PSF survey, especially as it was the first time being included as a framework.
 
 I decided to build my site along with the training, rather than the PyPI clone the training has you do. After sorting
 through a couple of different bugs, guess what? I still need to learn CSS.
