@@ -11,8 +11,9 @@ tags:
   - fsf
 
 ---
-Back when my blog ran on Wordpress and I had analytics and comments enabled, one of the most viewed blog posts was
-[one where I agreed with another blogger that the FSF should be forked](https://paulcutler.org/blog/2011/10/fork-the-fsf/).
+Back when my blog ran on Wordpress and I had analytics and comments enabled, one of the most viewed blog posts was 
+one from almost ten years ago, 
+[where I agreed with another blogger that the FSF should be forked](https://paulcutler.org/blog/2011/10/fork-the-fsf/).
 
 With Richard Stallman re-joining the FSF this week and the valid outrage that has followed, I remembered the blog 
 post but not the content.  Larry Cafiero's original blog is no longer on the internet, but I found his [original blog 
