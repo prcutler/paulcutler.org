@@ -28,7 +28,7 @@ has said, and the Free Software Foundation's board needs to be held accountable 
 their board.
 
 I'm proud to add my name to
-this [open letter](https://github.com/rms-open-letter/rms-open-letter.github.io/blob/main/index.md) from major
+this [open letter](https://rms-open-letter.github.io/) from major
 organizations and over 1,000 people calling for Richard Stallman to be removed from all leadership positions, and the
 Board of the FSF to step down.
 
