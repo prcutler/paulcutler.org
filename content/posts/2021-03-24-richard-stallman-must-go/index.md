@@ -27,4 +27,9 @@ and I strongly disagree with his views on trans people. He needs to be held acco
 has said, and the Free Software Foundation's board needs to be held accountable for allowing him to be re-appointed to
 their board.
 
+I'm proud to add my name to
+this [open letter](https://github.com/rms-open-letter/rms-open-letter.github.io/blob/main/index.md) from major
+organizations and over 1,000 people calling for Richard Stallman to be removed from all leadership positions, and the
+Board of the FSF to step down.
+
 Richard Stallman must go.  Again.
