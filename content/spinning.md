@@ -3,7 +3,7 @@
 date = "2020-06-12"
 
 # Project title.
-title = "Now Spinning - March 2021"
+title = "Now Spinning - April 2021"
 
 +++
 
@@ -11,15 +11,14 @@ title = "Now Spinning - March 2021"
 
 ## Newish Records
 * Sylvan Esso - [With Love](https://www.discogs.com/Sylvan-Esso-With-Love/release/17705353)
-* The Hold Steady - [Open Door Policy](https://www.discogs.com/The-Hold-Steady-Open-Door-Policy/release/17495656)
-* Julien Baker - [Little Oblivions](https://www.discogs.com/Julien-Baker-Little-Oblivions/release/17483470)
+* Sturgill Simpson - [Cuttin' Grass, Volume 2](https://www.discogs.com/Sturgill-Simpson-Cuttin-Grass-Vol-2/release/18094627)
 
 ## Older Records
-* March 1st: Finishing "B" in [Listening to my Record Collection Alphabetically](https://paulcutler.org/posts/2021/02/listening-to-my-record-collection-alphabetically/)
+* Apil 1st: Listening to "C" in [Listening to my Record Collection Alphabetically](https://paulcutler.org/posts/2021/02/listening-to-my-record-collection-alphabetically/)
 
 ## Streaming
 * The Staves - Good Woman
-* Har Mar Superstar - Roseville
+
 
 
 ![Phoebe Bridgers - Punisher (Blue with kind of Swirly Silver)](/img/punisher.jpg)
