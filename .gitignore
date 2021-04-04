@@ -184,3 +184,19 @@ production.ini
 
 #Alembic - Do not add alembic.ini as database settings are stored
 alembic.ini
+content/posts/.DS_Store
+content/posts/authors/.DS_Store
+content/posts/authors/admin/.DS_Store
+public/.DS_Store
+public/files/.DS_Store
+public/images/.DS_Store
+public/images/20190624/.DS_Store
+public/img/.DS_Store
+public/img/project/.DS_Store
+public/img/project/mlbpool2/.DS_Store
+public/img/project/nflpool/.DS_Store
+public/wp-content/.DS_Store
+public/wp-content/uploads/.DS_Store
+public/wp-content/uploads/2011/.DS_Store
+public/wp-content/uploads/2018/.DS_Store
+static/img/.DS_Store
