@@ -3,7 +3,7 @@
 date = "2020-06-12"
 
 # Project title.
-title = "Now Spinning - April 2021"
+title = "Now Spinning - May 2021"
 
 +++
 
@@ -14,7 +14,8 @@ title = "Now Spinning - April 2021"
 * Sturgill Simpson - [Cuttin' Grass, Volume 2](https://www.discogs.com/Sturgill-Simpson-Cuttin-Grass-Vol-2/release/18094627)
 
 ## Older Records
-* Apil 1st: Listening to "C" in [Listening to my Record Collection Alphabetically](https://paulcutler.org/posts/2021/02/listening-to-my-record-collection-alphabetically/)
+* May 1st: Listening to "D" in [Listening to my Record Collection Alphabetically](https://paulcutler.
+  org/posts/2021/02/listening-to-my-record-collection-alphabetically/)
 
 ## Streaming
 * The Staves - Good Woman
