@@ -3,22 +3,22 @@
 date = "2020-06-12"
 
 # Project title.
-title = "Now Spinning - May 2021"
+title = "Now Spinning - June 2021"
 
 +++
 
 2021 Goal:  [Listening to my Record Collection Alphabetically](https://paulcutler.org/posts/2021/02/listening-to-my-record-collection-alphabetically/)
 
 ## Newish Records
-* Sylvan Esso - [With Love](https://www.discogs.com/Sylvan-Esso-With-Love/release/17705353)
-* Sturgill Simpson - [Cuttin' Grass, Volume 2](https://www.discogs.com/Sturgill-Simpson-Cuttin-Grass-Vol-2/release/18094627)
+* Impatiently waiting for the new Liz Phair and Garbage records to be released
 
 ## Older Records
-* May 1st: Listening to "D" in [Listening to my Record Collection Alphabetically](https://paulcutler.
+* June 1st: Listening to "I" in [Listening to my Record Collection Alphabetically](https://paulcutler.
   org/posts/2021/02/listening-to-my-record-collection-alphabetically/)
 
 ## Streaming
-* The Staves - Good Woman
+* The Black Keys - Delta Kream
+* St. Vincent - Daddy's Home
 
 
 
