@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Paul Cutler">
+<meta name="description" content="Last weekend I discovered how to pretty print the five JSON files I get from MySportsFeeds. This was helpful to understand just how much data is nested within each file. I also spent a good chunk of the weekend writing in a notebook. I mostly did some data modeling on what each table in the database should store and what their primary keys would be. I also captured things I need to research and started breaking the project into chunks." />
+<meta name="keywords" content="Paul Cutler, Python, SQL" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="https://paulcutler.org/blog/2016/10/importing-team-data-into-nflpool/" />
+
+
+    <title>
+        
+            Importing Team Data into NFLPool :: Paul Cutler  — Paul Cutler Homepage
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://paulcutler.org/main.d7bdd8ee18bfbf4c605488a7e5b1b92cd980dfeed2bdaeab4dd5e931a7a78bc0.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://paulcutler.org/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://paulcutler.org/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://paulcutler.org/favicon-16x16.png">
+    <link rel="manifest" href="https://paulcutler.org/site.webmanifest">
+    <link rel="mask-icon" href="https://paulcutler.org/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="https://paulcutler.org/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+
+
+<meta itemprop="name" content="Importing Team Data into NFLPool">
+<meta itemprop="description" content="Last weekend I discovered how to pretty print the five JSON files I get from MySportsFeeds. This was helpful to understand just how much data is nested within each file. I also spent a good chunk of the weekend writing in a notebook. I mostly did some data modeling on what each table in the database should store and what their primary keys would be. I also captured things I need to research and started breaking the project into chunks.">
+<meta itemprop="datePublished" content="2016-10-13T14:31:20+00:00" />
+<meta itemprop="dateModified" content="2016-10-13T14:31:20+00:00" />
+<meta itemprop="wordCount" content="567">
+<meta itemprop="image" content="https://paulcutler.org"/>
+
+
+
+<meta itemprop="keywords" content="Python,SQL," />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://paulcutler.org"/>
+
+<meta name="twitter:title" content="Importing Team Data into NFLPool"/>
+<meta name="twitter:description" content="Last weekend I discovered how to pretty print the five JSON files I get from MySportsFeeds. This was helpful to understand just how much data is nested within each file. I also spent a good chunk of the weekend writing in a notebook. I mostly did some data modeling on what each table in the database should store and what their primary keys would be. I also captured things I need to research and started breaking the project into chunks."/>
+
+
+
+
+    <meta property="og:title" content="Importing Team Data into NFLPool" />
+<meta property="og:description" content="Last weekend I discovered how to pretty print the five JSON files I get from MySportsFeeds. This was helpful to understand just how much data is nested within each file. I also spent a good chunk of the weekend writing in a notebook. I mostly did some data modeling on what each table in the database should store and what their primary keys would be. I also captured things I need to research and started breaking the project into chunks." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://paulcutler.org/blog/2016/10/importing-team-data-into-nflpool/" />
+<meta property="og:image" content="https://paulcutler.org"/>
+<meta property="article:published_time" content="2016-10-13T14:31:20+00:00" />
+<meta property="article:modified_time" content="2016-10-13T14:31:20+00:00" />
+
+
+
+
+    <meta property="article:section" content="Python" />
+
+
+
+    <meta property="article:published_time" content="2016-10-13 14:31:20 &#43;0000 &#43;0000" />
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://paulcutler.org/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text"> paulcutler.org</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://paulcutler.org/about/">About</a></li><li><a href="https://paulcutler.org/posts/">Blog</a></li><li><a href="https://paulcutler.org/project/">Projects</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="header__right">
+                <a href="https://paulcutler.org/spinning">
+                <a title="Now Spinning" href="https://paulcutler.org/spinning/"><img width="32" alt="Vinyl record" src="https://paulcutler.org/img/vinyl.png"></a>
+            </span>
+
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://paulcutler.org/blog/2016/10/importing-team-data-into-nflpool/">Importing Team Data into NFLPool</a></h2>
+
+            
+            
+            
+
+            <div class="post-content">
+                <p>Last weekend I discovered how to pretty print the five JSON files I get from MySportsFeeds. This was helpful to understand just how much data is nested within each file. I also spent a good chunk of the weekend writing in a notebook. I mostly did some data modeling on what each table in the database should store and what their primary keys would be. I also captured things I need to research and started breaking the project into chunks. As I tweeted out over the weekend:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Monday was a holiday so I did the first four courses of Python Jumpstart. I took a break and went back to the JSON files I had worked with. My goal was to build with what should be the easiest table and pull the team data out. This is a dictionary that includes the team name (Texans), city (Houston), abbreviation (HOU) and id (64). The ID number is supplied in the JSON feed and is unique, so I will use that as the primary key. There will be two more columns in the table for conference and division, but I wanted to deal with that later.</p>
+<p>I wrote a for loop to try and pull out each team’s information. I quickly got stuck and nothing was working. At one point, the loop I had written worked, but only pulled out the data for the first ranked team. I showed my wife my code and she pointed out that it wasn’t iterating in a loop.</p>
+<p>I was stuck for two nights working on this after dinner. I finally stepped back and modified my pretty print Python program and started breaking down all of the information in the JSON file again. I figured out what was a list and what was a dictionary and what was nested where. (It looks like I didn’t commit this to the <a href="https://github.com/pcutler/nflpool">git repo</a>, oops! Will have to fix that.)</p>
+<p>After doing this last night, I found the list I needed to work with. I then re-wrote my for loop and I was able to iterate through all 16 teams in the AFC:</p>
+<pre><code>for afc_team_list in teamlist:
+
+afc_team_name = data[&quot;conferenceteamstandings&quot;][&quot;conference&quot;][0][&quot;teamentry&quot;][x][&quot;team&quot;][&quot;Name&quot;]
+
+afc_team_city = data[&quot;conferenceteamstandings&quot;][&quot;conference&quot;][0][&quot;teamentry&quot;][x][&quot;team&quot;][&quot;City&quot;]
+
+afc_team_id = data[&quot;conferenceteamstandings&quot;][&quot;conference&quot;][0][&quot;teamentry&quot;][x][&quot;team&quot;][&quot;ID&quot;]
+
+afc_team_abbr = data[&quot;conferenceteamstandings&quot;][&quot;conference&quot;][0][&quot;teamentry&quot;][x][&quot;team&quot;][&quot;Abbreviation&quot;]
+
+print((afc_team_name),&quot;,&quot;,(afc_team_city),&quot;,&quot;,(afc_team_id),&quot;,&quot;,(afc_team_abbr))
+
+x = x + 1
+</code></pre>
+<p>I then <a href="https://github.com/pcutler/nflpool/blob/master/import_team_info.py">copied and pasted and did it again for the NFC</a>. I did try, unsuccessfully, to modify the conference list – <a href="#">“conference”</a><a href="#"></a> – so I could just write one for loop instead of one for each of the two conferences. But it was working, so I’ll leave it for now. (I’m sure my code is ugly, but hey, I’m just starting).</p>
+<p>After that it was all about writing the SQL insert statements to put this into a SQLite3 database. (For now, later it will go into MySQL). That took me a an hour, but at the end, I got it working and was even able to add the conference name to each row.</p>
+<p>Next up, I need to take the data in the Division standings JSON file. In it is stored the division name for each division in a conference: <code>AFC/AFC-East</code>. I’ll need to write a for loop to grab it, slice it to remove the “AFC/“ and then stick that in the Division field for each team in the Teams table. I’ll also need to stop dropping and re-creating the table each time I insert data, but it’s working.</p>
+<p>Progress!</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="https://paulcutler.org/tags/python/">Python</a></span>
+        <span class="tag"><a href="https://paulcutler.org/tags/sql/">SQL</a></span>
+        
+    </p>
+
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder meta-icon"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+
+        <span class="tag"><a href="https://paulcutler.org/categories/python/">Python</a></span>
+        
+    </p>
+
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2021</span>
+            
+            <span>Paul Cutler</span><span><a href="https://paulcutler.org/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="https://paulcutler.org/bundle.min.af435e44374f1e99a669ea8cd5bb9a2fceed80588941a451bfddb66b86a67c9f40b0f417e9543a763f809aa7e9300d7b1d69bf99615810ba02ac70396d50fad5.js" integrity="sha512-r0NeRDdPHpmmaeqM1buaL87tgFiJQaRRv922a4amfJ9AsPQX6VQ6dj&#43;AmqfpMA17HWm/mWFYELoCrHA5bVD61Q=="></script>
+
+
+
+    </body>
+</html>

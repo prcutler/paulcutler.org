@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EFF on Paul Cutler</title>
+    <link>https://paulcutler.org/tags/eff/</link>
+    <description>Recent content in EFF on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Wed, 18 Dec 2013 15:13:18 +0000</lastBuildDate><atom:link href="https://paulcutler.org/tags/eff/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ten Years of Giving to the EFF</title>
+      <link>https://paulcutler.org/blog/2013/12/ten-years-of-giving-to-the-eff/</link>
+      <pubDate>Wed, 18 Dec 2013 15:13:18 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2013/12/ten-years-of-giving-to-the-eff/</guid>
+      <description>This year marks ten years of charitable giving for me to the Electronic Frontier Foundation. The EFF is by far my favorite charity that we give to each year and I can’t stress enough how important the work they do is.
+A number of years ago my wife framed my letters and stickers I’ve received from my favorite non-profit organizations (pictured above) including the EFF, Creative Commons and Minnesota Public Radio.</description>
+    </item>
+    
+    <item>
+      <title>EFF: Why Metadata Matters</title>
+      <link>https://paulcutler.org/blog/2013/06/eff-why-metadata-matters/</link>
+      <pubDate>Mon, 10 Jun 2013 04:59:18 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2013/06/eff-why-metadata-matters/</guid>
+      <description>In response to the recent news reports about the National Security Agency’s surveillance program, President Barack Obama said today, “When it comes to telephone calls, nobody is listening to your telephone calls.” Instead, the government was just “sifting through this so-called metadata.” The Director of National Intelligence James Clapper made a similar comment last night: “The program does not allow the Government to listen in on anyone’s phone calls. The information acquired does not include the content of any communications or the identity of any subscriber.</description>
+    </item>
+    
+    <item>
+      <title>Thank You EFF</title>
+      <link>https://paulcutler.org/blog/2012/01/thank-you-eff/</link>
+      <pubDate>Thu, 26 Jan 2012 03:26:47 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2012/01/thank-you-eff/</guid>
+      <description>For the last 8 years I’ve donated to the Electronic Frontier Foundation, one of my favorite non-profit organizations. The EFF continues to fight to protect our freedoms in the digital world – and for that I’m grateful.</description>
+    </item>
+    
+  </channel>
+</rss>

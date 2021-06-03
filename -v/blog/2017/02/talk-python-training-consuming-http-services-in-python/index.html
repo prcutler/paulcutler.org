@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Paul Cutler">
+<meta name="description" content="Summary / tl;dr: Consuming HTTP Services in Python is a great addition to the training courses from Talk Python and Michael Kennedy. You’ll come away with a thorough knowledge of the best way to get data from the internet using the requests module; you’ll use real world examples and APIs from Basecamp, Github and a custom API Michael built just from the course; Michael will explain and show the concepts in an easy to learn manner with a little humor and recap each concept to make sure you understand." />
+<meta name="keywords" content="Paul Cutler, &amp;quot;Talk Python&amp;quot;, Python" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="https://paulcutler.org/blog/2017/02/talk-python-training-consuming-http-services-in-python/" />
+
+
+    <title>
+        
+            Talk Python Training: Consuming HTTP Services in Python Review :: Paul Cutler  — Paul Cutler Homepage
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://paulcutler.org/main.d7bdd8ee18bfbf4c605488a7e5b1b92cd980dfeed2bdaeab4dd5e931a7a78bc0.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://paulcutler.org/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://paulcutler.org/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://paulcutler.org/favicon-16x16.png">
+    <link rel="manifest" href="https://paulcutler.org/site.webmanifest">
+    <link rel="mask-icon" href="https://paulcutler.org/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="https://paulcutler.org/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+
+
+<meta itemprop="name" content="Talk Python Training: Consuming HTTP Services in Python Review">
+<meta itemprop="description" content="Summary / tl;dr: Consuming HTTP Services in Python is a great addition to the training courses from Talk Python and Michael Kennedy. You’ll come away with a thorough knowledge of the best way to get data from the internet using the requests module; you’ll use real world examples and APIs from Basecamp, Github and a custom API Michael built just from the course; Michael will explain and show the concepts in an easy to learn manner with a little humor and recap each concept to make sure you understand.">
+<meta itemprop="datePublished" content="2017-02-23T17:17:07+00:00" />
+<meta itemprop="dateModified" content="2017-02-23T17:17:07+00:00" />
+<meta itemprop="wordCount" content="1683">
+<meta itemprop="image" content="https://paulcutler.org"/>
+
+
+
+<meta itemprop="keywords" content="&amp;quot;Talk Python&amp;quot;,Python," />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://paulcutler.org"/>
+
+<meta name="twitter:title" content="Talk Python Training: Consuming HTTP Services in Python Review"/>
+<meta name="twitter:description" content="Summary / tl;dr: Consuming HTTP Services in Python is a great addition to the training courses from Talk Python and Michael Kennedy. You’ll come away with a thorough knowledge of the best way to get data from the internet using the requests module; you’ll use real world examples and APIs from Basecamp, Github and a custom API Michael built just from the course; Michael will explain and show the concepts in an easy to learn manner with a little humor and recap each concept to make sure you understand."/>
+
+
+
+
+    <meta property="og:title" content="Talk Python Training: Consuming HTTP Services in Python Review" />
+<meta property="og:description" content="Summary / tl;dr: Consuming HTTP Services in Python is a great addition to the training courses from Talk Python and Michael Kennedy. You’ll come away with a thorough knowledge of the best way to get data from the internet using the requests module; you’ll use real world examples and APIs from Basecamp, Github and a custom API Michael built just from the course; Michael will explain and show the concepts in an easy to learn manner with a little humor and recap each concept to make sure you understand." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://paulcutler.org/blog/2017/02/talk-python-training-consuming-http-services-in-python/" />
+<meta property="og:image" content="https://paulcutler.org"/>
+<meta property="article:published_time" content="2017-02-23T17:17:07+00:00" />
+<meta property="article:modified_time" content="2017-02-23T17:17:07+00:00" />
+
+
+
+
+    <meta property="article:section" content="Python" />
+
+
+
+    <meta property="article:published_time" content="2017-02-23 17:17:07 &#43;0000 &#43;0000" />
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://paulcutler.org/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text"> paulcutler.org</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://paulcutler.org/about/">About</a></li><li><a href="https://paulcutler.org/posts/">Blog</a></li><li><a href="https://paulcutler.org/project/">Projects</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="header__right">
+                <a href="https://paulcutler.org/spinning">
+                <a title="Now Spinning" href="https://paulcutler.org/spinning/"><img width="32" alt="Vinyl record" src="https://paulcutler.org/img/vinyl.png"></a>
+            </span>
+
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://paulcutler.org/blog/2017/02/talk-python-training-consuming-http-services-in-python/">Talk Python Training: Consuming HTTP Services in Python Review</a></h2>
+
+            
+            
+            
+
+            <div class="post-content">
+                <p><strong><em>Summary / tl;dr</em></strong><em>: Consuming HTTP Services in Python is a great addition to the training courses from Talk Python and Michael Kennedy. You’ll come away with a thorough knowledge of the best way to get data from the internet using the requests module; you’ll use real world examples and APIs from Basecamp, Github and a custom API Michael built just from the course; Michael will explain and show the concepts in an easy to learn manner with a little humor and recap each concept to make sure you understand.</em></p>
+<p>In addition to being host of the well known Talk Python podcast, Michael Kennedy has also created a number of Python training courses. The first, <a href="https://training.talkpython.fm/courses/details/python-language-jumpstart-building-10-apps">Python Jumpstart by Building 10 Apps</a>, <a href="https://www.kickstarter.com/projects/mikeckennedy/python-jumpstart-by-building-10-apps-video-course">launched its Kickstarter</a> exactly a year ago this month, and was quickly followed later in the year with <a href="https://training.talkpython.fm/courses/details/python-for-entrepreneurs-build-and-launch-your-online-business">Python for Entrepreneurs</a> on <a href="https://www.kickstarter.com/projects/mikeckennedy/python-for-entrepreneurs-video-course?ref=profile_created">Kickstarter</a> and <a href="https://training.talkpython.fm/courses/explore_pythonic_code/write-pythonic-code-like-a-seasoned-developer">Write Pythonic Code Like a Seasoned Developer.</a></p>
+<p>I <a href="http://paulcutler.org/blog/2016/10/next-class-up-python-jumpstart-by-building-10-apps/">started</a> and finished Python Jumpstart by Building 10 Apps late last year and loved it. It was a very different <a href="http://paulcutler.org/blog/2016/09/python-for-everybody-at-coursera-with-dr-chuck/">learning experience than the University of Michigan’s Python for Everybody class on Coursera</a>. There is an assumption with the Talk Python training courses that you have some basic understanding of computer science or programming. I don’t, so I typically go a little slower and take my time with the courses.</p>
+<p>Looking back. there are a few things I liked about the Jumpstart by Building 10 Apps course and I was glad to see continue in this latest course:</p>
+<ul>
+<li>Michael makes it very easy to follow along in the beginning of the courses. Everyone learns differently, but one of the ways I learn best is to follow along by typing the code as he does in the video, helping me commit it to memory.</li>
+<li>After teaching you a core concept and coding it into one of the apps, Michael recaps what you’ve just learned in its own “Concept” video. This summarizes the concept you just put into practice and reinforces what you’ve learned.</li>
+<li>Compared to some of the other online courses I’ve taken, I really like that I know I’m learning from someone well known in the community and I believe I’m not just learning how to code, but coding best practices. I don’t know if I’m explaining this right, but as an example: A few of the online classes I’ve taken haven’t had me put the code into functions and then call them in a main(): function, for example.</li>
+<li>The source code to the examples Michael teaches you is on Github. You can download it, star it, fork it – but it’s available if you want to follow along, code along as the course goes, or just save it for reference for the future.</li>
+</ul>
+<p>I’ve shared my enthusiasm for the Talk Python training courses here and on Twitter and when Michael reached out to me last week asking if I was interested in having a sneak peek at his latest course, <a href="https://training.talkpython.fm/courses/explore_http_reset_client_course/consuming-http-and-soap-services-in-python-with-json-xml-and-screen-scraping">Consuming HTTP Services in Python</a>, I jumped at it (after making sure he knew I was still a novice early in my Python learning curve). I took a look at the course overview and this is right in my wheelhouse of what I need to learn. A core part of the app I want to build is exactly what this course is about – using the requests module to download at least a half dozen JSON feeds and then building my app around that. (My app is to build the scoring for a custom <a href="http://mlbpool2.com/rules/nfl-pool-rules/">NFL Pool league</a> – it’s not a fantasy league, it’s different. All of the data comes from <a href="https://www.mysportsfeeds.com/">MySportsFeeds,</a> who provides sports data via JSON or XML which I will consume, store in a database, and then write a Python program to calculate the league and player scores to be displayed on the <a href="https://nflpool.xyz">league website</a>.)</p>
+<p>What I really liked about this course was that it was focused on one thing: consuming services. I’ve taken a few different Python courses online as I try and learn Python, and most are throwing all the basics that you need to know – everything you’d expect in a beginner course, but it does get overwhelming. This was the first course I’ve taken that was focused on getting you really good at one thing, and in a few different ways that you might need to do it.</p>
+<p>Immediately, I learn something new. I only knew of requests from I learned using Google and Stack Overflow. When I started playing around and putting together the building blocks of my app, I wrote the following code. MySportsFeed currently using HTTP Basic Authentication, so I have a separate file called secret.py that stores my username and password – I may be new to Python, but I’m smart enough to have created that, import it and add it to my .gitignore file!</p>
+<p>This code polls the Playoff Team Standings feed on MySportsFeeds and then I have <a href="https://github.com/prcutler/nflpool/blob/master/team_rank_request.py">some (ugly) Python code</a> that runs a for loop to rank each of the two NFL Conferences teams from 1 to 16.</p>
+<pre><code>response = requests.get(
+    'https://www.mysportsfeeds.com/api/feed/pull/nfl/2016-2017-regular/playoff_team_standings.json?teamstats',
+    auth=HTTPBasicAuth(secret.msf_username, secret.msf_pw))
+
+rawdata = response.content
+data = json.loads(rawdata.decode())
+</code></pre>
+<p>And what did I learn? As I tweeted last week:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Now my code looks like this:</p>
+<pre><code>response = requests.get(
+    'https://www.mysportsfeeds.com/api/feed/pull/nfl/2016-2017-regular/playoff_team_standings.json?teamstats',
+    auth=HTTPBasicAuth(secret.msf_username, secret.msf_pw))
+
+data = response.json()
+</code></pre>
+<p>It’s not a lot, it’s just one line of code, but it’s these little things. I had no idea the power of requests – this is just one specific example of something I learned from this course. Another thing I learned? I should be taking the URL in the above eample, create a base_url variable and then append the feed name as another variable. This is covered in a later chapter of the course – <a href="https://training.talkpython.fm/player/start_chapter/3007">Consuming RESTful HTTP services.</a> This chapter has a ton of great examples I’m going to be referencing when writing my app and using.</p>
+<p>The Consuming RESTful HTTP services chapter is where the course really starts to take off. I ran into this with the Jumpstart course as well – Michael does a great job in teaching you the building blocks and then the course seems to go from 0-60. This is where having previous programming experience is helpful as that jump from learning what each puzzle piece does to how you put the puzzle together clicks. For someone like me, without any programming experience, it’s a big jump, but possible.</p>
+<p>With that said, this chapter is fantastic. While I had a cursory knowledge of HTTP commands like GET and PUT, the API Michael built for the course is awesome. You have the opportunity to create your own examples and interact with the API and blog explorer app – this isn’t something you see with most online courses out there.</p>
+<p>I also learned that I only want to use requests, and not built-ins. Though I do now have an understanding of the urlib built-in for Python 3.x if I’m ever cornered and have to use it.</p>
+<p>I will admit to skipping the chapter on SOAP. I’m a hobbyist, not an enterprise developer who may encounter SOAP. But it’s great this available for those who may need it as part of this course. This, combined with learning how to use JSON, XML, and screen scraping makes it a complete course.</p>
+<p>The last chapter is on screen scraping. There are a ton of of tutorials and classes available on the web about screen scraping. I’ve taken a few of them – one of the challenges I have with my app is figuring out the playoff seeding and I thought about scraping NFL.com, but that’s a different story. This chapter kicks off with an example of using a site’s sitemap.xml – an example I’ve never seen before that makes so much sense once you learn about it. And if a website you want to scrape doesn’t have a sitemap.xml, shame on them for not being search engine friendly. But if they don’t, Michael goes through other ways to scrape a website using Beautiful Soup and does it in the most Pythonic way I’ve seen yet in a course.</p>
+<p>I enjoyed Consuming HTTP Services in Python. With the requests module and JSON being a cornerstone of the app I hope to write, it was great to learn about everything I need to know to make that happen. Michael’s delivery is conversational and he makes it easy to follow along and do the code examples with him, if you choose to. If you have programming experience or are coming from a different language, the videos themselves will probably teach you what you need to do in Python. If you’re like me, a complete novice to Python, you’ll be able to follow along, but be prepared for the jump the course will make in the Consuming RESTful HTTP Services chapter – this moves pretty quickly, but if you’ve forked the Github repo you’ll have access to the program Michael has written and you can (and should) write your own examples to interact with the API on the blog explorer. For $39, you’re getting a well developed course from someone well known in the Python community teaching you the Pythonic way interact with services. While other online training sites might have “sales” that are cheaper, as someone new to Python who has taken some of those courses, trust me – the Talk Python courses are well worth the money.</p>
+<p>I’m still early in my Python journey and the two courses I’ve finished from Talk Python have been the best learning resources I’ve used out of all the books and training I’ve purchased (and it’s a lot). I’m still working my way through Python for Entrepreneurs and am really <a href="https://training.talkpython.fm/courses/all">looking forward to two of the upcoming courses using SQLAlchemy</a> as this database stuff is way over my head right now. Thanks again to Michael for allowing me to have a preview of the Consuming HTTP Services course – now it’s time for me to take his advice from the last chapter of the course and write some code – the best way to actually learn.</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="https://paulcutler.org/tags/quottalk-pythonquot/">&amp;quot;Talk Python&amp;quot;</a></span>
+        <span class="tag"><a href="https://paulcutler.org/tags/python/">Python</a></span>
+        
+    </p>
+
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder meta-icon"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+
+        <span class="tag"><a href="https://paulcutler.org/categories/python/">Python</a></span>
+        
+    </p>
+
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2021</span>
+            
+            <span>Paul Cutler</span><span><a href="https://paulcutler.org/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="https://paulcutler.org/bundle.min.af435e44374f1e99a669ea8cd5bb9a2fceed80588941a451bfddb66b86a67c9f40b0f417e9543a763f809aa7e9300d7b1d69bf99615810ba02ac70396d50fad5.js" integrity="sha512-r0NeRDdPHpmmaeqM1buaL87tgFiJQaRRv922a4amfJ9AsPQX6VQ6dj&#43;AmqfpMA17HWm/mWFYELoCrHA5bVD61Q=="></script>
+
+
+
+    </body>
+</html>

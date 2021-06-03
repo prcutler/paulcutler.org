@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>foresight newsletter on Paul Cutler</title>
+    <link>https://paulcutler.org/tags/foresight-newsletter/</link>
+    <description>Recent content in foresight newsletter on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Thu, 24 Jul 2008 03:19:25 +0000</lastBuildDate><atom:link href="https://paulcutler.org/tags/foresight-newsletter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Foresight Newsletter Volume 2, Issue 1 out</title>
+      <link>https://paulcutler.org/blog/2008/07/foresight-newsletter-volume-2-issue-1-out/</link>
+      <pubDate>Thu, 24 Jul 2008 03:19:25 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2008/07/foresight-newsletter-volume-2-issue-1-out/</guid>
+      <description>After months of slacking on my part, I am proud to announce a new issue of the Foresight Newsletter is out.
+Now in to it’s second year, this issue gives an overview on the latest releases, including both 2.0.4 and 2.0, community news, a look back at the first Foresight User &amp;amp; Developer Conference, upcoming conferences, and other information. (Considering everything that’s happened, it could have been stuffed with news, but I really needed to push out a release and give myself a kick start).</description>
+    </item>
+    
+  </channel>
+</rss>

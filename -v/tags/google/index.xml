@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>google on Paul Cutler</title>
+    <link>https://paulcutler.org/tags/google/</link>
+    <description>Recent content in google on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Mon, 21 Jan 2008 15:56:27 +0000</lastBuildDate><atom:link href="https://paulcutler.org/tags/google/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Accounts</title>
+      <link>https://paulcutler.org/blog/2008/01/google-accounts/</link>
+      <pubDate>Mon, 21 Jan 2008 15:56:27 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2008/01/google-accounts/</guid>
+      <description>I have a few different Google accounts I use, including two for email, one for backup, and a Google for Domains account (pcutler at foresightlinux dot org).
+I forward all my email to my primary account (silwenae at gmail dot com), and use that account to log in to all my Google services. Within that account, I have selected pcutler at foresightlinux dot org as my main account to send email from, when logged in as silwenae.</description>
+    </item>
+    
+  </channel>
+</rss>

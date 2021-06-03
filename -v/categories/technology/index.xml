@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technology on Paul Cutler</title>
+    <link>https://paulcutler.org/categories/technology/</link>
+    <description>Recent content in Technology on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Tue, 14 Feb 2017 14:24:53 +0000</lastBuildDate><atom:link href="https://paulcutler.org/categories/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The macOS apps I’ll miss the most</title>
+      <link>https://paulcutler.org/blog/2017/02/the-macos-apps-ill-miss-the-most/</link>
+      <pubDate>Tue, 14 Feb 2017 14:24:53 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2017/02/the-macos-apps-ill-miss-the-most/</guid>
+      <description>I have been considering switching back to GNOME full-time and finally pulled the trigger last week and did, installing Fedora 25 on both my iMac and MacBook Pro. I installed GNOME on my iMac a couple months ago, but didn’t do the installation correctly and screwed up my MBR, resulting in only GNOME being an option. I’ve fixed that this time and have kept dual boot (for just in case and for iTunes on my iPhone and iPad).</description>
+    </item>
+    
+    <item>
+      <title>Why I’m going back to Linux after five years of using macOS</title>
+      <link>https://paulcutler.org/blog/2017/02/why-im-going-back-to-linux-after-five-years-of-using-macos/</link>
+      <pubDate>Fri, 10 Feb 2017 15:58:27 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2017/02/why-im-going-back-to-linux-after-five-years-of-using-macos/</guid>
+      <description>I’ve been a supporter of the Electronic Frontier Foundation since 2004. Their work on privacy, free expression and technology are all things I am passionate about. For the last year or so, I have become more concerned with privacy issues in technology. The rise in big data and how everything is tracking everything we do has given me significant concerns. I’ve been giving a lot of thought to which ecosystems I want to stay in.</description>
+    </item>
+    
+    <item>
+      <title>XBMC 13 (Gotham) Beta 1 Out</title>
+      <link>https://paulcutler.org/blog/2014/03/xbmc-13-frodo-beta-1-out/</link>
+      <pubDate>Tue, 04 Mar 2014 14:20:49 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2014/03/xbmc-13-frodo-beta-1-out/</guid>
+      <description>XBMC, the best media center for home theater computers, has just released the first beta of the next release, 13.0 (code named Gotham) – go get it!
+The feature I’m most excited about? After adding PVR integration in XBMC 12.0 Frodo, commercial skip is now available for those using MythTV as a PVR. That, plus the all new audio engine and and a new version for Android devices have me excited to try this out.</description>
+    </item>
+    
+    <item>
+      <title>EFF: Why Metadata Matters</title>
+      <link>https://paulcutler.org/blog/2013/06/eff-why-metadata-matters/</link>
+      <pubDate>Mon, 10 Jun 2013 04:59:18 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2013/06/eff-why-metadata-matters/</guid>
+      <description>In response to the recent news reports about the National Security Agency’s surveillance program, President Barack Obama said today, “When it comes to telephone calls, nobody is listening to your telephone calls.” Instead, the government was just “sifting through this so-called metadata.” The Director of National Intelligence James Clapper made a similar comment last night: “The program does not allow the Government to listen in on anyone’s phone calls. The information acquired does not include the content of any communications or the identity of any subscriber.</description>
+    </item>
+    
+    <item>
+      <title>RIP Aaron Swartz</title>
+      <link>https://paulcutler.org/blog/2013/01/rip-aaron-swartz/</link>
+      <pubDate>Sat, 12 Jan 2013 14:44:28 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2013/01/rip-aaron-swartz/</guid>
+      <description>Photo by Sage Ross under a CC-BY-SA 2.0 license
+Aaron Swartz, co-creator of RSS, practically a co-founder of Reddit, and an early contributor to the Creative Commons architecture, committed suicide in New York City yesterday.
+If you don’t know who Aaron is, you owe it to yourself to read obituaries from Cory Doctorow and Declan McCullagh. RIP Aaron.</description>
+    </item>
+    
+    <item>
+      <title>Sign The Declaration Of Internet Freedom</title>
+      <link>https://paulcutler.org/blog/2012/07/sign-the-declaration-of-internet-freedom/</link>
+      <pubDate>Mon, 02 Jul 2012 14:35:37 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2012/07/sign-the-declaration-of-internet-freedom/</guid>
+      <description>Sign The Declaration of Internet Freedom here.</description>
+    </item>
+    
+    <item>
+      <title>Thank You EFF</title>
+      <link>https://paulcutler.org/blog/2012/01/thank-you-eff/</link>
+      <pubDate>Thu, 26 Jan 2012 03:26:47 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2012/01/thank-you-eff/</guid>
+      <description>For the last 8 years I’ve donated to the Electronic Frontier Foundation, one of my favorite non-profit organizations. The EFF continues to fight to protect our freedoms in the digital world – and for that I’m grateful.</description>
+    </item>
+    
+    <item>
+      <title>Thanks Steve</title>
+      <link>https://paulcutler.org/blog/2011/10/thanks-steve/</link>
+      <pubDate>Thu, 06 Oct 2011 13:02:35 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2011/10/thanks-steve/</guid>
+      <description>The internet is buzzing with thank you’s, tributes and more about the passing of Steve Jobs yesterday.
+I was 11 or 12 when we got our second computer – the brand new Apple //c. A portable version of the Apple IIe, for the first time in the Apple II line it included a built in 5.25 disk drive and ports for a mouse / joystick, external disc drive, modem and more.</description>
+    </item>
+    
+    <item>
+      <title>Boxee Box</title>
+      <link>https://paulcutler.org/blog/2010/12/boxee-box/</link>
+      <pubDate>Sun, 26 Dec 2010 03:29:57 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2010/12/boxee-box/</guid>
+      <description>My wife (who knows me all too well) got me a gift I’ve been coveting since it was announed at CES last year: the Boxee Box.
+
+I’ve been using Boxee on a Mac Mini hooked up to my home theater for almost two years now – and love it. Unfortunately, the Boxee Box by D-link has been a disappointment so far.
+Setting up the box was a breeze – plug in the power and the HDMI and on first boot it checks for new firmware, which it downloaded, installed and rebooted.</description>
+    </item>
+    
+    <item>
+      <title>Six Months Without Satellite TV</title>
+      <link>https://paulcutler.org/blog/2010/09/six-months-without-satellite-tv/</link>
+      <pubDate>Fri, 17 Sep 2010 16:08:42 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2010/09/six-months-without-satellite-tv/</guid>
+      <description>It’s been six months since I cut the cable and canceled DirecTV, going over-the-air and internet only.
+Do I miss DirecTV?
+In a word, no.
+This past Sunday started the real test as I’m a huge (American) football fan. Living in Minnesota and being a Green Bay Packers fan, this season is the first in ten years that I haven’t had DirecTV’s NFL Sunday ticket to watch out of market games (luckily the Packers were the national game this past Sunday).</description>
+    </item>
+    
+  </channel>
+</rss>

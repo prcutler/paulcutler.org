@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UT3 on Paul Cutler</title>
+    <link>https://paulcutler.org/tags/ut3/</link>
+    <description>Recent content in UT3 on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Wed, 27 Feb 2008 16:14:33 +0000</lastBuildDate><atom:link href="https://paulcutler.org/tags/ut3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UT3 Delays</title>
+      <link>https://paulcutler.org/blog/2008/02/ut3-delays/</link>
+      <pubDate>Wed, 27 Feb 2008 16:14:33 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2008/02/ut3-delays/</guid>
+      <description>Phoronix has another story up on the continued delay of the UT3 Linux client, ported by Ryan Gordon, aka icculus.
+One sentenced in the story rubbed me the wrong way:
+ Ryan Gordon, the one responsible for the Unreal Tournament Linux ports, has yet to provide the Linux gaming community with any status update or respond to our inquiries.
+ I don’t understand how it is Ryan’s responsibility to provide an update.</description>
+    </item>
+    
+  </channel>
+</rss>

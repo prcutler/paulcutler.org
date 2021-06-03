@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pyramid on Paul Cutler</title>
+    <link>https://paulcutler.org/categories/pyramid/</link>
+    <description>Recent content in Pyramid on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Fri, 14 Jun 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://paulcutler.org/categories/pyramid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning pytest using continuous integration with Azure Pipelines (or SSH key hell) - Part 1</title>
+      <link>https://paulcutler.org/posts/2019/06/learning-pytest-using-continuous-integration-with-azure-pipelines-or-ssh-key-hell-part-1/</link>
+      <pubDate>Fri, 14 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/posts/2019/06/learning-pytest-using-continuous-integration-with-azure-pipelines-or-ssh-key-hell-part-1/</guid>
+      <description>Introduction I’m still on my quest to learn more Python and at the top of that list is learning pytest. I just can’t wrap my head around testing and I know my two Pyramid apps aren’t “complete” until there are tests. (I did write docs, so I have that going for me).
+A couple months ago I (very easily) added continuous integration to NFLPool using Microsoft’s Azure Pipelines. I, like many other people, have been blown away by the right turn Microsoft made a few years back to embrace open source, and wanted to give Azure Pipelines a try.</description>
+    </item>
+    
+    <item>
+      <title>It was a good week of Python and me</title>
+      <link>https://paulcutler.org/posts/2018/10/it-was-a-good-week-of-python-and-me/</link>
+      <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/posts/2018/10/it-was-a-good-week-of-python-and-me/</guid>
+      <description>It was a good week for Python and me.
+In no particular order:
+MLBPool2 I pushed a major re-write of MLBPool2 to production just days before the baseball season ended. Why didn’t I wait until the baseball season was over before pushing a major update? Because MySportsFeeds this summer upgraded their API from 1.x to 2.0 and it included a big change to how they track team standings, especially playoff standings.</description>
+    </item>
+    
+  </channel>
+</rss>

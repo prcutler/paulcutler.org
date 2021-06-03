@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MusicBrainz on Paul Cutler</title>
+    <link>https://paulcutler.org/tags/musicbrainz/</link>
+    <description>Recent content in MusicBrainz on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Thu, 10 Dec 2020 09:00:00 +0000</lastBuildDate><atom:link href="https://paulcutler.org/tags/musicbrainz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The one piece of data Discogs doesn’t have</title>
+      <link>https://paulcutler.org/posts/2020/12/the-one-piece-of-data-discogs-doesnt-have/</link>
+      <pubDate>Thu, 10 Dec 2020 09:00:00 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/posts/2020/12/the-one-piece-of-data-discogs-doesnt-have/</guid>
+      <description>As a record collector, Discogs is invaluable. What started as a crowd sourced website to catalog electronic music, it now has a catalog of almost every piece of recorded music. They’ve also added robust e-commerce abilities so it makes buying and selling easy - whether it’s for something popular or a rare record only made in Greece.
+It can take a little work to figure out which record you have, especially if it’s something popular like Fleetwood Mac’s Rumours, which has literally hundreds of different releases, some of which come down to figuring out the engraving on the inside of the record to figure out which pressing plant made it.</description>
+    </item>
+    
+  </channel>
+</rss>

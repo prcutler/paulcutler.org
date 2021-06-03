@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Paul Cutler">
+<meta name="description" content="I’ve been working on Banshee documentation on and off for the last few months (ok, more off than on) but as I get more comfortable writing in Mallard and the recent discussion in getting Banshee on the GNOME release cycle I am motivated to get this to done.
+The most important part of writing documentation (or writing in general) is the planning phase. A few of us on the Docs team did a first pass at planning the topics that should be in the user help of Banshee in Google Wave, and I’ve copied that over to the GNOME wiki." />
+<meta name="keywords" content="Paul Cutler" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="https://paulcutler.org/blog/2009/12/banshee-documentation-2/" />
+
+
+    <title>
+        
+            Banshee Documentation :: Paul Cutler  — Paul Cutler Homepage
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://paulcutler.org/main.d7bdd8ee18bfbf4c605488a7e5b1b92cd980dfeed2bdaeab4dd5e931a7a78bc0.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://paulcutler.org/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://paulcutler.org/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://paulcutler.org/favicon-16x16.png">
+    <link rel="manifest" href="https://paulcutler.org/site.webmanifest">
+    <link rel="mask-icon" href="https://paulcutler.org/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="https://paulcutler.org/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+
+
+<meta itemprop="name" content="Banshee Documentation">
+<meta itemprop="description" content="I’ve been working on Banshee documentation on and off for the last few months (ok, more off than on) but as I get more comfortable writing in Mallard and the recent discussion in getting Banshee on the GNOME release cycle I am motivated to get this to done.
+The most important part of writing documentation (or writing in general) is the planning phase. A few of us on the Docs team did a first pass at planning the topics that should be in the user help of Banshee in Google Wave, and I’ve copied that over to the GNOME wiki.">
+<meta itemprop="datePublished" content="2009-12-02T14:59:48+00:00" />
+<meta itemprop="dateModified" content="2009-12-02T14:59:48+00:00" />
+<meta itemprop="wordCount" content="353">
+<meta itemprop="image" content="https://paulcutler.org"/>
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://paulcutler.org"/>
+
+<meta name="twitter:title" content="Banshee Documentation"/>
+<meta name="twitter:description" content="I’ve been working on Banshee documentation on and off for the last few months (ok, more off than on) but as I get more comfortable writing in Mallard and the recent discussion in getting Banshee on the GNOME release cycle I am motivated to get this to done.
+The most important part of writing documentation (or writing in general) is the planning phase. A few of us on the Docs team did a first pass at planning the topics that should be in the user help of Banshee in Google Wave, and I’ve copied that over to the GNOME wiki."/>
+
+
+
+
+    <meta property="og:title" content="Banshee Documentation" />
+<meta property="og:description" content="I’ve been working on Banshee documentation on and off for the last few months (ok, more off than on) but as I get more comfortable writing in Mallard and the recent discussion in getting Banshee on the GNOME release cycle I am motivated to get this to done.
+The most important part of writing documentation (or writing in general) is the planning phase. A few of us on the Docs team did a first pass at planning the topics that should be in the user help of Banshee in Google Wave, and I’ve copied that over to the GNOME wiki." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://paulcutler.org/blog/2009/12/banshee-documentation-2/" />
+<meta property="og:image" content="https://paulcutler.org"/>
+<meta property="article:published_time" content="2009-12-02T14:59:48+00:00" />
+<meta property="article:modified_time" content="2009-12-02T14:59:48+00:00" />
+
+
+
+
+    <meta property="article:section" content="Documentation" />
+
+    <meta property="article:section" content="GNOME" />
+
+
+
+    <meta property="article:published_time" content="2009-12-02 14:59:48 &#43;0000 &#43;0000" />
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://paulcutler.org/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text"> paulcutler.org</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://paulcutler.org/about/">About</a></li><li><a href="https://paulcutler.org/posts/">Blog</a></li><li><a href="https://paulcutler.org/project/">Projects</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="header__right">
+                <a href="https://paulcutler.org/spinning">
+                <a title="Now Spinning" href="https://paulcutler.org/spinning/"><img width="32" alt="Vinyl record" src="https://paulcutler.org/img/vinyl.png"></a>
+            </span>
+
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://paulcutler.org/blog/2009/12/banshee-documentation-2/">Banshee Documentation</a></h2>
+
+            
+            
+            
+
+            <div class="post-content">
+                <p>I’ve been working on Banshee documentation on and off for the last few months (ok, more off than on) but as I get more comfortable writing in Mallard and the recent discussion in getting Banshee on the GNOME release cycle I am motivated to get this to done.</p>
+<p>The most important part of writing documentation (or writing in general) is the planning phase. A few of us on the Docs team did a first pass at planning the topics that should be in the user help of Banshee in Google Wave, and I’ve <a href="http://live.gnome.org/DocumentationProject/Planning/BansheePlanning">copied that over to the GNOME wiki</a>.</p>
+<p>If you use Banshee, please <a href="http://live.gnome.org/DocumentationProject/Planning/BansheePlanning">give it a look</a> – are there any topics missing that you think a user would want help with? Writing user help in Mallard gives us the ability to organize topics into groups – for a good example, <a href="http://library.gnome.org/users/empathy/stable/">check out the Empathy help</a>. What’s missing? What would you organize differently?</p>
+<p>Do you want to help? Have you written about Banshee features before? Let me know – either add content to the wiki page or post a link as a comment on my blog. If you have written a howto for Banshee, we’d love to include it – the new GNOME help is CC 3.0 licensed, so it’s easy to add from other sources, as long as it’s licensed as CC-SA 3.0. Please don’t feel you have to know how to write documentation or use Mallard – you can create a sub-page on the wiki for the topic and I will be more than happy to help edit it, convert it to Mallard and commit to git. Right now the important thing is to make sure we have the topics right and get some first drafts of the actual help created. I appreciate all help and would rather not do it all myself if at all possible!</p>
+<p>There is a <a href="http://gitorious.org/~pcutler/banshee/docs">Banshee Docs branch on Gitorious</a> – if you do know Mallard and want to help let me know and I’ll get you added to the team. If you don’t know Mallard, let’s start <a href="http://live.gnome.org/DocumentationProject/Planning/BansheePlanning">writing some howto’s in the wiki</a>!</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder meta-icon"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+
+        <span class="tag"><a href="https://paulcutler.org/categories/documentation/">Documentation</a></span>
+        <span class="tag"><a href="https://paulcutler.org/categories/gnome/">GNOME</a></span>
+        
+    </p>
+
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2021</span>
+            
+            <span>Paul Cutler</span><span><a href="https://paulcutler.org/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="https://paulcutler.org/bundle.min.af435e44374f1e99a669ea8cd5bb9a2fceed80588941a451bfddb66b86a67c9f40b0f417e9543a763f809aa7e9300d7b1d69bf99615810ba02ac70396d50fad5.js" integrity="sha512-r0NeRDdPHpmmaeqM1buaL87tgFiJQaRRv922a4amfJ9AsPQX6VQ6dj&#43;AmqfpMA17HWm/mWFYELoCrHA5bVD61Q=="></script>
+
+
+
+    </body>
+</html>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>subversion on Paul Cutler</title>
+    <link>https://paulcutler.org/tags/subversion/</link>
+    <description>Recent content in subversion on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Thu, 26 Mar 2009 18:03:39 +0000</lastBuildDate><atom:link href="https://paulcutler.org/tags/subversion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Writing GNOME Docs, Part II</title>
+      <link>https://paulcutler.org/blog/2009/03/writing-gnome-docs-part-ii/</link>
+      <pubDate>Thu, 26 Mar 2009 18:03:39 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2009/03/writing-gnome-docs-part-ii/</guid>
+      <description>So you’ve decided you want to contribute to GNOME and write some documentation. In Part I, I wrote about the steps I went through to prepare to write GNOME documentation and picking a project.
+In Part II, we will take a look at the final preparation stage, including checking out the project’s source code via GNOME Subversion and finding documentation that needs updating. I am still fairly new to the process myself, but these are some of the steps I take in writing documentation.</description>
+    </item>
+    
+  </channel>
+</rss>

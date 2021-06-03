@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Paul Cutler">
+<meta name="description" content="tl;dr: I don’t get testing, but thanks to Talk Python I’m starting to put it together. If you’ve taken both the Python for Entrepreneurs course and the Building Data Driven Web Apps with Pyramid this might help you write tests using the Python for Entrepreneurs code. And if you’ve taken courses at Talk Python, take advantage of the office hours!
+I don’t get testing in Python at all. I don’t have a computer science degree and Python is a hobby for me." />
+<meta name="keywords" content="Paul Cutler, NFLPool, Python, Talk Python" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="https://paulcutler.org/posts/2018/09/learning-how-to-test-in-python-and-pyramid/" />
+
+
+    <title>
+        
+            Learning How to Test in Python and Pyramid :: Paul Cutler  — Paul Cutler Homepage
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://paulcutler.org/main.d7bdd8ee18bfbf4c605488a7e5b1b92cd980dfeed2bdaeab4dd5e931a7a78bc0.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://paulcutler.org/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://paulcutler.org/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://paulcutler.org/favicon-16x16.png">
+    <link rel="manifest" href="https://paulcutler.org/site.webmanifest">
+    <link rel="mask-icon" href="https://paulcutler.org/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="https://paulcutler.org/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+
+
+<meta itemprop="name" content="Learning How to Test in Python and Pyramid">
+<meta itemprop="description" content="tl;dr: I don’t get testing, but thanks to Talk Python I’m starting to put it together. If you’ve taken both the Python for Entrepreneurs course and the Building Data Driven Web Apps with Pyramid this might help you write tests using the Python for Entrepreneurs code. And if you’ve taken courses at Talk Python, take advantage of the office hours!
+I don’t get testing in Python at all. I don’t have a computer science degree and Python is a hobby for me.">
+<meta itemprop="datePublished" content="2018-09-19T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2018-09-19T00:00:00+00:00" />
+<meta itemprop="wordCount" content="1495">
+<meta itemprop="image" content="https://paulcutler.org"/>
+
+
+
+<meta itemprop="keywords" content="NFLPool,Python,Talk Python," />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://paulcutler.org"/>
+
+<meta name="twitter:title" content="Learning How to Test in Python and Pyramid"/>
+<meta name="twitter:description" content="tl;dr: I don’t get testing, but thanks to Talk Python I’m starting to put it together. If you’ve taken both the Python for Entrepreneurs course and the Building Data Driven Web Apps with Pyramid this might help you write tests using the Python for Entrepreneurs code. And if you’ve taken courses at Talk Python, take advantage of the office hours!
+I don’t get testing in Python at all. I don’t have a computer science degree and Python is a hobby for me."/>
+
+
+
+
+    <meta property="og:title" content="Learning How to Test in Python and Pyramid" />
+<meta property="og:description" content="tl;dr: I don’t get testing, but thanks to Talk Python I’m starting to put it together. If you’ve taken both the Python for Entrepreneurs course and the Building Data Driven Web Apps with Pyramid this might help you write tests using the Python for Entrepreneurs code. And if you’ve taken courses at Talk Python, take advantage of the office hours!
+I don’t get testing in Python at all. I don’t have a computer science degree and Python is a hobby for me." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://paulcutler.org/posts/2018/09/learning-how-to-test-in-python-and-pyramid/" />
+<meta property="og:image" content="https://paulcutler.org"/>
+<meta property="article:published_time" content="2018-09-19T00:00:00+00:00" />
+<meta property="article:modified_time" content="2018-09-19T00:00:00+00:00" />
+
+
+
+
+    <meta property="article:section" content="Python" />
+
+    <meta property="article:section" content="NFLPool" />
+
+
+
+    <meta property="article:published_time" content="2018-09-19 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://paulcutler.org/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text"> paulcutler.org</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://paulcutler.org/about/">About</a></li><li><a href="https://paulcutler.org/posts/">Blog</a></li><li><a href="https://paulcutler.org/project/">Projects</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="header__right">
+                <a href="https://paulcutler.org/spinning">
+                <a title="Now Spinning" href="https://paulcutler.org/spinning/"><img width="32" alt="Vinyl record" src="https://paulcutler.org/img/vinyl.png"></a>
+            </span>
+
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://paulcutler.org/posts/2018/09/learning-how-to-test-in-python-and-pyramid/">Learning How to Test in Python and Pyramid</a></h2>
+
+            
+            
+            
+
+            <div class="post-content">
+                <p><em>tl;dr: I don’t get testing, but thanks to Talk Python I’m starting to put it together.  If you’ve taken both the Python for Entrepreneurs course and the Building Data Driven Web Apps with Pyramid this might help you write tests using the Python for Entrepreneurs code.  And if you’ve taken courses at Talk Python, take advantage of the office hours!</em></p>
+<p>I don’t get testing in Python at all.  I don’t have a computer science degree and Python is a hobby for me.  I’ve learned enough Python to build two apps with Pyramid, but I didn’t write any tests. (Shame on me!) I was lucky enough to be asked to review <a href="http://pythontesting.net/">Brian Okken’s</a> <a href="https://pragprog.com/book/bopytest/python-testing-with-pytest">Python Testing with pytest</a> book last year, and after reading the first few chapters, it was way over my head and I had to apologetically let him know I just didn’t have the knowledge to review it.  I’ve read dozens of articles on testing, but nothing I’ve come across explains what to test, much less how to start it.</p>
+<p>I’ve already raved about the training courses from <a href="https://training.talkpython.fm">Talk Python</a> and I finally bought the Everything Bundle this summer.  So when Michael Kennedy launched his latest course, <a href="https://training.talkpython.fm/courses/details/building-data-driven-web-applications-in-python-with-pyramid-sqlalchemy-and-bootstrap">Building data-driven web apps with Pyramid and SQLAlchemy</a>, which includes a chapter on testing, I was pumped.  (That, and how to build a Pyramid app using classes and not the <code>pyramid_handlers</code> module, but that’s a different blog post for a different time).</p>
+<p>I decided to jump around a bit in the training and dive into the tests portion of it.  What worked:  Things started to click.  The training and his code showed how to write some tests to test the views and routes within a web application.  I learn best by seeing the code examples and following along with the training, so this was exciting.  Learning the “3 A’s of Testing (Arrange, Act and then Assert) was big - not once in any of the articles I’ve read on the web did I come across those terms.</p>
+<p>What didn’t work:  Using the code examples to test against my two existing Pyramid applications (<a href="https://github.com/prcutler/nflpool">NFLPool</a> and <a href="https://github.com/prcutler/mlbpool2">MLBPool2</a>).  The first reason is because I’m using the <code>pyramid_handlers</code> module (which is now not supported) and this latest course does not use this package.  The second reason is that one of the tests you write tests the whole web application - but as part of the Python for Entrepreneurs course, I had enabled other functionality, such as sending emails, Rollbar for errors, and a few other things.  The Building Data Driven Web Apps course mentions that you might have to pass some variables to the test to get it to work, but I didn’t have any luck.</p>
+<p>But! But! If you’ve purchased training courses from Mr. Kennedy, he offers office hours if you need help with the training courses.  These are not consultation sessions, your questions have to be related to the course, and he was kind enough to probably bend the rules slightly to help me get up and running tests with my existing applications.  After spending a few hours trying to write the tests over the weekend, I was lucky that office hours were this past Monday over my lunch hour.  He publishes the code examples on Github, so I don’t think there’s a problem with me sharing some of these code snippets.  (And by blogging about this, I’m hoping to help commit it to memory as well, as well as help anyone who has also taken both courses).</p>
+<h2 id="testing-registration">Testing Registration</h2>
+<p>Let’s look at testing the <code>Account</code> methods, from the <a href="https://github.com/talkpython/data-driven-web-apps-with-pyramid-and-sqlalchemy/tree/master/src/ch14-testing/final/pypi_testing/pypi/tests">Github repo from the course</a>.  If you click the link, you’ll see that there are three tests:</p>
+<ul>
+<li>Test that registering an account works</li>
+<li>Test that an account already exists</li>
+<li>Test that a user didn’t submit their email address when registering</li>
+</ul>
+<p>Since I was having problems, I was just trying to do one at a time, starting with the last one.  Here you’re going to test that an email address was not entered as part of creating an account:</p>
+<pre><code>import unittest
+import unittest.mock
+import pyramid.testing
+
+
+class AccountControllerTests(unittest.TestCase):
+
+    def test_register_validation_no_email(self):
+        # Arrange
+        from pypi.viewmodels.account.register_viewmodel import RegisterViewModel
+        request = pyramid.testing.DummyRequest()
+        request.POST = {
+            'email': '',
+            'password': 'a'
+        }
+        # noinspection PyTypeChecker
+        vm = RegisterViewModel(request)
+
+        # Act
+        vm.validate()
+
+        # Assert:
+        self.assertIsNotNone(vm.error)
+        self.assertTrue('email' in vm.error)
+</code></pre>
+<p>Using <code>unitest</code>, we’ll import the <code>RegisterViewModel</code>, which defines what’s needed for an account - a name, an email address, and a password.  Pyramid has some testing built into it, so you call the <code>pyramid.testing.DummyRequest()</code> and pass it a <code>POST</code> that includes a password, but no email.  You then pass that request to the <code>RegisterViewModel</code> which has a <a href="https://github.com/talkpython/data-driven-web-apps-with-pyramid-and-sqlalchemy/blob/master/src/ch14-testing/final/pypi_testing/pypi/viewmodels/account/register_viewmodel.py">method to validate</a> the information is correct:</p>
+<pre><code>    def validate(self):
+        if not self.email:
+            self.error = 'You must specify an email address.'
+        elif not self.name:
+            self.error = 'You must specify your name.'
+        elif not self.password:
+            self.error = 'You must specify a password.'
+        elif user_service.find_user_by_email(self.email):
+            self.error = &quot;This user already exists!&quot;
+</code></pre>
+<p>But when I ran that test on NFLPool, I kept receiving an error:
+<code>TypeError: __init__() takes 1 positional argument but 2 were given'</code></p>
+<p>Let’s look at what Michael showed me that does work:</p>
+<pre><code>import unittest
+import unittest.mock
+import pyramid.testing
+
+
+class AccountControllerTests(unittest.TestCase):
+
+    def test_register_validation_no_email(self):
+        # Arrange
+        from nflpool.viewmodels.register_viewmodel import RegisterViewModel
+
+        data = {
+            'first_name': 'Paul',
+            'last_name': 'Cutler',
+            'email': '',
+            'password': 'Aa123456@',
+            'confirm_password': 'Aa123456@'
+        }
+        # noinspection PyTypeChecker
+        vm = RegisterViewModel()
+        vm.from_dict(data)
+
+        # Act
+        vm.validate()
+
+        # Assert:
+        self.assertIsNotNone(vm.error)
+        self.assertTrue('email' in vm.error)
+</code></pre>
+<p>If you’ve taken the Python for Entrepreneurs course, you need to do it slightly different.  The NFLPool app requires a couple more fields for registration, which is what you see in the <code>data</code> dictionary created in the test above.  You then pass that <code>data</code> dictionary to the view model using <code>vm.from_dict(data)</code> instead, and the run the <code>validate</code> method.</p>
+<p>And look what you get!
+Ran 1 test in 0.566s</p>
+<pre><code>OK
+0
+
+Process finished with exit code 0
+</code></pre>
+<p>It worked!   I still have some work to do with one of the three included tests, as I require my users to create a strong password, so I need to re-write my test to account for that, but the other two tests worked for me.</p>
+<p>One last note for the other two tests - the Python for Entrepreneurs course uses a class in the <code>AccountService</code> and Data Driven course does not.  You need to account for this when assigning a target for the test.</p>
+<p>From the Data Driven course:</p>
+<pre><code>`target = 'pypi.services.user_service.find_user_by_email'
+</code></pre>
+<p>For Python for Entrepreneurs it looks like this:</p>
+<pre><code>`target = 'nflpool.services.account_service.AccountService.find_account_by_email'
+</code></pre>
+<h2 id="testing-the-pyramid-app">Testing the Pyramid App</h2>
+<p>Testing the entire Pyramid App turned out a bit trickier and I owe Michael a debt of gratitude as I would have never figured this out.  The Python for Entrepreneurs class has you include Rollbar (for error reporting) as well as setting up logging.  I did get the below test to run, but I had to comment out these things in NFLPool’s <code>__init__.py</code> which kind of defeats the purpose of testing.  (But hey, I was learning and it was good to validate I could get a test to run).</p>
+<p>From the <a href="https://github.com/talkpython/data-driven-web-apps-with-pyramid-and-sqlalchemy/blob/master/src/ch14-testing/final/pypi_testing/pypi/tests/home_tests.py">Data Driven web course, to test the app it looks like</a>:</p>
+<pre><code>import unittest
+import pyramid.testing
+
+
+class HomeControllerTests(unittest.TestCase):
+
+    def setUp(self):
+        from pypi import main
+        app = main({})
+        # noinspection PyPackageRequirements
+        from webtest import TestApp
+        self.app = TestApp(app)
+
+    def test_home_page(self):
+        # noinspection PyPackageRequirements
+        import webtest.response
+        response: webtest.response.TestResponse = self.app.get('/', status=200)
+
+self.assertTrue(b'Find, install and publish Python packages' in response.body)
+</code></pre>
+<p>But if you’ve built an app using Python for Entrepreneurs, you need to do a couple things.</p>
+<p>First, create a <code>web_settings.py</code> file and add:</p>
+<pre><code>import os
+import configparser
+
+config = configparser.ConfigParser()
+folder = os.path.dirname(__file__)
+file = os.path.abspath(os.path.join(folder, '..', '..', 'development.ini'))
+
+config.read(file)
+main = config['app:nflpool']
+rollbar = config['rollbar:test_settings']
+
+settings = {**main, **rollbar}
+</code></pre>
+<p>Make sure to change the line
+main = config[&lsquo;app:nflpool&rsquo;]
+so the app name equals your app’s name.</p>
+<p>Open your Pyramid dunder init file and update your logging configuration with an <code>if / else</code> statement:</p>
+<pre><code>def init_logging(config):
+    settings = config.get_settings()
+    if settings.get('logging') == 'OFF':
+        log_filename = None
+    else:
+        log_filename = settings.get('log_filename', '')
+    log_level = settings.get('log_level', 'ERROR')
+
+    LogService.global_init(log_level, log_filename)
+
+    log_package_versions()
+</code></pre>
+<p>And add the if / else statement.  You’ve now accounted for both Rollbar and you won’t create a log in your <code>tests</code> directory when running this test.</p>
+<p>Lastly, you need to update your <code>development.ini</code> file to account for the Rollbar changes.  Comment out the <code>rollbar.root</code> below so you don’t receive notifications for errors in development and add the <code>[rollbar:test_settings]</code> block below.</p>
+<pre><code>#  Rollbar settings
+
+rollbar.access_token = YOUR_TOKEN
+rollbar.environment = dev
+rollbar.branch = master
+# rollbar.root = %(here)s
+
+[rollbar:test_settings]
+
+rollbar_js_id = NONE
+rollbar.access_token = NONE
+rollbar.environment = dev
+rollbar.branch = master
+rollbar.root = blank
+</code></pre>
+<p>That’s it!  Hopefully I haven’t missed anything.  I’m excited to start writing tests for my two apps and I have a lot to write.  Once I get my head wrapped around these tests, the next phase will be to see if I can migrate some of them to <code>pytest</code> - but one thing at a time.  (And then finally review Mr. Okken’s book, too!)</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="https://paulcutler.org/tags/nflpool/">NFLPool</a></span>
+        <span class="tag"><a href="https://paulcutler.org/tags/python/">Python</a></span>
+        <span class="tag"><a href="https://paulcutler.org/tags/talk-python/">Talk Python</a></span>
+        
+    </p>
+
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder meta-icon"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+
+        <span class="tag"><a href="https://paulcutler.org/categories/python/">Python</a></span>
+        <span class="tag"><a href="https://paulcutler.org/categories/nflpool/">NFLPool</a></span>
+        
+    </p>
+
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2021</span>
+            
+            <span>Paul Cutler</span><span><a href="https://paulcutler.org/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="https://paulcutler.org/bundle.min.af435e44374f1e99a669ea8cd5bb9a2fceed80588941a451bfddb66b86a67c9f40b0f417e9543a763f809aa7e9300d7b1d69bf99615810ba02ac70396d50fad5.js" integrity="sha512-r0NeRDdPHpmmaeqM1buaL87tgFiJQaRRv922a4amfJ9AsPQX6VQ6dj&#43;AmqfpMA17HWm/mWFYELoCrHA5bVD61Q=="></script>
+
+
+
+    </body>
+</html>

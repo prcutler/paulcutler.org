@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GNOME on Paul Cutler</title>
+    <link>https://paulcutler.org/categories/gnome/</link>
+    <description>Recent content in GNOME on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Wed, 22 Mar 2017 13:23:06 +0000</lastBuildDate><atom:link href="https://paulcutler.org/categories/gnome/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why I enjoy writing user help for GNOME</title>
+      <link>https://paulcutler.org/blog/2017/03/why-i-enjoy-writing-user-help-for-gnome/</link>
+      <pubDate>Wed, 22 Mar 2017 13:23:06 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2017/03/why-i-enjoy-writing-user-help-for-gnome/</guid>
+      <description>It’s been almost ten years since I started contributing to open source projects. One of the big ways I’ve contributed in the past is writing user help. Not knowing how to code then (and still really don’t know now, as hard as I try to learn Python), writing is something I enjoy and an area where I think I can make a difference.
+There are a number of different places to apply a writing skill in open source.</description>
+    </item>
+    
+    <item>
+      <title>The macOS apps I’ll miss the most</title>
+      <link>https://paulcutler.org/blog/2017/02/the-macos-apps-ill-miss-the-most/</link>
+      <pubDate>Tue, 14 Feb 2017 14:24:53 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2017/02/the-macos-apps-ill-miss-the-most/</guid>
+      <description>I have been considering switching back to GNOME full-time and finally pulled the trigger last week and did, installing Fedora 25 on both my iMac and MacBook Pro. I installed GNOME on my iMac a couple months ago, but didn’t do the installation correctly and screwed up my MBR, resulting in only GNOME being an option. I’ve fixed that this time and have kept dual boot (for just in case and for iTunes on my iPhone and iPad).</description>
+    </item>
+    
+    <item>
+      <title>Why I’m going back to Linux after five years of using macOS</title>
+      <link>https://paulcutler.org/blog/2017/02/why-im-going-back-to-linux-after-five-years-of-using-macos/</link>
+      <pubDate>Fri, 10 Feb 2017 15:58:27 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2017/02/why-im-going-back-to-linux-after-five-years-of-using-macos/</guid>
+      <description>I’ve been a supporter of the Electronic Frontier Foundation since 2004. Their work on privacy, free expression and technology are all things I am passionate about. For the last year or so, I have become more concerned with privacy issues in technology. The rise in big data and how everything is tracking everything we do has given me significant concerns. I’ve been giving a lot of thought to which ecosystems I want to stay in.</description>
+    </item>
+    
+    <item>
+      <title>How I Got Started Programming</title>
+      <link>https://paulcutler.org/blog/2016/01/how-i-got-started-programming/</link>
+      <pubDate>Sun, 10 Jan 2016 16:00:22 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2016/01/how-i-got-started-programming/</guid>
+      <description>As I attempt to learn Python, I’m fascinated by how people are able to do this as well as how they started to learn to program.
+I’m not the only one, as Ryan Gordon (aka Icculus), a well known game developer who ports many games to Linux and Mac, asked a similar question on Twitter last month.
+This led to a lot of interesting tweets and Ryan created a Storify page to share them.</description>
+    </item>
+    
+    <item>
+      <title>GNOME 3 is out!</title>
+      <link>https://paulcutler.org/blog/2011/04/gnome-3-is-out/</link>
+      <pubDate>Wed, 06 Apr 2011 22:24:20 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2011/04/gnome-3-is-out/</guid>
+      <description>GNOME 3 is out! I started to writing a thank you listing out individuals but it became way too long and I was afraid I’d forget somebody. So let me just say thank you to every developer, translator, documentation writers, marketers and everyone else who’s contributed to GNOME.
+Download and try it, check out the videos, the new website and Planet, the new GNOME Journal all about GNOME 3, and let us know what you think.</description>
+    </item>
+    
+    <item>
+      <title>My new favorite GNOME Patch</title>
+      <link>https://paulcutler.org/blog/2011/02/my-new-favorite-gnome-patch/</link>
+      <pubDate>Mon, 28 Feb 2011 16:03:18 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2011/02/my-new-favorite-gnome-patch/</guid>
+      <description>For those of us without a disability, understanding the challenge users may experience when trying to use a computer can be a foreign concept. (Or at least it is for me.)
+Browsing Reddit, of all places, this weekend I came across this story of a user with ALS who created a patch for Eye of GNOME. The patch contributor’s son added a comment to the bug report (and a link to a picture) that is a must read.</description>
+    </item>
+    
+    <item>
+      <title>GNOME T-Shirt Contest Update</title>
+      <link>https://paulcutler.org/blog/2011/01/gnome-t-shirt-contest-update/</link>
+      <pubDate>Wed, 12 Jan 2011 16:32:56 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2011/01/gnome-t-shirt-contest-update/</guid>
+      <description>(Cross-posted from the GNOME Foundation Blog)
+The GNOME T-Shirt Design Contest was supposed to come to a close on January 15th. Due to some technical issues with the submission form, we are extending the contest two weeks through the end of the month. The contest will now close at 11:59 p.m. UTC on January 31st.
+There were a few periods where the submission form was broken and your entry may not have been submitted.</description>
+    </item>
+    
+    <item>
+      <title>Thanks</title>
+      <link>https://paulcutler.org/blog/2011/01/thanks/</link>
+      <pubDate>Sat, 08 Jan 2011 02:20:15 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2011/01/thanks/</guid>
+      <description>Just wanted to say thanks for a couple things:
+Thank you to everyone in the GNOME community who helped crowdsource editing of the 2009 Annual Report. I received a lot of comments about lots of little things we missed and I uploaded a new version of the report a week or two ago that hopefully fixes everything. (And thank you for the kind words on the look – Daniel deserves all the credit!</description>
+    </item>
+    
+    <item>
+      <title>2009 GNOME Annual Report is out!</title>
+      <link>https://paulcutler.org/blog/2010/12/2009-gnome-annual-report-is-out/</link>
+      <pubDate>Mon, 13 Dec 2010 19:57:27 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2010/12/2009-gnome-annual-report-is-out/</guid>
+      <description>From the better late than never department, the 2009 GNOME Foundation Annual Report has been released.
+
+When Lucas first asked me to help with the annual report a year and a half ago at GUADEC in Gran Canaria, one of the goals was to try and help it come out sooner. Apparently, I had the opposite effect. I have lots of excuses, but none of them good. (Though someone did point out to me that Mozilla just released their 2009 report a few weeks ago, so I felt a bit better.</description>
+    </item>
+    
+    <item>
+      <title>GNOME Boston Summit 2010 kicks off</title>
+      <link>https://paulcutler.org/blog/2010/11/gnome-boston-summit-2010-kicks-off/</link>
+      <pubDate>Sat, 06 Nov 2010 15:49:30 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2010/11/gnome-boston-summit-2010-kicks-off/</guid>
+      <description>The GNOME Boston Summit 2010 kicked off a couple hours ago. Dozens of GNOME hackers are at the Tang Center at MIT.
+John (J5) Palmieri and Jon McCann helped kick off the Summit.
+J5 gave an overview of what the Boston Summit is. It’s different from GUADEC which is many presentations and more formal talks. The Boston Summit is much more informal and run Barcamp style. It gives hackers a chance to hack together and get stuff done.</description>
+    </item>
+    
+  </channel>
+</rss>

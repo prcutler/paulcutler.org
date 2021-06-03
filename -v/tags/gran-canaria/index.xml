@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gran canaria on Paul Cutler</title>
+    <link>https://paulcutler.org/tags/gran-canaria/</link>
+    <description>Recent content in gran canaria on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Thu, 02 Jul 2009 04:10:16 +0000</lastBuildDate><atom:link href="https://paulcutler.org/tags/gran-canaria/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I should be packing</title>
+      <link>https://paulcutler.org/blog/2009/07/i-should-be-packing/</link>
+      <pubDate>Thu, 02 Jul 2009 04:10:16 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2009/07/i-should-be-packing/</guid>
+      <description>Tomorrow night at this time, thanks to the generosity of the GNOME Foundation which is sponsoring my travel, I will be on a flight (hopefully asleep) crossing the Atlantic. I’m heading to Europe for the first time to attend the Gran Canaria Desktop Summit. (My wife is fairly annoyed my first trip to Europe does not include her, but that’s another story).
+A few of us from the GNOME Journal team will be there – if you have an idea for an article, interview, or a cool app to show off, please look me up.</description>
+    </item>
+    
+  </channel>
+</rss>

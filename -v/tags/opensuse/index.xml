@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>openSUSE on Paul Cutler</title>
+    <link>https://paulcutler.org/tags/opensuse/</link>
+    <description>Recent content in openSUSE on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Sat, 26 Jun 2010 12:00:51 +0000</lastBuildDate><atom:link href="https://paulcutler.org/tags/opensuse/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Collaboration Across Borders</title>
+      <link>https://paulcutler.org/blog/2010/06/collaboration-across-borders/</link>
+      <pubDate>Sat, 26 Jun 2010 12:00:51 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2010/06/collaboration-across-borders/</guid>
+      <description>I’ve been a bit of a distro-hopper over the last year, but as I started interviewing at Novell earlier this year I started using openSUSE so I could pretend to know what I was talking about if it came up during the interview process.
+I’ve been really happy with openSUSE – each distro has their quirks but there’s a number of things (especially the openSUSE Build Service!) it does well.</description>
+    </item>
+    
+  </channel>
+</rss>

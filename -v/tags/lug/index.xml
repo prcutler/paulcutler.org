@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LUG on Paul Cutler</title>
+    <link>https://paulcutler.org/tags/lug/</link>
+    <description>Recent content in LUG on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Tue, 22 Jul 2008 13:29:21 +0000</lastBuildDate><atom:link href="https://paulcutler.org/tags/lug/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Foresight Talk This Weekend</title>
+      <link>https://paulcutler.org/blog/2008/07/foresight-talk-this-weekend/</link>
+      <pubDate>Tue, 22 Jul 2008 13:29:21 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2008/07/foresight-talk-this-weekend/</guid>
+      <description>Just a reminder, I’ll be giving a talk on Foresight this Saturday in St. Paul at Penguins Unbound.
+It will be more of an introduction to Foresight to existing Linux users (though I hope a few folks who don’t use Linux are there), and I’ll have some install discs to give out.
+The meeting starts at 10:00 a.m., hit the link above for directions. See you there!</description>
+    </item>
+    
+  </channel>
+</rss>

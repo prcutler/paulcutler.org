@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GNOME Journal on Paul Cutler</title>
+    <link>https://paulcutler.org/tags/gnome-journal/</link>
+    <description>Recent content in GNOME Journal on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Wed, 01 Sep 2010 15:43:43 +0000</lastBuildDate><atom:link href="https://paulcutler.org/tags/gnome-journal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GNOME Journal Issue 21 is out!</title>
+      <link>https://paulcutler.org/blog/2010/09/gnome-journal-issue-21-is-out/</link>
+      <pubDate>Wed, 01 Sep 2010 15:43:43 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2010/09/gnome-journal-issue-21-is-out/</guid>
+      <description>The GNOME Journal team has released the latest issue, featuring five brand new articles.
+We have three articles based on talks and experiences at GUADEC 2010 in The Hague and two interviews.
+ Writing simple, real-time games by Chris Lord Should I get involved? by William Carlson (aka Williamfromtexas) Behind the Scenes with Joanmarie Diggs Grilo: Integrating multimedia content in your application by Iago Toral GNOME Advisory Board interview with Bradley Kuhn by Stormy Peters  What are you waiting for?</description>
+    </item>
+    
+    <item>
+      <title>Write for GNOME Journal!</title>
+      <link>https://paulcutler.org/blog/2010/08/write-for-gnome-journal/</link>
+      <pubDate>Tue, 03 Aug 2010 11:46:25 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2010/08/write-for-gnome-journal/</guid>
+      <description>With GUADEC having just ended, we’re looking for some GUADEC related stories for GNOME Journal.
+Here’s a few examples:
+ Was it your first time at GUADEC? Share some thoughts about what you liked, saw or who you met. Did you give a talk at GUADEC? Write it up as an article! Or, we’re happy to do an interview with you about your talk. Here’s a great example with J5 after last year’s GUADEC.</description>
+    </item>
+    
+    <item>
+      <title>GNOME Odds &amp; Ends</title>
+      <link>https://paulcutler.org/blog/2010/01/gnome-odds-ends/</link>
+      <pubDate>Fri, 22 Jan 2010 22:09:54 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2010/01/gnome-odds-ends/</guid>
+      <description>A few different things going on:
+ Tomboy documentation is almost done in Mallard. I’ve really enjoyed using the Mallard syntax – so much less complex than Docbook. Every time I have to look up an element reference, I shake my head and think, “Duh! That makes so much more sense I should have figured that out!“. Nice work Shaun. I triaged some docs bugs in GNOME Bugzilla. Want to get involved with the GNOME Documentation team but don’t know where to start?</description>
+    </item>
+    
+    <item>
+      <title>GNOME Journal Issue 17 out!</title>
+      <link>https://paulcutler.org/blog/2009/11/gnome-journal-issue-17-out/</link>
+      <pubDate>Wed, 25 Nov 2009 15:55:37 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2009/11/gnome-journal-issue-17-out/</guid>
+      <description>I’m two days late blogging about the latest release of GNOME Journal (and thanks to Danni for mentioning it!).
+This is a very special issue written by women in the open source community. It’s the first time we’ve done a themed issue and all articles are by women in the open source community. Also, with the exception of Danni and Stormy who have written for GNOME Journal before, all are first time writers for GJ!</description>
+    </item>
+    
+    <item>
+      <title>GNOME Journal Issue 16</title>
+      <link>https://paulcutler.org/blog/2009/07/gnome-journal-issue-16/</link>
+      <pubDate>Thu, 16 Jul 2009 03:11:16 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2009/07/gnome-journal-issue-16/</guid>
+      <description>One of the highlights for me at GUADEC was the compliments I received on GNOME Journal. After over a year of inactivity, we have successfully revived GNOME Journal, with two releases within 60 days of each, and I have to admit, I enjoyed the recognition it gave me.
+With that said, we are working on the next issue of GNOME Journal, which will be a special edition devoted to this past GCDS / GUADEC.</description>
+    </item>
+    
+    <item>
+      <title>GNOME Journal Issue 15 Released!</title>
+      <link>https://paulcutler.org/blog/2009/07/gnome-journal-issue-15-released/</link>
+      <pubDate>Wed, 01 Jul 2009 15:41:31 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2009/07/gnome-journal-issue-15-released/</guid>
+      <description>The GNOME Journal team is excited to announce the second release of 2009 of the GNOME Journal, Issue 15. Featuring six new articles, including three from first time GNOME Journal contributors, in this edition you will find:
+ A review of Project Hamster by Les Harris An interview on working with upstream with Laszlo Peter by Stormy Peters Using git for GNOME translators by Og Maciel An introduction to GNOME Zeitgeist by Natan Yellin A look at some of GNOME Do’s advanced features by Jorge Castro Behind the Scenes with Owen Taylor by Paul Cutler (Hey, that’s me!</description>
+    </item>
+    
+    <item>
+      <title>GUADEC!</title>
+      <link>https://paulcutler.org/blog/2009/05/guadec/</link>
+      <pubDate>Fri, 15 May 2009 14:04:22 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2009/05/guadec/</guid>
+      <description>I’m going to GUADEC this year!
+In all my travels, I’ve visited almost all 50 states in the U.S., but I’ve never travelled internationally. Now in the span of 30 days, I’ll be visiting both Canada and Europe – and both are related for GNOME events. And I’d like to say a big thank you to GNOME for helping subsidize my travel to both events.
+The initial GUADEC schedule was posted this morning, and I’m excited (and nervous) that Stormy’s and my Birds of a Feather session on GNOME marketing was accepted!</description>
+    </item>
+    
+    <item>
+      <title>GNOME Journal Issue 14 released!</title>
+      <link>https://paulcutler.org/blog/2009/05/gnome-journal-issue-14-released/</link>
+      <pubDate>Fri, 01 May 2009 16:16:17 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2009/05/gnome-journal-issue-14-released/</guid>
+      <description>Just in time for your weekend reading pleasure, for the first time since December 2007, a new GNOME Journal has been published!
+Articles featured include:
+ GNOME Asia 2008 Summit Report GConf Configuration Concepts for Developers An Introduction to the Message Indicator A review of Gourmet Recipe Manager An interview with Stormy Peters of GNOME And last, but not least, a Letter from the Editor.  I’m especially proud of this issue, as it is my first herding catsas release coordinator.</description>
+    </item>
+    
+  </channel>
+</rss>

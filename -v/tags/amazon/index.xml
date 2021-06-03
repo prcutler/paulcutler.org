@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Amazon on Paul Cutler</title>
+    <link>https://paulcutler.org/tags/amazon/</link>
+    <description>Recent content in Amazon on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Fri, 13 Dec 2013 00:11:14 +0000</lastBuildDate><atom:link href="https://paulcutler.org/tags/amazon/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Amazon’s Frustration Free Packaging</title>
+      <link>https://paulcutler.org/blog/2013/12/amazons-frustration-free-packaging/</link>
+      <pubDate>Fri, 13 Dec 2013 00:11:14 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2013/12/amazons-frustration-free-packaging/</guid>
+      <description>“Certified” to be frustration free. Especially when they tape over the easy open pull tab when you’re trying to get to your new shiny vinyl record.
+(It’s Volcano Choir’s first album, Unmap, if you were curious.)</description>
+    </item>
+    
+    <item>
+      <title>Amazon Introduces AutoRip</title>
+      <link>https://paulcutler.org/blog/2013/01/amazon-introduces-autorip/</link>
+      <pubDate>Fri, 11 Jan 2013 02:25:29 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2013/01/amazon-introduces-autorip/</guid>
+      <description>Amazon made a splash this morning by announcing that they are now offering MP3s of albums you buy on CD – for free. But the even bigger surprise was that if you had purchased a CD from them going back to 1998(!), and it’s one of the 50,000 albums in their catalog that features AutoRip, they automatically added that album to your Amazon Cloud Player.
+It was quite a pleasant surprise to wake up to find about 30 albums added to my Cloud Player, especially the Pearl Jam Twenty soundtrack, which features a number of different artists, which I could never seem to get ripped properly with the right artist names.</description>
+    </item>
+    
+    <item>
+      <title>Keep On Rockin’ Me Baby</title>
+      <link>https://paulcutler.org/blog/2010/09/keep-on-rockin-me-baby/</link>
+      <pubDate>Fri, 03 Sep 2010 02:22:34 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2010/09/keep-on-rockin-me-baby/</guid>
+      <description>_Well, I`ve been looking real hard
+And I`m trying to find a job
+But it just keeps getting
+Tougher every dayBut I got to do my part
+Cause I know in my heart
+I got to please my
+Sweet baby, yeahSteve Miller
+I’ve been using Banshee for years now and I don’t know how I’d manage my (too) large music collection without it. The Banshee team released 1.7.5 on Tuesday. Banshee 1.</description>
+    </item>
+    
+    <item>
+      <title>Make a smart playlist to see your Amazon purchases in Banshee</title>
+      <link>https://paulcutler.org/blog/2010/08/make-a-smart-playlist-to-see-your-amazon-purchases-in-banshee/</link>
+      <pubDate>Fri, 06 Aug 2010 15:39:49 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2010/08/make-a-smart-playlist-to-see-your-amazon-purchases-in-banshee/</guid>
+      <description>Jorge Castro and I were talking this morning in #banshee as Jorge asked if it was possible to create a smart playlist to see your music purchases.
+And it is!
+Jorge’s idea was for the UbuntuOne music store from 7digital.com. I don’t use Ubuntu, but I do buy (too many) songs from Amazon.
+Amazon adds a comment in the metadata of each song you buy, such as: Amazon.com Song ID: 216030141 (If you’re curious, it’s the song Drunk Girls by LCD Soundsystem that I bought this morning for only $5!</description>
+    </item>
+    
+  </channel>
+</rss>

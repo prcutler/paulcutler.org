@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>banshee on Paul Cutler</title>
+    <link>https://paulcutler.org/tags/banshee/</link>
+    <description>Recent content in banshee on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Fri, 03 Sep 2010 02:22:34 +0000</lastBuildDate><atom:link href="https://paulcutler.org/tags/banshee/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Keep On Rockin’ Me Baby</title>
+      <link>https://paulcutler.org/blog/2010/09/keep-on-rockin-me-baby/</link>
+      <pubDate>Fri, 03 Sep 2010 02:22:34 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2010/09/keep-on-rockin-me-baby/</guid>
+      <description>_Well, I`ve been looking real hard
+And I`m trying to find a job
+But it just keeps getting
+Tougher every dayBut I got to do my part
+Cause I know in my heart
+I got to please my
+Sweet baby, yeahSteve Miller
+I’ve been using Banshee for years now and I don’t know how I’d manage my (too) large music collection without it. The Banshee team released 1.7.5 on Tuesday. Banshee 1.</description>
+    </item>
+    
+    <item>
+      <title>Make a smart playlist to see your Amazon purchases in Banshee</title>
+      <link>https://paulcutler.org/blog/2010/08/make-a-smart-playlist-to-see-your-amazon-purchases-in-banshee/</link>
+      <pubDate>Fri, 06 Aug 2010 15:39:49 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2010/08/make-a-smart-playlist-to-see-your-amazon-purchases-in-banshee/</guid>
+      <description>Jorge Castro and I were talking this morning in #banshee as Jorge asked if it was possible to create a smart playlist to see your music purchases.
+And it is!
+Jorge’s idea was for the UbuntuOne music store from 7digital.com. I don’t use Ubuntu, but I do buy (too many) songs from Amazon.
+Amazon adds a comment in the metadata of each song you buy, such as: Amazon.com Song ID: 216030141 (If you’re curious, it’s the song Drunk Girls by LCD Soundsystem that I bought this morning for only $5!</description>
+    </item>
+    
+    <item>
+      <title>GNOME Odds &amp; Ends</title>
+      <link>https://paulcutler.org/blog/2010/01/gnome-odds-ends/</link>
+      <pubDate>Fri, 22 Jan 2010 22:09:54 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2010/01/gnome-odds-ends/</guid>
+      <description>A few different things going on:
+ Tomboy documentation is almost done in Mallard. I’ve really enjoyed using the Mallard syntax – so much less complex than Docbook. Every time I have to look up an element reference, I shake my head and think, “Duh! That makes so much more sense I should have figured that out!“. Nice work Shaun. I triaged some docs bugs in GNOME Bugzilla. Want to get involved with the GNOME Documentation team but don’t know where to start?</description>
+    </item>
+    
+    <item>
+      <title>Banshee Documentation</title>
+      <link>https://paulcutler.org/blog/2009/06/banshee-documentation/</link>
+      <pubDate>Thu, 18 Jun 2009 03:38:11 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2009/06/banshee-documentation/</guid>
+      <description>One of the things I learned last weekend at woscon09, was the importance of planning when beginning to write documentation.
+With that in mind, and the GNOME Documentation Project’s focus on moving to topic based documentation, the goal of writing docs for Banshee is to answer the question “How do I…?” for users.
+So let’s kick off writing the first ever integrated help file for Banshee!
+Knowing that, have you come across any forum posts, blog posts, information on a wiki, or howto’s about Banshee?</description>
+    </item>
+    
+    <item>
+      <title>Amusing</title>
+      <link>https://paulcutler.org/blog/2008/03/amusing/</link>
+      <pubDate>Fri, 28 Mar 2008 13:38:29 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2008/03/amusing/</guid>
+      <description>This may only amuse me, but the number of searches on my blog for “ubuntu banshee 0.98.2” has skyrocketed in the last day or two since Banshee’s recent release.
+Just another reason to use Foresight! Conary’s ability to write a recipe to create a package is easier than almost every distribution out there. This gives us the ability not only to add packages quickly, but to maintain Foresight as a rolling distribution.</description>
+    </item>
+    
+    <item>
+      <title>Banshee 0.98.2</title>
+      <link>https://paulcutler.org/blog/2008/03/banshee-0982/</link>
+      <pubDate>Thu, 27 Mar 2008 14:11:52 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2008/03/banshee-0982/</guid>
+      <description>Banshee 0.98.2 is out! Read the release notes, and check out Planet Banshee for the developer’s comments on the new functionality.
+What’s new? VIDEO. Yup, you read that right. Your favorite audio manager is now a full fledged media manager.
+I’ve been using the Banshee Preview for a few weeks, and this latest release for almost a week, and it works great. Import your music or video, and watch it right in Banshee.</description>
+    </item>
+    
+    <item>
+      <title>Banshee Alpha</title>
+      <link>https://paulcutler.org/blog/2008/03/banshee-alpha/</link>
+      <pubDate>Sun, 09 Mar 2008 01:41:00 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2008/03/banshee-alpha/</guid>
+      <description>Will Farrington was kind enough to write a recipe for an early look at the next generation of Banshee, which is an early alpha. I’ve been able to get the recipe to cook locally, but not on rMake, so it’s not available in the repos yet, but we’re working on it.
+With the exception of two visual quirks that come and go, it’s running great. Last.fm / audioscrobbling works 10 times better than Banshee 0.</description>
+    </item>
+    
+  </channel>
+</rss>

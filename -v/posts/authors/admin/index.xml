@@ -1,0 +1,12 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Paul Cutler</title>
+        <link>https://paulcutler.org/posts/authors/admin/</link>
+        <description>Recent content on Paul Cutler</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>Paul Cutler</copyright>
+        <atom:link href="https://paulcutler.org/posts/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+        
+    </channel>
+</rss>

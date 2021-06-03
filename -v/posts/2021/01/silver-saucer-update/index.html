@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Paul Cutler">
+<meta name="description" content="Now that I have the ability to pick a random record to play using the Discogs API, I’ve completed one of the two big features.
+I’m now debating what to do next. I have a few options, all still focused on the random album feature. (I may have to cancel the “On This Day” future, but that’s a different discussion for a different time).
+Learn CSS I need to learn CSS as the theme I’m using needs to be updated." />
+<meta name="keywords" content="Paul Cutler, Silver Saucer, Python, Pyramid, Discogs" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="https://paulcutler.org/posts/2021/01/silver-saucer-update/" />
+
+
+    <title>
+        
+            Silver Saucer Update :: Paul Cutler  — Paul Cutler Homepage
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://paulcutler.org/main.d7bdd8ee18bfbf4c605488a7e5b1b92cd980dfeed2bdaeab4dd5e931a7a78bc0.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://paulcutler.org/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://paulcutler.org/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://paulcutler.org/favicon-16x16.png">
+    <link rel="manifest" href="https://paulcutler.org/site.webmanifest">
+    <link rel="mask-icon" href="https://paulcutler.org/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="https://paulcutler.org/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+
+
+<meta itemprop="name" content="Silver Saucer Update">
+<meta itemprop="description" content="Now that I have the ability to pick a random record to play using the Discogs API, I’ve completed one of the two big features.
+I’m now debating what to do next. I have a few options, all still focused on the random album feature. (I may have to cancel the “On This Day” future, but that’s a different discussion for a different time).
+Learn CSS I need to learn CSS as the theme I’m using needs to be updated.">
+<meta itemprop="datePublished" content="2021-01-06T16:00:00+00:00" />
+<meta itemprop="dateModified" content="2021-01-06T16:00:00+00:00" />
+<meta itemprop="wordCount" content="624">
+<meta itemprop="image" content="https://paulcutler.org"/>
+
+
+
+<meta itemprop="keywords" content="Silver Saucer,Python,Pyramid,Discogs," />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://paulcutler.org"/>
+
+<meta name="twitter:title" content="Silver Saucer Update"/>
+<meta name="twitter:description" content="Now that I have the ability to pick a random record to play using the Discogs API, I’ve completed one of the two big features.
+I’m now debating what to do next. I have a few options, all still focused on the random album feature. (I may have to cancel the “On This Day” future, but that’s a different discussion for a different time).
+Learn CSS I need to learn CSS as the theme I’m using needs to be updated."/>
+
+
+
+
+    <meta property="og:title" content="Silver Saucer Update" />
+<meta property="og:description" content="Now that I have the ability to pick a random record to play using the Discogs API, I’ve completed one of the two big features.
+I’m now debating what to do next. I have a few options, all still focused on the random album feature. (I may have to cancel the “On This Day” future, but that’s a different discussion for a different time).
+Learn CSS I need to learn CSS as the theme I’m using needs to be updated." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://paulcutler.org/posts/2021/01/silver-saucer-update/" />
+<meta property="og:image" content="https://paulcutler.org"/>
+<meta property="article:published_time" content="2021-01-06T16:00:00+00:00" />
+<meta property="article:modified_time" content="2021-01-06T16:00:00+00:00" />
+
+
+
+
+    <meta property="article:section" content="Python" />
+
+
+
+    <meta property="article:published_time" content="2021-01-06 16:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://paulcutler.org/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text"> paulcutler.org</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://paulcutler.org/about/">About</a></li><li><a href="https://paulcutler.org/posts/">Blog</a></li><li><a href="https://paulcutler.org/project/">Projects</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="header__right">
+                <a href="https://paulcutler.org/spinning">
+                <a title="Now Spinning" href="https://paulcutler.org/spinning/"><img width="32" alt="Vinyl record" src="https://paulcutler.org/img/vinyl.png"></a>
+            </span>
+
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://paulcutler.org/posts/2021/01/silver-saucer-update/">Silver Saucer Update</a></h2>
+
+            
+            
+            
+
+            <div class="post-content">
+                <p>Now that I have the ability to pick a random record to play using the Discogs API, I’ve completed one of the two big
+features.</p>
+<p>I’m now debating what to do next. I have a few options, all still focused on the random album feature.  (I may have to
+cancel the “On This Day” future, but that’s a different discussion for a different time).</p>
+<h2 id="learn-css">Learn CSS</h2>
+<p>I need to learn CSS as the theme I’m using needs to be updated. The text colors in the theme are too dark and I had to
+use a hack to show the text in white. This also means that the link colors are also appearing as white and you can’t
+tell that they are links. In the past I’ve been able to get away with just poking at a CSS file to get done what I want,
+but I really should take the time to learn it. The CSS file for Silver Saucer is huge and there are parts of it when I
+look at it that I have no idea what it does.</p>
+<h2 id="bootstrap">Bootstrap</h2>
+<p>I <em>think</em> I need to learn CSS before I tackle Bootstrap. Right now when the album results are returned, everything is
+centered on the page. I played around with trying to justify it left and right and it doesn’t work at all visually. I
+need to create a Bootstrap container to put the text in so I can justify it correctly.</p>
+<h2 id="release-date">Release Date</h2>
+<p>The <strong>Release Date</strong> returned is when that particular version of an album was released. If it’s a re-release or
+repressing, that date can be very different from when the album was originally released. I think I can use the master
+release number to go get a list of all releases and then look at the first release in that list to get the “real”
+release date. It doesn’t always work in some random testing I did, but it’s a start. My idea to look at the Musicbrainz
+API doesn’t look like it’s any better. The other challenge with this feature is working with <code>datetime</code> objects, which
+can be frustrating. Especially considering Discogs might return the release date in multiple different formats,
+including just the month, month and year, or date / month / year. That will be fun to standardize.</p>
+<h2 id="miscellaneous">Miscellaneous</h2>
+<p>I also need to fix the data returned in <strong>Genre</strong>. It’s a list that I currently show as a list of bullets, each on its
+own line. It doesn’t look quite right and I need to probably update the CSS or when iterating over the list, put it on
+one line. I haven’t quite figured out what to do with it yet.</p>
+<p>I also, in theory, could deploy what I have now. But I think I&rsquo;ll wait just a bit.</p>
+<h2 id="next-steps">Next Steps</h2>
+<p>I’m leaning towards tackling CSS first. I&rsquo;ve started the Responsive Web Design class on <a href="https://www.freecodecamp.org/">Free Code Camp</a>, and it&rsquo;s good content, but the way they have you practice I don&rsquo;t feel as if the information is
+sticking in my head. I’ve also signed up for a free  (to audit) <a href="https://www.coursera.org/learn/html-css-javascript-for-web-developers">five week course on Coursera</a> to learn
+HTML, CSS, and Javascript. Part of me really wants to learn just a little Javascript, but most of me doesn’t - I’d
+rather focus on getting better at Python as I don’t feel like I’m anywhere close from transition from novice Python to
+intermediate Python. But if I’m going to continue to focus on using Python for web development, which is where my
+passion seems to lie at the moment, I need to get better at HTML and CSS. The structure of an actual class is helpful,
+so I’ll probably move forward with the Coursera class for the time being.</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="https://paulcutler.org/tags/silver-saucer/">Silver Saucer</a></span>
+        <span class="tag"><a href="https://paulcutler.org/tags/python/">Python</a></span>
+        <span class="tag"><a href="https://paulcutler.org/tags/pyramid/">Pyramid</a></span>
+        <span class="tag"><a href="https://paulcutler.org/tags/discogs/">Discogs</a></span>
+        
+    </p>
+
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder meta-icon"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+
+        <span class="tag"><a href="https://paulcutler.org/categories/python/">Python</a></span>
+        
+    </p>
+
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2021</span>
+            
+            <span>Paul Cutler</span><span><a href="https://paulcutler.org/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="https://paulcutler.org/bundle.min.af435e44374f1e99a669ea8cd5bb9a2fceed80588941a451bfddb66b86a67c9f40b0f417e9543a763f809aa7e9300d7b1d69bf99615810ba02ac70396d50fad5.js" integrity="sha512-r0NeRDdPHpmmaeqM1buaL87tgFiJQaRRv922a4amfJ9AsPQX6VQ6dj&#43;AmqfpMA17HWm/mWFYELoCrHA5bVD61Q=="></script>
+
+
+
+    </body>
+</html>

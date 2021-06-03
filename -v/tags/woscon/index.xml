@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>woscon on Paul Cutler</title>
+    <link>https://paulcutler.org/tags/woscon/</link>
+    <description>Recent content in woscon on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Tue, 23 Jun 2009 02:47:20 +0000</lastBuildDate><atom:link href="https://paulcutler.org/tags/woscon/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GNOME Docs Hackfest Part II</title>
+      <link>https://paulcutler.org/blog/2009/06/gnome-docs-hackfest-part-ii/</link>
+      <pubDate>Tue, 23 Jun 2009 02:47:20 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2009/06/gnome-docs-hackfest-part-ii/</guid>
+      <description>Day three of the Writing Open Source conference was our hackfest. I previously showed off Milo’s work in Part I, but it’s probably best to start at the beginning.
+We started day three by applying some of what we had learned over the first two days. When writing, especially documentation, it is best to plan your work. This includes knowing your audience, their personas, and understanding their needs.
+Lynda Chiotti, with help from Janet Swisher, led us through a brainstorming exercise.</description>
+    </item>
+    
+  </channel>
+</rss>

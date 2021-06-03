@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CSS on Paul Cutler</title>
+    <link>https://paulcutler.org/tags/css/</link>
+    <description>Recent content in CSS on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Tue, 11 Jul 2017 12:57:06 +0000</lastBuildDate><atom:link href="https://paulcutler.org/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python for Entrepeneurs Progress</title>
+      <link>https://paulcutler.org/blog/2017/07/python-for-entrepeneurs-progress/</link>
+      <pubDate>Tue, 11 Jul 2017 12:57:06 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2017/07/python-for-entrepeneurs-progress/</guid>
+      <description>I sat down excited at dinner last night excited to share with my wife the two things I learned in my Talk Python course yesterday. The first was learning the basics of CSS, something I’ve avoided for years. I’m not going to even pretend I understand CSS, but it’s a base knowledge to work with and there is still a whole chapter of applied front-end frameworks, so I’m sure there will be more on CSS.</description>
+    </item>
+    
+  </channel>
+</rss>

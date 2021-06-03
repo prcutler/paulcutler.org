@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>userguide on Paul Cutler</title>
+    <link>https://paulcutler.org/tags/userguide/</link>
+    <description>Recent content in userguide on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Thu, 14 Aug 2008 20:19:09 +0000</lastBuildDate><atom:link href="https://paulcutler.org/tags/userguide/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Writing Foresight Docs: Part 6</title>
+      <link>https://paulcutler.org/blog/2008/08/writing-foresight-docs-part-6/</link>
+      <pubDate>Thu, 14 Aug 2008 20:19:09 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2008/08/writing-foresight-docs-part-6/</guid>
+      <description>It’s been over a year (a year!) since my last post about writing documentation for Foresight. In that time, we’ve shipped Foresight 2.0, and the Getting Started with Foresight User Guide has frequently been met with great feedback when Foresight is reviewed.
+I’ve kept up with a few minor updates and edits to keep it fresh, but now it’s time to start planning some major updates. In no particular, I want to focus on:</description>
+    </item>
+    
+  </channel>
+</rss>

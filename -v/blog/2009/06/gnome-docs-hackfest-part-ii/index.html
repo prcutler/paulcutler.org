@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Paul Cutler">
+<meta name="description" content="Day three of the Writing Open Source conference was our hackfest. I previously showed off Milo’s work in Part I, but it’s probably best to start at the beginning.
+We started day three by applying some of what we had learned over the first two days. When writing, especially documentation, it is best to plan your work. This includes knowing your audience, their personas, and understanding their needs.
+Lynda Chiotti, with help from Janet Swisher, led us through a brainstorming exercise." />
+<meta name="keywords" content="Paul Cutler, docs, woscon, wosdocs" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="https://paulcutler.org/blog/2009/06/gnome-docs-hackfest-part-ii/" />
+
+
+    <title>
+        
+            GNOME Docs Hackfest Part II :: Paul Cutler  — Paul Cutler Homepage
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://paulcutler.org/main.d7bdd8ee18bfbf4c605488a7e5b1b92cd980dfeed2bdaeab4dd5e931a7a78bc0.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://paulcutler.org/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://paulcutler.org/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://paulcutler.org/favicon-16x16.png">
+    <link rel="manifest" href="https://paulcutler.org/site.webmanifest">
+    <link rel="mask-icon" href="https://paulcutler.org/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="https://paulcutler.org/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+
+
+<meta itemprop="name" content="GNOME Docs Hackfest Part II">
+<meta itemprop="description" content="Day three of the Writing Open Source conference was our hackfest. I previously showed off Milo’s work in Part I, but it’s probably best to start at the beginning.
+We started day three by applying some of what we had learned over the first two days. When writing, especially documentation, it is best to plan your work. This includes knowing your audience, their personas, and understanding their needs.
+Lynda Chiotti, with help from Janet Swisher, led us through a brainstorming exercise.">
+<meta itemprop="datePublished" content="2009-06-23T02:47:20+00:00" />
+<meta itemprop="dateModified" content="2009-06-23T02:47:20+00:00" />
+<meta itemprop="wordCount" content="600">
+<meta itemprop="image" content="https://paulcutler.org"/>
+
+
+
+<meta itemprop="keywords" content="docs,woscon,wosdocs," />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://paulcutler.org"/>
+
+<meta name="twitter:title" content="GNOME Docs Hackfest Part II"/>
+<meta name="twitter:description" content="Day three of the Writing Open Source conference was our hackfest. I previously showed off Milo’s work in Part I, but it’s probably best to start at the beginning.
+We started day three by applying some of what we had learned over the first two days. When writing, especially documentation, it is best to plan your work. This includes knowing your audience, their personas, and understanding their needs.
+Lynda Chiotti, with help from Janet Swisher, led us through a brainstorming exercise."/>
+
+
+
+
+    <meta property="og:title" content="GNOME Docs Hackfest Part II" />
+<meta property="og:description" content="Day three of the Writing Open Source conference was our hackfest. I previously showed off Milo’s work in Part I, but it’s probably best to start at the beginning.
+We started day three by applying some of what we had learned over the first two days. When writing, especially documentation, it is best to plan your work. This includes knowing your audience, their personas, and understanding their needs.
+Lynda Chiotti, with help from Janet Swisher, led us through a brainstorming exercise." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://paulcutler.org/blog/2009/06/gnome-docs-hackfest-part-ii/" />
+<meta property="og:image" content="https://paulcutler.org"/>
+<meta property="article:published_time" content="2009-06-23T02:47:20+00:00" />
+<meta property="article:modified_time" content="2009-06-23T02:47:20+00:00" />
+
+
+
+
+    <meta property="article:section" content="Documentation" />
+
+    <meta property="article:section" content="GNOME" />
+
+    <meta property="article:section" content="Linux" />
+
+
+
+    <meta property="article:published_time" content="2009-06-23 02:47:20 &#43;0000 &#43;0000" />
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://paulcutler.org/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text"> paulcutler.org</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://paulcutler.org/about/">About</a></li><li><a href="https://paulcutler.org/posts/">Blog</a></li><li><a href="https://paulcutler.org/project/">Projects</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="header__right">
+                <a href="https://paulcutler.org/spinning">
+                <a title="Now Spinning" href="https://paulcutler.org/spinning/"><img width="32" alt="Vinyl record" src="https://paulcutler.org/img/vinyl.png"></a>
+            </span>
+
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://paulcutler.org/blog/2009/06/gnome-docs-hackfest-part-ii/">GNOME Docs Hackfest Part II</a></h2>
+
+            
+            
+            
+
+            <div class="post-content">
+                <p>Day three of the <a href="http://www.writingopensource.com">Writing Open Source</a> conference was our hackfest. I previously <a href="http://www.paulcutler.org/blog/?p=1167">showed off Milo’s work in Part I</a>, but it’s probably best to start at the beginning.</p>
+<p>We started day three by applying some of what we had learned over the first two days. When writing, especially documentation, it is best to plan your work. This includes knowing your audience, their personas, and understanding their needs.</p>
+<p><a href="http://www.chiotti.com/">Lynda Chiotti</a>, with help from <a href="http://www.janetswisher.com/">Janet Swisher</a>, led us through a brainstorming exercise. <a href="http://mail.gnome.org/archives/gnome-doc-list/2009-June/msg00006.html">Using a mind mapping tool, we brainstormed</a> what users want to do (and might need help with) when using their computer.</p>
+<p>This was important for a few different reasons. For GNOME 3.0, we want to re-write the GNOME User Guide as topic based help using Mallard. Re-creating might be a better word, as we are going to switch licenses from the GFDL to CC-SA 3.0, and it’s probably easier to re-write it from scratch than to contact all the previous authors over the years to get permission. More importantly, we need to think like our users. How many times do we, as GNOME power users and developers, talk to ourselves, and not think like the average computer user? If this user needs help, does our documentation help them? Do they get frustrated and stop using GNOME or GNOME applications? We have a unique opportunity to use both our tools and the launch of GNOME 3.0 to radically improve our documentation and help our users.</p>
+<p>After that, Phil, Milo, Shaun and I spent some time talking about how we could improve the GNOME Documentation Project. There were no sacred cows, and we’ve launched an effort to overhaul the docs team, including:</p>
+<ul>
+<li>Adding simple tasks that new contributors can do and then build on (thanks Emma!)</li>
+<li>Focusing the docs team on writers, editors, and translators. Each perform different, but similar roles, including crossover. We need to improve our tools for each team, and communication.</li>
+<li>Holding more regular meetings, including a monthly project meeting, and weekly community sessions to encourage participation</li>
+<li>Developing a roadmap of tasks we want to accomplish, including both the documentation itself and the tools</li>
+<li>Understanding Shaun’s role as our fearless documentation project leader, and how we can help him to free him up and not having the team be blocked on any one person.</li>
+<li>Make a significant effort to coordinate with downstream distributions, including meetings and communication, introducing Mallard, and better comments within documentation.</li>
+</ul>
+<p>And that’s just the recap! Our wiki space is going through a revamp as we bring this to life, and there is a lot more to come.</p>
+<p>Lastly, while Phil and Milo started hacking on Empathy docs using Mallard, I jumped into Bugzilla. Almost half of our open bugs in gnome-user-docs were touched (<a href="http://bugzilla.gnome.org/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;product=gnome-user-docs&amp;long_desc_type=substring&amp;long_desc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;bug_status=NEEDINFO&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;emailassigned_to1=1&amp;emailtype1=substring&amp;email1=&amp;emailassigned_to2=1&amp;emailreporter2=1&amp;emailqa_contact2=1&amp;emailcc2=1&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;chfieldfrom=2009-06-14&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=">36</a> of 80), and of those 36, 23 were closed. Finally, 16 commits were made to update the current User Guide, including reviewing and patches from contributors. Fun fact (or embarrassing) – the oldest bug fixed was from July, 2006.</p>
+<p>Overall, woscon was an amazing experience, and we all learned a lot. A few years from now, we’ll be able to look back and say: “We were there when this began”.</p>
+<p>I think I speak for all of the GNOME Docs team members who were there, including Phil, Milo, and Shaun when I say we are sincerely thankful for the GNOME Foundation’s sponsorship of our travel to the Writing Open Source conference. This conference was the brain child of <a href="http://www.emmajane.net/">Emma Jane Hogbin</a>, and we are very grateful for all the time and effort she put in to organizing and hosting woscon.</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="https://paulcutler.org/tags/docs/">docs</a></span>
+        <span class="tag"><a href="https://paulcutler.org/tags/woscon/">woscon</a></span>
+        <span class="tag"><a href="https://paulcutler.org/tags/wosdocs/">wosdocs</a></span>
+        
+    </p>
+
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder meta-icon"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+
+        <span class="tag"><a href="https://paulcutler.org/categories/documentation/">Documentation</a></span>
+        <span class="tag"><a href="https://paulcutler.org/categories/gnome/">GNOME</a></span>
+        <span class="tag"><a href="https://paulcutler.org/categories/linux/">Linux</a></span>
+        
+    </p>
+
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2021</span>
+            
+            <span>Paul Cutler</span><span><a href="https://paulcutler.org/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="https://paulcutler.org/bundle.min.af435e44374f1e99a669ea8cd5bb9a2fceed80588941a451bfddb66b86a67c9f40b0f417e9543a763f809aa7e9300d7b1d69bf99615810ba02ac70396d50fad5.js" integrity="sha512-r0NeRDdPHpmmaeqM1buaL87tgFiJQaRRv922a4amfJ9AsPQX6VQ6dj&#43;AmqfpMA17HWm/mWFYELoCrHA5bVD61Q=="></script>
+
+
+
+    </body>
+</html>

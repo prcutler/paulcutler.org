@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Paul Cutler</title>
+    <link>https://paulcutler.org/categories/</link>
+    <description>Recent content in Categories on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Mon, 15 Feb 2021 23:30:00 +0000</lastBuildDate><atom:link href="https://paulcutler.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python</title>
+      <link>https://paulcutler.org/categories/python/</link>
+      <pubDate>Mon, 15 Feb 2021 23:30:00 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/categories/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Music</title>
+      <link>https://paulcutler.org/categories/music/</link>
+      <pubDate>Sun, 14 Feb 2021 12:30:00 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/categories/music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arcade</title>
+      <link>https://paulcutler.org/categories/arcade/</link>
+      <pubDate>Tue, 14 Apr 2020 20:00:00 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/categories/arcade/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pyramid</title>
+      <link>https://paulcutler.org/categories/pyramid/</link>
+      <pubDate>Fri, 14 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/categories/pyramid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MLBPool2</title>
+      <link>https://paulcutler.org/categories/mlbpool2/</link>
+      <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/categories/mlbpool2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NFLPool</title>
+      <link>https://paulcutler.org/categories/nflpool/</link>
+      <pubDate>Wed, 19 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/categories/nflpool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>https://paulcutler.org/categories/blog/</link>
+      <pubDate>Wed, 04 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/categories/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Documentation</title>
+      <link>https://paulcutler.org/categories/documentation/</link>
+      <pubDate>Wed, 22 Mar 2017 13:23:06 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/categories/documentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GNOME</title>
+      <link>https://paulcutler.org/categories/gnome/</link>
+      <pubDate>Wed, 22 Mar 2017 13:23:06 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/categories/gnome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://paulcutler.org/categories/linux/</link>
+      <pubDate>Wed, 22 Mar 2017 13:23:06 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

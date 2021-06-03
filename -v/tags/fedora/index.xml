@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fedora on Paul Cutler</title>
+    <link>https://paulcutler.org/tags/fedora/</link>
+    <description>Recent content in fedora on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Fri, 10 Feb 2017 15:58:27 +0000</lastBuildDate><atom:link href="https://paulcutler.org/tags/fedora/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why I’m going back to Linux after five years of using macOS</title>
+      <link>https://paulcutler.org/blog/2017/02/why-im-going-back-to-linux-after-five-years-of-using-macos/</link>
+      <pubDate>Fri, 10 Feb 2017 15:58:27 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2017/02/why-im-going-back-to-linux-after-five-years-of-using-macos/</guid>
+      <description>I’ve been a supporter of the Electronic Frontier Foundation since 2004. Their work on privacy, free expression and technology are all things I am passionate about. For the last year or so, I have become more concerned with privacy issues in technology. The rise in big data and how everything is tracking everything we do has given me significant concerns. I’ve been giving a lot of thought to which ecosystems I want to stay in.</description>
+    </item>
+    
+    <item>
+      <title>KVM &amp; Virtual Machine Manager in Foresight</title>
+      <link>https://paulcutler.org/blog/2009/04/kvm-virtual-machine-manager-in-foresight/</link>
+      <pubDate>Wed, 22 Apr 2009 21:44:17 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2009/04/kvm-virtual-machine-manager-in-foresight/</guid>
+      <description>Foresight has long been a proponent of KVM over other virtualization technologies such as Xen or Virtualbox.
+If you, like me, aren’t a guru on the command line and prefer using a GUI, Virtual Machine Manager is available in the Foresight repositories. If you’ve used Virtualbox or VMWare, you’ll find virtual-manager very familiar. The only downside (for some), is that you will need a modern processor that supports Intel VT or AMD-V.</description>
+    </item>
+    
+  </channel>
+</rss>

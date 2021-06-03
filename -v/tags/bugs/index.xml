@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bugs on Paul Cutler</title>
+    <link>https://paulcutler.org/tags/bugs/</link>
+    <description>Recent content in bugs on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Mon, 08 Sep 2008 18:37:09 +0000</lastBuildDate><atom:link href="https://paulcutler.org/tags/bugs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Foresight Bug Week Wrap-Up</title>
+      <link>https://paulcutler.org/blog/2008/09/foresight-bug-week-wrap-up/</link>
+      <pubDate>Mon, 08 Sep 2008 18:37:09 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2008/09/foresight-bug-week-wrap-up/</guid>
+      <description>Foresight Bug Week wrapped up yesterday. I was pretty excited as it seemed we touched a number of issues. Upon further review, we still have a lot of work to do!
+Some stats on the last 9 days of working on the issues (hope the formatting works):
+9/1/2008 9/8/2008 Net Change
+Total issues: 1644 1661 17
+Open issues: 597 546 -51
+In progress: 19 26 7
+Resolved: 578 614 36</description>
+    </item>
+    
+    <item>
+      <title>Foresight Bug Week</title>
+      <link>https://paulcutler.org/blog/2008/09/foresight-bug-week/</link>
+      <pubDate>Tue, 02 Sep 2008 18:45:11 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2008/09/foresight-bug-week/</guid>
+      <description>Foresight Bug Week kicked off Sunday, and we’re off to a good start.
+As I mentioned in my last bug week post, Foresight has just under 600 issues open in some status or another. (Issues can be improvements, tasks, bugs or package requests).
+In the first two days:
+ 15% of all open issues have been touched (about 90) 34, or just over 33% of those touched, were marked as resolved or fixed 56 were triaged and assigned  Out of the 56 that were triaged, the majority of them were package requests that moved from fl:2-devel to fl:2-qa for testing.</description>
+    </item>
+    
+  </channel>
+</rss>

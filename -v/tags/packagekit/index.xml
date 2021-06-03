@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>packagekit on Paul Cutler</title>
+    <link>https://paulcutler.org/tags/packagekit/</link>
+    <description>Recent content in packagekit on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Sat, 19 Jan 2008 00:44:42 +0000</lastBuildDate><atom:link href="https://paulcutler.org/tags/packagekit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Foresight updates</title>
+      <link>https://paulcutler.org/blog/2008/01/foresight-updates/</link>
+      <pubDate>Sat, 19 Jan 2008 00:44:42 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2008/01/foresight-updates/</guid>
+      <description>My blog has been quiet lately (darn work making me travel!). Let’s see what’s been going on in the world of Foresight:
+  Work on the updated Userguide continues. A Foresight-Docs mailing list was created on Google Groups. Japanese translation is almost complete!
+  The marketing team has kicked off a discussion about the new Foresight website. What sites do you like? What do you not like? Add your thoughts, and join the discussion.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>press on Paul Cutler</title>
+    <link>https://paulcutler.org/tags/press/</link>
+    <description>Recent content in press on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Mon, 24 Aug 2009 20:45:45 +0000</lastBuildDate><atom:link href="https://paulcutler.org/tags/press/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Become a GNOME Ambassador</title>
+      <link>https://paulcutler.org/blog/2009/08/become-a-gnome-ambassador/</link>
+      <pubDate>Mon, 24 Aug 2009 20:45:45 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2009/08/become-a-gnome-ambassador/</guid>
+      <description>Become a GNOME Ambassador!
+The GNOME Marketing team is pleased to announce the creation of the GNOME Press Team. The Press Team is a subset of the Marketing team, with a focus on tracking GNOME events worldwide, and communicating and engaging with journalists all over the world to help spread GNOME news.
+The Press Team is responsible for tracking GNOME events and updating the GNOME calendar, helping write press releases, talking points, and press kits and sending them to press contacts in as many languages as possible, and helping coordinate interviews with GNOME volunteers and journalists.</description>
+    </item>
+    
+  </channel>
+</rss>

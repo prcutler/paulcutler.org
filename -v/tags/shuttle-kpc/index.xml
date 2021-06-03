@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shuttle KPC on Paul Cutler</title>
+    <link>https://paulcutler.org/tags/shuttle-kpc/</link>
+    <description>Recent content in shuttle KPC on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Tue, 04 Mar 2008 19:56:19 +0000</lastBuildDate><atom:link href="https://paulcutler.org/tags/shuttle-kpc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shuttle chooses Foresight for the Shuttle KPC</title>
+      <link>https://paulcutler.org/blog/2008/03/shuttle-chooses-foresight-for-the-shuttle-kpc/</link>
+      <pubDate>Tue, 04 Mar 2008 19:56:19 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2008/03/shuttle-chooses-foresight-for-the-shuttle-kpc/</guid>
+      <description>Shuttle released a press release today:
+ Shuttle Teams with Foresight Linux on $199 KPC
+  City of Industry, CA., MArch 4, 2008
+Shuttle today announced that the newly launched $199 KPC will feature the Foresight Linux operating system. With an intuitive interface and user focused design, Foresight does away with the need for users to be familiar with Linux.
+A host of the latest software is packaged with the operating system, giving users convenient and enjoyable access to music, photos, videos, documents, and the Internet.</description>
+    </item>
+    
+  </channel>
+</rss>

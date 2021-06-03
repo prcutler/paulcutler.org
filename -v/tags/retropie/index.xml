@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RetroPie on Paul Cutler</title>
+    <link>https://paulcutler.org/tags/retropie/</link>
+    <description>Recent content in RetroPie on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Tue, 14 Apr 2020 20:00:00 +0000</lastBuildDate><atom:link href="https://paulcutler.org/tags/retropie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RetroPie Update</title>
+      <link>https://paulcutler.org/posts/2020/04/retropie-update/</link>
+      <pubDate>Tue, 14 Apr 2020 20:00:00 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/posts/2020/04/retropie-update/</guid>
+      <description>I hooked up the Raspberry Pi to test it out. I did an update and it broke the boot up process and now wants the username and password. Think I remember that? Nope! Of course I don’t remember the password. So I downloaded a new RetroPie image which has led me down a rabbit hole of MAME configuration. The buttons on the controller don’t seem to be mapped correctly.
+I did downloaded a new romset from the Internet Archive for MAME 0.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation on Paul Cutler</title>
+    <link>https://paulcutler.org/tags/documentation/</link>
+    <description>Recent content in Documentation on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Mon, 27 Apr 2009 03:28:51 +0000</lastBuildDate><atom:link href="https://paulcutler.org/tags/documentation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GNOME Updates</title>
+      <link>https://paulcutler.org/blog/2009/04/gnome-updates/</link>
+      <pubDate>Mon, 27 Apr 2009 03:28:51 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2009/04/gnome-updates/</guid>
+      <description>Lots of stuff going on in the world of GNOME for me!
+Attended a few meetings last week with GNOME related projects.
+This past Sunday, April 19th, the Documentation team met for the first time in a while. Shaun gave an update on the status of Mallard, the new markup language for GNOME Docs; a possible change to how we license docs; an introduction to Pulse and some brainstorming on new ways to bring guides to users.</description>
+    </item>
+    
+    <item>
+      <title>GNOME Documentation Meeting</title>
+      <link>https://paulcutler.org/blog/2009/04/gnome-documentation-meeting/</link>
+      <pubDate>Wed, 15 Apr 2009 00:53:58 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2009/04/gnome-documentation-meeting/</guid>
+      <description>There is a GNOME Documentation Team meeting this Sunday, at 17:00 UTC.
+I am a suckervolunteered to help Shaun McCance facilitate the meeting. Here is the meeting announcement I just sent to the mailing list:
+ Are you a seasoned and wily Docbook veteran? New to writing documentation and don’t know where to start? Now is a great time to join the team!
+There is not a formal agenda, but we will start with Shaun giving a brief update on Project Mallard (http://live.</description>
+    </item>
+    
+    <item>
+      <title>Writing GNOME Docs, Part I</title>
+      <link>https://paulcutler.org/blog/2009/03/writing-gnome-docs-part-i/</link>
+      <pubDate>Wed, 25 Mar 2009 14:22:06 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2009/03/writing-gnome-docs-part-i/</guid>
+      <description>It’s been just over a year since I submitted my first patch to GNOME, for updated Tomboy documentation.
+In that time, Shaun McCance of the GNOME Documentation team has been doing a lot of work to make it easier to get involved with the GNOME docs team.
+Though Shaun is trying to make it easier to see which projects might need help with documentation updates, it’s still kind of overwhelming to try and figure out where to get started, especially as some of the information on the GNOME Docs team is outdated.</description>
+    </item>
+    
+    <item>
+      <title>Writing Foresight Docs: Part Six</title>
+      <link>https://paulcutler.org/blog/2008/01/writing-foresight-docs-part-six/</link>
+      <pubDate>Fri, 04 Jan 2008 17:23:39 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2008/01/writing-foresight-docs-part-six/</guid>
+      <description>It’s been a while since I’ve written (or written about) Foresight Documentation.
+Work has resumed on getting the Userguide to 1.0, with commits happening on almost a nightly basis (except last night, as I reinstalled the Foresight alpha on my laptop, but I did work on screenshots).
+The main focus is removing all mentions of the (now deprecated) Foresight System Manager and replacing them with information on how to use PackageKit.</description>
+    </item>
+    
+  </channel>
+</rss>

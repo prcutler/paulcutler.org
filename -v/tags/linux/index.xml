@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Paul Cutler</title>
+    <link>https://paulcutler.org/tags/linux/</link>
+    <description>Recent content in Linux on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Fri, 10 Feb 2017 15:58:27 +0000</lastBuildDate><atom:link href="https://paulcutler.org/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why I’m going back to Linux after five years of using macOS</title>
+      <link>https://paulcutler.org/blog/2017/02/why-im-going-back-to-linux-after-five-years-of-using-macos/</link>
+      <pubDate>Fri, 10 Feb 2017 15:58:27 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2017/02/why-im-going-back-to-linux-after-five-years-of-using-macos/</guid>
+      <description>I’ve been a supporter of the Electronic Frontier Foundation since 2004. Their work on privacy, free expression and technology are all things I am passionate about. For the last year or so, I have become more concerned with privacy issues in technology. The rise in big data and how everything is tracking everything we do has given me significant concerns. I’ve been giving a lot of thought to which ecosystems I want to stay in.</description>
+    </item>
+    
+    <item>
+      <title>Top 10 Commands</title>
+      <link>https://paulcutler.org/blog/2008/04/top-10-commands/</link>
+      <pubDate>Thu, 10 Apr 2008 21:16:56 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2008/04/top-10-commands/</guid>
+      <description>Jumping on the latest meme bandwagon, my top 10 commands:
+history|awk &#39;{a[$2]++ } END{for(i in a){print a[i] &amp;quot; &amp;quot; i}}&#39;|sort -rn|head&amp;lt;br /&amp;gt; 261 cd&amp;lt;br /&amp;gt; 122 cvc&amp;lt;br /&amp;gt; 120 ls&amp;lt;br /&amp;gt; 112 sudo&amp;lt;br /&amp;gt; 67 ./fixmissingfiles&amp;lt;br /&amp;gt; 62 yelp&amp;lt;br /&amp;gt; 51 hg&amp;lt;br /&amp;gt; 48 rmake&amp;lt;br /&amp;gt; 42 conary&amp;lt;br /&amp;gt; 27 geany&amp;lt;br /&amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>UT3 Delays</title>
+      <link>https://paulcutler.org/blog/2008/02/ut3-delays/</link>
+      <pubDate>Wed, 27 Feb 2008 16:14:33 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2008/02/ut3-delays/</guid>
+      <description>Phoronix has another story up on the continued delay of the UT3 Linux client, ported by Ryan Gordon, aka icculus.
+One sentenced in the story rubbed me the wrong way:
+ Ryan Gordon, the one responsible for the Unreal Tournament Linux ports, has yet to provide the Linux gaming community with any status update or respond to our inquiries.
+ I don’t understand how it is Ryan’s responsibility to provide an update.</description>
+    </item>
+    
+  </channel>
+</rss>

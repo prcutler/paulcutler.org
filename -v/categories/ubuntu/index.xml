@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ubuntu on Paul Cutler</title>
+    <link>https://paulcutler.org/categories/ubuntu/</link>
+    <description>Recent content in Ubuntu on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Sat, 16 May 2009 21:16:22 +0000</lastBuildDate><atom:link href="https://paulcutler.org/categories/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu One</title>
+      <link>https://paulcutler.org/blog/2009/05/ubuntu-one/</link>
+      <pubDate>Sat, 16 May 2009 21:16:22 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2009/05/ubuntu-one/</guid>
+      <description>I haven’t used Ubuntu in over two and a half years, but I’ve been watching the debate raging with the launch of Ubuntu One last week with interest.
+In my opinion, the best commentary on the matter so far has been by Jim Campbell, an Ubuntu member, on his blog. I encourage you to read his take on it, and also the second comment posted.</description>
+    </item>
+    
+    <item>
+      <title>Amusing</title>
+      <link>https://paulcutler.org/blog/2008/03/amusing/</link>
+      <pubDate>Fri, 28 Mar 2008 13:38:29 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2008/03/amusing/</guid>
+      <description>This may only amuse me, but the number of searches on my blog for “ubuntu banshee 0.98.2” has skyrocketed in the last day or two since Banshee’s recent release.
+Just another reason to use Foresight! Conary’s ability to write a recipe to create a package is easier than almost every distribution out there. This gives us the ability not only to add packages quickly, but to maintain Foresight as a rolling distribution.</description>
+    </item>
+    
+    <item>
+      <title>A Look Back at 2007</title>
+      <link>https://paulcutler.org/blog/2008/01/a-look-back-at-2007/</link>
+      <pubDate>Tue, 01 Jan 2008 18:39:20 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2008/01/a-look-back-at-2007/</guid>
+      <description>One of my New Year’s Resolutions this year was to get more involved with GNOME and / or Ubuntu when the year started. Having used Ubuntu since it was first released, and Linux and GNOME specifically since 1999, I really wanted to give something back. After being utterly confused on where to even start with Ubuntu due to the number of volunteers and convoluted processes, I decided to start with GNOME.</description>
+    </item>
+    
+    <item>
+      <title>A Feather in Conary&#39;s Hat</title>
+      <link>https://paulcutler.org/blog/2007/07/a-feather-in-conarys-hat/</link>
+      <pubDate>Tue, 31 Jul 2007 12:05:46 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2007/07/a-feather-in-conarys-hat/</guid>
+      <description>Reading the article “Mepis to switch from Ubuntu to Debian” one thing jumped out at me:
+ Woodford explained that Ubuntu is rebuilt almost from scratch every six months using source packages from Debian EXPERIMENTAL.
+ In using Ubuntu for almost 3 years, that was my experience as well. I formatted and installed fresh more than I just did a apt-get dist-upgrade.
+And that is one of the major features of Conary – managing your applications and dependencies so you should never have to “install fresh”.</description>
+    </item>
+    
+    <item>
+      <title>Foresight Linux</title>
+      <link>https://paulcutler.org/blog/2007/03/foresight-linux/</link>
+      <pubDate>Fri, 02 Mar 2007 03:20:13 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2007/03/foresight-linux/</guid>
+      <description>As I mentioned in my last post, I installed Foresight Linux on my second box last week. (Don’t worry Ubuntu fans, I’m still running Feisty on my main machine). To set expectations, this post is part mini-review of Foresight, part comparison to Ubuntu, and just my opinions and thoughts on Foresight after using another distribution for almost 3 years.
+Foresight’s website and IRC channel sum up Foresight well:
+ Foresight Linux is a Distribution which showcases some of the latest and greatest from GNOME.</description>
+    </item>
+    
+    <item>
+      <title>Volunteering leads me to Foresight Linux</title>
+      <link>https://paulcutler.org/blog/2007/03/volunteering-leads-me-to-foresight-linux/</link>
+      <pubDate>Fri, 02 Mar 2007 00:16:22 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2007/03/volunteering-leads-me-to-foresight-linux/</guid>
+      <description>I’ve been trying to spend some time giving back to projects I believe in. I spent a weekend reading through Ubuntu wiki pages on everything from setting up a LoCo, to helping the documentation team, becoming an Ubuntu member, and a lot more. After being a little overwhelmed by some of Ubuntu’s processes (and I do understand why they have them considering the sheer number of users and folks involved), I volunteered to help write some copy for the new gnome.</description>
+    </item>
+    
+    <item>
+      <title>Banshee, Mugshot, and AWN</title>
+      <link>https://paulcutler.org/blog/2007/03/banshee-mugshot-and-awn/</link>
+      <pubDate>Thu, 01 Mar 2007 22:08:24 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2007/03/banshee-mugshot-and-awn/</guid>
+      <description>I was pleasantly suprised to see that Banshee is now supported by Mugshot. I’ve been running Feisty for the last few weeks, and haven’t found a Mugshot .deb yet, but on my second machine I was testing out Foresight (different story for later), which had an up to date package for Mugshot. I was playing music on my main PC, look over to my second PC with Mugshot, and it’s reporting what songs I’ve just played.</description>
+    </item>
+    
+    <item>
+      <title>Avant Window Navigator on Feisty Fawn Howto</title>
+      <link>https://paulcutler.org/blog/2007/02/avant-window-navigator-on-feisty-fawn-howto/</link>
+      <pubDate>Sat, 17 Feb 2007 17:53:56 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2007/02/avant-window-navigator-on-feisty-fawn-howto/</guid>
+      <description>With some help from Pveith on the Ubuntu Forums, I was able to compile Avant Window Navigator from Subversion. Per Pveith’s recommendation, I used checkinstall, which created a .deb for installation. I am running Beryl and an Nvidia graphics card. I added a Feisty Fawn Howto on the AWN wiki, here is how I got it working:
+Step 1: Prepare your system
+ sudo apt-get install checkinstall build-essential subversion  Step 2: Download the required dependencies</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu Feisty Fawn Herd 4 Random Thoughts</title>
+      <link>https://paulcutler.org/blog/2007/02/ubuntu-feisty-fawn-herd-4-random-thoughts/</link>
+      <pubDate>Sat, 17 Feb 2007 17:48:20 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2007/02/ubuntu-feisty-fawn-herd-4-random-thoughts/</guid>
+      <description>I took the plunge and installed Feisty Fawn Herd 4 on my main machine last night. Doing a dist-upgrade resulted in kernel panic when GRUB tried to load, so I threw in the Herd 4 CD, and did a clean install. (I know, I should be installing alpha software on my main machine, but it’s running so smooth so far…)
+If you haven’t checked out Feisty Fawn yet, check out the wiki pages on Ubuntu.</description>
+    </item>
+    
+    <item>
+      <title>Love &amp; Hate Relationship</title>
+      <link>https://paulcutler.org/blog/2007/02/love-hate-relationship/</link>
+      <pubDate>Sat, 17 Feb 2007 02:11:25 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2007/02/love-hate-relationship/</guid>
+      <description>I love Linux – last month was my 8 year anniversary of using Linux in some form, and next month will be the 2 year anniversary of using Linux as my only operating system when I retired from gaming.
+I love Ubuntu – I love the community, the developers committed to making Linux (and Debian) better (and easier), and the wealth of applications.
+But some things drive me crazy about Linux, and today’s rant is about trying to get my microphone jack to work.</description>
+    </item>
+    
+  </channel>
+</rss>

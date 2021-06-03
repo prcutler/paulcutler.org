@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Paul Cutler">
+<meta name="description" content="Earlier this year when I finished cataloging all my records in Discogs, I then put each one into a “folder”, a way for Discogs to separate different kinds of records. It’s setup by the user, so I created a folder for each type of music I have, and the number is the ID that Discogs assigned to each one:
+all_folder = 0 lp_folder = 2162484 twelve_inch_folder = 2198941 ten_inch_folder = 2162486 seven_inch_folder = 2162483 cd_folder = 2162488 tape_folder = 2162487 digital_folder = 2198943 CD, Digital and Tape don’t currently have any items in them, but I hope to at least catalog my CD collection some day, but that’s a different story." />
+<meta name="keywords" content="Paul Cutler, Silver Saucer, Python, Pyramid, Discogs, API" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="https://paulcutler.org/posts/2021/01/wiring-up-play-singles/" />
+
+
+    <title>
+        
+            Wiring Up Play Singles :: Paul Cutler  — Paul Cutler Homepage
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://paulcutler.org/main.d7bdd8ee18bfbf4c605488a7e5b1b92cd980dfeed2bdaeab4dd5e931a7a78bc0.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://paulcutler.org/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://paulcutler.org/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://paulcutler.org/favicon-16x16.png">
+    <link rel="manifest" href="https://paulcutler.org/site.webmanifest">
+    <link rel="mask-icon" href="https://paulcutler.org/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="https://paulcutler.org/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+
+
+<meta itemprop="name" content="Wiring Up Play Singles">
+<meta itemprop="description" content="Earlier this year when I finished cataloging all my records in Discogs, I then put each one into a “folder”, a way for Discogs to separate different kinds of records. It’s setup by the user, so I created a folder for each type of music I have, and the number is the ID that Discogs assigned to each one:
+all_folder = 0 lp_folder = 2162484 twelve_inch_folder = 2198941 ten_inch_folder = 2162486 seven_inch_folder = 2162483 cd_folder = 2162488 tape_folder = 2162487 digital_folder = 2198943 CD, Digital and Tape don’t currently have any items in them, but I hope to at least catalog my CD collection some day, but that’s a different story.">
+<meta itemprop="datePublished" content="2021-01-01T14:30:00+00:00" />
+<meta itemprop="dateModified" content="2021-01-01T14:30:00+00:00" />
+<meta itemprop="wordCount" content="466">
+<meta itemprop="image" content="https://paulcutler.org"/>
+
+
+
+<meta itemprop="keywords" content="Silver Saucer,Python,Pyramid,Discogs,API," />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://paulcutler.org"/>
+
+<meta name="twitter:title" content="Wiring Up Play Singles"/>
+<meta name="twitter:description" content="Earlier this year when I finished cataloging all my records in Discogs, I then put each one into a “folder”, a way for Discogs to separate different kinds of records. It’s setup by the user, so I created a folder for each type of music I have, and the number is the ID that Discogs assigned to each one:
+all_folder = 0 lp_folder = 2162484 twelve_inch_folder = 2198941 ten_inch_folder = 2162486 seven_inch_folder = 2162483 cd_folder = 2162488 tape_folder = 2162487 digital_folder = 2198943 CD, Digital and Tape don’t currently have any items in them, but I hope to at least catalog my CD collection some day, but that’s a different story."/>
+
+
+
+
+    <meta property="og:title" content="Wiring Up Play Singles" />
+<meta property="og:description" content="Earlier this year when I finished cataloging all my records in Discogs, I then put each one into a “folder”, a way for Discogs to separate different kinds of records. It’s setup by the user, so I created a folder for each type of music I have, and the number is the ID that Discogs assigned to each one:
+all_folder = 0 lp_folder = 2162484 twelve_inch_folder = 2198941 ten_inch_folder = 2162486 seven_inch_folder = 2162483 cd_folder = 2162488 tape_folder = 2162487 digital_folder = 2198943 CD, Digital and Tape don’t currently have any items in them, but I hope to at least catalog my CD collection some day, but that’s a different story." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://paulcutler.org/posts/2021/01/wiring-up-play-singles/" />
+<meta property="og:image" content="https://paulcutler.org"/>
+<meta property="article:published_time" content="2021-01-01T14:30:00+00:00" />
+<meta property="article:modified_time" content="2021-01-01T14:30:00+00:00" />
+
+
+
+
+    <meta property="article:section" content="Python" />
+
+
+
+    <meta property="article:published_time" content="2021-01-01 14:30:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://paulcutler.org/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text"> paulcutler.org</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://paulcutler.org/about/">About</a></li><li><a href="https://paulcutler.org/posts/">Blog</a></li><li><a href="https://paulcutler.org/project/">Projects</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="header__right">
+                <a href="https://paulcutler.org/spinning">
+                <a title="Now Spinning" href="https://paulcutler.org/spinning/"><img width="32" alt="Vinyl record" src="https://paulcutler.org/img/vinyl.png"></a>
+            </span>
+
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://paulcutler.org/posts/2021/01/wiring-up-play-singles/">Wiring Up Play Singles</a></h2>
+
+            
+            
+            
+
+            <div class="post-content">
+                <p>Earlier this year when I finished cataloging all my records in Discogs, I then put each one into a “folder”, a way for
+Discogs to separate different kinds of records. It’s setup by the user, so I created a folder for each type of music I
+have, and the number is the ID that Discogs assigned to each one:</p>
+<pre><code>all_folder = 0
+lp_folder = 2162484
+twelve_inch_folder = 2198941
+ten_inch_folder = 2162486
+seven_inch_folder = 2162483
+cd_folder = 2162488
+tape_folder = 2162487
+digital_folder = 2198943
+</code></pre><p>CD, Digital and Tape don’t currently have any items in them, but I hope to at least catalog my CD collection some day,
+but that’s a different story.</p>
+<p>In the music controller, the method to get an album’s information looks like this:</p>
+<pre><code>@view_config(route_name=&quot;play&quot;, renderer=&quot;silversaucer:templates/play/play.pt&quot;)
+def play(_):
+
+    album_release_id = RandomRecordService.get_folder_count(2162484)
+    release_data = RandomRecordService.get_album_data(album_release_id)
+    return {&quot;release_info&quot;: release_data}
+
+</code></pre><p>Here I’ve hard coded the folder ID (2162484) from Discogs in the method as I only want to use the folder that has only
+full albums (no singles, 45s, etc.).</p>
+<p>Now it’s time to wire up the code to play a single from one of three folders:</p>
+<ul>
+<li>7” or 45</li>
+<li>10” EPs</li>
+<li>12” singles / remixes</li>
+</ul>
+<p>It looks similar to the method above, but I’ve added a random method to pick one of the three folders for me and pass
+the folder ID to the play service that I’ve already written for full albums:</p>
+<pre><code>def play_single(_):
+
+    random_folder = randint(0, 2)
+    if random_folder == 0:
+        single = 2162483
+    elif random_folder == 1:
+        single = 2162486
+    else:
+        single = 2198941
+
+    album_release_id = RandomRecordService.get_folder_count(single)
+    print(album_release_id)
+    release_data = RandomRecordService.get_album_data(album_release_id)
+    print(release_data)
+
+    return {&quot;release_info&quot;: release_data}
+
+</code></pre><p>This is where I appear to have outsmarted myself. I thought I had blogged about this, but apparently not. At one point I
+had refactored the first play method above - I had added the play service to accept the folder ID and pass that. I was
+pretty proud of myself because after the refactoring, I figured this would work for exactly what I’m trying to do now -
+pass the folder ID of other folders. But no, it wasn’t meant to be as it errors out:</p>
+<pre><code>  File &quot;/Users/prcutler/workspace/silversaucer/silversaucer/controllers/music_controller.py&quot;, line 35, in play_single
+    release_data = RandomRecordService.get_album_data(album_release_id)
+  File &quot;/Users/prcutler/workspace/silversaucer/silversaucer/services/play_service.py&quot;, line 178, in get_album_data
+    discogs_main_id = release_json[&quot;master_id&quot;]
+KeyError: 'master_id'
+</code></pre><p>There is no <code>master_id</code> returned because singles don’t have a master release!  Only full albums have a master release to
+track all the regional releases and special pressings.</p>
+<p>I need to think through this and decide if I’m going to write a new method in <code>play_service</code> to handle getting back the
+release information for the single or if I should write an <code>if</code> statement to account for the Key Error and return a
+different dictionary without the <code>master_id</code>.</p>
+<p>I was so proud of myself for doing something I thought was Pythonic, too!</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="https://paulcutler.org/tags/silver-saucer/">Silver Saucer</a></span>
+        <span class="tag"><a href="https://paulcutler.org/tags/python/">Python</a></span>
+        <span class="tag"><a href="https://paulcutler.org/tags/pyramid/">Pyramid</a></span>
+        <span class="tag"><a href="https://paulcutler.org/tags/discogs/">Discogs</a></span>
+        <span class="tag"><a href="https://paulcutler.org/tags/api/">API</a></span>
+        
+    </p>
+
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder meta-icon"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+
+        <span class="tag"><a href="https://paulcutler.org/categories/python/">Python</a></span>
+        
+    </p>
+
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2021</span>
+            
+            <span>Paul Cutler</span><span><a href="https://paulcutler.org/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="https://paulcutler.org/bundle.min.af435e44374f1e99a669ea8cd5bb9a2fceed80588941a451bfddb66b86a67c9f40b0f417e9543a763f809aa7e9300d7b1d69bf99615810ba02ac70396d50fad5.js" integrity="sha512-r0NeRDdPHpmmaeqM1buaL87tgFiJQaRRv922a4amfJ9AsPQX6VQ6dj&#43;AmqfpMA17HWm/mWFYELoCrHA5bVD61Q=="></script>
+
+
+
+    </body>
+</html>

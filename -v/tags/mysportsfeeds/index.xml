@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mysportsfeeds on Paul Cutler</title>
+    <link>https://paulcutler.org/tags/mysportsfeeds/</link>
+    <description>Recent content in mysportsfeeds on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Thu, 20 Jul 2017 20:52:04 +0000</lastBuildDate><atom:link href="https://paulcutler.org/tags/mysportsfeeds/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NFLPool Prototyping with MongoDB</title>
+      <link>https://paulcutler.org/blog/2017/07/nflpool-prototyping-with-mongodb/</link>
+      <pubDate>Thu, 20 Jul 2017 20:52:04 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2017/07/nflpool-prototyping-with-mongodb/</guid>
+      <description>Yesterday was a good day.
+With the static pages for nflpool.xyz complete, I started thinking about the dynamic pages. These are going to require access to the database and I’ll be using MongoDB. I had started the MongoDB course from Talk Python, but put that aside to go back to the Python for Entrepreneurs course to get the site up using Pyramid.
+I took a step back and did some brainstorming about the data model I’ll need for the database.</description>
+    </item>
+    
+  </channel>
+</rss>

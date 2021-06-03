@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GNOME Journal on Paul Cutler</title>
+    <link>https://paulcutler.org/categories/gnome-journal/</link>
+    <description>Recent content in GNOME Journal on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Wed, 01 Sep 2010 15:43:43 +0000</lastBuildDate><atom:link href="https://paulcutler.org/categories/gnome-journal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GNOME Journal Issue 21 is out!</title>
+      <link>https://paulcutler.org/blog/2010/09/gnome-journal-issue-21-is-out/</link>
+      <pubDate>Wed, 01 Sep 2010 15:43:43 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2010/09/gnome-journal-issue-21-is-out/</guid>
+      <description>The GNOME Journal team has released the latest issue, featuring five brand new articles.
+We have three articles based on talks and experiences at GUADEC 2010 in The Hague and two interviews.
+ Writing simple, real-time games by Chris Lord Should I get involved? by William Carlson (aka Williamfromtexas) Behind the Scenes with Joanmarie Diggs Grilo: Integrating multimedia content in your application by Iago Toral GNOME Advisory Board interview with Bradley Kuhn by Stormy Peters  What are you waiting for?</description>
+    </item>
+    
+    <item>
+      <title>Write for GNOME Journal!</title>
+      <link>https://paulcutler.org/blog/2010/08/write-for-gnome-journal/</link>
+      <pubDate>Tue, 03 Aug 2010 11:46:25 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2010/08/write-for-gnome-journal/</guid>
+      <description>With GUADEC having just ended, we’re looking for some GUADEC related stories for GNOME Journal.
+Here’s a few examples:
+ Was it your first time at GUADEC? Share some thoughts about what you liked, saw or who you met. Did you give a talk at GUADEC? Write it up as an article! Or, we’re happy to do an interview with you about your talk. Here’s a great example with J5 after last year’s GUADEC.</description>
+    </item>
+    
+    <item>
+      <title>GNOME Journal Issue #19 is out!</title>
+      <link>https://paulcutler.org/blog/2010/03/gnome-journal-issue-19-is-out/</link>
+      <pubDate>Tue, 30 Mar 2010 21:41:10 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2010/03/gnome-journal-issue-19-is-out/</guid>
+      <description>The latest GNOME Journal is out!
+We have six articles in this issue:
+ Will Kahn-Greene writes his first article for GNOME Journal about the GNOME Miro Community. Want to watch videos about GNOME? Will has all the information you need. GNOME Bugzilla was upgraded late last year. Sumana Harihareswara writes up the case study on the partnership between the GNOME Foundation, Canonical and Everything Solved, a consultancy focused on Bugzilla.</description>
+    </item>
+    
+    <item>
+      <title>GNOME Journal #18 – Multimedia released!</title>
+      <link>https://paulcutler.org/blog/2010/02/gnome-journal-18-multimedia-released/</link>
+      <pubDate>Fri, 05 Feb 2010 23:33:33 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2010/02/gnome-journal-18-multimedia-released/</guid>
+      <description>Just in time for your weekend reading pleasure, GNOME Journal #18 is out. Issue 18 is a special edition focusing on Multimedia &amp;amp; GNOME, as well as recap of the recent Boston Summit.
+ Writing Multimedia Applications in Vala by Jim Nelson Pitivi by Jono Bacon What’s new with Banshee by Joe ‘Zonker’ Brockmeier An interview with Jonathan Thomas, creator of the OpenShot video editor by Paul Cutler Boston Summit Recap by Jason Clinton  This issue features four (4!</description>
+    </item>
+    
+    <item>
+      <title>GNOME Journal Issue 17 out!</title>
+      <link>https://paulcutler.org/blog/2009/11/gnome-journal-issue-17-out/</link>
+      <pubDate>Wed, 25 Nov 2009 15:55:37 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2009/11/gnome-journal-issue-17-out/</guid>
+      <description>I’m two days late blogging about the latest release of GNOME Journal (and thanks to Danni for mentioning it!).
+This is a very special issue written by women in the open source community. It’s the first time we’ve done a themed issue and all articles are by women in the open source community. Also, with the exception of Danni and Stormy who have written for GNOME Journal before, all are first time writers for GJ!</description>
+    </item>
+    
+    <item>
+      <title>GNOME Journal</title>
+      <link>https://paulcutler.org/blog/2009/10/gnome-journal-3/</link>
+      <pubDate>Fri, 23 Oct 2009 14:02:26 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2009/10/gnome-journal-3/</guid>
+      <description>I’ve been feeling a bit down about GNOME Journal since our last planned issue for October fell apart at the last minute. There were a number of reasons and nobody’s fault but after the great success we’ve seen this year in having multiple issues published after not having published in 2008 I was afraid we were losing momentum again. (I’m very excited about our next issue, Women in GNOME, but was concerned about issues after that).</description>
+    </item>
+    
+    <item>
+      <title>Happy Birthday GNOME Journal!</title>
+      <link>https://paulcutler.org/blog/2009/09/gnome-journal-2/</link>
+      <pubDate>Thu, 17 Sep 2009 15:00:07 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2009/09/gnome-journal-2/</guid>
+      <description>GNOME Journal celebrates it’s 5 year anniversary this month, with the first ever edition released in September 2004.
+After taking 2008 off, I’m happy to say that 2009 is turning into a banner year for GNOME Journal, and 2009 has seen more issues published than any year other 2005, and we’re on pace to break 2005’s record of five issues.
+Looking back at the first Letter from the Editor from Jim Hodapp, it’s good to see that our mission hasn’t changed:</description>
+    </item>
+    
+    <item>
+      <title>GNOME Journal Issue 16 Released!</title>
+      <link>https://paulcutler.org/blog/2009/09/gnome-journal-issue-16-released/</link>
+      <pubDate>Wed, 09 Sep 2009 14:18:03 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2009/09/gnome-journal-issue-16-released/</guid>
+      <description>GNOME Journal Issue 16 is out, featuring 3 new articles:
+ Writing Open Source conference recap Putting the Network back into G(N)OME interview with J5 – based on his recent talk at GUADEC. Behind the Scenes with Lucas Rocha – the man who started the Behind the Scenes feature on GNOME Journal  Special thanks to Jim and Shaun for helping edit the articles, and Lucas and J5 for taking the time for the interviews, both at and after GUADEC.</description>
+    </item>
+    
+    <item>
+      <title>GNOME Journal Issue 16</title>
+      <link>https://paulcutler.org/blog/2009/07/gnome-journal-issue-16/</link>
+      <pubDate>Thu, 16 Jul 2009 03:11:16 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2009/07/gnome-journal-issue-16/</guid>
+      <description>One of the highlights for me at GUADEC was the compliments I received on GNOME Journal. After over a year of inactivity, we have successfully revived GNOME Journal, with two releases within 60 days of each, and I have to admit, I enjoyed the recognition it gave me.
+With that said, we are working on the next issue of GNOME Journal, which will be a special edition devoted to this past GCDS / GUADEC.</description>
+    </item>
+    
+    <item>
+      <title>Gran Canaria Part II</title>
+      <link>https://paulcutler.org/blog/2009/07/gran-canaria-part-ii/</link>
+      <pubDate>Wed, 08 Jul 2009 14:14:52 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2009/07/gran-canaria-part-ii/</guid>
+      <description>I continue to have a great time here at the Gran Canaria Desktop Summit. I keep putting off blogging as I’m just overwhelmed with everything going through my head, and trying to make a succinct blog post has been a challenge.
+One of the best parts, especially as it’s my first GUADEC, is how welcoming everyone is. I think I’ve had lunch or dinner with a different group of people every meal.</description>
+    </item>
+    
+  </channel>
+</rss>

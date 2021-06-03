@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FSF on Paul Cutler</title>
+    <link>https://paulcutler.org/tags/fsf/</link>
+    <description>Recent content in FSF on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Sun, 09 Oct 2011 02:19:19 +0000</lastBuildDate><atom:link href="https://paulcutler.org/tags/fsf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fork the FSF</title>
+      <link>https://paulcutler.org/blog/2011/10/fork-the-fsf/</link>
+      <pubDate>Sun, 09 Oct 2011 02:19:19 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2011/10/fork-the-fsf/</guid>
+      <description>Larry Cafiero writes that it is time the FSF should be forked.
+I couldn’t agree more.</description>
+    </item>
+    
+  </channel>
+</rss>

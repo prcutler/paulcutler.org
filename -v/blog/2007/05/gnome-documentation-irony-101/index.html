@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Paul Cutler">
+<meta name="description" content="Now that I have a few newsletters under my belt for Foresight Linux and completed the Getting Started user guide on the wiki, my next two big projects for Foresight are porting the Getting Started guide from the wiki to Docbook for inclusion in Yelp on a default Foresight installation, and getting some screencasts recorded and posted to the Foresight wiki.
+With newsletter #3 out the door, and an hour or two on my hands, I decided to jump in and start learning some basics of Yelp, Docbook and contributing to GNOME documentation." />
+<meta name="keywords" content="Paul Cutler" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="https://paulcutler.org/blog/2007/05/gnome-documentation-irony-101/" />
+
+
+    <title>
+        
+            GNOME Documentation – Irony 101 :: Paul Cutler  — Paul Cutler Homepage
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://paulcutler.org/main.d7bdd8ee18bfbf4c605488a7e5b1b92cd980dfeed2bdaeab4dd5e931a7a78bc0.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://paulcutler.org/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://paulcutler.org/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://paulcutler.org/favicon-16x16.png">
+    <link rel="manifest" href="https://paulcutler.org/site.webmanifest">
+    <link rel="mask-icon" href="https://paulcutler.org/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="https://paulcutler.org/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+
+
+<meta itemprop="name" content="GNOME Documentation – Irony 101">
+<meta itemprop="description" content="Now that I have a few newsletters under my belt for Foresight Linux and completed the Getting Started user guide on the wiki, my next two big projects for Foresight are porting the Getting Started guide from the wiki to Docbook for inclusion in Yelp on a default Foresight installation, and getting some screencasts recorded and posted to the Foresight wiki.
+With newsletter #3 out the door, and an hour or two on my hands, I decided to jump in and start learning some basics of Yelp, Docbook and contributing to GNOME documentation.">
+<meta itemprop="datePublished" content="2007-05-27T22:44:52+00:00" />
+<meta itemprop="dateModified" content="2007-05-27T22:44:52+00:00" />
+<meta itemprop="wordCount" content="692">
+<meta itemprop="image" content="https://paulcutler.org"/>
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://paulcutler.org"/>
+
+<meta name="twitter:title" content="GNOME Documentation – Irony 101"/>
+<meta name="twitter:description" content="Now that I have a few newsletters under my belt for Foresight Linux and completed the Getting Started user guide on the wiki, my next two big projects for Foresight are porting the Getting Started guide from the wiki to Docbook for inclusion in Yelp on a default Foresight installation, and getting some screencasts recorded and posted to the Foresight wiki.
+With newsletter #3 out the door, and an hour or two on my hands, I decided to jump in and start learning some basics of Yelp, Docbook and contributing to GNOME documentation."/>
+
+
+
+
+    <meta property="og:title" content="GNOME Documentation – Irony 101" />
+<meta property="og:description" content="Now that I have a few newsletters under my belt for Foresight Linux and completed the Getting Started user guide on the wiki, my next two big projects for Foresight are porting the Getting Started guide from the wiki to Docbook for inclusion in Yelp on a default Foresight installation, and getting some screencasts recorded and posted to the Foresight wiki.
+With newsletter #3 out the door, and an hour or two on my hands, I decided to jump in and start learning some basics of Yelp, Docbook and contributing to GNOME documentation." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://paulcutler.org/blog/2007/05/gnome-documentation-irony-101/" />
+<meta property="og:image" content="https://paulcutler.org"/>
+<meta property="article:published_time" content="2007-05-27T22:44:52+00:00" />
+<meta property="article:modified_time" content="2007-05-27T22:44:52+00:00" />
+
+
+
+
+    <meta property="article:section" content="Foresight" />
+
+    <meta property="article:section" content="GNOME" />
+
+    <meta property="article:section" content="Linux" />
+
+    <meta property="article:section" content="Technology" />
+
+
+
+    <meta property="article:published_time" content="2007-05-27 22:44:52 &#43;0000 &#43;0000" />
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://paulcutler.org/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text"> paulcutler.org</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://paulcutler.org/about/">About</a></li><li><a href="https://paulcutler.org/posts/">Blog</a></li><li><a href="https://paulcutler.org/project/">Projects</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="header__right">
+                <a href="https://paulcutler.org/spinning">
+                <a title="Now Spinning" href="https://paulcutler.org/spinning/"><img width="32" alt="Vinyl record" src="https://paulcutler.org/img/vinyl.png"></a>
+            </span>
+
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://paulcutler.org/blog/2007/05/gnome-documentation-irony-101/">GNOME Documentation – Irony 101</a></h2>
+
+            
+            
+            
+
+            <div class="post-content">
+                <p>Now that I have a few newsletters under my belt for Foresight Linux and completed the Getting Started user guide on the wiki, my next two big projects for Foresight are porting the Getting Started guide from the wiki to Docbook for inclusion in Yelp on a default Foresight installation, and getting some screencasts recorded and posted to the Foresight wiki.</p>
+<p>With newsletter #3 out the door, and an hour or two on my hands, I decided to jump in and start learning some basics of Yelp, Docbook and contributing to GNOME documentation. I started off keeping track of some interesting links I was coming across in Tomboy, and as my frustrations grew, it became a live journal of my research in to contributing to GNOME documentation. What follows is the unedited thoughts that ran through my brain for just over an hour as I looked for content on where to start on this journey.</p>
+<p>The good thing I’ve learned in this process is what needs to be updated to make it easier for folks who want to help out GNOME and it’s documentation. Docs are one of the easiest areas for a new volunteer to get involved with, and now that I’ve complained publicly about my experiences, I’ve added it to my to-do list to try and make this better. (But it’s down on my to-do list after Foresight documentation in Yelp and screencasts. And maybe the new Foresight website, we’ll see).</p>
+<p>Without further adieu, here are my notes:</p>
+<p>**</p>
+<p>GNOME Documentation**</p>
+<p>Documenting my learnings on contributing to YELP</p>
+<p>15:45 – Start looking on the GNOME wiki and Google</p>
+<p><a href="http://live.gnome.org/DocumentationProject">http://live.gnome.org/DocumentationProject</a></p>
+<p>(last update in October 2006)</p>
+<p><a href="http://live.gnome.org/ProjectMallard">http://live.gnome.org/ProjectMallard</a> (next generation GNOME docs tool in development)</p>
+<p>15:55 join IRC (#docs on GIMPnet)</p>
+<p>Continue to use the Wiki and Google:</p>
+<p><a href="http://live.gnome.org/DeveloperGuides">http://live.gnome.org/DeveloperGuides</a> (could be a gold mine, lots of links)</p>
+<p><a href="http://live.gnome.org/IdealDeveloperDocumentation">http://live.gnome.org/IdealDeveloperDocumentation</a> (A wishlist of perfect documentation, last updated last August)</p>
+<p><a href="http://developer.gnome.org/projects/gdp/handbook/gdp-handbook/index.html">http://developer.gnome.org/projects/gdp/handbook/gdp-handbook/index.html</a> (last update 2003, this had to be the bible for doc developers once upon a time)</p>
+<p><a href="http://www.ibiblio.org/oswg/oswg-nightly/oswg/en_US.ISO_8859-1/articles/DocBook-Intro/docbook-intro/">http://www.ibiblio.org/oswg/oswg-nightly/oswg/en_US.ISO_8859-1/articles/DocBook-Intro/docbook-intro/</a> (Linked from the GDP handbook above, it’s from 1999!)</p>
+<p>16:05: Edit the GNOME wiki with a broken link to the non-existent style guide:</p>
+<p><a href="http://live.gnome.org/DeveloperGuides">http://live.gnome.org/DeveloperGuides</a></p>
+<p>16:10 Ask for help in IRC (no response, but I’m patient)</p>
+<p>16:15 Find new links that look helpful:</p>
+<p><a href="http://live.gnome.org/DocumentationProject/Contributing">http://live.gnome.org/DocumentationProject/Contributing</a></p>
+<p><a href="http://live.gnome.org/DocumentationProject/Contributing/SubmittingPatches">http://live.gnome.org/DocumentationProject/Contributing/SubmittingPatches</a></p>
+<p>16:18 Complain in #foresight about the irony in that getting started with the GNOME documentation team isn’t really documented</p>
+<p>16:24 Realize the link above on SubmittingPatches is also horribly outdated as GNOME has moved to subversion</p>
+<p>Make mental note that I should be probably updating the GNOME documentation personally with these learnings. Add to to-do list in Tomboy</p>
+<p>16:29 Thilo agrees with me in IRC, and reinforces an opinion I have too:</p>
+<p>thilopfennig: pcutler_: yeah</p>
+<p>thilopfennig: thats true</p>
+<p>even simple links are broken</p>
+<p>and nobody cares really</p>
+<p>That last sentence bothers me, as I had the same thought. Perception is reality.</p>
+<p>16:31 Pull up the GNOME SVN wiki page and prepare to checkout some help files to browse through as a base:</p>
+<p><a href="http://live.gnome.org/SubversionFAQ">http://live.gnome.org/SubversionFAQ</a></p>
+<p>16:36 first 2 projects svn co doesn’t work, try with epiphany, but it pulls the whole source, and not the help files. keep reading through LGO. Quite frustrated.</p>
+<p>16:43 Pull down Gedit files. Realize that I was pulling the help files correctly with SVN, but still can’t find english versions. Mistakenly ask for help in IRC, when I did do it right.</p>
+<p>16:46 Remind self it’s a holiday weekend in US on a Sunday afternoon, of course no one is going to respond.</p>
+<p>16:48 Open Gedit, and start browsing through source files. In the Help directory, the “C” subdirectory has “gedit.xml” – I found the file! Why is it in the C directory if it’s American English? Who thinks of these things? All the other files I pulled down were correct as well.</p>
+<p>16:55 Finish scrolling through gedit.xml after opening the files in Yelp for comparison. Docbook looks fairly sane, if just overly, well, there’s a lot to it, but it’s fairly logical. Overwhelmed by the sheer amount of work porting the userguide from the wiki to Docbook will be, but it’s doable.</p>
+<p>16:56 Walk away. Remind self to blog this.</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder meta-icon"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+
+        <span class="tag"><a href="https://paulcutler.org/categories/foresight/">Foresight</a></span>
+        <span class="tag"><a href="https://paulcutler.org/categories/gnome/">GNOME</a></span>
+        <span class="tag"><a href="https://paulcutler.org/categories/linux/">Linux</a></span>
+        <span class="tag"><a href="https://paulcutler.org/categories/technology/">Technology</a></span>
+        
+    </p>
+
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2021</span>
+            
+            <span>Paul Cutler</span><span><a href="https://paulcutler.org/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="https://paulcutler.org/bundle.min.af435e44374f1e99a669ea8cd5bb9a2fceed80588941a451bfddb66b86a67c9f40b0f417e9543a763f809aa7e9300d7b1d69bf99615810ba02ac70396d50fad5.js" integrity="sha512-r0NeRDdPHpmmaeqM1buaL87tgFiJQaRRv922a4amfJ9AsPQX6VQ6dj&#43;AmqfpMA17HWm/mWFYELoCrHA5bVD61Q=="></script>
+
+
+
+    </body>
+</html>

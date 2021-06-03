@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Paul Cutler">
+<meta name="description" content="I mentioned in my last post, that I purchased a Toshiba A135-S4467 laptop yesterday. The following is a very long post, including the laptop’s specs, installing Foresight, and some of the challenges I have figured out or am trying to overcome in getting Foresight Linux.
+If you don’t want to read a very long post, you can stop now. The short version of this story, is that after a user error in getting wireless to work, performing sudo conary updateall fixed my two major issues, including the wired ethernet and my sound." />
+<meta name="keywords" content="Paul Cutler" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="https://paulcutler.org/blog/2007/03/foresight-linux-on-a-toshiba-a135-s4467-laptop/" />
+
+
+    <title>
+        
+            Foresight Linux on a Toshiba A135-S4467 Laptop :: Paul Cutler  — Paul Cutler Homepage
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://paulcutler.org/main.d7bdd8ee18bfbf4c605488a7e5b1b92cd980dfeed2bdaeab4dd5e931a7a78bc0.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://paulcutler.org/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://paulcutler.org/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://paulcutler.org/favicon-16x16.png">
+    <link rel="manifest" href="https://paulcutler.org/site.webmanifest">
+    <link rel="mask-icon" href="https://paulcutler.org/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="https://paulcutler.org/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+
+
+<meta itemprop="name" content="Foresight Linux on a Toshiba A135-S4467 Laptop">
+<meta itemprop="description" content="I mentioned in my last post, that I purchased a Toshiba A135-S4467 laptop yesterday. The following is a very long post, including the laptop’s specs, installing Foresight, and some of the challenges I have figured out or am trying to overcome in getting Foresight Linux.
+If you don’t want to read a very long post, you can stop now. The short version of this story, is that after a user error in getting wireless to work, performing sudo conary updateall fixed my two major issues, including the wired ethernet and my sound.">
+<meta itemprop="datePublished" content="2007-03-27T01:36:30+00:00" />
+<meta itemprop="dateModified" content="2007-03-27T01:36:30+00:00" />
+<meta itemprop="wordCount" content="1546">
+<meta itemprop="image" content="https://paulcutler.org"/>
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://paulcutler.org"/>
+
+<meta name="twitter:title" content="Foresight Linux on a Toshiba A135-S4467 Laptop"/>
+<meta name="twitter:description" content="I mentioned in my last post, that I purchased a Toshiba A135-S4467 laptop yesterday. The following is a very long post, including the laptop’s specs, installing Foresight, and some of the challenges I have figured out or am trying to overcome in getting Foresight Linux.
+If you don’t want to read a very long post, you can stop now. The short version of this story, is that after a user error in getting wireless to work, performing sudo conary updateall fixed my two major issues, including the wired ethernet and my sound."/>
+
+
+
+
+    <meta property="og:title" content="Foresight Linux on a Toshiba A135-S4467 Laptop" />
+<meta property="og:description" content="I mentioned in my last post, that I purchased a Toshiba A135-S4467 laptop yesterday. The following is a very long post, including the laptop’s specs, installing Foresight, and some of the challenges I have figured out or am trying to overcome in getting Foresight Linux.
+If you don’t want to read a very long post, you can stop now. The short version of this story, is that after a user error in getting wireless to work, performing sudo conary updateall fixed my two major issues, including the wired ethernet and my sound." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://paulcutler.org/blog/2007/03/foresight-linux-on-a-toshiba-a135-s4467-laptop/" />
+<meta property="og:image" content="https://paulcutler.org"/>
+<meta property="article:published_time" content="2007-03-27T01:36:30+00:00" />
+<meta property="article:modified_time" content="2007-03-27T01:36:30+00:00" />
+
+
+
+
+    <meta property="article:section" content="Foresight" />
+
+    <meta property="article:section" content="Linux" />
+
+    <meta property="article:section" content="Technology" />
+
+
+
+    <meta property="article:published_time" content="2007-03-27 01:36:30 &#43;0000 &#43;0000" />
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://paulcutler.org/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text"> paulcutler.org</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://paulcutler.org/about/">About</a></li><li><a href="https://paulcutler.org/posts/">Blog</a></li><li><a href="https://paulcutler.org/project/">Projects</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="header__right">
+                <a href="https://paulcutler.org/spinning">
+                <a title="Now Spinning" href="https://paulcutler.org/spinning/"><img width="32" alt="Vinyl record" src="https://paulcutler.org/img/vinyl.png"></a>
+            </span>
+
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://paulcutler.org/blog/2007/03/foresight-linux-on-a-toshiba-a135-s4467-laptop/">Foresight Linux on a Toshiba A135-S4467 Laptop</a></h2>
+
+            
+            
+            
+
+            <div class="post-content">
+                <p>I mentioned in my last post, that I purchased a Toshiba A135-S4467 laptop yesterday. The following is a very long post, including the laptop’s specs, installing Foresight, and some of the challenges I have figured out or am trying to overcome in getting Foresight Linux.</p>
+<p>If you don’t want to read a very long post, you can stop now. The short version of this story, is that after a user error in getting wireless to work, performing <code>sudo conary updateall</code> fixed my two major issues, including the wired ethernet and my sound. I wasn’t even done typing this blog post, when after performing updateall and then rebooting, all was fixed. If you would like to read about my user errors, and challenges from an out of box experience with a new computer and a default Foresight installation, read on. As I mention at the end of this post, my experience definitely gives me perspective as I help write documentation for Foresight, such as the upcoming Getting Started guide. I’m not an expert Linux user by an means, but I can poke around, and if I had problems with a default install such as below, imagine what a new user to Linux might feel like.</p>
+<p><strong>Installing Foresight Linux 1.1 on a Toshiba A135-S4467 Laptop</strong></p>
+<p>The laptop is a little larger than I wanted, 5.8 pounds and a 15.4″ widescreen, but the price was definitely right. Speeds and feeds:</p>
+<ul>
+<li>Intel Core 2 Duo T5200</li>
+<li>15.4″ Widescreen (1280×800)</li>
+<li>1 GB RAM</li>
+<li>160 GB 5400 RPM Hard Drive</li>
+<li>DVD-RW/DL</li>
+<li>Intel 3945ABG wireless</li>
+<li>Realtek 8101E 10/100 NIC</li>
+<li>4 in 1 card reader</li>
+<li>1394 mini / 4 USB</li>
+</ul>
+<p>In researching a laptop purchase, I knew I wanted a Core 2 Duo, even a lower end one, at least 1 GB Ram, a widescreen screen, and as many Intel components as I could. The hard drive is much bigger than what I’ll need in a laptop, and I love having a DVD-RW. According to some reviews I read, I basically traded a larger hard drive for a weaker battery against a comparable Dell, and that’s a trade-off I’ll take, as my primary purpose is to use it in the family room. I plan on keeping up on my writing for Foresight, including Wiki pages, things such as the Getting Starting guided, and contributing to the marketing efforts (and a surprise to be named later) as I camp out on the couch in front of the big TV. Secondary use will be portable, to the local LUG, or for trips home to Milwaukee.</p>
+<p>I’ll preface this next section by saying, even after using only Linux for the last two years and off and on for 6 years before that, I’m still not an expert by any means. Google and how-to’s are my friend, and I barely can work my way around the command line in loading modules in to the kernel or what not.</p>
+<p>I’ve run in to a couple of gotcha’s along the way. It turns out a couple are user error so far, and a few I haven’t figured out yet. They could be issues with Foresight, as I did test the latest Ubuntu Feisty Fawn LiveCD, which did work. This isn’t a criticism of Foresight – I love Foresight, and I love being on the cutting edge. That, and Ubuntu has an army of developers and volunteers, and we don’t…yet. I mention this as maybe they’re a few things to work on in the future, as one reason I bought this laptop is it appeared to use fairly standard hardware.</p>
+<p>Installation took just over an hour, about 80 minutes, using the 2 Foresight CDs. As I mentioned in yesterday’s post, I just blew away Vista without ever booting in to it, formatted the hard drive and away we went. Installation appeared to be as normal as it was on the 3 other desktops I’ve installed Foresight on, if just a touch longer.</p>
+<p>On my first boot, it hangs for 3 minutes on the sound card, with the error appearing on the screen:</p>
+<p><code>EIP: [&lt;f89f7e63&gt;]  get_input_type+0x59/0x80 [snd_hda_codec] SS:ESP 0068:f7563e7c&lt;br /&gt; udevd-event[952]: run_program: ;/sbin/modprobe' abnormal exit&lt;br /&gt; &lt;/f89f7e63&gt;</code></p>
+<p>It then continues to load modules, and tells me the Intel 3945ABG module not found – this is the built-in wireless. I knew from past Foresight installs that the firmware is included in the default install, I’ve even seen it checking to see if the module should be loaded on my desktop. It’s one reason I bought this laptop as I knew it should be compatible. We’ll come back to this in a bit.</p>
+<p>It then hangs on trying to load eth0 for about 2-3 minutes. (Which always seems longer than it really is). It gets past that with an “OK”, tries to load video, and just hangs for about 10 minutes at which I reboot.</p>
+<p>Similar process, pause on the sound, Intel PRO/Wireless 3945ABG not found, pause at eth0, and then X loads, and I’m prompted to finish the installation by creating a user.</p>
+<p>Success! I’m in. I’m quite happy to see that the Battery Applet is installed by default, as Foresight and GNOME recognize I’m running on a laptop.</p>
+<p>Network manager doesn’t see an eth0, and wireless doesn’t work. That’s ok, I’m all about the eye candy, so I go to work on getting my xorg.conf setup. After using Google, I edit my xorg.conf and replace “vesa” with “i810”, and also add the 1280×800 resolutions. I ctrl-alt-backspace to restart X, and I’m still in 800×600, but my xorg.conf looks right. I reboot, same thing. Asking for help in IRC, Thilo points me at System –&gt; Display. I’ve never seen that before, but I choose the Intel i810 driver there, restart X, run it again, choose my resolution, and I’m now using the Intel driver. Compiz works as normal – just enable the applet, set a couple preferences for wobby windows and such, and I have my eye candy! Performance is better than expected – I can grab a window and throw it around the screen with animations, and you really have to know what you’re looking for to see it hiccup at all.</p>
+<p>I have my visuals, so it’s time to go for sound. I click on the Volume applet, and two dialog boxes immediately pop up:</p>
+<p>Dialog box 1:</p>
+<p><code>The volume control did not find any elements and / or devices to control.  This means eitehr that you don't have the right GStreamer plugins installed, or that you don't have a sound card configured.</code></p>
+<p>Dialog box 2:</p>
+<p><code>No volume control GStreamer plugins and / or devices found</code></p>
+<p>At this point it was getting late, so I threw in the latest Ubuntu Feisty Beta LiveCD, and my wired NIC and sound worked. It was nice to confirm the laptop wasn’t defective, but showed I still had a way to go in getting the laptop working with Foresight.</p>
+<p>I got home from work today, and went back at it. The default kernel in a Foresight Linux 1.1 installation is 2.6.19.2-0.2 – according to one forum posting I found, this should control my NIC just fine, as it was added in 2.6.19.1. I’m stumped on that one, but you can see my <a href="http://www.paulcutler.org/misc/gnome/dmesg.txt">dmesg output</a>. It recognizes the right card, but it’s not active in NetworkManager or System – Admin- Network. Doing a “lspci | grep Ethernet” also shows RTL8101E PCI Express Fast Ethernet Controller (rev 01).</p>
+<p>In browsing through dmesg, lo and behold, it tells me my wireless radio is off. Aha! So I hit function – F8 to turn it on, but Network Manager doesn’t see it. I reboot twice, and still nothing. I flip through the user manual, which is absolutely worthless, as it doesn’t cover any of the function keys on the laptop, nor does it bother to tell me there is a toggle switch under the keyboard out of sight, that by default is turned off, which just happens to be the wireless radio. Flip that on, a pretty green light turns on, reboot, and voila, wireless. Choose my network in Network Manager, enter the WEP key and now we are in business. I then proceed to grumble under my breath about Toshiba’s default configuration out of the box.</p>
+<p>With the exception of the sound and wired NIC issue, I’m pretty happy so far. I have 3D effects working, after some user error, the wireless is working (and I’ve done my conary updateall), and the laptop feels quite snappy. I haven’t ventured into suspend and resume yet, as we all know how challenging that can sometimes be in Linux. The other item on my to-do list is to get scrolling working on my Synaptics touchpad.</p>
+<p>As I mentioned above, my first updateall made this the sound and wired ethernet work perfectly. A big shout out to the Foresight developers for how fast they update the distro in being able to fix those kind of issues. This is just my story and experience, and yours will vary. This experience, and the things I learned, definitely give me perspective as I start to write a Getting Started with Foresight guide – if I learned new things, such as setting up the Display, imagine what a person totally new to Linux might feel like.</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder meta-icon"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+
+        <span class="tag"><a href="https://paulcutler.org/categories/foresight/">Foresight</a></span>
+        <span class="tag"><a href="https://paulcutler.org/categories/linux/">Linux</a></span>
+        <span class="tag"><a href="https://paulcutler.org/categories/technology/">Technology</a></span>
+        
+    </p>
+
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2021</span>
+            
+            <span>Paul Cutler</span><span><a href="https://paulcutler.org/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="https://paulcutler.org/bundle.min.af435e44374f1e99a669ea8cd5bb9a2fceed80588941a451bfddb66b86a67c9f40b0f417e9543a763f809aa7e9300d7b1d69bf99615810ba02ac70396d50fad5.js" integrity="sha512-r0NeRDdPHpmmaeqM1buaL87tgFiJQaRRv922a4amfJ9AsPQX6VQ6dj&#43;AmqfpMA17HWm/mWFYELoCrHA5bVD61Q=="></script>
+
+
+
+    </body>
+</html>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Apple on Paul Cutler</title>
+    <link>https://paulcutler.org/categories/apple/</link>
+    <description>Recent content in Apple on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Tue, 14 Feb 2017 14:24:53 +0000</lastBuildDate><atom:link href="https://paulcutler.org/categories/apple/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The macOS apps I’ll miss the most</title>
+      <link>https://paulcutler.org/blog/2017/02/the-macos-apps-ill-miss-the-most/</link>
+      <pubDate>Tue, 14 Feb 2017 14:24:53 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2017/02/the-macos-apps-ill-miss-the-most/</guid>
+      <description>I have been considering switching back to GNOME full-time and finally pulled the trigger last week and did, installing Fedora 25 on both my iMac and MacBook Pro. I installed GNOME on my iMac a couple months ago, but didn’t do the installation correctly and screwed up my MBR, resulting in only GNOME being an option. I’ve fixed that this time and have kept dual boot (for just in case and for iTunes on my iPhone and iPad).</description>
+    </item>
+    
+    <item>
+      <title>Why I’m going back to Linux after five years of using macOS</title>
+      <link>https://paulcutler.org/blog/2017/02/why-im-going-back-to-linux-after-five-years-of-using-macos/</link>
+      <pubDate>Fri, 10 Feb 2017 15:58:27 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2017/02/why-im-going-back-to-linux-after-five-years-of-using-macos/</guid>
+      <description>I’ve been a supporter of the Electronic Frontier Foundation since 2004. Their work on privacy, free expression and technology are all things I am passionate about. For the last year or so, I have become more concerned with privacy issues in technology. The rise in big data and how everything is tracking everything we do has given me significant concerns. I’ve been giving a lot of thought to which ecosystems I want to stay in.</description>
+    </item>
+    
+    <item>
+      <title>Thanks Steve</title>
+      <link>https://paulcutler.org/blog/2011/10/thanks-steve/</link>
+      <pubDate>Thu, 06 Oct 2011 13:02:35 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2011/10/thanks-steve/</guid>
+      <description>The internet is buzzing with thank you’s, tributes and more about the passing of Steve Jobs yesterday.
+I was 11 or 12 when we got our second computer – the brand new Apple //c. A portable version of the Apple IIe, for the first time in the Apple II line it included a built in 5.25 disk drive and ports for a mouse / joystick, external disc drive, modem and more.</description>
+    </item>
+    
+    <item>
+      <title>Cutting the Cable, Part 2</title>
+      <link>https://paulcutler.org/blog/2010/01/cutting-the-cable-part-2/</link>
+      <pubDate>Sun, 24 Jan 2010 21:53:44 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2010/01/cutting-the-cable-part-2/</guid>
+      <description>A few weeks ago I blogged about buying the hardware to set up a MythTV PC to record off air high def TV and integrate it with Boxee.
+The hardware arrived and I’ve been working on on the setup off and on over the last few weeks. Some random thoughts:
+  The HD Homerun tuner is pretty cool. Fedora has the HD Homerun configuration tool in their repos. Installing that through PackageKit and yum made it easy to test out that it was working and had a good signal.</description>
+    </item>
+    
+    <item>
+      <title>The iPhone Moral Quandary</title>
+      <link>https://paulcutler.org/blog/2007/06/the-iphone-moral-quandary/</link>
+      <pubDate>Fri, 22 Jun 2007 18:58:49 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2007/06/the-iphone-moral-quandary/</guid>
+      <description>Gizmodo covers what’s been on my mind since it was announced Apple’s iPhone partner was AT&amp;amp;T: the moral quandary of doing business with AT&amp;amp;T.:
+ So what we have is a company that doesn’t have privacy at the top of its priority list, not to mention the anti-trust laws of this country. It’s setting terrible precedents left and right, and its vast power that comes from its huge size makes it all the more unlikely to change for the better.</description>
+    </item>
+    
+    <item>
+      <title>Joost Beta Invites</title>
+      <link>https://paulcutler.org/blog/2007/05/joost-beta-invites/</link>
+      <pubDate>Thu, 17 May 2007 00:14:47 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2007/05/joost-beta-invites/</guid>
+      <description>Do you need a Joost beta invite? I’ve hooked up all the friends (I think) who want one, and still have a bunch leftover.
+Drop me an email at pcutler _at_ foresightlinux.org if you want one.
+Mac &amp;amp; Windows only now, thought there have been rumors of a Linux client sometime in the future.
+It’s definitely interesting – and different. Joost continues to sign up content partners, and it’s getting better each week.</description>
+    </item>
+    
+    <item>
+      <title>GNOME 3.0?</title>
+      <link>https://paulcutler.org/blog/2007/04/gnome-30/</link>
+      <pubDate>Thu, 05 Apr 2007 01:25:04 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2007/04/gnome-30/</guid>
+      <description>The concept of GNOME 3.0 (aka Project Topaz) has been thrown around over the last year or two, with no clear definition or direction of the next big step in the development of GNOME.
+Last year, Luis Villa blogged a few ideas that could become the future of GNOME, around an internet enabled OS, tied to an infrastructure similar to Apple’s .mac. I’ve had similar thoughts floating through my brain since then, but yesterday Havoc Pennington of Red Hat &amp;amp; Mugshot verbalized almost exactly what I’ve been thinking about in a way I’ve never been to articulate.</description>
+    </item>
+    
+    <item>
+      <title>The Truth Behind Apple&#39;s Switch</title>
+      <link>https://paulcutler.org/blog/2005/07/the-truth-behind-apples-switch/</link>
+      <pubDate>Mon, 11 Jul 2005 11:52:59 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2005/07/the-truth-behind-apples-switch/</guid>
+      <description>Ars Technica does a deep dive into the real truth behind Apple’s switch from IBM to Intel.
+Focusing on how Apple has shot itself in the foot in regards to it’s relationship with IBM, and what Intel stands to gain in the iPod arena, it covers some things I hadn’t thought of until now.
+ One of the major factors in the switch was something that’s often been discussed here at Ars and elsewhere: Apple’s mercurial and high-handed relationship with its chip suppliers.</description>
+    </item>
+    
+    <item>
+      <title>Podcasting now in iTunes</title>
+      <link>https://paulcutler.org/blog/2005/06/311/</link>
+      <pubDate>Wed, 29 Jun 2005 03:17:34 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2005/06/311/</guid>
+      <description>Sheesh, I mention the other day how I’ve gotten in to podcasting in a big way, and then Apple goes and makes it mainstream just to copy me (no, really!).
+Apple’s iTunes 4.9 now has Podcasting support. Windows users can download Apple’s iTunes 4.9 here. Suppose I should fire up the old Mac Mini and take a look.
+And for the record, I’ve been downloading podcasts for the last year intermittently, and burning them to CD for long car rides.</description>
+    </item>
+    
+    <item>
+      <title>50 Projects for you and your Mac Mini</title>
+      <link>https://paulcutler.org/blog/2005/06/50-projects-for-you-and-your-mac-mini/</link>
+      <pubDate>Tue, 21 Jun 2005 10:49:06 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2005/06/50-projects-for-you-and-your-mac-mini/</guid>
+      <description>Just because I don’t have enough to do (ha-ha), here’s a great list I came across over at the Make blog:
+50 Great Summertime Projects for You &amp;amp; Your Mac mini.
+There’s definitely a few there I’m going to get to if it kills me.</description>
+    </item>
+    
+  </channel>
+</rss>

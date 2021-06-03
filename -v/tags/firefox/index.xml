@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>firefox on Paul Cutler</title>
+    <link>https://paulcutler.org/tags/firefox/</link>
+    <description>Recent content in firefox on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Sun, 10 Feb 2008 18:14:14 +0000</lastBuildDate><atom:link href="https://paulcutler.org/tags/firefox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>32 bit Firefox on 64 bit Foresight</title>
+      <link>https://paulcutler.org/blog/2008/02/32-bit-firefox-on-64-bit-foresight/</link>
+      <pubDate>Sun, 10 Feb 2008 18:14:14 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2008/02/32-bit-firefox-on-64-bit-foresight/</guid>
+      <description>We’re still at SCALE, manning the Foresight booth and introducing Foresight to lots of new users. (I’ll need to check download statistics and see if we made an impact).
+While here, Ken helped me get 32 bit Firefox running on my laptop, which is running 64 bit Foresight. (I missed having Flash).
+There has been some discussion on the mailing list lately, and we are leaning towards including 32 bit Firefox by default, and leaving Epiphany at 64 bit for those users who want a 64 bit browser.</description>
+    </item>
+    
+  </channel>
+</rss>

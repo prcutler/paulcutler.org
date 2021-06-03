@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Foresight on Paul Cutler</title>
+    <link>https://paulcutler.org/categories/foresight/</link>
+    <description>Recent content in Foresight on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Wed, 22 Apr 2009 21:44:17 +0000</lastBuildDate><atom:link href="https://paulcutler.org/categories/foresight/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>KVM &amp; Virtual Machine Manager in Foresight</title>
+      <link>https://paulcutler.org/blog/2009/04/kvm-virtual-machine-manager-in-foresight/</link>
+      <pubDate>Wed, 22 Apr 2009 21:44:17 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2009/04/kvm-virtual-machine-manager-in-foresight/</guid>
+      <description>Foresight has long been a proponent of KVM over other virtualization technologies such as Xen or Virtualbox.
+If you, like me, aren’t a guru on the command line and prefer using a GUI, Virtual Machine Manager is available in the Foresight repositories. If you’ve used Virtualbox or VMWare, you’ll find virtual-manager very familiar. The only downside (for some), is that you will need a modern processor that supports Intel VT or AMD-V.</description>
+    </item>
+    
+    <item>
+      <title>Microblogging on Foresight</title>
+      <link>https://paulcutler.org/blog/2009/04/microblogging-on-foresight/</link>
+      <pubDate>Wed, 08 Apr 2009 20:22:34 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2009/04/microblogging-on-foresight/</guid>
+      <description>I’m a big fan of microblogging, using both Twitter and identi.ca. Microblogging, if you don’t know, is sending a short message that is 140 characters or less – so you have to be short and sweet in your message. (Did I mention it’s been 2 years since I started using Twitter? Where does the time go!?)
+My favorite microblogging client for the Linux desktop is Gwibber. Unfortunately there is a nasty bug with WebKit and Gwibber that has caused Gwibber to stop working.</description>
+    </item>
+    
+    <item>
+      <title>Foresight Website</title>
+      <link>https://paulcutler.org/blog/2009/03/foresight-website/</link>
+      <pubDate>Tue, 24 Mar 2009 15:54:46 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2009/03/foresight-website/</guid>
+      <description>It’s been just over a year since we rolled out the new Foresight website, which is written in HTML.
+After some on and off debate, we’ve made the decision to switch to a CMS (which makes it much easier to get volunteers involved), and as of last night we’ve picked Joomla over Drupal.
+We’ve set up our appliance on rBuilder, and we’re looking for help in building and maintaining the appliance, and even more important in designing a Joomla template for the look and feel of the new Foresightlinux.</description>
+    </item>
+    
+    <item>
+      <title>Foresight Issues Update</title>
+      <link>https://paulcutler.org/blog/2008/12/foresight-issues-update/</link>
+      <pubDate>Tue, 23 Dec 2008 14:55:50 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2008/12/foresight-issues-update/</guid>
+      <description>While the march to Foresight 2.1 continues to improve Foresight, one area that needs help, and is easy for a new contributor to jump into, is fixing current issues in Foresight.
+While Foresight 2.1 will focus on a number of things to make Foresight even easier to use, such as improving boot up speed, printing, and installing packages, we would also like to fix as many bugs as we can.</description>
+    </item>
+    
+    <item>
+      <title>Where&#39;d whooo go?</title>
+      <link>https://paulcutler.org/blog/2008/12/whered-whooo-go/</link>
+      <pubDate>Fri, 05 Dec 2008 01:12:55 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2008/12/whered-whooo-go/</guid>
+      <description>In the immortal words of Goose from Top Gun: “Where’d whooooo go?”
+I took the last 6 weeks to disappear as I started a new job, working in my home office. I owe the Foresight community an apology, as I should have given some warning. (Though I did let Ken and Antonio know).
+What started as a one week sabbatical from the internet between jobs stretched out, as I was traveling 3 of the 4 first four weeks of the new job, and working in a home office requires a high level of focus.</description>
+    </item>
+    
+    <item>
+      <title>Foresight Packages</title>
+      <link>https://paulcutler.org/blog/2008/09/foresight-packages/</link>
+      <pubDate>Sun, 21 Sep 2008 14:36:21 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2008/09/foresight-packages/</guid>
+      <description>We are getting ready to release Foresight GNOME edition in the next week, once GNOME 2.24 is out.
+Foresight is a rolling release distro – our packages are almost always up to date, and we keep them up to date, unlike most distributions that have 2 big releases a year, which is when they update packages.
+Being a rolling release, this means that a Foresight “release” is just a snapshot in time of what is available in the repository.</description>
+    </item>
+    
+    <item>
+      <title>Foresight Bug Week Wrap-Up</title>
+      <link>https://paulcutler.org/blog/2008/09/foresight-bug-week-wrap-up/</link>
+      <pubDate>Mon, 08 Sep 2008 18:37:09 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2008/09/foresight-bug-week-wrap-up/</guid>
+      <description>Foresight Bug Week wrapped up yesterday. I was pretty excited as it seemed we touched a number of issues. Upon further review, we still have a lot of work to do!
+Some stats on the last 9 days of working on the issues (hope the formatting works):
+9/1/2008 9/8/2008 Net Change
+Total issues: 1644 1661 17
+Open issues: 597 546 -51
+In progress: 19 26 7
+Resolved: 578 614 36</description>
+    </item>
+    
+    <item>
+      <title>Foresight Bug Week</title>
+      <link>https://paulcutler.org/blog/2008/09/foresight-bug-week/</link>
+      <pubDate>Tue, 02 Sep 2008 18:45:11 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2008/09/foresight-bug-week/</guid>
+      <description>Foresight Bug Week kicked off Sunday, and we’re off to a good start.
+As I mentioned in my last bug week post, Foresight has just under 600 issues open in some status or another. (Issues can be improvements, tasks, bugs or package requests).
+In the first two days:
+ 15% of all open issues have been touched (about 90) 34, or just over 33% of those touched, were marked as resolved or fixed 56 were triaged and assigned  Out of the 56 that were triaged, the majority of them were package requests that moved from fl:2-devel to fl:2-qa for testing.</description>
+    </item>
+    
+    <item>
+      <title>A Bug-huntin&#39; we will go</title>
+      <link>https://paulcutler.org/blog/2008/08/a-bug-huntin-we-will-go/</link>
+      <pubDate>Mon, 25 Aug 2008 18:01:09 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2008/08/a-bug-huntin-we-will-go/</guid>
+      <description>It’s been way too long since we had a formalized bug hunt week for Foresight.
+Worry no more, it’s next week! Starting next Sunday, August 31, through Saturday, September 6th we will be hunting down bugs, tasks and improvements to make Foresight better.
+Here are some current statistics from JIRA, Foresight’s issue tracker:
+ Total issues in Foresight: 1,644 Open issues: 597 (36%) In progress: 19 (1%) Resolved: 578 (35%) Closed: 322 (20%) Needs QA: 106 (6%)  Open Issues (By Priority)</description>
+    </item>
+    
+    <item>
+      <title>Writing Foresight Docs: Part 6</title>
+      <link>https://paulcutler.org/blog/2008/08/writing-foresight-docs-part-6/</link>
+      <pubDate>Thu, 14 Aug 2008 20:19:09 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2008/08/writing-foresight-docs-part-6/</guid>
+      <description>It’s been over a year (a year!) since my last post about writing documentation for Foresight. In that time, we’ve shipped Foresight 2.0, and the Getting Started with Foresight User Guide has frequently been met with great feedback when Foresight is reviewed.
+I’ve kept up with a few minor updates and edits to keep it fresh, but now it’s time to start planning some major updates. In no particular, I want to focus on:</description>
+    </item>
+    
+  </channel>
+</rss>

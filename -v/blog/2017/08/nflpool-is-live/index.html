@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Paul Cutler">
+<meta name="description" content="It’s been a long journey, but the first release of NFLPool is now live at NFLPool.xyz.
+We’ll call it a 0.5 release. Features include:
+ New installation service:  Upon starting the Pyramid app for the first time, the database and all of its tables are created. I’ve built an admin panel where the administrator log into and kicks off the installation service:  Downloads all of the team information from MySportsFeeds including NFL team names, conference, and division information and inserts it into the database." />
+<meta name="keywords" content="Paul Cutler, NFLPool, Pyramid, Python" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="https://paulcutler.org/blog/2017/08/nflpool-is-live/" />
+
+
+    <title>
+        
+            NFLPool is live :: Paul Cutler  — Paul Cutler Homepage
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://paulcutler.org/main.d7bdd8ee18bfbf4c605488a7e5b1b92cd980dfeed2bdaeab4dd5e931a7a78bc0.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://paulcutler.org/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://paulcutler.org/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://paulcutler.org/favicon-16x16.png">
+    <link rel="manifest" href="https://paulcutler.org/site.webmanifest">
+    <link rel="mask-icon" href="https://paulcutler.org/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="https://paulcutler.org/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+
+
+<meta itemprop="name" content="NFLPool is live">
+<meta itemprop="description" content="It’s been a long journey, but the first release of NFLPool is now live at NFLPool.xyz.
+We’ll call it a 0.5 release. Features include:
+ New installation service:  Upon starting the Pyramid app for the first time, the database and all of its tables are created. I’ve built an admin panel where the administrator log into and kicks off the installation service:  Downloads all of the team information from MySportsFeeds including NFL team names, conference, and division information and inserts it into the database.">
+<meta itemprop="datePublished" content="2017-08-18T13:53:28+00:00" />
+<meta itemprop="dateModified" content="2017-08-18T13:53:28+00:00" />
+<meta itemprop="wordCount" content="816">
+<meta itemprop="image" content="https://paulcutler.org"/>
+
+
+
+<meta itemprop="keywords" content="NFLPool,Pyramid,Python," />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://paulcutler.org"/>
+
+<meta name="twitter:title" content="NFLPool is live"/>
+<meta name="twitter:description" content="It’s been a long journey, but the first release of NFLPool is now live at NFLPool.xyz.
+We’ll call it a 0.5 release. Features include:
+ New installation service:  Upon starting the Pyramid app for the first time, the database and all of its tables are created. I’ve built an admin panel where the administrator log into and kicks off the installation service:  Downloads all of the team information from MySportsFeeds including NFL team names, conference, and division information and inserts it into the database."/>
+
+
+
+
+    <meta property="og:title" content="NFLPool is live" />
+<meta property="og:description" content="It’s been a long journey, but the first release of NFLPool is now live at NFLPool.xyz.
+We’ll call it a 0.5 release. Features include:
+ New installation service:  Upon starting the Pyramid app for the first time, the database and all of its tables are created. I’ve built an admin panel where the administrator log into and kicks off the installation service:  Downloads all of the team information from MySportsFeeds including NFL team names, conference, and division information and inserts it into the database." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://paulcutler.org/blog/2017/08/nflpool-is-live/" />
+<meta property="og:image" content="https://paulcutler.org"/>
+<meta property="article:published_time" content="2017-08-18T13:53:28+00:00" />
+<meta property="article:modified_time" content="2017-08-18T13:53:28+00:00" />
+
+
+
+
+    <meta property="article:section" content="Python" />
+
+
+
+    <meta property="article:published_time" content="2017-08-18 13:53:28 &#43;0000 &#43;0000" />
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://paulcutler.org/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text"> paulcutler.org</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://paulcutler.org/about/">About</a></li><li><a href="https://paulcutler.org/posts/">Blog</a></li><li><a href="https://paulcutler.org/project/">Projects</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="header__right">
+                <a href="https://paulcutler.org/spinning">
+                <a title="Now Spinning" href="https://paulcutler.org/spinning/"><img width="32" alt="Vinyl record" src="https://paulcutler.org/img/vinyl.png"></a>
+            </span>
+
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://paulcutler.org/blog/2017/08/nflpool-is-live/">NFLPool is live</a></h2>
+
+            
+            
+            
+
+            <div class="post-content">
+                <p>It’s been a long journey, but the first release of NFLPool is now live at <a href="https://www.nflpool.xyz">NFLPool.xyz</a>.</p>
+<p>We’ll call it a 0.5 release. Features include:</p>
+<ul>
+<li>New installation service:
+<ul>
+<li>Upon starting the Pyramid app for the first time, the database and all of its tables are created.</li>
+<li>I’ve built an admin panel where the administrator log into and kicks off the installation service:
+<ul>
+<li>Downloads all of the team information from MySportsFeeds including NFL team names, conference, and division information and inserts it into the database.</li>
+<li>The admin is then directed to the next page to enter the season year. This page is also used each year to start a new season. The NFL schedule is then downloaded from MySportsFeeds and entered into the database.</li>
+<li>Lastly the admin then downloads all of the active players in the NFL and this is inserted into the database.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>NFLPool
+<ul>
+<li>Users can register and create an account. Thanks to Python’s <code>passlib</code> module, the user password is hashed and salted over 150,000 times to keep it secure. A lot of the functionality of the site requires you to be logged in.</li>
+<li>Once a user is logged in, they can make their picks for the new season.
+<ul>
+<li>I’ve hardcoded the time allowed to make your picks. Picks need to be submitted by 6:59 p.m. the date of the first game (Thursday night kickoff before Labor Day.)</li>
+<li>The picks are displayed to the user for a drop down box for each pick. Lots of coding to make this happen to query the database and then only display the right information. For example, when making the AFC East Division winner picks, only the Bills, Dolphins, Jets and Patriots are available in the drop down box. I’m not going to pretend I’m even close to understanding Chameleon templates, but it’s pretty cool how you can iterate over a list and display it dynamically in the template page.</li>
+<li>After a user makes their picks, they can view them from their account page. It took a lot of coding and help from my wife to make the SQL query in SQLAlchemy – the SQL query itself is four left joins in SQL (four <code>OUTERJOIN</code>) in SQLAlchemy. The <code>#sqlalchemy</code> IRC channel on Freenode was helpful in getting to done on the query. Using Chameleon templates, it’s pretty cool that I can dynamically create the pages for each season for the user to view their picks. Personally, I think it will be cool after we have two or three years of data. Unfortunately, I haven’t figured out a way to iterate over the object that’s created yet to display it correctly. It’s #1 on the to-do list to get fixed. Most users won’t be submitting their picks until the day or two before kickoff in three weeks, so I’m telling myself I have a little time.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Now the hard work begins. I’m only calling it a 0.5 release because I still have to write all the code to import all of the player and team stats each week of the season from MySportsFeeds and then write the code to calculate each player’s score. Once that is done, we’ll call it 1.0.</p>
+<p>One of the fun (or frustrating things) as I’ve come close launching is all of the stuff I keep thinking of that I could add. For example, after sending out the email yesterday to last year’s players that the new site was up and the new process, I realized I should build an admin panel page to view all accounts created on the site. I was pretty darn happy that I could knock that out in ten or fifteen minutes – I feel that I’ve got a handle on Pyramid’s viewmodels and services. I wrote the query and the template page and voila. The hardest part was where to put the <code>tal:repeat</code> call in the Chameleon template and table to make it pretty! (Which I got right on the second try.) I have a whole list of to-do items grouped by the Admin Panel, the app, creating the standings calculations and a future wish list that I don’t even want to think about. That doesn’t even get into the fact that a lot of my code is definitely not Pythonic – I’m guessing I could be using list comprehensions and a number of things to make the code better. I still have a lot to learn, but it’s working.</p>
+<p>Lastly, I won’t even go into deployment. It was difficult at best. Lots of challenges with getting the nginx web server to work and I still don’t think I have the systemd service working exactly right. I’m very grateful for the help in the Pyramid IRC channel on Freenode – the Pyramid developers were super helpful in troubleshooting nginx. But I do have the whole site running SSL and redirects working to make it secure, so I have that going for me.</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="https://paulcutler.org/tags/nflpool/">NFLPool</a></span>
+        <span class="tag"><a href="https://paulcutler.org/tags/pyramid/">Pyramid</a></span>
+        <span class="tag"><a href="https://paulcutler.org/tags/python/">Python</a></span>
+        
+    </p>
+
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder meta-icon"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+
+        <span class="tag"><a href="https://paulcutler.org/categories/python/">Python</a></span>
+        
+    </p>
+
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2021</span>
+            
+            <span>Paul Cutler</span><span><a href="https://paulcutler.org/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="https://paulcutler.org/bundle.min.af435e44374f1e99a669ea8cd5bb9a2fceed80588941a451bfddb66b86a67c9f40b0f417e9543a763f809aa7e9300d7b1d69bf99615810ba02ac70396d50fad5.js" integrity="sha512-r0NeRDdPHpmmaeqM1buaL87tgFiJQaRRv922a4amfJ9AsPQX6VQ6dj&#43;AmqfpMA17HWm/mWFYELoCrHA5bVD61Q=="></script>
+
+
+
+    </body>
+</html>

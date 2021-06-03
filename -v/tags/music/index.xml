@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>music on Paul Cutler</title>
+    <link>https://paulcutler.org/tags/music/</link>
+    <description>Recent content in music on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Sun, 14 Feb 2021 12:30:00 +0000</lastBuildDate><atom:link href="https://paulcutler.org/tags/music/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Listening to my Record Collection Alphabetically</title>
+      <link>https://paulcutler.org/posts/2021/02/listening-to-my-record-collection-alphabetically/</link>
+      <pubDate>Sun, 14 Feb 2021 12:30:00 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/posts/2021/02/listening-to-my-record-collection-alphabetically/</guid>
+      <description>I love this blog post from Discogs. I’ve often thought of doing exactly what it lays out: listen to your record collection from A to Z.
+I know there are a lot of records I rarely listen to. Whether I bought them because I love the artist, because of their rarity, or just because I was taking a chance on something new, I’m sure there are records collecting dust.
+I’ve done a pretty good job, especially last year in the first year of the pandemic, selling off any records I know I won’t listen to again on Discogs.</description>
+    </item>
+    
+    <item>
+      <title>Vinyl Will Never Die</title>
+      <link>https://paulcutler.org/blog/2013/01/vinyl-will-never-die/</link>
+      <pubDate>Wed, 02 Jan 2013 21:02:12 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2013/01/vinyl-will-never-die/</guid>
+      <description>Via Reddit, music sales (by type) over the last 30 years. Spoiler alert: vinyl never dies!</description>
+    </item>
+    
+  </channel>
+</rss>

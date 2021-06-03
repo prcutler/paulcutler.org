@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GNOME Women on Paul Cutler</title>
+    <link>https://paulcutler.org/tags/gnome-women/</link>
+    <description>Recent content in GNOME Women on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Wed, 25 Nov 2009 15:55:37 +0000</lastBuildDate><atom:link href="https://paulcutler.org/tags/gnome-women/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GNOME Journal Issue 17 out!</title>
+      <link>https://paulcutler.org/blog/2009/11/gnome-journal-issue-17-out/</link>
+      <pubDate>Wed, 25 Nov 2009 15:55:37 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2009/11/gnome-journal-issue-17-out/</guid>
+      <description>I’m two days late blogging about the latest release of GNOME Journal (and thanks to Danni for mentioning it!).
+This is a very special issue written by women in the open source community. It’s the first time we’ve done a themed issue and all articles are by women in the open source community. Also, with the exception of Danni and Stormy who have written for GNOME Journal before, all are first time writers for GJ!</description>
+    </item>
+    
+  </channel>
+</rss>

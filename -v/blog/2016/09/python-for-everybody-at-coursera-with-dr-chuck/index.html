@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Paul Cutler">
+<meta name="description" content="tl;dr: I’m spending the time to learn Python primarily using the free course available at Coursera taught by Dr. Charles Severance of the University of Michigan and am really enjoying it.
+The good news: I’ve committed to my goal of learning Python and I’m sticking to it.
+The bad news: I haven’t been writing about my progress as much as I should be. Hey, learning this stuff is hard and takes time." />
+<meta name="keywords" content="Paul Cutler, Coursera, Python" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="https://paulcutler.org/blog/2016/09/python-for-everybody-at-coursera-with-dr-chuck/" />
+
+
+    <title>
+        
+            Python for Everybody at Coursera with Dr. Chuck :: Paul Cutler  — Paul Cutler Homepage
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://paulcutler.org/main.d7bdd8ee18bfbf4c605488a7e5b1b92cd980dfeed2bdaeab4dd5e931a7a78bc0.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://paulcutler.org/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://paulcutler.org/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://paulcutler.org/favicon-16x16.png">
+    <link rel="manifest" href="https://paulcutler.org/site.webmanifest">
+    <link rel="mask-icon" href="https://paulcutler.org/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="https://paulcutler.org/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+
+
+<meta itemprop="name" content="Python for Everybody at Coursera with Dr. Chuck">
+<meta itemprop="description" content="tl;dr: I’m spending the time to learn Python primarily using the free course available at Coursera taught by Dr. Charles Severance of the University of Michigan and am really enjoying it.
+The good news: I’ve committed to my goal of learning Python and I’m sticking to it.
+The bad news: I haven’t been writing about my progress as much as I should be. Hey, learning this stuff is hard and takes time.">
+<meta itemprop="datePublished" content="2016-09-16T14:58:52+00:00" />
+<meta itemprop="dateModified" content="2016-09-16T14:58:52+00:00" />
+<meta itemprop="wordCount" content="804">
+<meta itemprop="image" content="https://paulcutler.org"/>
+
+
+
+<meta itemprop="keywords" content="Coursera,Python," />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://paulcutler.org"/>
+
+<meta name="twitter:title" content="Python for Everybody at Coursera with Dr. Chuck"/>
+<meta name="twitter:description" content="tl;dr: I’m spending the time to learn Python primarily using the free course available at Coursera taught by Dr. Charles Severance of the University of Michigan and am really enjoying it.
+The good news: I’ve committed to my goal of learning Python and I’m sticking to it.
+The bad news: I haven’t been writing about my progress as much as I should be. Hey, learning this stuff is hard and takes time."/>
+
+
+
+
+    <meta property="og:title" content="Python for Everybody at Coursera with Dr. Chuck" />
+<meta property="og:description" content="tl;dr: I’m spending the time to learn Python primarily using the free course available at Coursera taught by Dr. Charles Severance of the University of Michigan and am really enjoying it.
+The good news: I’ve committed to my goal of learning Python and I’m sticking to it.
+The bad news: I haven’t been writing about my progress as much as I should be. Hey, learning this stuff is hard and takes time." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://paulcutler.org/blog/2016/09/python-for-everybody-at-coursera-with-dr-chuck/" />
+<meta property="og:image" content="https://paulcutler.org"/>
+<meta property="article:published_time" content="2016-09-16T14:58:52+00:00" />
+<meta property="article:modified_time" content="2016-09-16T14:58:52+00:00" />
+
+
+
+
+    <meta property="article:section" content="Python" />
+
+
+
+    <meta property="article:published_time" content="2016-09-16 14:58:52 &#43;0000 &#43;0000" />
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://paulcutler.org/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text"> paulcutler.org</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://paulcutler.org/about/">About</a></li><li><a href="https://paulcutler.org/posts/">Blog</a></li><li><a href="https://paulcutler.org/project/">Projects</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="header__right">
+                <a href="https://paulcutler.org/spinning">
+                <a title="Now Spinning" href="https://paulcutler.org/spinning/"><img width="32" alt="Vinyl record" src="https://paulcutler.org/img/vinyl.png"></a>
+            </span>
+
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://paulcutler.org/blog/2016/09/python-for-everybody-at-coursera-with-dr-chuck/">Python for Everybody at Coursera with Dr. Chuck</a></h2>
+
+            
+            
+            
+
+            <div class="post-content">
+                <p><em>tl;dr: I’m spending the time to learn Python primarily using the free course available at Coursera taught by Dr. Charles Severance of the University of Michigan and am really enjoying it.</em></p>
+<p>The good news: I’ve committed to my goal of learning Python and I’m sticking to it.</p>
+<p>The bad news: I haven’t been writing about my progress as much as I should be. Hey, learning this stuff is hard and takes time. That’s my excuse and I’m sticking to it.</p>
+<p>As I <a href="http://paulcutler.org/blog/2016/07/how-time-flies-or-why-i-still-havent-learned-python/">mentioned in my last post</a>, I re-enrolled in the Coursera course, <a href="https://www.coursera.org/specializations/python">Learn to Program and Analyze Data with Python</a>, from the University of Michigan taught by Dr. Charles Severance. It includes five courses, with each one lasting about six weeks, with the last course being a capstone project. You can audit the course for free or pay for an official certificate and I’m auditing the course.</p>
+<p>I flew through the first course and am now 60% of the way through the second course, Python Data Structures. In the first course you learn the basics of computer science and Python – print statements, expressions and variables, loops and functions.</p>
+<p>In the second course, Python Data Structures, you continue to build on that, learning how to slice slice strings, searching within strings, and working with files. This is where it is finally coming together and you’re writing a real program for homework assignments.</p>
+<p>I am enjoying Learn to Program and Analyze Data with Python on Coursera. I find the professor’s video lectures easy to follow and understand. The conversational tone is helpful and I appreciate how he talks about a concept and also shows slides in the video that he draws on to help illustrate his point. I believe this helps those who learn by listening and those who learn visually.</p>
+<p>Here is an example of the second course’s syllabus for week three that I just completed. As you start the week, you easily get an overview of the week ahead:</p>
+<ul>
+<li>The lecture videos you will need to watch and how long they are</li>
+<li>A wiki page of notes related to the lecture created by students</li>
+<li>The assignments you will need to complete</li>
+<li>A video showing the worked exercises to watch after the assignment is completed</li>
+<li>Bonus (optional) material for the week</li>
+</ul>
+<p><!-- raw HTML omitted --></p>
+<p>There are two downsides to the course. The first is that it is being taught in Python 2.7. One of the best parts, though, is that Dr. Severance has made the course and the book available in a Creative Commons license, which is awesome. You don’t necessarily need to do it on Coursera as the course materials are available on his website at <a href="https://www.pythonlearn.com">Python Learn</a> with the videos also available on YouTube. If you visit the site, you’ll see the book has been rewritten for Python 3 and the materials are now being updated and I’m hopeful that the course on Coursera will be updated in time as well.</p>
+<p>The second downside is more of a personal thing. The course has a neat autograder online:</p>
+<p><!-- raw HTML omitted --></p>
+<p>As you can see in the screenshot in the upper left, it tells you what to do to complete the assignment. Just below that is the editor that gives you some code to start. You edit the code and press “<em>Check Code</em>” and the output is displayed in the upper right box. If the output matches the assignment, the grade is automatically updated on the server.</p>
+<p>I learned in this week’s assignment that I need to write my code in an editor and save it rather than just doing it in the browser. I had to go back and re-watch the worked exercises for the previous chapter to review the code from the last homework assignment as this week’s homework built upon it. I won’t make that mistake again! Also, if you are really stuck with a homework assignment, there is a discussion forum where you can ask questions and get hints to what to focus on to complete the assignment.</p>
+<p>As I’ve worked through a couple of the books I’ve bought and proceed through this course, putting the concepts into practice is the hardest part. While I understand the concepts, or at least think I do, putting it into practice and writing a real program is where I struggle. As frustrating as it can be to go back, re-read a chapter or re-watch a video when I can’t write the code, I firmly believe I am going to learn best by practicing writing actual code over and over again if I ever want to meet my goal of writing the program to calculate the <a href="http://mlbpool2.com/standings/2015-nfl-pool-standings/">fantasy pool scores</a>. I am finally making the time commitment to learn Python and enjoying the process thanks to Dr. Chuck and Coursera. (You can <a href="https://twitter.com/drchuck">follow Dr. Chuck on Twitter at @drchuck</a>).</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="https://paulcutler.org/tags/coursera/">Coursera</a></span>
+        <span class="tag"><a href="https://paulcutler.org/tags/python/">Python</a></span>
+        
+    </p>
+
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder meta-icon"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+
+        <span class="tag"><a href="https://paulcutler.org/categories/python/">Python</a></span>
+        
+    </p>
+
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2021</span>
+            
+            <span>Paul Cutler</span><span><a href="https://paulcutler.org/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="https://paulcutler.org/bundle.min.af435e44374f1e99a669ea8cd5bb9a2fceed80588941a451bfddb66b86a67c9f40b0f417e9543a763f809aa7e9300d7b1d69bf99615810ba02ac70396d50fad5.js" integrity="sha512-r0NeRDdPHpmmaeqM1buaL87tgFiJQaRRv922a4amfJ9AsPQX6VQ6dj&#43;AmqfpMA17HWm/mWFYELoCrHA5bVD61Q=="></script>
+
+
+
+    </body>
+</html>

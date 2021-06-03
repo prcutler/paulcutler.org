@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marquee on Paul Cutler</title>
+    <link>https://paulcutler.org/tags/marquee/</link>
+    <description>Recent content in Marquee on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Tue, 24 Mar 2020 13:00:00 +0000</lastBuildDate><atom:link href="https://paulcutler.org/tags/marquee/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pixelcade</title>
+      <link>https://paulcutler.org/posts/2020/03/pixelcade/</link>
+      <pubDate>Tue, 24 Mar 2020 13:00:00 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/posts/2020/03/pixelcade/</guid>
+      <description>I sold a bunch of my old Sonos equipment and decided to splurge on the arcade. I had been looking at GameOnGrafix for artwork for the side panels and the marquee for the arcade cabinet. I was undecided what I wanted to do as Kelly has a vinyl cutter, so it might be possible to make my own side panel art, but I was going to need a marquee.
+And then I found the Pixelcade, which is an LED marquee.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Paul Cutler">
+<meta name="description" content="I mentioned in my last post (and a couple others) how invaluable my wife has been in my journey to learn Python. That was turned up to 11 last week and I (we) started working on the scoring calculations.
+I started to write the scoring calculations exactly as you would expect a newbie coder to – step by step. With the changes to the data model Kelly recommended, I still have a hard time wrapping my head around how we’ve abstracted the pick information." />
+<meta name="keywords" content="Paul Cutler, NFLPool, Python, SQL" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="https://paulcutler.org/blog/2017/09/i-hate-sql-or-how-my-wife-finished-nflpool/" />
+
+
+    <title>
+        
+            I Hate SQL (Or how my wife finished NFLPool) :: Paul Cutler  — Paul Cutler Homepage
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://paulcutler.org/main.d7bdd8ee18bfbf4c605488a7e5b1b92cd980dfeed2bdaeab4dd5e931a7a78bc0.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://paulcutler.org/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://paulcutler.org/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://paulcutler.org/favicon-16x16.png">
+    <link rel="manifest" href="https://paulcutler.org/site.webmanifest">
+    <link rel="mask-icon" href="https://paulcutler.org/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="https://paulcutler.org/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+
+
+<meta itemprop="name" content="I Hate SQL (Or how my wife finished NFLPool)">
+<meta itemprop="description" content="I mentioned in my last post (and a couple others) how invaluable my wife has been in my journey to learn Python. That was turned up to 11 last week and I (we) started working on the scoring calculations.
+I started to write the scoring calculations exactly as you would expect a newbie coder to – step by step. With the changes to the data model Kelly recommended, I still have a hard time wrapping my head around how we’ve abstracted the pick information.">
+<meta itemprop="datePublished" content="2017-09-06T12:33:39+00:00" />
+<meta itemprop="dateModified" content="2017-09-06T12:33:39+00:00" />
+<meta itemprop="wordCount" content="539">
+<meta itemprop="image" content="https://paulcutler.org"/>
+
+
+
+<meta itemprop="keywords" content="NFLPool,Python,SQL," />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://paulcutler.org"/>
+
+<meta name="twitter:title" content="I Hate SQL (Or how my wife finished NFLPool)"/>
+<meta name="twitter:description" content="I mentioned in my last post (and a couple others) how invaluable my wife has been in my journey to learn Python. That was turned up to 11 last week and I (we) started working on the scoring calculations.
+I started to write the scoring calculations exactly as you would expect a newbie coder to – step by step. With the changes to the data model Kelly recommended, I still have a hard time wrapping my head around how we’ve abstracted the pick information."/>
+
+
+
+
+    <meta property="og:title" content="I Hate SQL (Or how my wife finished NFLPool)" />
+<meta property="og:description" content="I mentioned in my last post (and a couple others) how invaluable my wife has been in my journey to learn Python. That was turned up to 11 last week and I (we) started working on the scoring calculations.
+I started to write the scoring calculations exactly as you would expect a newbie coder to – step by step. With the changes to the data model Kelly recommended, I still have a hard time wrapping my head around how we’ve abstracted the pick information." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://paulcutler.org/blog/2017/09/i-hate-sql-or-how-my-wife-finished-nflpool/" />
+<meta property="og:image" content="https://paulcutler.org"/>
+<meta property="article:published_time" content="2017-09-06T12:33:39+00:00" />
+<meta property="article:modified_time" content="2017-09-06T12:33:39+00:00" />
+
+
+
+
+    <meta property="article:section" content="Python" />
+
+
+
+    <meta property="article:published_time" content="2017-09-06 12:33:39 &#43;0000 &#43;0000" />
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://paulcutler.org/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text"> paulcutler.org</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://paulcutler.org/about/">About</a></li><li><a href="https://paulcutler.org/posts/">Blog</a></li><li><a href="https://paulcutler.org/project/">Projects</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="header__right">
+                <a href="https://paulcutler.org/spinning">
+                <a title="Now Spinning" href="https://paulcutler.org/spinning/"><img width="32" alt="Vinyl record" src="https://paulcutler.org/img/vinyl.png"></a>
+            </span>
+
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://paulcutler.org/blog/2017/09/i-hate-sql-or-how-my-wife-finished-nflpool/">I Hate SQL (Or how my wife finished NFLPool)</a></h2>
+
+            
+            
+            
+
+            <div class="post-content">
+                <p>I mentioned in my last post (and a couple others) how invaluable my wife has been in my journey to learn Python. That was turned up to 11 last week and I (we) started working on the scoring calculations.</p>
+<p>I started to write the scoring calculations exactly as you would expect a newbie coder to – step by step. With the changes to the data model Kelly recommended, I still have a hard time wrapping my head around how we’ve abstracted the pick information. For scoring, the first goal is find the top three players in their position. I made a SQL query using SQLAlchemy which returned with the NFL Player’s <code>player_id</code> and the needed stats – in this case interceptions, which I knew had resulted in a tie that I would have to account for. This returned a tuple: <code>(123456, 1)</code>. I then used a list comprehension (yay, me!) to turn that into a list and quickly realized I had to reverse the tuple to sort it by interception and not player ID. Thanks to Stack Overflow, I even found a function that added rank to the list that even accounted for <a href="https://en.wikipedia.org/wiki/Ranking#Strategies_for_assigning_rankings">standard competition ranking</a>.</p>
+<p>My wife looked at that, shook her head, and told me there had to be a better way and it could all be done in SQL. That started a process that lasted a few hours to figure out how to do SQL directly in the app instead of using SQLAlchemy. After she spent hours coding all the SQL queries, I now have a hundreds of line of code that I can read, but don’t really understand. But it works! As she doesn’t really know Python, I have some clean up to do to conform to PEP8, but I’m not complaining at all.</p>
+<p>The other thing I did a terrible job with was naming my database columns – they weren’t consistent. I fixed all those over the weekend, but I also had to change them all in production. Changing the database in production scares the hell out of me, especially as a handful of players have already created their accounts, but thankfully haven’t submitted their picks yet. The first round of changes to the production database went fine and Sunday night I made the second round of changes to accommodate the player picks table so we could correctly do scoring.</p>
+<p>And of course things broke. I had just arrived in the office when <a href="https://www.rollbar.com">Rollbar </a>notified me in Slack and via email that the production website had errors. I am so grateful that Michael Kennedy included adding Rollbar support in the Python for Entrepreneurs course. Within ten minutes I had fixed both the fact that the submit picks page requires you to be logged in (instead of displaying an error) – not sure how I forgot to add it to that page – and second I fixed the database table that needed an update to correctly let a player submit their picks. I need to improve my QA skills.</p>
+<p>I need to finish the QA testing on the scoring calculations by simulating the 2016 season, but it’s looking good so far. We’re 36 hours from picks locking and the season kicking off and I’m excited.</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="https://paulcutler.org/tags/nflpool/">NFLPool</a></span>
+        <span class="tag"><a href="https://paulcutler.org/tags/python/">Python</a></span>
+        <span class="tag"><a href="https://paulcutler.org/tags/sql/">SQL</a></span>
+        
+    </p>
+
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder meta-icon"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+
+        <span class="tag"><a href="https://paulcutler.org/categories/python/">Python</a></span>
+        
+    </p>
+
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2021</span>
+            
+            <span>Paul Cutler</span><span><a href="https://paulcutler.org/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="https://paulcutler.org/bundle.min.af435e44374f1e99a669ea8cd5bb9a2fceed80588941a451bfddb66b86a67c9f40b0f417e9543a763f809aa7e9300d7b1d69bf99615810ba02ac70396d50fad5.js" integrity="sha512-r0NeRDdPHpmmaeqM1buaL87tgFiJQaRRv922a4amfJ9AsPQX6VQ6dj&#43;AmqfpMA17HWm/mWFYELoCrHA5bVD61Q=="></script>
+
+
+
+    </body>
+</html>

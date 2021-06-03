@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Paul Cutler">
+<meta name="description" content="One of the big improvements for GNOME 3.0 is new user help. The Documentation Team is using Mallard to re-write the GNOME User Guide and a number of applications help files as well.
+In GNOME today, most help files are written in a very linear structure by chapter using Docbook XML. If you’re a user looking for help, it’s not always easy to find the right chapter that contains the topic you’re looking for help with." />
+<meta name="keywords" content="Paul Cutler, docbook, docs, Mallard, user help, wosdocs, yelp" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="https://paulcutler.org/blog/2010/05/quack-an-update-on-gnome-3-0-help/" />
+
+
+    <title>
+        
+            Quack – An update on GNOME 3.0 Help :: Paul Cutler  — Paul Cutler Homepage
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://paulcutler.org/main.d7bdd8ee18bfbf4c605488a7e5b1b92cd980dfeed2bdaeab4dd5e931a7a78bc0.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://paulcutler.org/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://paulcutler.org/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://paulcutler.org/favicon-16x16.png">
+    <link rel="manifest" href="https://paulcutler.org/site.webmanifest">
+    <link rel="mask-icon" href="https://paulcutler.org/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="https://paulcutler.org/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+
+
+<meta itemprop="name" content="Quack – An update on GNOME 3.0 Help">
+<meta itemprop="description" content="One of the big improvements for GNOME 3.0 is new user help. The Documentation Team is using Mallard to re-write the GNOME User Guide and a number of applications help files as well.
+In GNOME today, most help files are written in a very linear structure by chapter using Docbook XML. If you’re a user looking for help, it’s not always easy to find the right chapter that contains the topic you’re looking for help with.">
+<meta itemprop="datePublished" content="2010-05-11T01:59:11+00:00" />
+<meta itemprop="dateModified" content="2010-05-11T01:59:11+00:00" />
+<meta itemprop="wordCount" content="595">
+<meta itemprop="image" content="https://paulcutler.org"/>
+
+
+
+<meta itemprop="keywords" content="docbook,docs,Mallard,user help,wosdocs,yelp," />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://paulcutler.org"/>
+
+<meta name="twitter:title" content="Quack – An update on GNOME 3.0 Help"/>
+<meta name="twitter:description" content="One of the big improvements for GNOME 3.0 is new user help. The Documentation Team is using Mallard to re-write the GNOME User Guide and a number of applications help files as well.
+In GNOME today, most help files are written in a very linear structure by chapter using Docbook XML. If you’re a user looking for help, it’s not always easy to find the right chapter that contains the topic you’re looking for help with."/>
+
+
+
+
+    <meta property="og:title" content="Quack – An update on GNOME 3.0 Help" />
+<meta property="og:description" content="One of the big improvements for GNOME 3.0 is new user help. The Documentation Team is using Mallard to re-write the GNOME User Guide and a number of applications help files as well.
+In GNOME today, most help files are written in a very linear structure by chapter using Docbook XML. If you’re a user looking for help, it’s not always easy to find the right chapter that contains the topic you’re looking for help with." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://paulcutler.org/blog/2010/05/quack-an-update-on-gnome-3-0-help/" />
+<meta property="og:image" content="https://paulcutler.org"/>
+<meta property="article:published_time" content="2010-05-11T01:59:11+00:00" />
+<meta property="article:modified_time" content="2010-05-11T01:59:11+00:00" />
+
+
+
+
+    <meta property="article:section" content="Documentation" />
+
+    <meta property="article:section" content="GNOME" />
+
+
+
+    <meta property="article:published_time" content="2010-05-11 01:59:11 &#43;0000 &#43;0000" />
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://paulcutler.org/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text"> paulcutler.org</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://paulcutler.org/about/">About</a></li><li><a href="https://paulcutler.org/posts/">Blog</a></li><li><a href="https://paulcutler.org/project/">Projects</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="header__right">
+                <a href="https://paulcutler.org/spinning">
+                <a title="Now Spinning" href="https://paulcutler.org/spinning/"><img width="32" alt="Vinyl record" src="https://paulcutler.org/img/vinyl.png"></a>
+            </span>
+
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://paulcutler.org/blog/2010/05/quack-an-update-on-gnome-3-0-help/">Quack – An update on GNOME 3.0 Help</a></h2>
+
+            
+            
+            
+
+            <div class="post-content">
+                <p>One of the big improvements for GNOME 3.0 is new user help.  The <a href="http://live.gnome.org/DocumentationProject">Documentation Team</a> is using <a href="http://www.projectmallard.org">Mallard</a> to re-write the GNOME User Guide and a number of applications help files as well.</p>
+<p>In GNOME today, most help files are written in a very linear structure by chapter using Docbook XML.  If you’re a user looking for help, it’s not always easy to find the right chapter that contains the topic you’re looking for help with.</p>
+<p>Topic based help aims to fix that.  And to write topic based help, the GNOME Docs team will be using Mallard, a new XML language written by <a href="http://blogs.gnome.org/shaunm">Shaun McCance</a> aka the GNOME Documentation Project’s Fearless Leader.</p>
+<p>The hardest part about writing good help (in any markup) is <strong>planning, planning, planning</strong>.  <em>What feature might the user need help with?</em> <em>Where will they get stuck?</em> <em>How should the topics be organized?</em></p>
+<p>From there, you write help that’s in the second person in a conversational tone to help the user.  (And choosing the right words is important as well to help the localization teams out, too).</p>
+<p>Let’s use <a href="http://projects.gnome.org/tomboy/">Tomboy’s</a> help to compare.</p>
+<p>Tomboy help in GNOME 2.30 using Docbook:</p>
+<p><a href="https://i2.wp.com/www.paulcutler.org/blog/wp-content/uploads/2010/05/tomboy2-30.png"><!-- raw HTML omitted --></a></p>
+<p>Tomboy help re-written into topic based help for GNOME 3.0:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>(And there are a number of topics you can’t see in the screenshot such as Common Problems, Advanced Actions and What’s New.)</p>
+<p>The goal is to help users get to the help they need fast.  There’s always been a bit of an in-joke that users don’t read the help.  We’re aiming to change that.  When they need help, we need to present it quickly and easily.  (Which also ties in to the work <a href="http://blogs.gnome.org/shaunm/2010/03/11/more-yelp-3-0-location-entry/">Shaun is doing in Yelp 3.0</a>).</p>
+<p>For GNOME 3.0, we are going to re-write the GNOME User Guide.  This will be a difficult challenge due to the amount of information currently in the guide as well as GNOME Shell and the user interface being in development and we need for it to stabilize before writing the docs.  Shaun, Milo and Phil did a lot of planning around the user guide at the Desktop Help Summit this past April in Chicago.</p>
+<p>In addition to this herculean task, a number of applications are in process of getting new help or replacing their old help with topic based help, including:</p>
+<ul>
+<li>Banshee</li>
+<li>Brasero</li>
+<li>Cheese</li>
+<li>F-Spot</li>
+<li>gLabels</li>
+<li>Rhythmbox</li>
+<li>Tomboy</li>
+</ul>
+<p>On a personal note, I finished Tomboy’s help and started Banshee’s help this weekend on the plane coming back from the Marketing hackfest.  I’d also like to thank Harold Schreckengost who just joined the docs team last month and has already started, if not finished, topic based help for Brasero and F-Spot.  (I committed the F-Spot help tonight on his behalf in a new branch – <em>docs</em>).</p>
+<p>If you’re an application developer and you know of your help being written or re-written in Mallard, please <a href="http://live.gnome.org/DocumentationProject/Planning">add it to the list on the wiki</a>.  App maintainers also may need to re-work the way help is called from the menu and help the doc writers review any new documentation for accuracy.  (<em>Thanks in advance!</em>)</p>
+<p>If you’re a documentation writer, please visit the page above as well for examples on how we plan our writing for help and the Docs wiki has a lot of other great information for getting started too.  Take it from me, writing in Mallard is much easier than Docbook, and now is a great time to get involved with the Docs team and writing new user help as we’re all learning the new language and we can make a big impact on GNOME 3.0.</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="https://paulcutler.org/tags/docbook/">docbook</a></span>
+        <span class="tag"><a href="https://paulcutler.org/tags/docs/">docs</a></span>
+        <span class="tag"><a href="https://paulcutler.org/tags/mallard/">Mallard</a></span>
+        <span class="tag"><a href="https://paulcutler.org/tags/user-help/">user help</a></span>
+        <span class="tag"><a href="https://paulcutler.org/tags/wosdocs/">wosdocs</a></span>
+        <span class="tag"><a href="https://paulcutler.org/tags/yelp/">yelp</a></span>
+        
+    </p>
+
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder meta-icon"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+
+        <span class="tag"><a href="https://paulcutler.org/categories/documentation/">Documentation</a></span>
+        <span class="tag"><a href="https://paulcutler.org/categories/gnome/">GNOME</a></span>
+        
+    </p>
+
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2021</span>
+            
+            <span>Paul Cutler</span><span><a href="https://paulcutler.org/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="https://paulcutler.org/bundle.min.af435e44374f1e99a669ea8cd5bb9a2fceed80588941a451bfddb66b86a67c9f40b0f417e9543a763f809aa7e9300d7b1d69bf99615810ba02ac70396d50fad5.js" integrity="sha512-r0NeRDdPHpmmaeqM1buaL87tgFiJQaRRv922a4amfJ9AsPQX6VQ6dj&#43;AmqfpMA17HWm/mWFYELoCrHA5bVD61Q=="></script>
+
+
+
+    </body>
+</html>

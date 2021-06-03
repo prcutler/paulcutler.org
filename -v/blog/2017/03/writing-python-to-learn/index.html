@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Paul Cutler">
+<meta name="description" content="I’ve spent a lot of time on my Python journey watching videos, reading a lot of articles, reading Reddit and listening to podcasts trying to learn from osmosis. But everyone says the best way to learn is to have something you want to build and get to writing it.
+I took a week of vacation in mid-February with a goal of buckling down and writing some code. That didn’t happen. I spent half a day getting my environment set up in Fedora; a half day researching Postgresql vs." />
+<meta name="keywords" content="Paul Cutler, NFLPool, Python" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="https://paulcutler.org/blog/2017/03/writing-python-to-learn/" />
+
+
+    <title>
+        
+            Writing Python to Learn :: Paul Cutler  — Paul Cutler Homepage
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://paulcutler.org/main.d7bdd8ee18bfbf4c605488a7e5b1b92cd980dfeed2bdaeab4dd5e931a7a78bc0.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://paulcutler.org/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://paulcutler.org/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://paulcutler.org/favicon-16x16.png">
+    <link rel="manifest" href="https://paulcutler.org/site.webmanifest">
+    <link rel="mask-icon" href="https://paulcutler.org/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="https://paulcutler.org/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+
+
+<meta itemprop="name" content="Writing Python to Learn">
+<meta itemprop="description" content="I’ve spent a lot of time on my Python journey watching videos, reading a lot of articles, reading Reddit and listening to podcasts trying to learn from osmosis. But everyone says the best way to learn is to have something you want to build and get to writing it.
+I took a week of vacation in mid-February with a goal of buckling down and writing some code. That didn’t happen. I spent half a day getting my environment set up in Fedora; a half day researching Postgresql vs.">
+<meta itemprop="datePublished" content="2017-03-03T14:15:13+00:00" />
+<meta itemprop="dateModified" content="2017-03-03T14:15:13+00:00" />
+<meta itemprop="wordCount" content="758">
+<meta itemprop="image" content="https://paulcutler.org"/>
+
+
+
+<meta itemprop="keywords" content="NFLPool,Python," />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://paulcutler.org"/>
+
+<meta name="twitter:title" content="Writing Python to Learn"/>
+<meta name="twitter:description" content="I’ve spent a lot of time on my Python journey watching videos, reading a lot of articles, reading Reddit and listening to podcasts trying to learn from osmosis. But everyone says the best way to learn is to have something you want to build and get to writing it.
+I took a week of vacation in mid-February with a goal of buckling down and writing some code. That didn’t happen. I spent half a day getting my environment set up in Fedora; a half day researching Postgresql vs."/>
+
+
+
+
+    <meta property="og:title" content="Writing Python to Learn" />
+<meta property="og:description" content="I’ve spent a lot of time on my Python journey watching videos, reading a lot of articles, reading Reddit and listening to podcasts trying to learn from osmosis. But everyone says the best way to learn is to have something you want to build and get to writing it.
+I took a week of vacation in mid-February with a goal of buckling down and writing some code. That didn’t happen. I spent half a day getting my environment set up in Fedora; a half day researching Postgresql vs." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://paulcutler.org/blog/2017/03/writing-python-to-learn/" />
+<meta property="og:image" content="https://paulcutler.org"/>
+<meta property="article:published_time" content="2017-03-03T14:15:13+00:00" />
+<meta property="article:modified_time" content="2017-03-03T14:15:13+00:00" />
+
+
+
+
+    <meta property="article:section" content="Python" />
+
+
+
+    <meta property="article:published_time" content="2017-03-03 14:15:13 &#43;0000 &#43;0000" />
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://paulcutler.org/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text"> paulcutler.org</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://paulcutler.org/about/">About</a></li><li><a href="https://paulcutler.org/posts/">Blog</a></li><li><a href="https://paulcutler.org/project/">Projects</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="header__right">
+                <a href="https://paulcutler.org/spinning">
+                <a title="Now Spinning" href="https://paulcutler.org/spinning/"><img width="32" alt="Vinyl record" src="https://paulcutler.org/img/vinyl.png"></a>
+            </span>
+
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://paulcutler.org/blog/2017/03/writing-python-to-learn/">Writing Python to Learn</a></h2>
+
+            
+            
+            
+
+            <div class="post-content">
+                <p>I’ve spent a lot of time on my Python journey watching videos, reading a lot of articles, reading Reddit and listening to podcasts trying to learn from osmosis. But everyone says the best way to learn is to have something you want to build and get to writing it.</p>
+<p>I took a week of vacation in mid-February with a goal of buckling down and writing some code. That didn’t happen. I spent half a day getting my environment set up in Fedora; a half day researching Postgresql vs. MySQL and then getting MySQL set up on my development machine and on my server; a day of actual vacation (yay!), a day taking the latest <a href="https://training.talkpython.fm/courses/explore_http_reset_client_course/consuming-http-and-soap-services-in-python-with-json-xml-and-screen-scraping">Talk Python course</a> (<a href="http://paulcutler.org/blog/2017/02/talk-python-training-consuming-http-services-in-python/">helpful – and cool!</a>) and then a day spent trying to learn and figure out how to get MySQL working – which I was never able to.</p>
+<p>Looking back, I wish I would have captured what worked well or wasn’t working in my journal at a minimum, so I could turn that into blog posts, or just blogged. When I started this journey to learn Python and build my two apps, I had every intention of doing exactly that. Everyone who has a blog has an intention to write in it – and how many actually do?</p>
+<p>I find when sit down to code, one of two things happens. If things are going well, I lose track of time, and next thing I know I have to run the kids to hockey or basketball or it’s time for me to go to bed and I don’t recap what I’ve done. The other is I throw up my hands in frustration because it’s not working and I walk away – also not capturing where I’m stuck or why I’m frustrated.</p>
+<p>So here we are again and I’m going to try harder to chronicle my journey. I had a good night last night in just sitting down and reviewing the <a href="https://github.com/prcutler/nflpool">nflpool</a> code I had started. I’ve gone back to using SQLite as the SQL I had written to create the database tables works – making it work with MySQL wasn’t happening and I was sick of losing time and using it as an excuse.  Considering that there are less than 20 people in each of the two leagues, I ‘m not worried about performance right now.  The SQLite code works and I need to make some progress.</p>
+<p>Three things I accomplished last night:</p>
+<ul>
+<li>I created two additional branches in Git. I have a <code>scratchpad</code> branch – this is all my original code from six months ago. It’s terrible. I wasn’t writing functions, it’s not well organized, etc. This was my playground to experiment in trying to put the pieces together. I don’t want to lose these files, so I’ll store them in their own branch, but they won’t be used again. I created a <code>develop</code> branch – this is where I’m doing all my active development. When things are working as they should be, I’ll do a pull request and merge them into <code>master</code>. I don’t know if this is the “right” workflow, but it will work for me.</li>
+<li>I had three or four different Python scripts to create the tables in SQLite. I <a href="https://github.com/prcutler/nflpool/blob/master/create_tables.py">created one Python file</a> to create all of the tables I’ll need and created a function for each table. I tweaked some of the columns in a few of the tables after reviewing my data model, realizing that some tables didn’t capture the year or season. I added a main method to call all of these functions. I then deleted the Python scripts that did this individually and merged these changes into <code>master</code>.</li>
+<li>Lastly, and maybe most important, when I was done for the night, I grabbed my notebook and made a to-do list of what to work on next. For example: one of the tables imports some information needed for the NFL Teams (their city, abbreviation, etc.) This data never changes, but I was importing it from JSON data I downloaded from <a href="https://www.mysportsfeeds.com/">MySportsFeeds</a>. This needs to be re-written to make a request to the MySportsFeeds API to get the data rather than loading a file into memory. (Just in case anyway ever wants to re-use this code to run the same pool – I don’t ever see that happening, but it’s best to do it right the first time). This way I know where to pick up when I start again and should reduce the time reviewing the code to figure out what to work on next.</li>
+</ul>
+<p>Progress!</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="https://paulcutler.org/tags/nflpool/">NFLPool</a></span>
+        <span class="tag"><a href="https://paulcutler.org/tags/python/">Python</a></span>
+        
+    </p>
+
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder meta-icon"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+
+        <span class="tag"><a href="https://paulcutler.org/categories/python/">Python</a></span>
+        
+    </p>
+
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2021</span>
+            
+            <span>Paul Cutler</span><span><a href="https://paulcutler.org/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="https://paulcutler.org/bundle.min.af435e44374f1e99a669ea8cd5bb9a2fceed80588941a451bfddb66b86a67c9f40b0f417e9543a763f809aa7e9300d7b1d69bf99615810ba02ac70396d50fad5.js" integrity="sha512-r0NeRDdPHpmmaeqM1buaL87tgFiJQaRRv922a4amfJ9AsPQX6VQ6dj&#43;AmqfpMA17HWm/mWFYELoCrHA5bVD61Q=="></script>
+
+
+
+    </body>
+</html>

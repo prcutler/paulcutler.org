@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Paul Cutler">
+<meta name="description" content="(Licensed under a CC-BY 2.0 licensed by tanakawho)
+Things have been relatively quiet since my last update about Snowy a couple of weeks ago. What’s been going on behind the scenes:
+ Sandy triaged and assigned milestones to lots of features requests in Snowy bugzilla. Jeff hacked on Snowy to allow users to add a second OpenID provider to an existing account. Unfortunately it will have to be refactored as it works great for new users signing up but not for existing users as the form enforces that the users are unique." />
+<meta name="keywords" content="Paul Cutler, GNOME, snowy, tomboy, Tomboy Online" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="https://paulcutler.org/blog/2010/09/taking-snowy-for-a-walk-issue-2-alpha-dog/" />
+
+
+    <title>
+        
+            Taking Snowy for a Walk – Issue 2: Alpha dog :: Paul Cutler  — Paul Cutler Homepage
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://paulcutler.org/main.d7bdd8ee18bfbf4c605488a7e5b1b92cd980dfeed2bdaeab4dd5e931a7a78bc0.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://paulcutler.org/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://paulcutler.org/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://paulcutler.org/favicon-16x16.png">
+    <link rel="manifest" href="https://paulcutler.org/site.webmanifest">
+    <link rel="mask-icon" href="https://paulcutler.org/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="https://paulcutler.org/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+
+
+<meta itemprop="name" content="Taking Snowy for a Walk – Issue 2: Alpha dog">
+<meta itemprop="description" content="(Licensed under a CC-BY 2.0 licensed by tanakawho)
+Things have been relatively quiet since my last update about Snowy a couple of weeks ago. What’s been going on behind the scenes:
+ Sandy triaged and assigned milestones to lots of features requests in Snowy bugzilla. Jeff hacked on Snowy to allow users to add a second OpenID provider to an existing account. Unfortunately it will have to be refactored as it works great for new users signing up but not for existing users as the form enforces that the users are unique.">
+<meta itemprop="datePublished" content="2010-09-13T19:07:38+00:00" />
+<meta itemprop="dateModified" content="2010-09-13T19:07:38+00:00" />
+<meta itemprop="wordCount" content="269">
+<meta itemprop="image" content="https://paulcutler.org"/>
+
+
+
+<meta itemprop="keywords" content="GNOME,snowy,tomboy,Tomboy Online," />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://paulcutler.org"/>
+
+<meta name="twitter:title" content="Taking Snowy for a Walk – Issue 2: Alpha dog"/>
+<meta name="twitter:description" content="(Licensed under a CC-BY 2.0 licensed by tanakawho)
+Things have been relatively quiet since my last update about Snowy a couple of weeks ago. What’s been going on behind the scenes:
+ Sandy triaged and assigned milestones to lots of features requests in Snowy bugzilla. Jeff hacked on Snowy to allow users to add a second OpenID provider to an existing account. Unfortunately it will have to be refactored as it works great for new users signing up but not for existing users as the form enforces that the users are unique."/>
+
+
+
+
+    <meta property="og:title" content="Taking Snowy for a Walk – Issue 2: Alpha dog" />
+<meta property="og:description" content="(Licensed under a CC-BY 2.0 licensed by tanakawho)
+Things have been relatively quiet since my last update about Snowy a couple of weeks ago. What’s been going on behind the scenes:
+ Sandy triaged and assigned milestones to lots of features requests in Snowy bugzilla. Jeff hacked on Snowy to allow users to add a second OpenID provider to an existing account. Unfortunately it will have to be refactored as it works great for new users signing up but not for existing users as the form enforces that the users are unique." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://paulcutler.org/blog/2010/09/taking-snowy-for-a-walk-issue-2-alpha-dog/" />
+<meta property="og:image" content="https://paulcutler.org"/>
+<meta property="article:published_time" content="2010-09-13T19:07:38+00:00" />
+<meta property="article:modified_time" content="2010-09-13T19:07:38+00:00" />
+
+
+
+
+    <meta property="article:section" content="GNOME" />
+
+
+
+    <meta property="article:published_time" content="2010-09-13 19:07:38 &#43;0000 &#43;0000" />
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://paulcutler.org/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text"> paulcutler.org</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://paulcutler.org/about/">About</a></li><li><a href="https://paulcutler.org/posts/">Blog</a></li><li><a href="https://paulcutler.org/project/">Projects</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="header__right">
+                <a href="https://paulcutler.org/spinning">
+                <a title="Now Spinning" href="https://paulcutler.org/spinning/"><img width="32" alt="Vinyl record" src="https://paulcutler.org/img/vinyl.png"></a>
+            </span>
+
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://paulcutler.org/blog/2010/09/taking-snowy-for-a-walk-issue-2-alpha-dog/">Taking Snowy for a Walk – Issue 2: Alpha dog</a></h2>
+
+            
+            
+            
+
+            <div class="post-content">
+                <p><a href="http://www.flickr.com/photos/steveguttman/2298834402/" title="Annabella and Bam at play by Steve Guttman NYC, on Flickr"><!-- raw HTML omitted --></a></p>
+<p><em>(Licensed under a CC-BY 2.0 licensed by <a href="http://www.flickr.com/photos/28481088@N00/411150455/">tanakawho</a>)</em></p>
+<p>Things have been relatively quiet since <a href="http://www.paulcutler.org/blog/?p=1421">my last update</a> about <a href="http://live.gnome.org/Snowy">Snowy</a> a couple of weeks ago. What’s been going on behind the scenes:</p>
+<ul>
+<li>Sandy triaged and assigned milestones to lots of features requests in <a href="https://bugzilla.gnome.org/browse.cgi?product=snowy">Snowy bugzilla</a>.</li>
+<li>Jeff hacked on Snowy to allow users to add a second OpenID provider to an existing account. Unfortunately it will have to be refactored as it works great for new users signing up but not for existing users as the form enforces that the users are unique. (Here’s a great area to help out with if you know Django and / or OpenID!)</li>
+<li>We started working on a <a href="https://bugzilla.gnome.org/show_bug.cgi?id=613890">privacy policy</a>.</li>
+<li>Jeff implemented breadcrumbs for notebooks and the UI needs to be finished for this.</li>
+<li>Jeff and Sandy did some troubleshooting about how debug works in Snowy.</li>
+<li>The <a href="http://live.gnome.org/Snowy/FAQ">FAQ</a> was updated about the alpha that starts today.</li>
+</ul>
+<p>Just in case you were skimming, I’ll say that last part again:</p>
+<p><strong>The <a href="http://live.gnome.org/Snowy/FAQ">FAQ</a> was updated about the alpha that starts today.</strong></p>
+<p>How do you get in the alpha? Well, the alpha is still invite only, but first you should read the <a href="http://live.gnome.org/Snowy/FAQ">FAQ</a> and then you should <a href="https://spreadsheets.google.com/viewform?formkey=dFZleG05V196b3g4VUFSTHhzcTRFMmc6MQ">fill out the form</a> to let us know you’re interested. The form helps us by first, keeping a list of everyone who is interested, and secondly, understanding what features are important to our users. But please understand that by signing up for the alpha and the beta we are asking for your help – if and when you encounter a bug, let us know!</p>
+<p><em>Did you know? <a href="http://en.wikipedia.org/wiki/Snowy_(character)">Snowy</a> is <a href="http://en.wikipedia.org/wiki/Tintin_(character)">Tintin</a>‘s pet dog.</em></p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="https://paulcutler.org/tags/gnome/">GNOME</a></span>
+        <span class="tag"><a href="https://paulcutler.org/tags/snowy/">snowy</a></span>
+        <span class="tag"><a href="https://paulcutler.org/tags/tomboy/">tomboy</a></span>
+        <span class="tag"><a href="https://paulcutler.org/tags/tomboy-online/">Tomboy Online</a></span>
+        
+    </p>
+
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder meta-icon"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+
+        <span class="tag"><a href="https://paulcutler.org/categories/gnome/">GNOME</a></span>
+        
+    </p>
+
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2021</span>
+            
+            <span>Paul Cutler</span><span><a href="https://paulcutler.org/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="https://paulcutler.org/bundle.min.af435e44374f1e99a669ea8cd5bb9a2fceed80588941a451bfddb66b86a67c9f40b0f417e9543a763f809aa7e9300d7b1d69bf99615810ba02ac70396d50fad5.js" integrity="sha512-r0NeRDdPHpmmaeqM1buaL87tgFiJQaRRv922a4amfJ9AsPQX6VQ6dj&#43;AmqfpMA17HWm/mWFYELoCrHA5bVD61Q=="></script>
+
+
+
+    </body>
+</html>

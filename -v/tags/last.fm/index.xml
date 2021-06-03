@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>last.fm on Paul Cutler</title>
+    <link>https://paulcutler.org/tags/last.fm/</link>
+    <description>Recent content in last.fm on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Fri, 04 Jan 2008 16:42:04 +0000</lastBuildDate><atom:link href="https://paulcutler.org/tags/last.fm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog updates</title>
+      <link>https://paulcutler.org/blog/2008/01/blog-updates/</link>
+      <pubDate>Fri, 04 Jan 2008 16:42:04 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2008/01/blog-updates/</guid>
+      <description>I’m in the process of changing servers at my current host, and the last website I had to do was this one. Over the course of last weekend, I decided to finish it, and did a mysqldump of my WordPress database, in addition to updating to the latest version to avoid a security flaw. I about had a heart attack when I saw my database (not gzipped) was 3.3 gigabytes. Sure, I’ve been blogging for 5 years (more on that later this month), but 3.</description>
+    </item>
+    
+  </channel>
+</rss>

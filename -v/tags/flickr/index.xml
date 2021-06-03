@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flickr on Paul Cutler</title>
+    <link>https://paulcutler.org/tags/flickr/</link>
+    <description>Recent content in Flickr on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Fri, 18 Apr 2008 17:42:39 +0000</lastBuildDate><atom:link href="https://paulcutler.org/tags/flickr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Foresight 20/20 – Join the Flickr Group!</title>
+      <link>https://paulcutler.org/blog/2008/04/foresight-2020-join-the-flickr-group/</link>
+      <pubDate>Fri, 18 Apr 2008 17:42:39 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2008/04/foresight-2020-join-the-flickr-group/</guid>
+      <description>There is a Foresight Flickr group I created a while back, for screenshots and conferences. If you have a Flickr account, or want to follow along as the conference progresses, you can find the group here: http://www.flickr.com/groups/foresightlinux/.
+pscott has spent a chunk of the day getting Foresight to run on his Asus EeePC – he’s booting Foresight from an external USB hard drive, and had to compile a custom madwifi driver to get wireless to work.</description>
+    </item>
+    
+    <item>
+      <title>Yahoo! and me</title>
+      <link>https://paulcutler.org/blog/2008/02/yahoo-and-me/</link>
+      <pubDate>Sat, 02 Feb 2008 01:43:42 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2008/02/yahoo-and-me/</guid>
+      <description>I’ve read enough of the stories of Microsoft’s takeover bid for Yahoo!, and I hate to contribute more, but Wired has a great story on the Flickr communities’ reaction.
+I’m a Yahoo! user by acquisition. I absolutely adore Flickr, with over 4000 photos posted and viewed over 67,000 times. (My Foresight screenshot is #1 for me with 2000 views). I bought a Pro account when Flickr first launched, ages before it was acquired, and was rewarded for overpaying by gaining a year.</description>
+    </item>
+    
+  </channel>
+</rss>

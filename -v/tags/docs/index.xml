@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>docs on Paul Cutler</title>
+    <link>https://paulcutler.org/tags/docs/</link>
+    <description>Recent content in docs on Paul Cutler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cutler</copyright>
+    <lastBuildDate>Wed, 22 Mar 2017 13:23:06 +0000</lastBuildDate><atom:link href="https://paulcutler.org/tags/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why I enjoy writing user help for GNOME</title>
+      <link>https://paulcutler.org/blog/2017/03/why-i-enjoy-writing-user-help-for-gnome/</link>
+      <pubDate>Wed, 22 Mar 2017 13:23:06 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2017/03/why-i-enjoy-writing-user-help-for-gnome/</guid>
+      <description>It’s been almost ten years since I started contributing to open source projects. One of the big ways I’ve contributed in the past is writing user help. Not knowing how to code then (and still really don’t know now, as hard as I try to learn Python), writing is something I enjoy and an area where I think I can make a difference.
+There are a number of different places to apply a writing skill in open source.</description>
+    </item>
+    
+    <item>
+      <title>GNOME Docs Team meeting tomorrow</title>
+      <link>https://paulcutler.org/blog/2010/06/gnome-docs-team-meeting-tomorrow/</link>
+      <pubDate>Wed, 23 Jun 2010 18:09:05 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2010/06/gnome-docs-team-meeting-tomorrow/</guid>
+      <description>What’s that? You follow planet.gnome.org but not news.gnome.org? For shame – we have a blog for the GNOME Documentation team but I guess this once I can cross-post for you.
+We’re having a meeting tomorrow at 19:00 UTC in #docs on irc.gimp.org to start planning the topics and task for GNOME 3.0. We have big things (like GNOME Shell) to document and lots of little topics to tackle as we break up the old GNOME User Guide and organize it better.</description>
+    </item>
+    
+    <item>
+      <title>Quack – An update on GNOME 3.0 Help</title>
+      <link>https://paulcutler.org/blog/2010/05/quack-an-update-on-gnome-3-0-help/</link>
+      <pubDate>Tue, 11 May 2010 01:59:11 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2010/05/quack-an-update-on-gnome-3-0-help/</guid>
+      <description>One of the big improvements for GNOME 3.0 is new user help. The Documentation Team is using Mallard to re-write the GNOME User Guide and a number of applications help files as well.
+In GNOME today, most help files are written in a very linear structure by chapter using Docbook XML. If you’re a user looking for help, it’s not always easy to find the right chapter that contains the topic you’re looking for help with.</description>
+    </item>
+    
+    <item>
+      <title>GNOME Odds &amp; Ends</title>
+      <link>https://paulcutler.org/blog/2010/01/gnome-odds-ends/</link>
+      <pubDate>Fri, 22 Jan 2010 22:09:54 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2010/01/gnome-odds-ends/</guid>
+      <description>A few different things going on:
+ Tomboy documentation is almost done in Mallard. I’ve really enjoyed using the Mallard syntax – so much less complex than Docbook. Every time I have to look up an element reference, I shake my head and think, “Duh! That makes so much more sense I should have figured that out!“. Nice work Shaun. I triaged some docs bugs in GNOME Bugzilla. Want to get involved with the GNOME Documentation team but don’t know where to start?</description>
+    </item>
+    
+    <item>
+      <title>GNOME Docs Hackfest Part II</title>
+      <link>https://paulcutler.org/blog/2009/06/gnome-docs-hackfest-part-ii/</link>
+      <pubDate>Tue, 23 Jun 2009 02:47:20 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2009/06/gnome-docs-hackfest-part-ii/</guid>
+      <description>Day three of the Writing Open Source conference was our hackfest. I previously showed off Milo’s work in Part I, but it’s probably best to start at the beginning.
+We started day three by applying some of what we had learned over the first two days. When writing, especially documentation, it is best to plan your work. This includes knowing your audience, their personas, and understanding their needs.
+Lynda Chiotti, with help from Janet Swisher, led us through a brainstorming exercise.</description>
+    </item>
+    
+    <item>
+      <title>Writing Open Source</title>
+      <link>https://paulcutler.org/blog/2009/06/writing-open-source/</link>
+      <pubDate>Fri, 12 Jun 2009 19:20:19 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2009/06/writing-open-source/</guid>
+      <description>The first ever (that we know of) conference for documentation writers in open source conference started today in Owen Sound, Ontario (about 2 hours from Toronto). The Writing Open Source conference is being hosted by Emma Jane Hogbin, and a few of us from GNOME are here:
+
+(Left to Right: Shaun McCance, Milo Cassagrande, Phil Bull and myself).
+We’re halfway through the first day, which is keynotes, and the conference is awesome.</description>
+    </item>
+    
+    <item>
+      <title>GNOME Updates</title>
+      <link>https://paulcutler.org/blog/2009/04/gnome-updates/</link>
+      <pubDate>Mon, 27 Apr 2009 03:28:51 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2009/04/gnome-updates/</guid>
+      <description>Lots of stuff going on in the world of GNOME for me!
+Attended a few meetings last week with GNOME related projects.
+This past Sunday, April 19th, the Documentation team met for the first time in a while. Shaun gave an update on the status of Mallard, the new markup language for GNOME Docs; a possible change to how we license docs; an introduction to Pulse and some brainstorming on new ways to bring guides to users.</description>
+    </item>
+    
+    <item>
+      <title>GNOME Documentation Meeting</title>
+      <link>https://paulcutler.org/blog/2009/04/gnome-documentation-meeting/</link>
+      <pubDate>Wed, 15 Apr 2009 00:53:58 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2009/04/gnome-documentation-meeting/</guid>
+      <description>There is a GNOME Documentation Team meeting this Sunday, at 17:00 UTC.
+I am a suckervolunteered to help Shaun McCance facilitate the meeting. Here is the meeting announcement I just sent to the mailing list:
+ Are you a seasoned and wily Docbook veteran? New to writing documentation and don’t know where to start? Now is a great time to join the team!
+There is not a formal agenda, but we will start with Shaun giving a brief update on Project Mallard (http://live.</description>
+    </item>
+    
+    <item>
+      <title>Writing GNOME Docs, Part III (Let&#39;s write some code!)</title>
+      <link>https://paulcutler.org/blog/2009/03/write-gnome-docs-part-iii-lets-write-some-code/</link>
+      <pubDate>Sat, 28 Mar 2009 01:44:34 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2009/03/write-gnome-docs-part-iii-lets-write-some-code/</guid>
+      <description>I’ve been chronicling my learning on writing documentation for GNOME. In Part I, I covered getting up to speed on GNOME documentation and the tools available; and in Part II I wrote about picking a project that you want to help, getting involved, and setting up your environment and finding updates that need to be made.
+Now it’s time to apply those needed updates to the documentation and write some actual code in Docbook.</description>
+    </item>
+    
+    <item>
+      <title>Writing GNOME Docs, Part II</title>
+      <link>https://paulcutler.org/blog/2009/03/writing-gnome-docs-part-ii/</link>
+      <pubDate>Thu, 26 Mar 2009 18:03:39 +0000</pubDate>
+      
+      <guid>https://paulcutler.org/blog/2009/03/writing-gnome-docs-part-ii/</guid>
+      <description>So you’ve decided you want to contribute to GNOME and write some documentation. In Part I, I wrote about the steps I went through to prepare to write GNOME documentation and picking a project.
+In Part II, we will take a look at the final preparation stage, including checking out the project’s source code via GNOME Subversion and finding documentation that needs updating. I am still fairly new to the process myself, but these are some of the steps I take in writing documentation.</description>
+    </item>
+    
+  </channel>
+</rss>
