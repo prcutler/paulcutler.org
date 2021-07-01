@@ -3,21 +3,22 @@
 date = "2020-06-12"
 
 # Project title.
-title = "Now Spinning - June 2021"
+title = "Now Spinning - July 2021"
 
 +++
 
 2021 Goal:  [Listening to my Record Collection Alphabetically](https://paulcutler.org/posts/2021/02/listening-to-my-record-collection-alphabetically/)
 
 ## Newish Records
-* Impatiently waiting for the new Liz Phair and Garbage records to be released
+* Liz Phair - [Soberish](https://www.discogs.com/Liz-Phair-Soberish/release/19143028)
+* Garbage - [No Gods No Masters](https://www.discogs.com/Garbage-No-Gods-No-Masters/release/19088941)
 
 ## Older Records
-* June 1st: Listening to "I" in [Listening to my Record Collection Alphabetically](https://paulcutler.org/posts/2021/02/listening-to-my-record-collection-alphabetically/)
+* July 1st: Listening to "L" in [Listening to my Record Collection Alphabetically](https://paulcutler.org/posts/2021/02/listening-to-my-record-collection-alphabetically/)
 
 ## Streaming
-* The Black Keys - Delta Kream
-* St. Vincent - Daddy's Home
+* Hiss Golden Messenger - Quietly Blowing It
+* Faye Webster - I Know I'm Funny haha
 
 
 
