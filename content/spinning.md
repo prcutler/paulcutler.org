@@ -12,9 +12,10 @@ title = "Now Spinning - July 2021"
 ## Newish Records
 * Liz Phair - [Soberish](https://www.discogs.com/Liz-Phair-Soberish/release/19143028)
 * Garbage - [No Gods No Masters](https://www.discogs.com/Garbage-No-Gods-No-Masters/release/19088941)
+* Lucy Dacus - [Home Video](https://www.discogs.com/Lucy-Dacus-Home-Video/release/19224151)
 
 ## Older Records
-* July 1st: Listening to "L" in [Listening to my Record Collection Alphabetically](https://paulcutler.org/posts/2021/02/listening-to-my-record-collection-alphabetically/)
+* July 1st: Listening to "M" in [Listening to my Record Collection Alphabetically](https://paulcutler.org/posts/2021/02/listening-to-my-record-collection-alphabetically/)
 
 ## Streaming
 * Hiss Golden Messenger - Quietly Blowing It
