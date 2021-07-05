@@ -26,6 +26,6 @@ I didn’t know if I would stick with it, but here I am four or five years later
 
 NFLPool never really had enough players to survive.  MLBPool2 did, but in the second year of it being online, the commissioner changed some of the rules and how points were scored.  Updating the code introduced a bug in how ERA is calculated and I was never able to find the bug.  
 
-I thought I had turned off registration in both applications, but script kiddies are still registering themselves with NFLPool.  Before they find a flaw with SQL injection or something else stupid, I’ve replaced both sites with a landing page that redirects to the project pages here.  If it wasn’t for them, I would have left the site and scores up to show what had been built.
+I thought I had turned off registration in both applications, but script kiddies are still registering themselves with NFLPool.  Before they find a flaw with SQL injection or something else stupid, I’ve replaced both sites with a landing page that redirects to the project pages here.  If it wasn’t for them, I would have left the site and scores up to show what had been built.  I've officially put both repositories in Archive mode on Github.
 
 In the end, they both served their purposes in giving me motivation to learn how to code and for that I’ll always be grateful.
