@@ -200,3 +200,6 @@ public/wp-content/uploads/.DS_Store
 public/wp-content/uploads/2011/.DS_Store
 public/wp-content/uploads/2018/.DS_Store
 static/img/.DS_Store
+
+#Mac DS_Store
+.DS_Store
