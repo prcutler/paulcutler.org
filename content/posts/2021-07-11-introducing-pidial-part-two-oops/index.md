@@ -1,5 +1,5 @@
 ---
-title: Introducing pi-dial Part Two - Oops
+title: Introducing pi-dial - Part Two: Oops
 author: Paul Cutler 
 type: post 
 date: 2021-07-11T13:00:00
