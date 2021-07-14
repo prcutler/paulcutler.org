@@ -27,6 +27,6 @@ I couldn’t quite get it at first.  I ran one of the Python 2 programs I found 
 
 Within three or four hours I had it all working.  I wish I had kept better notes for these blog posts to share some of the broken code versus where I ended up, but the end result is what I wanted.  I [created a handful of different Python programs for testing all the different functions in pi-dial repo](https://github.com/prcutler/pi-dial) that I'll eventually need to clean up.  (Don't look, the code is terrible, needs to be re-formatted, etc. etc.) If I moved the encoder clockwise, the volume goes up.  Counter-clockwise, the volume goes down and if I press the button it either mutes or unmutes depending on its status.  
 
-I couldn't get this [tweet to embed correctly, but if you click through](https://twitter.com/prcutler/status/1410233328096120832), you'll can see and hear a 12 second video of me muting my receiver over Zone 2 using the Raspberry Pi
+I couldn't get this [tweet to embed correctly, but if you click through](https://twitter.com/prcutler/status/1410233328096120832), you can see and hear a 12 second video of me muting my receiver over Zone 2 using the Raspberry Pi over the network.
 
 *Next up: I can’t keep it simple*
