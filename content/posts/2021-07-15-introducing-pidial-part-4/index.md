@@ -44,12 +44,4 @@ In less than [50 lines of Python](https://github.com/prcutler/pi-dial/blob/main/
 
 Voila!  This was probably the easiest part of the project so far.
 
-Let's see if this short video works:
-
-{{< video src=16x2-LCD.mp4” controls=“yes” >}}
-
 Next up:  A detour with Python’s `async`
-
-
-
-
