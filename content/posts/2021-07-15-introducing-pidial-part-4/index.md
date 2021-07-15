@@ -30,7 +30,7 @@ If you click through, I’m not sure I’ll use the power step down converter fo
 
 Now I need to LCD to match the design.  Another few hours of reading and research and this doesn’t look as hard as I thought it might be.
 
-I looked at the [Adafruit Pi Plate][Adafruit Blue&White 16x2 LCD+Keypad Kit for Raspberry Pi : ID 1115 : $19.95 : Adafruit Industries, Unique & fun DIY electronics and kits](https://www.adafruit.com/product/1115), which includes a 16x 2 screen (16 characters per row, 2 rows).  It also has five buttons, and I don’t need that many.  I did find some interesting 3D printer cases for it, but I’d rather use a rotary encoder to control the volume than buttons.
+I looked at the [Adafruit Pi Plate](https://www.adafruit.com/product/1115), which includes a 16x 2 screen (16 characters per row, 2 rows).  It also has five buttons, and I don’t need that many.  I did find some interesting 3D printer cases for it, but I’d rather use a rotary encoder to control the volume than buttons.
 
 Looking at some of the tutorials on-line, I went with a cheap [two-pack from Amazon](https://www.amazon.com/GeeekPi-Character-Backlight-Raspberry-Electrical/dp/B07S7PJYM6).  If you look at the photo below, you can see the LCD has 16 pins across above the LCD, but it also has an I2C interface on the left side where you can see the 4 pins coming out of it.
 
@@ -44,4 +44,4 @@ In less than [50 lines of Python](https://github.com/prcutler/pi-dial/blob/main/
 
 Voila!  This was probably the easiest part of the project so far.
 
-Next up:  A detour with Python’s `async`
+*Next up:  A detour with Python’s `async`*
