@@ -12,12 +12,14 @@ title = "Now Spinning - August 2021"
 ## Newish Records
 * Garbage - [No Gods No Masters](https://www.discogs.com/Garbage-No-Gods-No-Masters/release/19088941)
 * Lucy Dacus - [Home Video](https://www.discogs.com/Lucy-Dacus-Home-Video/release/19224151)
+* Various Artists - [Say Anything Expanded Soundtrack](https://www.discogs.com/Various-Say-Anything-Expanded-Motion-Picture-Soundtrack/release/18978094)
 
 ## Older Records
 * August 1st: Listening to "N" in [Listening to my Record Collection Alphabetically](https://paulcutler.org/posts/2021/02/listening-to-my-record-collection-alphabetically/)
 
 ## Streaming
 * The DeeGees - Hail Satin
+* Amethyst Kiah - Wary + Strange
 
 
 
