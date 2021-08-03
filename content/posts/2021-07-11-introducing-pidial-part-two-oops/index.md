@@ -11,6 +11,7 @@ tags:
   - CircuitPython
   - Raspberry Pi
   - denonavr
+  - pi-dial
 
 ---
 Previously: [Introducing pi-dial Part 1](https://paulcutler.org/posts/2021/07/introducing-pi-dial-part-one/)

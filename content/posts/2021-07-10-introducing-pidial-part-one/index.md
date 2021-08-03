@@ -10,6 +10,7 @@ tags:
   - CircuitPython
   - Raspberry Pi
   - denonavr
+  - pi-dial
 
 ---
 ## The backstory and overview
