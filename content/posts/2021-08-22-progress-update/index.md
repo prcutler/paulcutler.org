@@ -1,5 +1,5 @@
 ---
-title: Introducing pi-dial - Part One
+title: Progress Update
 author: Paul Cutler 
 type: post 
 date: 2021-08-22T19:30:00
