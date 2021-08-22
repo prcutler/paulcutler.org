@@ -2,15 +2,14 @@
 title: Introducing pi-dial - Part One
 author: Paul Cutler 
 type: post 
-date: 2021-0-22T19:30:00
+date: 2021-08-22T19:30:00
 categories:
   - Python
 tags:
   - Python
   - CircuitPython
-  - Raspberry Pi
-  - denonavr
   - pi-dial
+  - 3dprinting
 
 ---
 It’s been a little bit since I posted an update about the pi-dial project.  Don’t worry, I have some updates to share soon.
