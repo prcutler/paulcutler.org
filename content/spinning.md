@@ -13,7 +13,7 @@ title = "Now Spinning - September 2021"
 
 
 ## Older Records
-* August 1st: Listening to "P" in [Listening to my Record Collection Alphabetically](https://paulcutler.org/posts/2021/02/listening-to-my-record-collection-alphabetically/): Listening to the letter "P", which might give "B" a challenge for the best letter yet.  "P" has Pearl Jam, Prince, Public Enemy and more.  It might take more than a month to get through it...
+* September 1st: Listening to "P" in [Listening to my Record Collection Alphabetically](https://paulcutler.org/posts/2021/02/listening-to-my-record-collection-alphabetically/): Listening to the letter "P", which might give "B" a challenge for the best letter yet.  "P" has Pearl Jam, Prince, Public Enemy and more.  It might take more than a month to get through it...
 
 ## Streaming
 * Chvrches - Screen Violence
