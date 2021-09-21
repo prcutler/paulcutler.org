@@ -36,6 +36,6 @@ I did take some time to update the project’s documentation with more `async` e
 
 Thankfully, the `denonavr` project still includes legacy support, which was pretty easy to get up and running, with the exception of one thing, which I’ll cover next time.
 
-*A brief aside:  I feel bad for users who ask a question and don’t get a response in open source projects.  Even worse, in my opinion is adding a bot that will automatically	close those questions or issues after a period of time without a response.  Having been involved with a couple of open source projects, I understand how frustrating it can be for users to ask the same questions over and over or have a repository filled with “issues” that really aren’t issues.  But then write some documentation to help those users!  Don’t ignore them and then automatically close the issue.*
+*A brief aside:  I feel bad for users who ask a question and don’t get a response in open source projects.  Even worse, in my opinion, is adding a bot that will automatically	close those questions or issues after a period of time without a response.  Having been involved with a couple of open source projects, I understand how frustrating it can be for users to ask the same questions over and over or have a repository filled with “issues” that really aren’t issues.  But then write some documentation to help those users!  Don’t ignore them and then automatically close the issue.*
 
 Next up:  Finally writing the Python code to power `pi-dial`. 
