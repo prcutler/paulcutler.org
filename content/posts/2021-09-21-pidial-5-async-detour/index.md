@@ -1,5 +1,5 @@
 ---
-title: Pi-Dial Part 5 - A detour into Python’s async
+title: Introducing pi-dial - Part 5
 author: Paul Cutler 
 type: post 
 date: 2021-09-21T16:30:00
