@@ -1,5 +1,5 @@
 ---
-title: Introducing pi-dial - Part 6 -When is a list not a list?
+title: pi-dial - Part 6 - When is a list not a list?
 author: Paul Cutler 
 type: post 
 date: 2021-09-21T14:00:00
