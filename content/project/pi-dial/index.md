@@ -9,7 +9,7 @@ title = "pi-dial"
 summary = "A hardware project to control a Denon Audio-Video Receiver using a Raspberry Pi, rotary encoders, and an LCD screen."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "project/pi-dial/breadboard.png"
+image_preview = "project/pidial/pidial.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
@@ -28,7 +28,7 @@ caption = "pi-dial prototype on the breadboard"
 
 +++
 
-![pi-dial](pi-dial.png)
+![pi-dial](pidial.png)
 
 The `pi-dial`  project originally started as a copy of the [Media Dial project](https://learn.adafruit.com/media-dial) on Adafruit.  After it was pointed out to me that my CircuitPython devices didn't have networking, I turned to a Raspberry Pi.  The Raspberry Pi has two rotary encoders connected, one to control the volume and the other to change the input for my network connected Denon Audio-Video Receiver (AVR). 
 
