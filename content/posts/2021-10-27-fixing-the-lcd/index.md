@@ -1,7 +1,7 @@
 ---
 title: Introducing pi-dial - Part 7 - Fixing the LCD
 author: Paul Cutler 
-type: draft 
+type: post 
 date: 2021-10-27T17:00:00
 categories:
   - Python
