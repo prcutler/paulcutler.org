@@ -36,8 +36,6 @@ A quick search later I came across the [RPLCD](https://github.com/dbrgn/RPLCD) l
 
 I’ve said it before and I’ll say it again:  I love open source.
 
-And make sure you thank an open source maintainer today.
-
-<blockquote class=“twitter-tweet”><p lang=“en” dir=“ltr”>Dear <a href=“https://twitter.com/dbrgn?ref_src=twsrc%5Etfw”>@dbrgn</a>: Thank you for the open source RPLCD Python module for LCD screens on the Raspberry Pi. And the fantastic docs. Helped me finish a project today, much appreciated! <a href=“https://t.co/wPHPrejIOF”>https://t.co/wPHPrejIOF</a></p>&mdash; Paul Cutler (@prcutler) <a href=“https://twitter.com/prcutler/status/1452028122224791554?ref_src=twsrc%5Etfw”>October 23, 2021</a></blockquote> <script async src=“https://platform.twitter.com/widgets.js” charset=“utf-8”></script>
+And make sure you [thank an open source maintainer](https://twitter.com/prcutler/status/1452028122224791554) today.
 
 Next up:  3D printing and assembly
