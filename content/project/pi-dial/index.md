@@ -51,3 +51,4 @@ You can view the [source code on Github](https://github.com/prcutler/pi-dial).
 * My best friend who wishes to remain nameless for designing the CAD files for the enclosure.
 * Last, but not least, my wonderful wife, who fixed the list problem mentioned in the Notes above.
 
+_* Grogu not included_
