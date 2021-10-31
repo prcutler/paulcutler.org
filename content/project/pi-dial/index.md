@@ -30,9 +30,24 @@ caption = "pi-dial prototype on the breadboard"
 
 ![pi-dial](pidial.png)
 
-The `pi-dial`  project originally started as a copy of the [Media Dial project](https://learn.adafruit.com/media-dial) on Adafruit.  After it was pointed out to me that my CircuitPython devices didn't have networking, I turned to a Raspberry Pi.  The Raspberry Pi has two rotary encoders connected, one to control the volume and the other to change the input for my network connected Denon Audio-Video Receiver (AVR). 
+## About the project
+Pi-Dial consists of two Python programs that can be used with a Raspberry Pi to control Zone 2 of a Denon audio-visual receiver (AVR).  You will also need 16x2 LCD display and two rotary encoders.  Grogu not included.  For more information you can read my series  [of blog posts ](https://paulcutler.org/tags/pi-dial/) over 2021 creating `pi-dial`.
 
-I've been [blogging my journey](https://paulcutler.org/tags/pi-dial/) so far (with more blog posts to come as of August 2021) in creating the project.  As of August 2021 the code is complete and I am now just waiting to 3D print the enclosure.  You can view the [source code on Github](https://github.com/prcutler/pi-dial).
+You can view the [source code on Github](https://github.com/prcutler/pi-dial).
 
-A special thank you to the [Home Assistant](https://www.home-assistant.io/) and [`denon-avr`](https://github.com/scarface-4711/denonavr) projects without whom this wouldn't be possible.
+## Features
+* Control the volume of Zone 2 using a rotary encoder
+* Change the input source of Zone 2 using a rotary encoder
+* Mute the receiver by pushing the button on the volume rotary encoder
+* Use the LCD display to show the current input, volume, and mute status
+* `systemd` service files included to start the programs at boot
+* 3D Printer STLs included (unfortunately, the CAD file has been lost)
+
+## Credits
+* Originally inspired by the [Media Dial](https://learn.adafruit.com/media-dial/circuit-diagram) project on Adafruit by the Ruiz brothers
+* The [denonavr project](https://github.com/ol-iver/denonavr) originally created for Home Assistant
+* Way too many tutorials and guides on how to program rotary encoders and the LCD screen.  A special shout out to Adafruit for all of their project ideas and documentation.
+* The [RPLCD](https://github.com/dbrgn/RPLCD) library, which is used to interface with the LCD screen.  This library was a last minute addition replacing a different library I was having issues with. 
+* My best friend who wishes to remain nameless for designing the CAD files for the enclosure.
+* Last, but not least, my wonderful wife, who fixed the list problem mentioned in the Notes above.
 
