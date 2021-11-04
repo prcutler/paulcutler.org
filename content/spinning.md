@@ -3,7 +3,7 @@
 date = "2020-06-12"
 
 # Project title.
-title = "Now Spinning - October 2021"
+title = "Now Spinning - November 2021"
 
 +++
 
@@ -13,10 +13,10 @@ title = "Now Spinning - October 2021"
 * Chvrches - Screen Violence
 
 ## Older Records
-* October 1st: Listening to "R" in [Listening to my Record Collection Alphabetically](https://paulcutler.org/posts/2021/02/listening-to-my-record-collection-alphabetically/)
+* November 1st: Listening to "T" in [Listening to my Record Collection Alphabetically](https://paulcutler.org/posts/2021/02/listening-to-my-record-collection-alphabetically/)
 
 ## Streaming
-* Strand of Oaks - In Heaven
+*The War On Drugs - I Don't Live Here Anymore (anxiously waiting for my copy to arrive)
 
 
 
