@@ -17,6 +17,8 @@ title = "Now Spinning - November 2021"
 
 ## Streaming
 *The War On Drugs - I Don't Live Here Anymore (anxiously waiting for my copy to arrive)
+* Snail Mail - Valentine
+* ABBA - Voage
 
 
 
