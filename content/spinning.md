@@ -11,14 +11,16 @@ title = "Now Spinning - November 2021"
 
 ## Newish Records
 * Chvrches - Screen Violence
+* The War On Drugs - I Don't Live Here Anymore 
 
 ## Older Records
 * November 1st: Listening to "T" in [Listening to my Record Collection Alphabetically](https://paulcutler.org/posts/2021/02/listening-to-my-record-collection-alphabetically/)
 
 ## Streaming
-*The War On Drugs - I Don't Live Here Anymore (anxiously waiting for my copy to arrive)
+
 * Snail Mail - Valentine
-* ABBA - Voage
+* ABBA - Voyage
+* Sloppy Jane - Madison
 
 
 
