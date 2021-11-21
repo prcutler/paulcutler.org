@@ -12,15 +12,16 @@ title = "Now Spinning - November 2021"
 ## Newish Records
 * Chvrches - Screen Violence
 * The War On Drugs - I Don't Live Here Anymore 
+* Snail Mail - Valentine
 
 ## Older Records
-* November 1st: Listening to "T" in [Listening to my Record Collection Alphabetically](https://paulcutler.org/posts/2021/02/listening-to-my-record-collection-alphabetically/)\
+* November 1st: Listening to "U" in [Listening to my Record Collection Alphabetically](https://paulcutler.org/posts/2021/02/listening-to-my-record-collection-alphabetically/)\
 * Garbage - [beautifulgarbage 20th Anniversary](https://www.discogs.com/release/20848678-Garbage-Beautiful-Garbage) (White whale acquired!)
 * Metric - [Art of Doubt](https://www.discogs.com/release/12556189-Metric-Art-Of-Doubt)
 
 ## Streaming
 
-* Snail Mail - Valentine
+* Ladyhawke - Time Flies
 * ABBA - Voyage
 * Sloppy Jane - Madison
 
