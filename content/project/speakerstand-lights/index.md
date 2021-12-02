@@ -36,13 +36,13 @@ View the [source code on Github](https://github.com/prcutler/speakerstand-lights
 
 ## About
 
-I started working on this off and on over the summer and fall of 2021.  At first, I spent hours trying to port two similar projects which used digital mics to using an analog mic.  I finally bought a digital mic and was able to get the mic to work.  Just weeks after getting the mic working and learning all about Fast Fourier Transforms and spectograms, Adafruit released the Glasses project below making this easy to port.  I had never used NeoPixels or the `pixel_framebuf` module before, but once I understood them I was able to get this working. 
+I started working on this off and on over the summer and fall of 2021.  At first, I spent dozens of hours trying to port two similar projects which used digital mics to making it use an analog mic.  I finally bought a digital mic and was able to get the mic to work using existing code.  Just weeks after getting the mic working and learning all about Fast Fourier Transforms and spectograms, Adafruit sent out Adabox 020 with the Adafruit EyeLights LED Glasses.  One of the code sample for the LED glasses was also sound reactive and I was able to port that code to the FeatherWing in just minutes. I had never used NeoPixels or the `pixel_framebuf` module before, but once I understood them I was able to get this working. 
 
 ### CircuitPython Code
 
 To use with the Feather 2040rp Pico and a FeatherWing NeoPixel, the code needed to be updated to remove the `LED_Glasses` module and replaced with `PixelFramebuffer` from the `adafruit_pixel_framebuf` module.  To someone who has coded for NeoPixels before, this probably seems simple.  But I've never used NeoPixels and learned a ton.  (That will probably come in handy later as I already have more projects in my head...)
 
-Additionally, I reduced the spectrum the microphone listens for as the NeoPixel FeatherWing has less pixels (8x4) than the original code's 13x9 LED matrix.
+Additionally, I reduced the spectrum the microphone listens for as the NeoPixel FeatherWing has less pixels (8x4) than the original code's 13x9 LED matrix.  I documented the changes on line 141 and also changed lines 45 and 46.
 
 VIdeo never does LEDs well, but see it in action: 
 
@@ -50,9 +50,7 @@ VIdeo never does LEDs well, but see it in action:
 
 ### 3D Printing New Speaker Stands
 
-The second phase of the project is to print out a new speaker stand that has the Feather and FeatherWing embedded in the front.  I will also need to include room for the USB cable to come out the back.  Thankfully there are a number of Creative Commons licensed plans on Thingiverse to build upon.
-
-You can see the speaker sitting on a stand in the animated GIF above or they look like this when purchased from AudioEngine:
+I designed new speaker stands in Onshape, which was my first time using a CAD program.  I first designed two hollow models similar to the ones Audioengine sells, one with angled corners and one with rounded corners.  I then edited the rounded one to include an insert for the Feather and FeatherWing, a diffuser for the front, and room for the USB-C cable.  Fitting the cable in was the most challenging part and I made numerous revisions and printed a lot of different prototypes.  The FeatherWing sits in there well, but it could be just a smidge straighter with the way it sits.  The STL and STEP files are included in the repository.
 
 ![Speaker Stand for AudioEngine P4 speakers](p4-speakerstand.jpg)
 
