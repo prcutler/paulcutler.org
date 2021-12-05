@@ -1,5 +1,5 @@
 ---
-title: Adafruit Macropad Awesome List
+title: SilverSaucer and FastAPI Progress Update
 author: Paul Cutler 
 type: post 
 date: 2021-12-05T11:00:00
@@ -13,7 +13,6 @@ tags:
 
 ---
 
-# SilverSaucer & FastAPI
 I’ve made significant progress this weekend in taking the [Building Full Web Apps with Fast API](https://training.talkpython.fm/courses/full-html-web-applications-with-fastapi) training from Talk Python.
 
 I’m enjoying the course and it’s cool to learn how `async` works in a web application.  My site will be far less complex than the training and I’ll probably skip the database part, though I might want to wire that up later depending on how fast the Discogs API really is.
