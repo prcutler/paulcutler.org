@@ -29,5 +29,3 @@ I also had an aha moment for phase 2.  In phase 2, when I select a record to pla
 
 I’m going to disable the ability to register logins on the site and not link to the login page.  I’ll be the only one who can login, and with the stored cookie, it will know it’s me.  If it’s me, the site will send a MQTT message back to the MatrixPortal controlling the LED to display the art.  I just finished setting up my MQTT Mosquitto broker, so hopefully I can get this to work.  MQTT is new to me, but I know CircuitPython already integrates with it.  But that’s why that is phase two.  Let’s not put the cart before the house because I already have so many projects….
 
-
-#blog# #blog/python
