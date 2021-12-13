@@ -1,5 +1,5 @@
 ---
-title: The `python3-discogs` Library
+title: The python3-discogs Library
 author: Paul Cutler 
 type: post 
 date: 2021-12-13T11:00:00
