@@ -1,8 +1,8 @@
 ---
-title: Worst. Deployment. Ever.
+title: The Right Tool for the Right Job
 author: Paul Cutler 
 type: post 
-date: 2021-12-21T11:00:00
+date: 2021-12-25T10:00:00
 categories:
   - Python
 tags:
@@ -15,17 +15,20 @@ tags:
 
 ---
 
-# The Right Tool for the Right Job
-
 With silversaucer.com now up and running with about half the functionality, I’ve turned my attention to try and displaying a bitmap on the Adafruit matrices.
 
 I have two 32x64 matrices and have soldered my Adafruit Matrix Portal so it can display a 64x64 image.  The first thing I learned was that the bitmap’s size correlates directly to the matrix.  Thanks to Dan in Adafruit’s Discord server, I discovered the ImageMagick library can handle turning any image into a bitmap with a couple command line arguments.  I ran through some random albums, downloaded the artwork and converted about half a dozen of them to bitmaps.  They’re so cute and tiny!
 
-![https://silversaucer.com/static/img/albumart/bg256.bmp](64X64 bitmap of the album Beautiful Garbage by Garbage)
+![64X64 bitmap of the album Beautiful Garbage by Garbage](https://silversaucer.com/static/img/albumart/bg256.bmp)
+
+And it looks like this: 
+
+![Beautiful Garbage on the 64 x 64 Matrix](bg-matrix.png)
 
 I’ve spent most of the week trying to do this.  I can display a 64x64 bitmap from the filesystem, I can do a slideshow and display multiple bitmaps, but the one thing I can’t do:  download and display over the internet.  I’m not even able to download it, save it to disk, and then display it.  One of the challenges of working with CircuitPython is staying within the memory limits as it’s a microcontroller, not a full blown computer like a Raspberry Pi is.
 
 I’m trying to do the following:
+
 	1. Parse the Discogs JSON to get the URL to the album’s cover art.  (You must be authenticated to get a link to artwork).  
 	2. Take the image and convert it to a bitmap.  ImageMagick can do this, so I need to save the jpg to the filesystem and then convert it and save it again (or display it in memory).
 	3. Send a link to the image or bitmap to my local network to the device powering the LED Matrix.
@@ -42,5 +45,3 @@ Now I have a couple more design decisions to make.  What kind of MQTT message do
 Longer term I’m leaning towards storing all this data in a database.  The Discogs API seems a touch slow when returning a random album, and this would speed it up considerably, especially when loading and displaying an image.  More updates next week after the Pi bonnet comes.
 
 
-
-#blog/silversaucer
