@@ -29,10 +29,10 @@ I’ve spent most of the week trying to do this.  I can display a 64x64 bitmap f
 
 I’m trying to do the following:
 
-	1. Parse the Discogs JSON to get the URL to the album’s cover art.  (You must be authenticated to get a link to artwork).  
-	2. Take the image and convert it to a bitmap.  ImageMagick can do this, so I need to save the jpg to the filesystem and then convert it and save it again (or display it in memory).
-	3. Send a link to the image or bitmap to my local network to the device powering the LED Matrix.
-	4. Display the bitmap on the LED Matrix
+1. Parse the Discogs JSON to get the URL to the album’s cover art.  (You must be authenticated to get a link to artwork).  
+2. Take the image and convert it to a bitmap.  ImageMagick can do this, so I need to save the jpg to the filesystem and then convert it and save it again (or display it in memory).
+3. Send a link to the image or bitmap to my local network to the device powering the LED Matrix.
+4. Display the bitmap on the LED Matrix
 
 Even with almost 40k free, I run out of memory trying to download and display an 8k bitmap.  I’ve tried to stream it without any luck.  None of the CircuitPython libraries (`image load` seem to work no matter how I call it over the network.  A few folks helped me out in Discord with some pointers, especially around showing how much memory is available which was super helpful, but no luck.
 
