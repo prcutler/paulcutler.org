@@ -18,7 +18,7 @@ tags:
 ## Now Working in CircuitPython!
 When we last left our hero, he was [unable to get a 8k image to load over the internet and display an image](https://paulcutler.org/posts/2021/12/the-right-tool-for-the-right-job/) on the MatrixPortal and 64x64 LED….
 
-I decided to take a different tack and I ordered a [https://www.adafruit.com/product/3211](https://www.adafruit.com/product/3211)for the Raspberry Pi from Digikey (Adafruit was out of stock).  Let's just say that didn't work at all and I have [reason to believe it’s the Bonnet](https://forums.adafruit.com/viewtopic.php?f=50&t=186760) after trying it on two different Raspberry Pi 2s and a Pi Zero 2.
+I decided to take a different tack and I ordered a [Matrix Bonnet](https://www.adafruit.com/product/3211) for the Raspberry Pi from Digikey (Adafruit was out of stock).  Let's just say that didn't work at all and I have [reason to believe it’s the Bonnet](https://forums.adafruit.com/viewtopic.php?f=50&t=186760) after trying it on two different Raspberry Pi 2s and a Pi Zero 2.
 
 I don’t remember what I was doing this morning, but I was back to playing with the matrices and the MatrixPortal.   Danh in the Adafruit Discord, who had already helped me previously by recommending ImageMagick for my project, helped me out again.  He shared a code sample making it easy to switch the MatrixPortal from read / write to read only, as only it or a computer should write to it at a time.  I accidentally reset my MatrixPortal this morning and wiped it.  I had some regular Python code to write the image to disk, so I tried it out on the MatrixPortal and what do you know - it worked!
 
