@@ -28,7 +28,7 @@ So here goes.
 
 I learned to solder and bought a 3D printer, which makes playing with microcontrollers even more fun.
 
-I built my MacroPad and started the [https://github.com/prcutler/awesome-macropad](https://github.com/prcutler/awesome-macropad) - because MacroPads are cool.  I love seeing what macros the community has come up with and then borrowing those ideas for my own MacroPad. I also created macros for my CAD program of choice, OnShape. (I’d rather learn and use FreeCad, but I really need a color blind mode).
+I built my MacroPad and started the [MacroPad Awesome List](https://github.com/prcutler/awesome-macropad) - because MacroPads are cool.  I love seeing what macros the community has come up with and then borrowing those ideas for my own MacroPad. I also created macros for my CAD program of choice, OnShape. (I’d rather learn and use FreeCad, but I really need a color blind mode).
 
 I tackled my biggest project to date with the [Sound Reactive NeoPixels Speaker Stand](https://paulcutler.org/project/speakerstand-lights/).  This was pretty challenging and I wasted dozens of hours trying to port some sound reactive code from a digital microphone to an analog mic before breaking down and buying a digital microphone, which I just should have done in the first place!  I’m very proud of the project and it so cool to look at.
 
