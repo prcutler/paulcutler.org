@@ -2,7 +2,7 @@
 title: LED Matrix Progress
 author: Paul Cutler 
 type: post 
-date: 2022-01-05T17:00:00
+date: 2022-01-05T10:00:00
 categories:
   - Python
 tags:
@@ -14,6 +14,7 @@ tags:
   - LED Matrix
 
 ---
+
 ## Now Working in CircuitPython!
 When we last left our hero, he was [unable to get a 8k image to load over the internet and display an image](https://paulcutler.org/posts/2021/12/the-right-tool-for-the-right-job/) on the MatrixPortal and 64x64 LED….
 
