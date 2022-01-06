@@ -24,7 +24,7 @@ So here goes.
 
 ## A look back at 2021
 
-2021 was the year I got into microcontrollers, CircuitPython, and hardware in general.  After having bought a Circuit Playground Express in 2020 and it just sitting in a drawer, I went got into it in a big way in 2021.  I purchased a [rp2040 Feather](https://learn.adafruit.com/adafruit-feather-rp2040-pico), [https://learn.adafruit.com/adafruit-matrixportal-m4](https://learn.adafruit.com/adafruit-matrixportal-m4), and an [https://www.adafruit.com/adabox/](https://www.adafruit.com/adabox/) subscription, starting with the rp2040 MacroPad.  More importantly, I used them!  
+2021 was the year I got into microcontrollers, CircuitPython, and hardware in general.  After having bought a Circuit Playground Express in 2020 and it just sitting in a drawer, I went got into it in a big way in 2021.  I purchased a [rp2040 Feather](https://learn.adafruit.com/adafruit-feather-rp2040-pico), [MatrixPortal M4](https://learn.adafruit.com/adafruit-matrixportal-m4), and an [AdaBox](https://www.adafruit.com/adabox/) subscription, starting with the rp2040 MacroPad.  More importantly, I used them!  
 
 I learned to solder and bought a 3D printer, which makes playing with microcontrollers even more fun.
 
