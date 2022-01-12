@@ -24,7 +24,7 @@ I’m still a ways out from releasing episodes.  I’m planning on six episodes 
 
 I’m brand new to all this and I’m sure it will take me a few episodes to find my “voice”.  I’m recording a teaser trailer and already I’m learning how hard this is!    But if you’ll stick with me, I’m guessing the episodes will get better as I go along.  I've really enjoyed my time in the CircuitPython community, especially the Adafruit Discord channel, and thought there are enough interesting people to make a podcast about those people and their projects.
 
-A special shout-out to Michael Kennedy, host of the [Talk Python To Me](https://talkpython.fm) podcast.  When I was considering doing this he took time out of his schedule to answer some questions for me.  (And we’re both using Boostrap Dark for our websites, the similarity is unintentional!) 
+A special shout-out to Michael Kennedy, host of the [Talk Python To Me](https://talkpython.fm) podcast.  When I was considering doing this he took time out of his schedule to answer some questions for me and make some introductions.  (And we’re both using Boostrap Dark for our websites, the similarity is unintentional!) 
 
 You can find out more at the [newly launched website](https://circuitpythonshow.com) (running FastAPI of course) or [follow the show on Twitter](https://twitter.com/circuitpyshow), which I recommend as that’s my platform of choice.  I’ll probably drop some spoilers and other info on Twitter first.
 
