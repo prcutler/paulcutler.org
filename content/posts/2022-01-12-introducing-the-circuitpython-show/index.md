@@ -2,23 +2,23 @@
 title: Introducing The CircuitPython Show
 author: Paul Cutler 
 type: post 
-date: 2022-01-12T11:30:00
+date: 2022-01-12T10:30:00
 categories:
   - circuitpythonshow
 tags:
-  circuitpythonshow
-  podcast
-  python
-  circuitpython
-  fastapi
+  - circuitpythonshow
+  - podcast
+  - python
+   - circuitpython
+   - fastapi
 
 
 ---
 [![CircuitPython Show](cps-logo-500.png)]
 
-I’ve decided to start a podcast!  The very original show name is The CircuitPython Show, about - you guessed it - CircuitPython!  More specifically, about the people doing cool things with CircuitPython.
+I’ve decided to start a podcast!  The very original show name is The CircuitPython Show, about - you guessed it - CircuitPython!  More specifically, about the people and the cool things they're doing with CircuitPython.
 
-The show will be a question and answer style interview podcast.  I’m shooting for each episode to be about 30 minutes.  I’ll interview a person in (or around) the CircuitPython community and it will give listeners an opportunity to learn more about the people of CircuitPython.
+The show will be a question and answer style interview podcast.  I’m shooting for each episode to be about 30 minutes.  I’ll interview a person in (or around) the CircuitPython community and it will give listeners an opportunity to learn more about that person.
 
 I’m still a ways out from releasing episodes.  I’m planning on six episodes for season one and I’ve been emailing invites out to potential guests.  So far I have three confirmed guests so I still have a little work to do.
 
