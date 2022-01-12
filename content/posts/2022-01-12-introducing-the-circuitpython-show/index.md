@@ -20,7 +20,7 @@ I’ve decided to start a podcast!  The very original show name is The CircuitPy
 
 The show will be a question and answer style interview podcast.  I’m shooting for each episode to be about 30 minutes.  I’ll interview a person in (or around) the CircuitPython community and it will give listeners an opportunity to learn more about that person.
 
-I’m still a ways out from releasing episodes.  I’m planning on six episodes for season one and I’ve been emailing invites out to potential guests.  So far I have three confirmed guests so I still have a little work to do.
+I’m still a ways out from releasing episodes.  I’m planning on six episodes for season one and I’ve been emailing invites out to potential guests.  So far I have three confirmed guests so I still have a little work to do.  If you have any guest recommendations or want to be on the show, please let me know! (Really, please!)
 
 I’m brand new to all this and I’m sure it will take me a few episodes to find my “voice”.  I’m recording a teaser trailer and already I’m learning how hard this is!    But if you’ll stick with me, I’m guessing the episodes will get better as I go along.  I've really enjoyed my time in the CircuitPython community, especially the Adafruit Discord channel, and thought there are enough interesting people to make a podcast about those people and their projects.
 
