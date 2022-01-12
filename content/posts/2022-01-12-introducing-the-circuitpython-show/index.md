@@ -9,8 +9,8 @@ tags:
   - circuitpythonshow
   - podcast
   - python
-   - circuitpython
-   - fastapi
+  - circuitpython
+  - fastapi
 
 
 ---
