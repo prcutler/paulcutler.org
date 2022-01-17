@@ -1,5 +1,5 @@
 ---
-title: Silver Saucer Progress (January 2022)
+title: Introducing The CircuitPython Show
 author: Paul Cutler 
 type: post 
 date: 2022-01-12T10:30:00
