@@ -14,7 +14,7 @@ tags:
 
 
 ---
-![CircuitPython Show](cps-logo-500.png)
+![CircuitPython Show](cps-tagline-500.png)
 
 I’ve decided to start a podcast!  The very original show name is The CircuitPython Show, about - you guessed it - CircuitPython!  More specifically, about the people and the cool things they're doing with CircuitPython.
 
