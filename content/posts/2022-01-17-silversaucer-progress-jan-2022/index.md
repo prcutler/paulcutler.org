@@ -4,12 +4,11 @@ author: Paul Cutler
 type: post 
 date: 2022-01-17T10:30:00
 categories:
-  - circuitpythonshow
+  - python
 tags:
-  - circuitpythonshow
-  - podcast
   - python
   - circuitpython
+  - led-matrix
   - fastapi
 
 
