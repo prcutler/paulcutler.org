@@ -30,8 +30,8 @@ It was easier than I expected.  I have two things to do:
 
 I’m not 100% sure the project is going to work.  Technically, it will work.  But I should really be about 12 feet away from the LED matrix to see the display in the right light.  Currently I’m about three feet away and it doesn’t look the best.  Looking around my home office, there isn’t a great place put it.  I also need to learn how to take better pictures of LEDs.
 
-Those two things plus wiring up MQTT equals done.   Getting close now.
+Those two things plus wiring up MQTT equals done.   Getting close now.   The pictures look much better in person.
 
-![copper-blue](Sugar's Copper Blue album artwork displayed on a 64 by 64 matrix)
+![Sugar's Copper Blue album artwork displayed on a 64 by 64 matrix](copper-blue.png)
 
-![sugar-copper-blue.png](Sugar's Copper Blue album standing up  next to itself displayed on a 64 by 64 matrix)
+![Sugar's Copper Blue album standing up  next to itself displayed on a 64 by 64 matrix](sugar-copper-blue.png)
