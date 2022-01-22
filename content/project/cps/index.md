@@ -13,7 +13,7 @@ image_preview = "project/cps/cps.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]
-tags = ["circuitpythonshow, "Python", "circuitpython", "podcast"]
+tags = ["circuitpythonshow", "Python", "circuitpython", "podcast"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
