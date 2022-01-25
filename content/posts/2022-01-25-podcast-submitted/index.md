@@ -1,17 +1,14 @@
 ---
-title: Introducing The CircuitPython Show
+title: The Podcast Has Been Submitted
 author: Paul Cutler 
 type: post 
-date: 2022-01-12T10:30:00
+date: 2022-01-25T13:30:00
 categories:
   - python
 tags:
   - circuitpython
-  - silversaucer
-  - blog
-  - silver-saucer
-  - fastapi
-
+  - podcast
+  - circuitpythonshow
 
 ---
 ![CircuitPython Show on PocketCasts](pocketcasts.png)
