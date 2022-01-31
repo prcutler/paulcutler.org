@@ -3,18 +3,15 @@
 date = "2020-06-12"
 
 # Project title.
-title = "Now Spinning - December 2021"
+title = "Now Spinning - February 2022"
 
 +++
-
-2021 Goal:  [Listening to my Record Collection Alphabetically](https://paulcutler.org/posts/2021/02/listening-to-my-record-collection-alphabetically/)
 
 ## Newish Records
 * The War On Drugs - I Don't Live Here Anymore 
 
 ## Older Records
-* December 1st: Listening to Soundtracks and Compilations in [Listening to my Record Collection Alphabetically](https://paulcutler.org/posts/2021/02/listening-to-my-record-collection-alphabetically/)\
-* Garbage - [beautifulgarbage 20th Anniversary](https://www.discogs.com/release/20848678-Garbage-Beautiful-Garbage) (White whale acquired!)
+* Angie McMahon - Salt
 
 ## Streaming
 
