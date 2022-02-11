@@ -8,6 +8,8 @@ title = "Now Spinning - February 2022"
 +++
 
 ## Newish Records
+* Spoon - Lucifer on the Sofa
+* Frank Turner - FTHC
 * The War On Drugs - I Don't Live Here Anymore 
 
 ## Older Records
