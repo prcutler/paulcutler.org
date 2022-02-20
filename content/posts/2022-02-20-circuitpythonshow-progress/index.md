@@ -2,7 +2,7 @@
 title: The CircuitPython Show Progress
 author: Paul Cutler 
 type: post 
-date: 2022-01-20T12:30:00
+date: 2022-02-20T12:30:00
 categories:
   - python
 tags:
