@@ -58,7 +58,7 @@ disableHugoGeneratorInject = false
   keywords = "Paul Cutler"
   images = [""]
 
-  homeSubtitle = "Father. Husband. Vinyl music lover. Python student. Novice maker. He / Him."
+  homeSubtitle = "Father. Husband. Vinyl music lover. Python student. Novice maker. Podcast host. He / Him."
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   # gitUrl = ""
@@ -111,9 +111,9 @@ disableHugoGeneratorInject = false
     name = "github"
     url  = "https://github.com/prcutler"
 
-#  [[params.social]]
-#    name = "stackoverflow"
-#    url  = "https://www.stackoverflow.com/"
+  [[params.social]]
+    name = "podcast"
+    url  = "https://www.circuitpythonshow.com/"
 
   [[params.social]]
     name = "keybase"
