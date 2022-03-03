@@ -112,7 +112,7 @@ disableHugoGeneratorInject = false
     url  = "https://github.com/prcutler"
 
   [[params.social]]
-    name = "podcast"
+    name = "applepodcasts"
     url  = "https://www.circuitpythonshow.com/"
 
   [[params.social]]
