@@ -3,22 +3,21 @@
 date = "2020-06-12"
 
 # Project title.
-title = "Now Spinning - February 2022"
+title = "Now Spinning - March 2022"
 
 +++
 
 ## Newish Records
 * Spoon - Lucifer on the Sofa
 * Frank Turner - FTHC
-* The War On Drugs - I Don't Live Here Anymore 
 
 ## Older Records
 * Angie McMahon - Salt
 
 ## Streaming
 
-* Ladyhawke - Time Flies (Record won't be here for some time)
-* Pearl Charles - Magic Mirror
+* Mitski - Laurel Hell
+* Tears for Fears - The Tipping Point
 
 
 
