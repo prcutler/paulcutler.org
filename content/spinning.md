@@ -10,14 +10,14 @@ title = "Now Spinning - March 2022"
 ## Newish Records
 * Spoon - Lucifer on the Sofa
 * Frank Turner - FTHC
+* The Regrettes - Further Joy
 
 ## Older Records
-* Angie McMahon - Salt
+
 
 ## Streaming
 
-* Mitski - Laurel Hell
-* Tears for Fears - The Tipping Point
+* Muna - Saves the World
 
 
 
