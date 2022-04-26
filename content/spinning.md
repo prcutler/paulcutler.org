@@ -9,12 +9,11 @@ title = "Now Spinning - March 2022"
 
 ## Newish Records
 * Spoon - Lucifer on the Sofa
-* Frank Turner - FTHC
-* The Regrettes - Further Joy
+* Hatchie - Giving the World Away
 
 ## Older Records
 The Hold Steady - Heaven is Whenever
-Rilo Kiley - Takeoffs and Landings
+Metric - Old World Underground, Where are You Now?
 
 ## Streaming
 
