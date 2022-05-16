@@ -67,6 +67,8 @@ async def get_discogs_image(release_image_url):
 
 The second sends a MQTT message to the MQTT broker that a new image has been converted and saved.
 
+### CircuitPython
+
 The PyPortal listens for the MQTT message and when received, downloads the image using `requests`.   Requests’ `iter_content` must be used to stream the image download otherwise the PyPortal will run out of memory and display an error:
 
 ```
