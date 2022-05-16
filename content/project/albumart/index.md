@@ -126,7 +126,7 @@ Displaying the album art automatically is just the first step.  I may add a Wina
 I also need a way for it to download the image on first boot or reset without a MQTT message.
 
 ## Credits
-In no particular, thank you to:
+In no particular order, thank you to:
 * John Park for the wonder NASA Image of the Day learn guide which got me going quickly.
 * Tod Kurt, aka Todbot, for the code sample using  requests’ `iter_content` to be able to download the image in chunks.
 * The CircuitPython community for answering my questions.
