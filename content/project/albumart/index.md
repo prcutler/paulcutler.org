@@ -31,7 +31,7 @@ math = false
 # PyPortal Album Art
 
 ## Project Overview
-The PyPortal Album Art project works in combination with my SilverSaucer project.  SilverSaucer.com is my website, written using Python and FastAPI, that integrates withe Discogs API and lets me choose an album from my record collection at random.  The album’s covert art is then automatically displayed on the PyPortal. 
+The PyPortal Album Art project works in combination with my SilverSaucer project.  SilverSaucer.com is my website, written using Python and FastAPI, that integrates with the Discogs API and lets me choose an album from my record collection at random.  The album’s covert art is then automatically displayed on the PyPortal. 
 
 ![Covert art to Liz Phair's self titled album](liz-phair.webp)
 
@@ -113,7 +113,7 @@ pyportal = PyPortal(url=DATA_SOURCE,
                     image_position=(80, 0))
 ```
 
-If you use that guide, you’ll also see that I used the filesystem as write-able cache, which isn’t really recommended, but I needed the drive writeable to save the album art image.
+If you use the NASA Image learn guide, you’ll also see that I used the filesystem as write-able cache, which isn’t really recommended, but I needed the drive writeable to save the album art image.
 
 After a long period of inactivity, the MQTT loop will sometimes fail due to a networking problem or timeout and the PyPortal needs to be reset.
 
@@ -125,6 +125,7 @@ I also need a way for it to download the image on first boot or reset without a 
 
 ## Credits
 In no particular, thank you to:
+
 	* John Park for the wonder NASA Image of the Day learn guide which got me going quickly.
 	* Tod Kurt, aka Todbot, for the code sample using  requests’ `iter_content` to be able to download the image in chunks.
 	* The CircuitPython community for answering my questions.
