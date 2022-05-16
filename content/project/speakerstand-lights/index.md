@@ -36,7 +36,7 @@ View the [source code on Github](https://github.com/prcutler/speakerstand-lights
 
 ## About
 
-I started working on this off and on over the summer and fall of 2021.  At first, I spent dozens of hours trying to port two similar projects which used digital mics to making it use an analog mic.  I finally bought a digital mic and was able to get the mic to work using existing code.  Just weeks after getting the mic working and learning all about Fast Fourier Transforms and spectograms, Adafruit sent out Adabgit comox 020 with the Adafruit EyeLights LED Glasses.  One of the code sample for the LED glasses was also sound reactive and I was able to port that code to the FeatherWing in just minutes. I had never used NeoPixels or the `pixel_framebuf` module before, but once I understood them I was able to get this working. 
+I started working on this off and on over the summer and fall of 2021.  At first, I spent dozens of hours trying to port two similar projects which used digital mics to making it use an analog mic.  I finally bought a digital mic and was able to get the mic to work using existing code.  Just weeks after getting the mic working and learning all about Fast Fourier Transforms and spectograms, Adafruit sent out Adabox 020 with the Adafruit EyeLights LED Glasses.  One of the code samples for the LED glasses was also sound reactive and I was able to port that code to the FeatherWing in just minutes. I had never used NeoPixels or the `pixel_framebuf` module before, but once I understood them I was able to get this working. 
 
 ### Parts Needed
 
