@@ -31,6 +31,9 @@ math = false
 ## Project Overview
 The PyPortal Album Art project works in combination with my SilverSaucer project.  SilverSaucer.com is my website, written using Python and FastAPI, that integrates with the Discogs API and lets me choose an album from my record collection at random.  The album’s covert art is then automatically displayed on the PyPortal. 
 
+* PyPortal Album Art [GitHub repository](https://github.com/prcutler/circuitpython-programs)
+* Silver Saucer (FastAPI web app) [GitHub repository](https://github.com/prcutler/silversaucer)
+
 ![Covert art to Liz Phair's self titled album](liz-phair.webp)
 
 
