@@ -50,7 +50,7 @@ To use with the Feather 2040rp Pico and a FeatherWing NeoPixel, the code needed 
 
 Additionally, I reduced the spectrum the microphone listens for as the NeoPixel FeatherWing has less pixels (8x4) than the original code's 13x9 LED matrix.  I documented the changes on line 141 and also changed lines 45 and 46.
 
-VIdeo never does LEDs well and the diffuser doesn't help, but see it in action:
+Video never does LEDs well and the diffuser doesn't help, but you can see it in action:
 
 ![NeoPixel FeatherWing with LEDs reacting to music](speakerstand-featherwing.gif)
 
