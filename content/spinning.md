@@ -3,17 +3,16 @@
 date = "2020-06-12"
 
 # Project title.
-title = "Now Spinning - April 2022"
+title = "Now Spinning - May 2022"
 
 +++
 
 ## Newish Records
 * Spoon - Lucifer on the Sofa
-* Hatchie - Giving the World Away
+
 
 ## Older Records
-The Hold Steady - Heaven is Whenever
-Metric - Old World Underground, Where are You Now?
+The Hold Steady discography
 
 ## Streaming
 
