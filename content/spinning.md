@@ -3,7 +3,7 @@
 date = "2020-06-12"
 
 # Project title.
-title = "Now Spinning - May 2022"
+title = "Now Spinning - June 2022"
 
 +++
 
@@ -12,11 +12,12 @@ title = "Now Spinning - May 2022"
 
 
 ## Older Records
-The Hold Steady discography
+Prince discography
 
 ## Streaming
 
 * Muna - Saves the World
+* Polica - Madness
 
 
 
