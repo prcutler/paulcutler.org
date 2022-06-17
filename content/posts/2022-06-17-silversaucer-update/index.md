@@ -2,7 +2,7 @@
 title: June 2022 SilverSaucer Update
 author: Paul Cutler 
 type: post 
-date: 2022-06-17T13:00:00
+date: 2022-06-17T11:00:00
 categories:
   - python
 tags:
