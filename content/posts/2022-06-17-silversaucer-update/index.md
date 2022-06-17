@@ -14,7 +14,6 @@ tags:
   - silversaucer
 
 ---
-# Silver Saucer Progress (June 2022)
 As usual, I haven’t blogged my progress on SilverSaucer and I’ve had some major progress [since January](https://paulcutler.org/posts/2022/01/silver-saucer-progress-january-2022/).  
 
 First, I did follow-up on that blog post by switching from a MatrixPortal with a 64x64 LED to a PyPortal Titano.
