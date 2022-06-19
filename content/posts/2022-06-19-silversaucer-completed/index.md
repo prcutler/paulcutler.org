@@ -19,7 +19,7 @@ Just like that, I crossed the finish line and SilverSaucer.com is finished.  I w
 
 I always thought the “On this Day” feature was a pipe dream.  I had no idea how I was going to tie a Discogs release to MusicBrainz and then import that date.  But after discovering the discodos app a few weeks ago and working with the database having clicked last week, I was able to finish it up after discovering a key feature:  the LIKE operator in SQL and SQLAlchemy.  
 
-
+```
 today = pendulum.today(tz="America/Chicago")
 print("Today: ", today, today.month, today.day)
 
