@@ -6,14 +6,14 @@ date = "2020-07-15"
 title = "Silver Saucer"
 
 # Project summary to display on homepage.
-summary = "A web application built with the [Pyramid web framework](https://trypyramid.com) and Python that interfaces with the [Discogs API](https://www.discogs.com) to interact with my music collection."
+summary = "A web application built with the [FastAPI web framework](https://fastapi.tiangolo.com/) in Python that interfaces with the [Discogs API](https://www.discogs.com) to interact with my music collection."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "project/silversaucer/silversaucer.png"
+image_preview = "project/silversaucer/silversaucer-final.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Silver Saucer", "Python", "pyramid"]
+tags = ["Silver Saucer", "Python", "pyramid", "fastapi", "discogs"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -23,12 +23,12 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "project/silversaucer/silversaucer.png"
+image = "project/silversaucer/silversaucer-final.png"
 caption = "Silver Saucer"
 
 +++
 
-{{< figure src="silversaucer.png" title="Silver Saucer Screenshot" link="silversaucer-large.png" >}}
+{{< figure src="silversaucer.png" title="Silver Saucer Screenshot" link="silversaucer-final.png" >}}
 
 # Overview
 
