@@ -28,7 +28,7 @@ caption = "Silver Saucer"
 
 +++
 
-{{< figure src="silversaucer.png" title="Silver Saucer Screenshot" link="silversaucer-final.png" >}}
+{{< figure src="silversaucer-final.png" title="Silver Saucer Screenshot" link="silversaucer-final.png" >}}
 
 ### Project Status: Completed
 
