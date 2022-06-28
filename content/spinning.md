@@ -3,21 +3,23 @@
 date = "2020-06-12"
 
 # Project title.
-title = "Now Spinning - June 2022"
+title = "Now Spinning - July 2022"
 
 +++
 
 ## Newish Records
 * Spoon - Lucifer on the Sofa
+* Muna - Muna
+* Polica - Madness
 
 
 ## Older Records
-Prince discography
+* Prince - The Gold Experience
 
 ## Streaming
 
-* Muna - Saves the World
-* Polica - Madness
+* Chastity Brown - Sing to the Walls
+* The Black Keys - Dropout Boogie
 
 
 
