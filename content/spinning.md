@@ -8,8 +8,9 @@ title = "Now Spinning - July 2022"
 +++
 
 ## Newish Records
-* Spoon - Lucifer on the Sofa
+* Metric - Formentera
 * Muna - Muna
+* Momma - Household Name
 * Polica - Madness
 
 
