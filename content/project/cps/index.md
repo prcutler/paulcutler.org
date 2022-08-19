@@ -23,15 +23,20 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 # [header]
-image = "project/cps.png"
-caption = "The CircuitPython Show"
+# image = "project/cps.png"
+# caption = "The CircuitPython Show"
 
 +++
-![The CircuitPythonShow](cps.png)
 
-The CircuitPython Show is an independent podcast with the people in and around the CircuitPython community.  I host an appoximately half hour conversation with people doing awesome things with CircuitPython or sometimes around CircuitPython.  This could include 3D Printing, circuit boards, and more.
+The CircuitPython Show is an independent podcast with the people in and around the CircuitPython community.  
+The show features a short interview with community members asking how they first became involved with computing 
+or electronics, a topic, and wrap-up question.
 
-The show will debut in the first quarter of 2022.
+The show debuted with weekly episodes in March 2022. With the start of season two April 2022, the show moved 
+to a bi-weekly schedule.  Guests have included Kattni Rembor, Scott Shawcroft, Nicholas Tollervey, and more.
+[Click here](https://circuitpythonshow.com/episodes/all) for a show list.
+
+Interested in being a guest?  [Learn more here](https://circuitpythonshow.com/be-a-guest).
 
 Learn more:
 
