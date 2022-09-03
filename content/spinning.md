@@ -3,24 +3,22 @@
 date = "2020-06-12"
 
 # Project title.
-title = "Now Spinning - July 2022"
+title = "Now Spinning - September 2022"
 
 +++
 
 ## Newish Records
 * Metric - Formentera
-* Muna - Muna
-* Momma - Household Name
 * Polica - Madness
 
 
 ## Older Records
-* Prince - The Gold Experience
+* Chvrches - Screen Violence
 
 ## Streaming
 
 * Chastity Brown - Sing to the Walls
-* The Black Keys - Dropout Boogie
+
 
 
 
