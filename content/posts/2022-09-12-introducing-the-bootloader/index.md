@@ -2,7 +2,7 @@
 title: Introducing The Bootloader
 author: Paul Cutler 
 type: post 
-date: 2022-09-01T06:30:00
+date: 2022-09-12T06:30:00
 categories:
   - podcast
 tags:
