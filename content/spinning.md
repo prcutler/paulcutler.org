@@ -14,6 +14,7 @@ title = "Now Spinning - September 2022"
 
 ## Older Records
 * Chvrches - Screen Violence
+* Sturgill Simpson - Sound & Fury
 
 ## Streaming
 
