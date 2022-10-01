@@ -22,9 +22,9 @@ external_link = ""
 math = false
 
 # Optional featured image (relative to `static/img/` folder).
-# [header]
-# image = "project/cps.png"
-# caption = "The CircuitPython Show"
+[header]
+image = "project/m1.jpg"
+caption = "The Bootloader"
 
 +++
 
