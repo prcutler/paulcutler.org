@@ -3,22 +3,21 @@
 date = "2020-06-12"
 
 # Project title.
-title = "Now Spinning - September 2022"
+title = "Now Spinning - October 2022"
 
 +++
 
 ## Newish Records
 * Metric - Formentera
-* Polica - Madness
 
 
 ## Older Records
-* Chvrches - Screen Violence
 * Sturgill Simpson - Sound & Fury
 
 ## Streaming
 
 * Chastity Brown - Sing to the Walls
+* Yeah Yeah Yeahs - Cool It Down
 
 
 
