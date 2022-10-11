@@ -9,6 +9,7 @@ title = "Now Spinning - October 2022"
 
 ## Newish Records
 * Metric - Formentera
+* Alvvays - Blue Rev
 
 
 ## Older Records
