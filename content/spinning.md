@@ -13,13 +13,11 @@ title = "Now Spinning - October 2022"
 
 
 ## Older Records
-* Sturgill Simpson - Sound & Fury
 
 ## Streaming
 
-* Chastity Brown - Sing to the Walls
-* Yeah Yeah Yeahs - Cool It Down
-
+* Taylor Swift - Midnights
+* Spoon - Lucifer on the Moon
 
 
 
