@@ -104,6 +104,10 @@ disableHugoGeneratorInject = false
     url  = "https://twitter.com/prcutler"
 
   [[params.social]]
+    name = "mastodon"
+    url  = "https://fosstodon.org/@prcutler"
+
+  [[params.social]]
     name = "discogs"
     url  = "https://discogs.com/user/prcutler"
 
