@@ -24,6 +24,6 @@ Tomboy, and Recipes; served as a mentor for Outreachy, for those
 under represented in tech; and served one term on the GNOME Board of 
 Directors as President and Chairman. Paul continues to contribute by 
 writing documentation for a handful of open source projects. He is also a 
-member of the Electronic Frontier Foundation and the Python Software Foundation. 
+member of the Electronic Frontier Foundation and the Python Software Foundation.
 
 This website is powered by [Hugo](https://gohugo.io) and the [Hello Friend NG](https://github.com/rhazdon/hugo-theme-hello-friend-ng) theme.
