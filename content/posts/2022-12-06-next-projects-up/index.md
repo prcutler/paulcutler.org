@@ -12,7 +12,7 @@ tags:
 ---
 I couldn’t resist the recent holiday sales and I bought a few parts for my next two CircuitPython projects.
 
-First up, is re-creating my Pi-Dial project using CircuitPython on a microcontroller instead of a Raspberry Pi and Python.  This project controls Zone 2 of my home theater receiver, which is my home office.
+First up, is re-creating my [Pi-Dial project](https://paulcutler.org/project/pi-dial/) using CircuitPython on a microcontroller instead of a Raspberry Pi and Python.  This project controls Zone 2 of my home theater receiver, which is my home office.
 
 Parts used include:
 * [ESP32-S3 microcontroller](https://www.adafruit.com/product/5426) (because it has WiFI and I already had a couple on hand)
