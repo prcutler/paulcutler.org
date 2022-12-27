@@ -128,10 +128,6 @@ disableHugoGeneratorInject = false
     url  = "https://www.linkedin.com/in/paulrcutler"
 
   [[params.social]]
-    name = "discord"
-    url  = "https://discord.gg/YCkSPX6"
-
-  [[params.social]]
     name = "email"
     url  = "mailto:paul@paulcutler.org"
 
