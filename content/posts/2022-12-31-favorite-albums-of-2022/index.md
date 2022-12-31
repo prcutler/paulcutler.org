@@ -1,27 +1,19 @@
 ---
-title: Favorite Albums of 2022
+title: The CircuitPython Show Year One
 author: Paul Cutler 
 type: post 
-date: 2022-12-31T06:30:00
+date: 2022-12-31T07:00:00
 categories:
-  - music
+  - podcast
 tags:
-  - music
-  - 2022
+  - podcast
   - circuitpythonshow
 
 ---
-I [shared this on Mastodon](https://hachyderm.io/@prcutler/109592254922689488), but in an effort to (maybe) blog more, here are some of my favorite albums of 2022.  I'm sure I'm forgetting some.  In no particular order:
+As 2022 comes to a close and I look back at the first year of The CircuitPython Show, I just wanted to say thank you.  
 
-Spoon - Lucifer on the Sofa
-Metric - Formentera
-Muna - Muna
-Yeah Yeah Yeahs - Cool it Down
-Frank Turner - FTHC
-Taylor Swift - Midnights
-Chastity Brown - Sing to the Walls
-Hatchie - Giving the World Away
+Thanks to everyone who listened to the podcast, was a guest, or left a review.  The support I received was phenomenal - thank you!
 
-Spoon gets a special mention - the remix album, Lucifer on the Moon, is just as good as the original.
+After wrapping up season 2 a few weeks ago, the show will return in 2023.
 
 
