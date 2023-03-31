@@ -3,21 +3,23 @@
 date = "2020-06-12"
 
 # Project title.
-title = "Now Spinning - October 2022"
+title = "Now Spinning - April 2023"
 
 +++
 
 ## Newish Records
-* Metric - Formentera
-* Alvvays - Blue Rev
+
+* The Hold Steady - The Price of Progress
+* The New Pornographers - Continue as a Guest
+* boygenius - the record
 
 
 ## Older Records
 
 ## Streaming
 
-* Taylor Swift - Midnights
-* Spoon - Lucifer on the Moon
+* Depeche Mode - Memento Mori
+* Samia - Honey
 
 
 
