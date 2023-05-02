@@ -3,12 +3,13 @@
 date = "2020-06-12"
 
 # Project title.
-title = "Now Spinning - April 2023"
+title = "Now Spinning - May 2023"
 
 +++
 
 ## Newish Records
 
+* The National - First Two Pages of Frankenstein
 * The Hold Steady - The Price of Progress
 * The New Pornographers - Continue as a Guest
 * boygenius - the record
@@ -18,8 +19,8 @@ title = "Now Spinning - April 2023"
 
 ## Streaming
 
-* Depeche Mode - Memento Mori
-* Samia - Honey
+* Ruston Kelly - The Weakness
+* Joseph - The Sun
 
 
 
