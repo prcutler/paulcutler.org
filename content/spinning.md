@@ -9,20 +9,15 @@ title = "Now Spinning - May 2023"
 
 ## Newish Records
 
-* The National - First Two Pages of Frankenstein
-* The Hold Steady - The Price of Progress
-* The New Pornographers - Continue as a Guest
-* boygenius - the record
-
+* Jenny Lewis - Joy Y'all
+* Alex Lahey - The Answer is Always Yes
 
 ## Older Records
 
 ## Streaming
 
-* Ruston Kelly - The Weakness
-* Joseph - The Sun
-
-
+* The Hold Steady - Heaven is Whenever 2021
+* TMNT Mutant Mayheam - Original Score - Trent Reznor and Atticus Ross
 
 ![Phoebe Bridgers - Punisher (Blue with kind of Swirly Silver)](/img/punisher.jpg)
 
