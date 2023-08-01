@@ -3,7 +3,7 @@
 date = "2020-06-12"
 
 # Project title.
-title = "Now Spinning - May 2023"
+title = "Now Spinning - August 2023"
 
 +++
 
