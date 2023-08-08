@@ -17,7 +17,7 @@ title = "Now Spinning - August 2023"
 ## Streaming
 
 * The Hold Steady - Heaven is Whenever 2021
-* TMNT Mutant Mayheam - Original Score - Trent Reznor and Atticus Ross
+* TMNT Mutant Mayhem - Original Score - Trent Reznor and Atticus Ross
 
 ![Phoebe Bridgers - Punisher (Blue with kind of Swirly Silver)](/img/punisher.jpg)
 
