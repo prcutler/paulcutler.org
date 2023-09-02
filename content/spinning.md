@@ -3,16 +3,18 @@
 date = "2020-06-12"
 
 # Project title.
-title = "Now Spinning - August 2023"
+title = "Now Spinning - September 2023"
 
 +++
 
 ## Newish Records
 
 * Jenny Lewis - Joy Y'all
-* Alex Lahey - The Answer is Always Yes
 
 ## Older Records
+
+* Soul Coughing discography
+* The Hold Steady discography
 
 ## Streaming
 
