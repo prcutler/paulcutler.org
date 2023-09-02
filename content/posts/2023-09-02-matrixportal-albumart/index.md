@@ -10,6 +10,8 @@ tags:
   - circuitpython
   - music
   - albumart
+  - fastapi
+  - silversaucer
 
 ---
 A year and a half ago I [made some progress on displaying album art on a MatrixPortal and 2 32x64 RGB matrices](https://paulcutler.org/posts/2022/01/led-matrix-progress/) using CircuitPython.  I was never really happy with the results and using two 32x64 matrices instead of one 64x64 matrix was difficult.  I moved on and re-created the project using a PyPortal Titano. It worked well: when I chose an album I wanted to listen to SilverSaucer.com, my FastAPI web app would convert the image and send a MQTT message.  The PyPortal would listen for the message, and when a new message arrived, download and display the album art along with a Winamp skin that also showed the artist and album name.  I should have blogged it and taken a picture!
