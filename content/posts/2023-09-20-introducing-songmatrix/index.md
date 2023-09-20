@@ -22,7 +22,7 @@ Enter [SongMatrix](https://github.com/prcutler/songmatrix) (GitHub).
 
 SongMatrix records a short audio sample on the Raspberry Pi and then sends it to `shazamio` to be identified.  It then sends a MQTT message to Adafruit IO’s MQTT broker with the song title and artist.  The MQTT message is received by the S3 MatrixPortal, which then scrolls the song and artist on separate lines, like so:
 
-![A 32x64 Matrix displaying the song Breathing Underwater on the top row and the artist, Metric, on the bottom row](images/480p.gif)
+![A 32x64 Matrix displaying the song Breathing Underwater on the top row and the artist, Metric, on the bottom row](480p.gif)
 
 I whipped up a proof of concept for the Python part of recording audio and sending it to `shazamio`in one Friday evening.  The CircuitPython part took me a couple weeks and I’ll share some of the challenges in upcoming blog posts (no promises).
 
