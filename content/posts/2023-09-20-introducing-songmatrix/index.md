@@ -1,5 +1,5 @@
 ---
-title: MatrixPortal Album Art Display
+title: Introducing SongMatrix
 author: Paul Cutler 
 type: post 
 date: 2023-09-20T18:00:00
