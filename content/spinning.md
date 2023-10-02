@@ -3,23 +3,23 @@
 date = "2020-06-12"
 
 # Project title.
-title = "Now Spinning - September 2023"
+title = "Now Spinning - October 2023"
 
 +++
 
 ## Newish Records
 
-* Jenny Lewis - Joy Y'all
+* Dessa - Bury the Lede
 
 ## Older Records
 
-* Soul Coughing discography
-* The Hold Steady discography
+
 
 ## Streaming
 
-* The Hold Steady - Heaven is Whenever 2021
-* TMNT Mutant Mayhem - Original Score - Trent Reznor and Atticus Ross
+* Tim (Let it Bleed edition) - The Replacements
+* Laugh Track - The National
+* Yard - Slow Pulp
 
 ![Phoebe Bridgers - Punisher (Blue with kind of Swirly Silver)](/img/punisher.jpg)
 
