@@ -151,4 +151,7 @@ disableHugoGeneratorInject = false
     identifier = "projects"
     name       = "Projects"
     url        = "project/"
-
+  [[menu.main]]
+    identifier = "spinning"
+    name       = "🎧"
+    url        = "spinning/"

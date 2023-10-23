@@ -14,13 +14,11 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Roboto",
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Roboto",
     "Segoe UI", Helvetica, Arial, sans-serif;
   font-display: auto;
   font-size: 1rem;
   line-height: 1.54;
-  background-color: $light-background;
-  color: $light-color;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
@@ -31,6 +29,10 @@ body {
   min-height: 100vh;
   flex-direction: column;
 
+  // Default
+  background-color: $light-background;
+  color: $light-color;
+
   @media #{$media-size-phone} {
     font-size: 1rem;
   }
@@ -38,6 +40,21 @@ body {
   @media (prefers-color-scheme: dark) {
     background-color: $dark-background;
     color: $dark-color;
+  }
+
+  @media (prefers-color-scheme: light) {
+    background-color: $light-background;
+    color: $light-color;
+  }
+
+  [data-theme=dark] & {
+    background-color: $dark-background;
+    color: $dark-color;
+  }
+
+  [data-theme=light] & {
+    background-color: $light-background;
+    color: $light-color;
   }
 }
 
@@ -173,10 +190,23 @@ figure {
 }
 
 em, i, strong {
-  color: black;
+  // Default
+  color: $light-color-variant;
 
   @media (prefers-color-scheme: dark) {
+    color: $dark-color-variant;
+  }
+
+  @media (prefers-color-scheme: light) {
+    color: $light-color-variant;
+  }
+
+  [data-theme=dark] & {
     color: white;
+  }
+
+  [data-theme=light] & {
+    color: black;
   }
 }
 
@@ -184,19 +214,39 @@ code {
   font-family: Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
   font-display: auto;
   font-feature-settings: normal;
-  background: $light-background-secondary;
   padding: 1px 6px;
   margin: 0 2px;
   border-radius: 5px;
   font-size: 0.95rem;
+  // Default
+  background: $light-background-secondary;
 
   @media (prefers-color-scheme: dark) {
     background: $dark-background-secondary;
   }
+
+  @media (prefers-color-scheme: light) {
+    background: $light-background-secondary;
+  }
+
+  [data-theme=dark] & {
+    background: $dark-background-secondary;
+  }
+
+  [data-theme=light] & {
+    background: $light-background-secondary;
+  }
 }
 
 pre {
-  background: #212020;
+  [data-theme=dark] & {
+    background-color: $dark-background-secondary;
+  }
+
+  [data-theme=light] & {
+    background-color: $light-background-secondary;
+  }
+
   padding: 10px 10px 10px 20px;
   border-radius: 8px;
   font-size: 0.95rem;
@@ -209,13 +259,26 @@ pre {
 
   code {
     background: none !important;
-    color: #ccc;
     margin: 0;
     padding: 0;
     font-size: inherit;
+    // Default
+    color: #ccc;
 
     @media (prefers-color-scheme: dark) {
       color: inherit;
+    }
+  
+    @media (prefers-color-scheme: light) {
+      color: #ccc;
+    }
+  
+    [data-theme=dark] & {
+      color: inherit;
+    }
+  
+    [data-theme=light] & {
+      color: #ccc;
     }
   }
 }
@@ -287,11 +350,24 @@ ol ol {
 hr {
   width: 100%;
   border: none;
-  background: $light-border-color;
   height: 1px;
+  // Default
+  background: $light-border-color;
 
   @media (prefers-color-scheme: dark) {
     background: $dark-border-color;
+  }
+
+  @media (prefers-color-scheme: light) {
+    background: $light-border-color;
+  }
+
+  [data-theme=dark] & {
+    background: $dark-border-color;
+  }
+
+  [data-theme=light] & {
+    background: $light-border-color;
   }
 }
 
