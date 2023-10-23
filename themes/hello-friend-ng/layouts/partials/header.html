@@ -13,11 +13,9 @@
                 </span>
             {{ end }}
 
-            <span class="header__right">
-                <a href="/spinning">
-                <a title="Now Spinning" href="/spinning/"><img width="32" alt="Vinyl record" src="/img/vinyl.png"></a>
-            </span>
-
+            {{- if .Site.Params.EnableThemeToggle }}
+                <span class="theme-toggle not-selectable">{{ partial "theme-toggle-icon.html" . }}</span>
+            {{- end}}
         </span>
     </span>
 </header>

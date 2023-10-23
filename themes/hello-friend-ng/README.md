@@ -7,6 +7,7 @@
 This theme was highly inspired by the [hello-friend](https://github.com/panr/hugo-theme-hello-friend) and [hermit](https://github.com/Track3/hermit). A lot of kudos for their great work.
 
 ---
+
 ## Table of Contents
 
 - [Features](#features)
@@ -17,6 +18,7 @@ This theme was highly inspired by the [hello-friend](https://github.com/panr/hug
     - [image](#image)
   - [Code highlighting](#code-highlighting)
   - [Favicon](#favicon)
+  - [Audio Support](#audio-support)
 - [Social Icons](#social-icons)
 - [Known issues](#known-issues)
 - [How to edit the theme](#how-to-edit-the-theme)
@@ -25,17 +27,20 @@ This theme was highly inspired by the [hello-friend](https://github.com/panr/hug
 - [Licence](#licence)
 
 ---
+
 ## Features
 
-- Theming: **dark/light mode**, depending on your system preferences
-- Great reading experience thanks to [**Inter UI font**](https://rsms.me/inter/), made by [Rasmus Andersson](https://rsms.me/about/)
+- Theming: **dark/light mode**, depending on your system preferences or the users choice
+- Great reading experience thanks to [**Inter font**](https://rsms.me/inter/), made by [Rasmus Andersson](https://rsms.me/about/)
 - Nice code highlighting thanks to [**PrismJS**](https://prismjs.com)
 - An easy way to modify the theme with Hugo tooling
 - Fully responsive
+- Support for audio in posts (thanks to [@talbotp](https://github.com/talbotp))
+- Builtin (enableable/disableable) multilanguage menu
 - Support for social icons
 - Support for sharing buttons
 - Support for [Commento](https://commento.io)
-
+- Support for [Plausible](https://plausible.io) (thanks to [@Joffcom](https://github.com/Joffcom))
 
 ## How to start
 
@@ -80,6 +85,9 @@ paginate     = 10
 
   # Enable sharing buttons, if you like
   enableSharingButtons = true
+  
+  # Show a global language switcher in the navigation bar
+  enableGlobalLanguageMenu = true
 
   # Metadata mostly used in document's head
   description = "My new homepage or blog"
@@ -94,10 +102,12 @@ paginate     = 10
 [languages]
   [languages.en]
     title = "Hello Friend NG"
-    subtitle = "A simple theme for Hugo"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
+
+  [languages.en.params]
+    subtitle  = "A simple theme for Hugo"
 
     [languages.en.params.logo]
       logoText = "hello friend ng"
@@ -149,9 +159,27 @@ By default the theme is using PrismJS to color your code syntax. All you need to
 
 Check the [docs](docs/favicons.md).
 
+### Audio Support
+
+You wrote an article and recorded it? Or do you have a special music that you would like to put on a certain article? Then you can do this now without further ado.
+
+In your article add to your front matters part:
+
+```yaml
+audio: path/to/file.mp3
+```
+
 ## Social Icons:
 
-Take a look into this [list](docs/svgs.md)
+A large variety of social icons are available and can be configured like this:
+
+```toml
+[[params.social]]
+  name = "<site>"
+  url = "<profile_URL>"
+```
+
+Take a look into this [list](docs/svgs.md) of available icon options. 
 
 If you need another one, just open an issue or create a pull request with your wished icon. :)
 
