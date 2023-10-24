@@ -19,9 +19,9 @@ title = "Now Spinning - October 2023"
 
 ## Streaming
 
-* Tim (Let it Bleed edition) - The Replacements
-* Laugh Track - The National
-* Yard - Slow Pulp
+* The Replacements - Tim (Let it Bleed edition)
+* The National - Laugh Track
+* Slow Pulp - Yard
 * Beastie Boys discography
 
 ![Phoebe Bridgers - Punisher (Blue with kind of Swirly Silver)](/img/punisher.jpg)
