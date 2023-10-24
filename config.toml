@@ -1,7 +1,7 @@
 baseURL = "https://paulcutler.org"
 title   = "Paul Cutler"
 languageCode = "en-us"
-theme = "hello-friend-ng"
+theme = "gokarna"
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
