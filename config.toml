@@ -1,4 +1,4 @@
-baseURL = "https://paulcutler.org"
+baseURL = "/"
 title   = "Paul Cutler"
 languageCode = "en-us"
 theme = "hello-friend-ng"
