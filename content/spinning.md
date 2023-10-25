@@ -12,6 +12,7 @@ title = "Now Spinning - October 2023"
 * Dessa - Bury the Lede
 * Metric - Formentera II
 * boygenius - The Rest
+* Angie McMahon - Light, Dark, Light Again
 
 ## Older Records
 * Free Energy - [Stuck On Nothing](https://www.discogs.com/Free-Energy-Stuck-On-Nothing/release/2260616)
