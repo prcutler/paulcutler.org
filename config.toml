@@ -116,10 +116,6 @@ disableHugoGeneratorInject = false
     url  = "https://www.circuitpythonshow.com/"
 
   [[params.social]]
-    name = "keybase"
-    url  = "https://keybase.io/prcutler"
-
-  [[params.social]]
     name = "linkedin"
     url  = "https://www.linkedin.com/in/paulrcutler"
 
