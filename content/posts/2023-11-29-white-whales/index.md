@@ -1,5 +1,5 @@
 ---
-title: White WHales
+title: White Whales
 author: Paul Cutler 
 type: post 
 date: 2023-11-29T12:00:00
