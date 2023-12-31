@@ -11,7 +11,7 @@ tags:
   - 2023
 
 ---
-<iframe title="Pixelfed Post Embed" src="https://pixelfed.social/p/prcutler/647058515452297375/embed?caption=true&likes=false&layout=full" class="pixelfed__embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script async defer src="https://pixelfed.social/embed.js"></script>
+![My favorite records of 2023](2023-records.jpeg)
 
 My favorite album of 2023 isn’t in the picture as I’m waiting for the deluxe box set that comes out in early March, 2024.  Peter Gabriel’s i/o, his first album of new music in over 20 years, came out in early December and I have literally listened to nothing but this.  So much so that Apple updated its 2023 Replay and the record became my most played streaming album of the year in under a month.
 
