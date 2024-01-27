@@ -3,7 +3,7 @@
 date = "2020-06-12"
 
 # Project title.
-title = "Now Spinning - December 2023"
+title = "Now Spinning - January 2024"
 
 +++
 
@@ -14,12 +14,13 @@ title = "Now Spinning - December 2023"
 
 ## Older Records
 * Prince and the New Power Generations: Diamonds and Pearls
-* Rilo Kiley - [Under the Blacklight](https://www.discogs.com/Rilo-Kiley-Under-The-Blacklight/release/3077280)
+* Frank Turner - Be More Kind
 
 
 ## Streaming
 
 * Peter Gabriel - i/o
+* KC Rae - Think I'm Gonna Die
 
 ![Phoebe Bridgers - Punisher (Blue with kind of Swirly Silver)](/img/punisher.jpg)
 
