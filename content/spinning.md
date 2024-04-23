@@ -10,6 +10,8 @@ title = "Now Spinning - April 2024"
 ## Newish Records
 
 * The Staves - All Now
+* Waxahatchee - Tiger's Blood
+* Pearl Jam - Dark Matter
 
 
 ## Older Records
@@ -19,7 +21,6 @@ title = "Now Spinning - April 2024"
 
 ## Streaming
 
-* Waxahatchee - Tiger's Blood
 * The Black Keys - Ohio Players
 
 ![Phoebe Bridgers - Punisher (Blue with kind of Swirly Silver)](/img/punisher.jpg)
