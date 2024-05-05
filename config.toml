@@ -104,6 +104,10 @@ disableHugoGeneratorInject = false
     url  = "https://hachyderm.io/@prcutler"
 
   [[params.social]]
+    name = "pixelfed"
+    url = "https://pixelfed.social/prcutler"
+
+  [[params.social]]
     name = "discogs"
     url  = "https://discogs.com/user/prcutler"
 
