@@ -9,22 +9,17 @@ title = "Now Spinning - May 2024"
 
 ## Newish Records
 
-* The Staves - All Now
-* Waxahatchee - Tiger's Blood
 * Pearl Jam - Dark Matter
-* Peter Gabriel - i/o
 * Frank Turner - Undefeated
 
 
 ## Older Records
-* Garbage - Bleed Like Me
+* Japandroids - Celebration Rock
 
 
 ## Streaming
 
-* The Black Keys - Ohio Players
-* St. Vincent - All Born Screaming
-* Shannon Curtis - Good to Me
+* On a bit of an 80s New Wave kick with Erasure, Depeche Mode, New Order, etc.
 
 ![Phoebe Bridgers - Punisher (Blue with kind of Swirly Silver)](/img/punisher.jpg)
 
