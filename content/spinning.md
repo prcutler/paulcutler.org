@@ -3,18 +3,17 @@
 date = "2020-06-12"
 
 # Project title.
-title = "Now Spinning - May 2024"
+title = "Now Spinning - July 2024"
 
 +++
 
 ## Newish Records
 
-* Pearl Jam - Dark Matter
-* Frank Turner - Undefeated
+* The Decemberists - As It Ever Was, So It Will Be Again
 
 
 ## Older Records
-* Japandroids - Celebration Rock
+* Prince - Purple Rain
 
 
 ## Streaming
