@@ -17,4 +17,5 @@ Stay connected with The Bootloader and me - [sign up for our newsletter launchin
 
 But don't take it from me.  Here's LadyAda and pt from the July 3, 2024 episode of [Ask an Engineer](https://www.youtube.com/watch?v=k8X6IXRyBdw) (fast forward to the 1:07 mark):
 
-{{<youtube EN19k5myI1vxtt72 >}}
+{{<youtube k8X6IXRyBdw >}}
+
