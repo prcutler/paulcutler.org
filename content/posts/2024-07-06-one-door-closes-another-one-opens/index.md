@@ -15,6 +15,6 @@ I realized this week that I never blogged the end of The CircuitPython Show.  Th
 
 Stay connected with The Bootloader and me - [sign up for our newsletter launching next week here](https://buttondown.email/thebootloader).
 
-But don't take it from me.  Here's LadyAda and pt from the July 3, 2024 episode of [Ask an Engineer](https://www.youtube.com/watch?v=k8X6IXRyBdw):
+But don't take it from me.  Here's LadyAda and pt from the July 3, 2024 episode of [Ask an Engineer](https://www.youtube.com/watch?v=k8X6IXRyBdw) (fast forward to the 1:07 mark):
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/k8X6IXRyBdw?si=RPDRQF98HOnB4J8M&amp;start=67" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{{<youtube EN19k5myI1vxtt72 >}}
