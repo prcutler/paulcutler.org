@@ -3,20 +3,19 @@
 date = "2020-06-12"
 
 # Project title.
-title = "Now Spinning - August 2024"
+title = "Now Spinning - October 2024"
 
 +++
 
 ## Newish Records
-
 * Johnny Blue Skies (aka Sturgill Simpson) - Passage du Desir
 
 
 ## Older Records
-* The Hold Steady discography
+* Sturgill Simpson discorgraphy
 
 ## Streaming
-
+* Jason Isbell and the 400 Unit Live at the Ryman Volume 2
 
 
 ![Phoebe Bridgers - Punisher (Blue with kind of Swirly Silver)](/img/punisher.jpg)
