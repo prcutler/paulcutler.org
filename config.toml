@@ -104,6 +104,10 @@ disableHugoGeneratorInject = false
     url  = "https://hachyderm.io/@prcutler"
 
   [[params.social]]
+    name = "pixelfed"
+    url = "https://pixelfed.social/prcutler"
+
+  [[params.social]]
     name = "discogs"
     url  = "https://discogs.com/user/prcutler"
 
@@ -114,10 +118,6 @@ disableHugoGeneratorInject = false
   [[params.social]]
     name = "podcasts-apple"
     url  = "https://www.circuitpythonshow.com/"
-
-  [[params.social]]
-    name = "keybase"
-    url  = "https://keybase.io/prcutler"
 
   [[params.social]]
     name = "linkedin"

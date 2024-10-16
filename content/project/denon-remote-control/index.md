@@ -56,7 +56,7 @@ The rotary encoder changes the volume up and down and the button mutes and unmut
 
 ### 3D Printing New Speaker Stands
 
-I re-used my speakerstand design from the `speakerstand-lights` project using OnShape.  I don't have any experieince with CAD and it shows, especially where the cables lay inside.  I hope to re-design this properly some time in the future.  Included are all the files you would need, including a normal speaker stand with rounded edges and an angled version.  The embedded version includes an STL file, STEP, and 3MF.
+I re-used my speakerstand design from the `speakerstand-lights` project using OnShape.  I don't have any experience with CAD and it shows, especially where the cables lay inside.  I hope to re-design this properly some time in the future.  Included are all the files you would need, including a normal speaker stand with rounded edges and an angled version.  The embedded version includes an STL file, STEP, and 3MF.
 
 You will need to print the Reverse TFT front plate from BlitzCityDIY's [Octoprint enclosure](https://www.printables.com/model/392357-circuitpython-octoprint-controller-and-monitor-cas) project and attach it using 2 M2 and 2 M2.5 screws.
 
