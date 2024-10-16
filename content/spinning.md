@@ -12,7 +12,8 @@ title = "Now Spinning - October 2024"
 
 
 ## Older Records
-* Sturgill Simpson discorgraphy
+* Sturgill Simpson discography
+* Blade Runner soundtrack by Vangelis
 
 ## Streaming
 * Jason Isbell and the 400 Unit Live at the Ryman Volume 2
