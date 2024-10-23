@@ -8,7 +8,7 @@ title = "Now Spinning - October 2024"
 +++
 
 ## Newish Records
-* Japandoids - Fate & Alcohol
+* Japandroids - Fate & Alcohol
 
 
 ## Older Records
