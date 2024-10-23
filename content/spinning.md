@@ -8,7 +8,7 @@ title = "Now Spinning - October 2024"
 +++
 
 ## Newish Records
-* Johnny Blue Skies (aka Sturgill Simpson) - Passage du Desir
+* Japandoids - Fate & Alcohol
 
 
 ## Older Records
