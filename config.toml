@@ -108,6 +108,10 @@ disableHugoGeneratorInject = false
     url = "https://pixelfed.social/prcutler"
 
   [[params.social]]
+    name = "bluesky"
+    url = "https://bsky.app/profile/paulcutler.org"
+
+  [[params.social]]
     name = "discogs"
     url  = "https://discogs.com/user/prcutler"
 
