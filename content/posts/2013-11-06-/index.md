@@ -2,7 +2,7 @@
 title: Why I Bought a Nexus 5
 author: Paul Cutler
 type: post
-date: -001-11-30T00:00:00+00:00
+date: 2013-11-06T00:00:00+00:00
 draft: true
 url: /blog/?p=3374
 categories:
