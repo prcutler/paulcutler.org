@@ -58,7 +58,7 @@ disableHugoGeneratorInject = false
   keywords = "Paul Cutler"
   images = [""]
 
-  homeSubtitle = "Father. Husband. Vinyl music lover. Python student. Novice maker. Podcast host. He / Him."
+  homeSubtitle = "Father. Husband. Vinyl music lover. Python student. Maker. Podcast host. He / Him."
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   # gitUrl = ""
@@ -159,3 +159,7 @@ disableHugoGeneratorInject = false
     identifier = "spinning"
     name       = "🎧"
     url        = "spinning/"
+
+# Allow HTML in old blog posts
+[markup.goldmark.renderer]
+unsafe = true
