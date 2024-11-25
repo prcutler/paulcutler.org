@@ -2,7 +2,7 @@
 title: Black Friday 2010
 author: Paul Cutler
 type: post
-date: -001-11-30T00:00:00+00:00
+date: 2010-12-08T00:00:00+00:00
 draft: true
 url: /blog/?p=2055
 categories:
