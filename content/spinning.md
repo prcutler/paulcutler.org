@@ -3,7 +3,7 @@
 date = "2020-06-12"
 
 # Project title.
-title = "Now Spinning - October 2024"
+title = "Now Spinning - December 2024"
 
 +++
 
@@ -12,11 +12,10 @@ title = "Now Spinning - October 2024"
 
 
 ## Older Records
-* Sturgill Simpson discography
-* Blade Runner soundtrack by Vangelis
+* Tegan & Sara - So Jealous
 
 ## Streaming
-* Jason Isbell and the 400 Unit Live at the Ryman Volume 2
+* DeeGees - Hail Satin
 
 
 ![Phoebe Bridgers - Punisher (Blue with kind of Swirly Silver)](/img/punisher.jpg)
