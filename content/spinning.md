@@ -22,4 +22,4 @@ title = "Now Spinning - December 2024"
 
 ## White Whales
 
-DeeGees - [Hail Satin](https://www.discogs.com/release/19412470-Dee-Gees-2-Foo-Fighters-Hail-Satin)
+DeeGees - [Hail Satin](https://www.discogs.com/release/19529575-Dee-Gees-2-Foo-Fighters-Hail-Satin)
