@@ -7,7 +7,7 @@ title = "About"
 
 +++
 
-Paul lives in suburbs of Minneapolis, Minnesota with his wife and his dog, a black Labrador Retriever.
+Paul lives in the suburbs of Minneapolis, Minnesota with his wife and his dog, a black Labrador Retriever.
 When he's not in front of his computer you can find him listening to records from his vinyl record collection,
 tinkering with Python or CircuitPython, playing with his dog, or watching a movie.
 
