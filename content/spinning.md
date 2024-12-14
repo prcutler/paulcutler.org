@@ -21,3 +21,5 @@ title = "Now Spinning - December 2024"
 ![Phoebe Bridgers - Punisher (Blue with kind of Swirly Silver)](/img/punisher.jpg)
 
 ## White Whales
+
+DeeGees - [Hail Satin](https://www.discogs.com/release/19529575-Dee-Gees-2-Foo-Fighters-Hail-Satin)
