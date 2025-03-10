@@ -1,21 +1,22 @@
 +++
 # Date this page was created.
-date = "2020-06-12"
+date = "2020-03-07"
 
 # Project title.
-title = "Now Spinning - December 2024"
+title = "Now Spinning - March 2025"
 
 +++
 
 ## Newish Records
-* Japandroids - Fate & Alcohol
+* Jason Isbell - Foxes in the Snow
+* Bob Mould - Here We Go Crazy
 
 
 ## Older Records
-* Tegan & Sara - So Jealous
+
 
 ## Streaming
-* DeeGees - Hail Satin
+
 
 
 ![Phoebe Bridgers - Punisher (Blue with kind of Swirly Silver)](/img/punisher.jpg)
