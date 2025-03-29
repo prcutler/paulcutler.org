@@ -12,9 +12,9 @@ When he's not in front of his computer you can find him listening to records fro
 tinkering with Python or CircuitPython, playing with his dog, or watching a movie.
 
 Paul co-hosts [The Bootloader](https://thebootloader.net) with Tod Kurt, a monthly podcast
-with topics from the maker and CircuitPython communities. From 2022-2024, he
+with topics from the maker and CircuitPython communities. Since 2022, he has
 hosted <a href="https://www.circuitpythonshow.com/@circuitpythonshow">The CircuitPython Show</a>,
-an independent podcast where Paul interviewed people doing cool things with CircuitPython or in the maker
+an independent podcast where Paul interviews people doing cool things with CircuitPython or in the maker
 community.
 
 Paul believes strongly in the power of open source, both software and hardware.
