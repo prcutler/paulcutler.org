@@ -3,19 +3,19 @@
 date = "2020-03-07"
 
 # Project title.
-title = "Now Spinning - April 2025"
+title = "Now Spinning - May 2025"
 
 +++
 
 ## Newish Records
-* Jason Isbell - Foxes in the Snow
-* Bob Mould - Here We Go Crazy
 * Bon Iver - Sable, Fable
 * Momma - Welcome to My Blue Sky
 * Craig Finn - Always Been
 
 
 ## Older Records
+
+* The Brian Setzer Orchestra
 
 
 ## Streaming
