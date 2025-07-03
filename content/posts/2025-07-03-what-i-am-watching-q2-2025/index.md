@@ -15,11 +15,10 @@ tags:
 Continuing on my [journey to catalog everything](https://www.paulcutler.org/posts/2025/04/what-im-watching-q1-2025/) I'm watching, here's what I watched in the second quarter of 2025.  Highlights included kicking off April getting ready for Andor S2 by re-watching the Star Wars Prequels, Obi-Wan Kenobi, and Andor S1. I celebrated the life of Gene Hackman with Night Moves, The Royal Tenenbaums, and Runaway Jury.  Other movies I enjoyed included The Long Good Friday, Tombstone, and starting to watch the classic Sean Connery Bond films on 4K UHD.
 
 Legend:
-* = The Criterion Channel
-+ = 4K UHD
-^ = AppleTV+
-~ = Netflix
-
+* The Criterion Channel = *
+* 4K UHD = +
+* AppleTV+ = ^
+* Netflix = ~
 
 April
 * **Star Wars Episode 1: The Phantom Menace** (1999)+
