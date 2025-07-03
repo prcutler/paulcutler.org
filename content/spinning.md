@@ -3,23 +3,21 @@
 date = "2020-03-07"
 
 # Project title.
-title = "Now Spinning - May 2025"
+title = "Now Spinning - July 2025"
 
 +++
 
 ## Newish Records
-* Bon Iver - Sable, Fable
-* Momma - Welcome to My Blue Sky
-* Craig Finn - Always Been
+* Haim - I quit
+* Garbage - Let All That We Imagine Be The Light
 
 
 ## Older Records
 
-* The Brian Setzer Orchestra
 
 
 ## Streaming
-* Shannon Curtis - 80s Kids
+
 
 
 ![Phoebe Bridgers - Punisher (Blue with kind of Swirly Silver)](/img/punisher.jpg)
