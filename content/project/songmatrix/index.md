@@ -30,7 +30,7 @@ caption = ""
 
 ##  Project Overview
 
-This project uses a USB microphone plugged into a Raspberry Pi to record a 10 second audio sample every three minutes.  That sample is then sent to Shazam for identification and sends a MQTT message with the artist name and song title.  The MQTT message is received by an Adafruit S3 MatrixPortal which scrolls the song information.  The project was updated in the summer of 2025 and you can now use one or two LED matrices with the Adafruit S3 MatrixPortal.
+This project uses a USB microphone plugged into a Raspberry Pi to record a 10 second audio sample every three minutes.  That sample is then sent to Shazam for identification and sends a MQTT message with the artist name and song title.  The MQTT message is received by an Adafruit S3 MatrixPortal which scrolls the song information.  The project was [updated in the summer of 2025](https://www.paulcutler.org/posts/2025/08/updating-songmatrix/) and you can now use one or two LED matrices with the Adafruit S3 MatrixPortal.
 
 Source code: [GitHub](https://github.com/prcutler/songmatrix)
 
