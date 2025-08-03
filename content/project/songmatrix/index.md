@@ -30,7 +30,7 @@ caption = ""
 
 ##  Project Overview
 
-This project uses a USB microphone plugged into a Raspberry Pi to record a 10 second audio sample every three minutes.  That sample is then sent to Shazam for identification and sends a MQTT message with the artist name and song title.  The MQTT message is received by an Adafruit S3 Matrix Portal which scrolls the song information.
+This project uses a USB microphone plugged into a Raspberry Pi to record a 10 second audio sample every three minutes.  That sample is then sent to Shazam for identification and sends a MQTT message with the artist name and song title.  The MQTT message is received by an Adafruit S3 MatrixPortal which scrolls the song information.  The project was updated in the summer of 2025 and you can now use one or two LED matrices with the Adafruit S3 MatrixPortal.
 
 Source code: [GitHub](https://github.com/prcutler/songmatrix)
 
@@ -49,8 +49,9 @@ Overall the project works well except for the occasional MQTT timeout error.  Fo
 - [ ] Raspberry Pi single board computer (Any will do, I'm using an older Raspberry Pi 2 without issue)
 - [ ] USB Microphone ([Adafruit](https://www.adafruit.com/product/3367))
 - [ ] Adafruit MatrixPortal (Should work on either the newer [S3](https://www.adafruit.com/product/5778) or older [M4](https://www.adafruit.com/product/4745))
-- [ ] Adafruit 32x64 RGB Matrix panel (I'm using a [2.5 pitch panel](https://www.adafruit.com/product/5036))
+- [ ] Adafruit 32x64 RGB Matrix panel (I'm using a [2.5 pitch panel](https://www.adafruit.com/product/5036)) (1 or 2)
 - [ ] [Adafruit IO](https://io.adafruit.com) account
+- [ ] (Optional if using two 64x32 panels) [3D printed frame](https://www.printables.com/model/1332041-transit-tracker-frame) from Eastside Urbanism.
 
 ### Demo
 ![Two lines scroll on a RGB matrix, one on top of the other. On the top, the song title, Breathing Underwater, and beneath it, the artist, Metric](480p.gif)
