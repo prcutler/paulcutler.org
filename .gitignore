@@ -218,3 +218,6 @@ content/project/.DS_Store
 .code-workspace
 paulcutlerorg.code-workspace
 .hugo_build.lock
+
+# Hugo
+public/
