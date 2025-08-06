@@ -36,7 +36,7 @@ Source code: [GitHub](https://github.com/prcutler/songmatrix)
 
 ## About
 
-I listen to a lot of music.  If I don't have a record on the turntable, I have the [radio](https://thecurrent.org) on in the background.  I'm not a playlist guy - I like to listen to records front to back.  For that reason, I don't always know a lot of the song titles.**
+I listen to a lot of music.  If I don't have a record on the turntable, I have the [radio](https://thecurrent.org) on in the background.  I'm not a playlist guy - I like to listen to records front to back.  For that reason, I don't always know a lot of the song titles.
 
 I don't remember what sparked the idea, but I vaguely remember it had something to do with a Mastodon toot that I can no longer remember.  And then I came across the `shazamio` Python library, which made half of this project a breeze.  I hacked together in a Friday night the less than twenty lines of code it took to record an audio sample using a microphone and send it to to Shazam for successful identification.
 
@@ -59,4 +59,4 @@ Overall the project works well except for the occasional MQTT timeout error.  Fo
 ### Credits
 
 * Tod Kurt for sharing some code using MQTT with `asyncio` - it fixed the scrolling blocking problem.
-* anecdata for the additional help and troubleshooting in the Adafruit Discrod
+* anecdata for the additional help and troubleshooting in the Adafruit Discord
