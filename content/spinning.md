@@ -3,17 +3,17 @@
 date = "2020-03-07"
 
 # Project title.
-title = "Now Spinning - July 2025"
+title = "Now Spinning - August 2025"
 
 +++
 
 ## Newish Records
 * Haim - I quit
-* Garbage - Let All That We Imagine Be The Light
+* Gordi - Like Plasticine
 
 
 ## Older Records
-
+* Haim - Days Are Gone
 
 
 ## Streaming
