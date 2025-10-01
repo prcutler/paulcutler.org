@@ -2,7 +2,7 @@
 title: What I'm Watching - Q3 2025
 author: Paul Cutler
 type: post
-date: 2025-010-01T06:30:00
+date: 2025-10-01T06:30:00
 categories:
   - movies
   - tv
