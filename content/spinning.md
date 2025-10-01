@@ -3,17 +3,18 @@
 date = "2020-03-07"
 
 # Project title.
-title = "Now Spinning - August 2025"
+title = "Now Spinning - October 2025"
 
 +++
 
 ## Newish Records
-* Haim - I quit
-* Gordi - Like Plasticine
+* Nine Inch Nails - Tron: Ares soundtrack
+* Mother Love Bone - Shine
+* Mother Love Bone - Apple
 
 
 ## Older Records
-* Haim - Days Are Gone
+
 
 
 ## Streaming
