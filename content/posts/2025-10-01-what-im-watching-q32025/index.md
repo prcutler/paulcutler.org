@@ -75,5 +75,6 @@ Legend:
 * **Tron** (1982)+
 * **Tron: Legacy** (2010)+
 * Star Trek: Strange New Worlds S3
+* Alien: Earth S1
 * **The Naked Gun** (2025)
 * **Miami Blues** (1990)*
