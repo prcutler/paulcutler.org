@@ -1,0 +1,80 @@
+[
+  {
+    "title": "SongMatrix",
+    "sub_title": "2023",
+    "content": "Use a Raspberry Pi to record a song sample, identify it, and display artist and song titles on an LED Matrix using an Adafruit S3 MatrixPortal.",
+    "icon": ":material-rocket-launch:"
+  },
+  {
+    "title": "MatrixPortal Album Art",
+    "sub_title": "2023",
+    "content": "Display Album Art on a MatrixPortal.",
+    "icon": ":material-rocket-launch:"
+  },
+  {
+    "title": "CircuitPython Denon Remote Control Speaker Stand",
+    "sub_title": "2023",
+    "content": "Remotely control a Denon receiver with an Adafruit S3 ReverseTFT Feather.",
+    "icon": ":material-rocket-launch:"
+  },
+  {
+    "title": "The Bootloader",
+    "sub_title": "2022",
+    "content": "A monthly podcast co-hosted with Tod Kurt focused on the maker, tech, and CircuitPython communities",
+    "icon": ":material-microphone:"
+  },
+  {
+    "title": "PyPortal Album Art",
+    "sub_title": "2022",
+    "content": "Display Album Art on a PyPortal",
+    "icon": ":material-rocket-launch:"
+  },
+  {
+    "title": "The CircuitPython Show",
+    "sub_title": "2022",
+    "content": "A podcast with the makers and developers in the CircuitPython community.",
+    "icon": ":material-microphone:"
+  },
+  {
+    "title": "Audio Reactive NeoPixels Speaker Stand",
+    "sub_title": "2021",
+    "content": "Embed Neopixels in a 3D printed speaker stand to react to audio",
+    "icon": ":material-rocket-launch:"
+  },
+  {
+    "title": "Pi-Dial",
+    "sub_title": "2021",
+    "content": "A Python app to remotely control a Denon receiver using a Raspberry Pi",
+    "icon": ":material-rocket-launch:"
+  },
+  {
+    "title": "NFLPool",
+    "sub_title": "2017",
+    "content": "A Python web app to keep score in league pool play",
+    "icon": ":material-rocket-launch:"
+  },
+  {
+    "title": "SilverSaucer.com",
+    "sub_title": "2020",
+    "content": "A Python web app using FastAPI to interact with my record collection",
+    "icon": ":material-rocket-launch:"
+  },
+  {
+    "title": "MLBPool2",
+    "sub_title": "2018",
+    "content": "A Python web app to keep score in league pool play",
+    "icon": ":material-rocket-launch:"
+  },
+  {
+    "title": "NFLPool",
+    "sub_title": "2017",
+    "content": "A Python web app to keep score in league pool play",
+    "icon": ":material-rocket-launch:"
+  },
+  {
+    "title": "Stone Open",
+    "sub_title": "2012",
+    "content": "Wordpress website for the annual Stone Open golf tournament",
+    "icon": ":material-rocket-launch:"
+  }
+]
