@@ -1,0 +1,12 @@
+nav:
+  - Home:
+      - index.md
+  - About:
+      - about.md
+  - Blog:
+      - blog/index.md
+  - Projects:
+      - projects/index.md
+      - projects/*
+  - 🎧:
+      - spinning.md
