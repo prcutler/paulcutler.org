@@ -4,5 +4,5 @@
 
 This is the code for my homepage at [paulcutler.org](https://paulcutler.org).
 
-The website is powered by [Hugo](https://gohugo.io) and 
-the [hello-friend-ng](https://themes.gohugo.io/themes/hugo-theme-hello-friend-ng/) theme.
+The website is powered by [Python](https://www.python.org/) and
+the [mkdocs-material](https://github.com/squidfunk/mkdocs-material) theme.
