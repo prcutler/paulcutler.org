@@ -7,6 +7,13 @@ nav:
       - blog/index.md
   - Projects:
       - projects/index.md
-      - projects/*
+      - projects/2023
+      - projects/2022
+      - projects/2021
+      - projects/2020
+      - projects/2018
+      - projects/2017
+      - projects/2012
+
   - 🎧:
       - spinning.md
