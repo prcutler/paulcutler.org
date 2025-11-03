@@ -2,12 +2,10 @@
 
 ![Phoebe Bridgers - Punisher (Blue with kind of Swirly Silver)](assets/punisher.jpg)
 
-# Now Spinning
+# Now Spinning - November 2025
 
 ## Newish Records
-* Nine Inch Nails - Tron: Ares soundtrack
-* Mother Love Bone - Shine
-* Mother Love Bone - Apple
+* Polica - Dreams Go
 
 
 ## Older Records
