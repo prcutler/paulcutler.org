@@ -6,6 +6,7 @@
 
 ## Newish Records
 * Polica - Dreams Go
+* Hatchie - Licorice
 
 
 ## Older Records
