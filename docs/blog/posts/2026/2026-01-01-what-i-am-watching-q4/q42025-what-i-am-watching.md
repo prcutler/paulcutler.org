@@ -20,6 +20,10 @@ Wrapping up the year, here's everything I watched in October, November, and Dece
 Because there is a lot of football that isn't accounted for, which is why my total watchlist is down.
 Well, that and a bit of gaming took out a chunk in November and I was traveling half of December.
 
+I plan on continuing to track my watchlist monthly, though I'm unsure if I'll keep blogging it.  A small part of me 
+is tempted to do what Steven Soderbergh does, and track **everything**. But I probably really don't want to know how 
+much time I spend watching baseball and football.
+
 Highlights include K-Pop Demon Hunters, Peacemaker S2, Task, Wake Up Dead Man, One Battle After Another, and Pluribus.
 I was disappointed with A House of Dynamite, The Roses, Relay, and Good Fortune.
 
