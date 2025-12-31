@@ -14,7 +14,7 @@ tags:
 
 ![Favorite Albums of 2025](2025-albums.jpeg)
 
-Like [2023](https://www.paulcutler.org/posts/2023/12/favorite-albums-of-2023/), [2024](https://paulcutler.org/posts/2022/12/favorite-albums-of-2022/), and [last year](https://www.paulcutler.org/blog/2025/01/01/favorite-albums-of-2024/), here’s my favorite albums and releases of 2025 in no particular order:
+Like [2022](https://paulcutler.org/posts/2022/12/favorite-albums-of-2022/), [2023](https://www.paulcutler.org/posts/2023/12/favorite-albums-of-2023/),  and [last year](https://www.paulcutler.org/blog/2025/01/01/favorite-albums-of-2024/), here’s my favorite albums and releases of 2025 in no particular order:
 
 * Album of the year: Haim, *I Quit*: This album was released at the perfect time and became my go to album of the summer. Fantastic from start to finish.
 * Best reissue: Mother Love Bone's *Shine* and *Apple*. Not only are they newly remastered, they sounded great streaming and then the records came out and sounded just as good. If you don't know the history of Pearl Jam, look up Mother Love Bone and give them a listen.
