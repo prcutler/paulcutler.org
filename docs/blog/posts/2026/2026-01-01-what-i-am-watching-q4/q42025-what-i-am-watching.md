@@ -13,7 +13,7 @@ tags:
 links:
   - blog/posts/2025/2025-04-01-what-i-am-watching/index.md
   - blog/posts/2025/2025-07-03-what-i-am-watching-q2-2025/index.md
-  - blog/posts/2025/2025-10-01-what-i-am-watching-q3-2025/index.md
+  - blog/2025/10/01/what-im-watching---q3-2025/
 ---
 
 Wrapping up the year, here's everything I watched in October, November, and December, excluding sports.
