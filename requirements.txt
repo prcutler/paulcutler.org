@@ -47,7 +47,7 @@ pycparser==2.23
 pydantic==2.12.5
 pydantic_core==2.41.5
 Pygments==2.19.2
-pymdown-extensions==10.19.1
+pymdown-extensions==10.20
 python-dateutil==2.9.0.post0
 PyYAML==6.0.3
 pyyaml_env_tag==1.1
