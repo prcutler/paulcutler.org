@@ -6,11 +6,12 @@
 
 ## Newish Records
 * Polica - Dreams Go
-* Hatchie - Licorice
+
 
 
 ## Older Records
-
+* Michelle Branch - The Spirit Room
+* The Donna's - Bitchin'
 
 
 ## Streaming
