@@ -2,7 +2,7 @@
 
 ![Phoebe Bridgers - Punisher (Blue with kind of Swirly Silver)](assets/punisher.jpg)
 
-# Now Spinning - November 2025
+# Now Spinning - January 2026
 
 ## Newish Records
 * Polica - Dreams Go
