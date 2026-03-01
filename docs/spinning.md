@@ -5,7 +5,7 @@
 # Now Spinning - March 2026
 
 ## Newish Records
-* Joseph - Closer to Happy
+* Joseph - [Closer to Happy](https://www.discogs.com/release/36576028-Joseph-Closer-To-Happy)
 
 
 
@@ -19,4 +19,4 @@
 
 ## White Whales
 
-DeeGees - [Hail Satin](https://www.discogs.com/release/19529575-Dee-Gees-2-Foo-Fighters-Hail-Satin)
+* DeeGees - [Hail Satin](https://www.discogs.com/release/19529575-Dee-Gees-2-Foo-Fighters-Hail-Satin)
