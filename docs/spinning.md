@@ -6,7 +6,7 @@
 
 ## Newish Records
 * Joseph - [Closer to Happy](https://www.discogs.com/release/36576028-Joseph-Closer-To-Happy)
-
+* Johnny Blue Skies and the Dark Clouds - [Mutiny After Midnight](https://www.discogs.com/master/4160569-Johnny-Blue-Skies-Mutiny-After-Midnight)
 
 
 ## Older Records
