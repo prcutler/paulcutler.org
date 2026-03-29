@@ -39,6 +39,7 @@ theme:
     - search.highlight
     - navigation.indexes
     - navigation.top
+    - content.code.copy
 
 plugins:
   - search
@@ -90,12 +91,8 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -103,3 +100,5 @@ markdown_extensions:
           format:
             !!python/name:pymdownx.superfences.fence_code_format # Function to add two numbers
 
+        - pymdownx.tabbed:
+          alternate_style: true
