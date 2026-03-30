@@ -20,20 +20,16 @@ Next I’m going to start [Python Jumpstart by Building 10 Apps](https://trainin
 
 I also supported Mr. Kennedy’s next Kickstarter, [Python for Entrepreneurs](https://training.talkpython.fm/courses/explore_entrepreneurs/python-for-entrepreneurs-build-and-launch-your-online-business). This also has me excited as the second phase of building my fantasy sports app will be deploying it on the web. The description looks perfect for what I’ll need, in addition to learning the web framework Pyramid:
 
-> **You will learn to build and design your web app**
-> 
-> **This course will teach you how to build a data-driven web application in Python.** 
-> 
-> **We will**:
-> 
->     **• Build our web app with the Pyramid web framework, "the Python web framework that supports your decisions, by artisans for artisans."
-  
->** 
-> 
-> • **Create and connect to our database using SQLAlchemy, the most popular data access layer in Python** 
-> 
->     **• Learn the core elements of web design including CSS and front-end frameworks such as Bootstrap.
-  
->** 
+**You will learn to build and design your web app**
+ 
+**This course will teach you how to build a data-driven web application in Python.** 
+ 
+*We will*:
+ 
+Build our web app with the Pyramid web framework, "the Python web framework that supports your decisions, by artisans for artisans."
+   
+* Create and connect to our database using SQLAlchemy, the most popular data access layer in Python** 
+ 
+* Learn the core elements of web design including CSS and front-end frameworks such as Bootstrap.
 
 Time to get to work.
