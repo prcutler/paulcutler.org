@@ -8,8 +8,6 @@ categories:
 tags:
   - circuitpython
   - bambulabs
-links:
-  - blog/posts/2026/2026-03-29-bambu-labs-circuitpython-library/bambu-labs-circuitpython-library.md
 ---
 
 Following up on my [blog post from yesterday](https://www.paulcutler.org/blog/2026/03/29/bambu-labs-circuitpython-library/), I spent Sunday preparing the `circuitpython-bambulabs` library to be published.
