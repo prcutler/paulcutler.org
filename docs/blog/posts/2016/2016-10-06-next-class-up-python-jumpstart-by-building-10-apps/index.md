@@ -1,5 +1,5 @@
 ---
-title: 'Next class up: Python Jumpstart by Building 10 Apps'
+title: Next class up - Python Jumpstart by Building 10 Apps
 author: Paul Cutler
 type: post
 date: 2016-10-06T18:34:20+00:00
@@ -8,7 +8,6 @@ categories:
   - Python
 tags:
   - Python
-
 ---
 
 I’ve completed the [Python For Everybody](https://www.coursera.org/specializations/python) course taught by Dr. Charles Severance at the University of Michigan on Coursera. All that’s left is the capstone project to put into practice what I’ve learned, but as I’m doing this to learn Python and not for the official certificate, I’m going to skip it. The course is taught in Python 2.7 and I want to shift to Python 3.x.
