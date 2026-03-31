@@ -35,11 +35,11 @@ Walk through the setup and connect to your repository on Github.  Azure Pipeline
 
 Here is where my build failed for Silver Saucer.  I was getting the following error:
 
-	Obtaining silversaucer from git+git@github.com:prcutler/silversaucer.git@75932f389536b59993fa780b281170849ff92238#egg=silversaucer (from -r requirements.txt (line 38))
-	  Cloning git@github.com:prcutler/silversaucer.git (to revision 75932f389536b59993fa780b281170849ff92238) to ./src/silversaucer
-	  Running command git clone -q git@github.com:prcutler/silversaucer.git /home/vsts/work/1/s/src/silversaucer
-	  Host key verification failed.
-	  fatal: Could not read from remote repository.
+Obtaining silversaucer from git+git@github.com:prcutler/silversaucer.git@75932f389536b59993fa780b281170849ff92238#egg=silversaucer (from -r requirements.txt (line 38))
+Cloning git@github.com:prcutler/silversaucer.git (to revision 75932f389536b59993fa780b281170849ff92238) to ./src/silversaucer
+Running command git clone -q git@github.com:prcutler/silversaucer.git /home/vsts/work/1/s/src/silversaucer
+Host key verification failed.
+fatal: Could not read from remote repository.
 
 Here is where I first lost hours over the course of a few days.  Azure is pulling my repository using git, not https.  I would compare this to my Azure Pipeline for NFLPool, which for some reason pulls my repository using https and works fine.  I know a little bit about SSH keys.  I’m no expert, but all of my Digital Ocean and servers at home use SSH key authentication to log in and not passwords (yay me for good opsec!) and I have my SSH key on multiple computers without any issues.
 
@@ -51,16 +51,15 @@ Ok, let’s add my SSH key to Azure Pipelines.  Again, Microsoft has [good devel
 - Step 2: In your projects in Azure Pipelines, go to Pipelines -\> Library and choose Secure files.  Add your private key (usually `id_rsa`). 
 - Step 3: Add the SSH Task to Azure Pipelines and make sure you authorize the private key - follow [Microsoft’s developer documentation for the SSH Task](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/utility/install-ssh-key?view=azure-devops).  Update your YAML file:
 
-```
-	# Install SSH Key
-		# Install an SSH key prior to a build or release
-		- task: InstallSSHKey@0
-		  inputs:
-		    hostName: 
-		    sshPublicKey: 
-		    #sshPassphrase: # Optional
-		    sshKeySecureFile: 
-```
+
+# Install SSH Key
+# Install an SSH key prior to a build or release
+- task: InstallSSHKey@0
+	inputs:
+	hostName: 
+	sshPublicKey: 
+	#sshPassphrase: # Optional
+	sshKeySecureFile: 
 
 The hostname input confused me at first, but here you’re going to go into your `~/.ssh` directory and copy and paste the Github entry in your `known_hosts` file.  (This is a hidden directory in your home folder on macOS or Linux.  I’m not sure where it is on Windows, sorry!) Paste your public key in `sshPublicKey:` and the name of your private key that you uploaded in Step 2 above.  If your repository is public on Github, you are not going to want to add your sshPassphrase to your YAML file.
 

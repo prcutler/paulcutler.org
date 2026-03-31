@@ -20,41 +20,19 @@ pass the folder to Discogs to get a list of albums, and then pick one at random 
 the album picked.  That information was returned as a dictionary and now it is time to wire it up to the Chameleon 
 template in Pyramid that will display the HTML.
 
-Here's an example of the JSON:
-
-```
-{'release_title': 'Massey Fucking Hall', 'release_uri': 'https://www.discogs.com/Japandroids-Massey-Fucking-Hall/release/16118824', 'artist_name': 'Japandroids', 'artist_url': 'https://api.discogs.com/artists/1473872', 'release_date': '2020-06-26', 'discogs_main_id': 1829048, 'discogs_main_url': 'https://api.discogs.com/masters/1829048', 'main_release_date': 2020, 'release_image_uri': 'https://img.discogs.com/BVmRNi_A5_Vm8X0ntzUDh8figvE=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-16118824-1604177632-7503.jpeg.jpg', 'genres': ['Rock']}
-```
-In the controller that handles the routing for the page I have:
-
-```@view_config(route_name="play", renderer="silversaucer:templates/play/play.pt")
-def play(_):
-
-    album_release_id = RandomRecordService.get_folder_count(2162484)
-    print(album_release_id)
-    release_data = RandomRecordService.get_album_data(album_release_id)
-    print(release_data)
-
-    return {"release_info": release_data}
-```
-
 It was way easier than expected.  (And if you know me, you know that the random record picked above is perfect, as 
 I'm a huge Japandroids fan.)  The first thing I did was connect the image URI that the Discogs API passes in the 
 Chameleon template:
 
-```
-<img class="mb-5" src="${release_info.release_image_uri}" alt="${release_info.release_title}" />
-```
+`<img class="mb-5" src="${release_info.release_image_uri}" alt="${release_info.release_title}" />`
 
 That worked, which was awesome.  The whole image is shown, and I don't have to worry about parsing any of the URL.
 
 I quickly added the values to show the *Artist*, *Album*, and *Release Date* information:
 
-```
-<p>Artist: ${release_info.artist_name}</p>
-<p>Album: ${release_info.release_title}</p>
-<p>Released: ${release_info.release_date}</p>\
-```
+Artist: ${release_info.artist_name}
+Album: ${release_info.release_title}
+Released: ${release_info.release_date}
 
 It looks like this:
 
@@ -62,9 +40,7 @@ It looks like this:
 
 Looking at Debbie Gibson's *Electric Youth*, the *Genre* key in the dictionary returns a list:
 
-```
-'genres': ['Electronic', 'Pop']
-```
+`'genres': ['Electronic', 'Pop']`
 
 With some trial and error I was able to display the list, but it showed up as code, looking like:
 `['Electronic', 'Pop']`.  No one wants to see that.  The challenge is that Chameleon templates use something like a 
@@ -73,9 +49,7 @@ results, but after lots of trial and error I felt like I was going backwards.  S
 Stack Overflow searching I did what I always do when I get stuck:  I asked my wife.  It took her about 15 minutes to 
 figure out how to loop over the list and show it in bullets:
 
-```
-<p><li tal:repeat="item release_info.genres" tal:content=item/>
-```
+`<p><li tal:repeat="item release_info.genres" tal:content=item/>`
 
 I was so close - she pointed out the mistake I made with having two `tal:repeat` methods in the template. That’s what’s
 hard about the trial and error method of finding the solution, especially as I wasn’t writing down the methods
@@ -94,6 +68,7 @@ all of this is done in CSS and I don't know CSS at all...  (I had to cheat to ma
 on the page already.)
 
 Random thoughts and musings:
+
 * Every time the page loads, it refreshes the API call.  So if you click a link to the artist page on Discogs, for 
   example, and then click the back button, that album data has been replaced.  Not sure how to work around that, 
   though I have some ideas.  Probably a good question in IRC with the Pyramid team.
@@ -104,5 +79,4 @@ Random thoughts and musings:
 * The *Release Date* returned from Discogs has the same problem I've already talked about for the future "On This 
   Day" feature I want to add.  It could be just the year or the full release date, you never know what you're going 
   to get.  Look at the two screenshots above! I don't know if I want to add all the functionality to return the 
-  "correct" release date yet.  I'm worried about how long the API calls take to load the page.  (Even if it's just for me and I know how long it 
-  takes, I don't want it taking long.)
+  "correct" release date yet.  I'm worried about how long the API calls take to load the page.  (Even if it's just for me and I know how long it takes, I don't want it taking long.)

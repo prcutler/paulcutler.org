@@ -20,24 +20,25 @@ Since I’m using SQLAlchemy for 90% of the SQL interactions, setting it up was 
 
 In NFLPool it was:
 
-    class DivisionInfo(SqlAlchemyBase):
-        __tablename__ = 'DivisionInfo'
-        division_id = sqlalchemy.Column(sqlalchemy.Integer, primary_key=True)
-        division = sqlalchemy.Column(sqlalchemy.String)
-    
+```
+class DivisionInfo(SqlAlchemyBase):
+    __tablename__ = 'DivisionInfo'
+    division_id = sqlalchemy.Column(sqlalchemy.Integer, primary_key=True)
+    division = sqlalchemy.Column(sqlalchemy.String)
+```
 
 And in MLBPool2:
 
-    class DivisionInfo(SqlAlchemyBase):
-        __tablename__ = 'DivisionInfo'
-        division_id = sqlalchemy.Column(sqlalchemy.Integer, primary_key=True)
-        division = sqlalchemy.Column(sqlalchemy.String(8))
-    
+```
+class DivisionInfo(SqlAlchemyBase):
+    __tablename__ = 'DivisionInfo'
+    division_id = sqlalchemy.Column(sqlalchemy.Integer, primary_key=True)
+    division = sqlalchemy.Column(sqlalchemy.String(8))
+```
 
 Easy enough. But since SQLite is a persistent database, I learned the hard way that I need to close each session in MySQL with a `session.close()` statement or I see lots of fun errors like this:
 
-    OperationalError: (pymysql.err.OperationalError) (1040, 'Too many connections') (Background on this error at: http://sqlalche.me/e/e3q8)
-    
+`OperationalError: (pymysql.err.OperationalError) (1040, 'Too many connections') (Background on this error at: http://sqlalche.me/e/e3q8)`
 
 It’s taken a lot of trial and error figuring out where I need these. I’ve learned they have to go before any `return` statements and even when I think I have them in all the right places, it turns out I don’t. Yesterday I was entering all of the picks for everyone who played in 2017 to do some testing (to see if the app’s results and scores match what was done by hand) and after entering six player’s picks, I ran into it again. Sure enough, in the PlayerPicks service, I didn’t have any `session.close()` statements when I returned all of the lists that make up the picks. I had just added [Rollbar][1] functionality to the site to keep track of errors and I was pleasantly surprised to learn that when you connect Rollbar to your Github repo, it automatically opens an issue for you on Github with the error. (Pretty cool, Rollbar!)
 
