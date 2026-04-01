@@ -14,7 +14,7 @@ links:
   - blog/posts/2025/2025-04-01-what-i-am-watching/index.md
   - blog/posts/2025/2025-07-03-what-i-am-watching-q2-2025/index.md
   - blog/posts/2025/2025-10-01-what-im-watching-q32025/index.md
-  - blog/posts/2026/01/01/what-im-watching---q4-2025/index.md
+  - blog/posts/2026/2026-01-01-what-i-am-watching-q4/index.md
 ---
 
 It's a new year and I'm still tracking what I'm watching. I have a number of television shows still in progress. I don't write them down until the season I'm watching has finished.
