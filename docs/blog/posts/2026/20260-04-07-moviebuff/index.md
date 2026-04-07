@@ -5,6 +5,7 @@ type: post
 date: 2026-04-07
 categories:
   - movies
+  - Python
 tags:
   - movies
 ---
