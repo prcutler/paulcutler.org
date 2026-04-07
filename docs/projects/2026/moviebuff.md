@@ -4,6 +4,8 @@
 
 Moviebuff is an application orginally written by [retiolus](https://codeberg.org/retiolus/moviebuff) and licensed under the GPL v3. Moviebuff is a Django application to track and rate the movies you watch.
 
+## Changes and updates
+
 After forking Moviebuff, I used Claude to make some significant changes to the app:
 
 - Added dark mode and made it the default with a toggle to change light or dark mode on the home page
