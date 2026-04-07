@@ -1,5 +1,11 @@
 [
   {
+    "title": "Moviebuff",
+    "sub_title": "2026",
+    "content": "A Django application to track and rate the movies you watch.",
+    "icon": ":material-rocket-launch:"
+  },
+  {
     "title": "circuitpython-bambulabs",
     "sub_title": "2026",
     "content": "Query a Bambu Labs 3D printer in CircuitPython and it returns the JSON file in easy to use and read methods.",
