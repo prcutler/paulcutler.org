@@ -38,9 +38,9 @@ mkdocs-rss-plugin==1.19.0
 msgpack==1.1.2
 natsort==8.4.0
 neoteroi-mkdocs==1.2.0
-packaging==26.1
+packaging==26.2
 paginate==0.5.7
-pathspec==1.1.0
+pathspec==1.1.1
 pillow==12.2.0
 platformdirs==4.9.6
 pycparser==3.0
