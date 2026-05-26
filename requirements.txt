@@ -45,7 +45,7 @@ pillow==12.2.0
 platformdirs==4.9.6
 pycparser==3.0
 pydantic==2.13.4
-pydantic_core<=2.46.4
+pydantic_core<=2.47.0
 Pygments==2.20.0
 pymdown-extensions==10.21.3
 python-dateutil==2.9.0.post0
