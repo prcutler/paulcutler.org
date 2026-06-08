@@ -4,13 +4,6 @@
 
 ## Now Spinning - June 2026
 
-<iframe
-    src="https://listenbrainz.org/user/silwenae/embed/playing-now"
-    frameborder="0"
-    width="650"
-    height="80"
-></iframe>
-
 ### Newish Records
 
 * Johnny Blue Skies and the Dark Clouds - [Mutiny After Midnight](https://www.discogs.com/master/4160569-Johnny-Blue-Skies-Mutiny-After-Midnight)
@@ -20,6 +13,15 @@
 ### Older Records
 
 ### Streaming
+
+<iframe
+  src="https://prcutler.github.io/listenbrainz-widget/listenbrainz-now-playing.html"
+  width="460"
+  height="180"
+  style="border:none; border-radius:20px; overflow:hidden;"
+  title="Now Playing on ListenBrainz"
+  loading="lazy">
+</iframe>
 
 * Nine Inch Noize
 * Tori Amos - In Times of Dragons
