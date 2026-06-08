@@ -14,7 +14,7 @@
 ### Newish Records
 
 * Johnny Blue Skies and the Dark Clouds - [Mutiny After Midnight](https://www.discogs.com/master/4160569-Johnny-Blue-Skies-Mutiny-After-Midnight)
-* * Kacey Musgraves - Middle of Nowhere
+* Kacey Musgraves - Middle of Nowhere
 * Metric - [Romanticize the Dive](https://www.discogs.com/release/37137114-Metric-Romanticize-The-Dive)
 
 ### Older Records
