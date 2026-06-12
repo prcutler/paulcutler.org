@@ -12,7 +12,7 @@ There are three different ListenBrainz projects created in June, 2026:
 
 [ListenBrainz-widget](https://prcutler.github.io/listenbrainz-widget/index.html) provides two self-contained, no-build HTML widgets for displaying ListenBrainz listening data. You can embed your currently listening song in an iFrame on any website.
 
-1. Now Playing widget (`listenbrainz-now-playing.html`)
+#### Now Playing widget (`listenbrainz-now-playing.html`)
 
 * Auto-refreshing card meant to be embedded as an iframe
 * Polls the ListenBrainz API every 20 seconds
@@ -24,7 +24,7 @@ There are three different ListenBrainz projects created in June, 2026:
 
 ![Now Playing example using Metric](metric.png)
 
-2. Top 5 Albums widget (`top5.html`)
+#### Top 5 Albums widget (`top5.html`)
 
 * Generates a shareable 1200×1200 PNG of the user's top 5 most-played albums with cover art, rendered at 2x resolution for crisp social posts
 * Dropdown to pick a time range: This week, Last week, This month, This year, All time — these map to ListenBrainz's fixed calendar ranges (not rolling windows), and the README has a detailed caveat about how the stats API lags and what each range actually returns
