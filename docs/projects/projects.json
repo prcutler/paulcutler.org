@@ -1,5 +1,11 @@
 [
   {
+    "title": "ListenBrainz",
+    "sub_title": "2026",
+    "content": "Three apps to display your ListenBrainz listening history on the web or social media.",
+    "icon": ":material-rocket-launch:"
+  },
+  {
     "title": "Moviebuff",
     "sub_title": "2026",
     "content": "A Django application to track and rate the movies you watch.",
