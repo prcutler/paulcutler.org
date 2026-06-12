@@ -52,15 +52,16 @@ Source: [ListenBrainz-autoposter](https://github.com/prcutler/listenbrainz-autop
 
 ### ListenBrainz-to-Bluesky
 
-A Python program that keeps your Bluesky profile bio updated with your most recent ListenBrainz scrobble — appending a line like "🎵 Listening to: Lateralus by Tool" and replacing it whenever the track changes, while leaving the rest of your bio intact.
+A Python program that automatically syncs your Bluesky bio with what you're currently listening to on ListenBrainz, adding a line like "🎵 Listening to: Tremolo by Metric" and swapping it out as your tracks change, all without touching the rest of your bio text. Runs self-hosted on your own server using `cron`.
+
 How it works:
 
-update_bio.py runs every 5 minutes via a scheduled GitHub Actions workflow
-Fetches your latest listen from the ListenBrainz public API (no auth needed for reads)
-Logs into Bluesky via the AT Protocol XRPC API, pulls your current profile record
-Strips any previous "🎵 Listening to:" line and appends the new one
-Skips the write entirely if the track hasn't changed since last run (avoids needless API calls)
-Truncates if needed to respect Bluesky's 256-character bio limit
+* `update_bio.py` runs every 5 minutes via cron
+* Fetches your latest listen from the ListenBrainz public API (no auth needed for reads)
+* Logs into Bluesky via the AT Protocol XRPC API, pulls your current profile record
+* Strips any previous "🎵 Listening to:" line and appends the new one
+* Skips the write entirely if the track hasn't changed since last run (avoids needless API calls)
+* Truncates if needed to respect Bluesky's 256-character bio limit
 
 ![A screenshot of Paul's Bluesky profile showing: 🎵 Listening to: Alright Hear This by Beastie Boys](lbtobsky.png)
 
