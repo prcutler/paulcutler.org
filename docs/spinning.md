@@ -2,12 +2,22 @@
 
 ![Phoebe Bridgers - Punisher (Blue with kind of Swirly Silver)](assets/punisher.jpg)
 
-## Now Spinning - May 2026
+## Now Spinning - June 2026
+
+<iframe
+  src="https://prcutler.github.io/listenbrainz-widget/listenbrainz-now-playing.html"
+  width="460"
+  height="180"
+  allowtransparency="true"
+  style="border:none; border-radius:20px; overflow:hidden;"
+  title="Now Playing on ListenBrainz"
+  loading="lazy">
+</iframe>
 
 ### Newish Records
 
 * Johnny Blue Skies and the Dark Clouds - [Mutiny After Midnight](https://www.discogs.com/master/4160569-Johnny-Blue-Skies-Mutiny-After-Midnight)
-* Bob Mould - [Body of Song](https://www.discogs.com/release/1327859-Bob-Mould-Body-Of-Song)
+* Kacey Musgraves - Middle of Nowhere
 * Metric - [Romanticize the Dive](https://www.discogs.com/release/37137114-Metric-Romanticize-The-Dive)
 
 ### Older Records
@@ -16,7 +26,6 @@
 
 * Nine Inch Noize
 * Tori Amos - In Times of Dragons
-* Kacey Musgraves - Middle of Nowhere
 * Foo Fighters - Your Favorite Toy
 
 
