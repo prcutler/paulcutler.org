@@ -6,6 +6,7 @@ site_url: https://paulcutler.org
 theme:
   name: material
   custom_dir: overrides
+  favicon: img/favicon.svg
   icon:
     logo: material/headphones
     repo: fontawesome/brands/github
