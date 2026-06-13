@@ -28,13 +28,13 @@ I even created [a cool landing page](https://prcutler.github.io/listenbrainz-wid
 
 ## listenbrainz-autoposter
 
-Inspired by the [scrobble-blue] project, [`listenbrainz-autoposter`](https://github.com/prcutler/listenbrainz-autoposter) posts your top 5 album listens from the previous week to Bluesky and / or Mastodon. This uses GitHub Actions to automate the widget above instead of Cloudflare, like the original project.
+Inspired by the [scrobble-blue](https://github.com/willmanduffy/scrobble-blue) project, [`listenbrainz-autoposter`](https://github.com/prcutler/listenbrainz-autoposter) posts your top 5 album listens from the previous week to Bluesky and / or Mastodon. This uses GitHub Actions to automate the widget above instead of Cloudflare, like the original project.
 
 I have it set to share my top every Tuesday, giving ListenBrainz enough time to process the previous week.
 
 ## listenbrainz-to-bluesky
 
-Another project inspired by someone else, this time it is [scrobble-blue](https://github.com/willmanduffy/scrobble-blue) by [Will Manduffy](https://github.com/willmanduffy). [listenbrainz-to-bluesky](https://github.com/prcutler/listenbrainz-to-bluesky) adds one line to your Bluesky profile with a "Listening to" and the name of the song and the artist of your most recent scrobble. This one is self-hosted and runs via a cron job every few minutes.
+Another project inspired by someone else, this time it is again [scrobble-blue](https://github.com/willmanduffy/scrobble-blue) by [Will Manduffy](https://github.com/willmanduffy). [listenbrainz-to-bluesky](https://github.com/prcutler/listenbrainz-to-bluesky) adds one line to your Bluesky profile with a "Listening to" and the name of the song and the artist of your most recent scrobble. This one is self-hosted and runs via a cron job every few minutes.
 
 ![Paul's Bluesky Profile showing Listening to: Alright Hear This by Beastie Boys](lbtobsky.png)
 
