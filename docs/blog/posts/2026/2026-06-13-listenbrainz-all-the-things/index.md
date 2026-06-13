@@ -14,7 +14,7 @@ In the last two episodes of [The Bootloader](https://thebootloader.net), I've co
 
 ## ListenBrainz Widget
 
-For the last few years, I've maintained a [Now Spinning][https://paulcutler.org/spinning] page, which I update monthly with the records that are on the turntable. ListenBrainz offers a [widget you can embed in a web page](https://listenbrainz.readthedocs.io/en/latest/users/widgets.html), but I wanted something a little more stylish to add to my Now Spinning page. That led me to create [`listenbrainz-widget`](https://github.com/prcutler/listenbrainz-widget).  It includes two widgets, the first being a "Now Playing" widget that I've embedded on my Now Spinning page that looks like this:
+For the last few years, I've maintained a [Now Spinning](https://paulcutler.org/spinning) page, which I update monthly with the records that are on the turntable. ListenBrainz offers a [widget you can embed in a web page](https://listenbrainz.readthedocs.io/en/latest/users/widgets.html), but I wanted something a little more stylish to add to my Now Spinning page. That led me to create [`listenbrainz-widget`](https://github.com/prcutler/listenbrainz-widget).  It includes two widgets, the first being a "Now Playing" widget that I've embedded on my Now Spinning page that looks like this:
 
 ![Now Playing widget featuring Metric](metric.png)
 
@@ -30,8 +30,12 @@ I even created [a cool landing page](https://prcutler.github.io/listenbrainz-wid
 
 Inspired by the [scrobble-blue] project, [`listenbrainz-autoposter`](https://github.com/prcutler/listenbrainz-autoposter) posts your top 5 album listens from the previous week to Bluesky and / or Mastodon. This uses GitHub Actions to automate the widget above instead of Cloudflare, like the original project.
 
+I have it set to share my top every Tuesday, giving ListenBrainz enough time to process the previous week.
+
 ## listenbrainz-to-bluesky
 
 Another project inspired by someone else, this time it is [scrobble-blue](https://github.com/willmanduffy/scrobble-blue) by [Will Manduffy](https://github.com/willmanduffy). [listenbrainz-to-bluesky](https://github.com/prcutler/listenbrainz-to-bluesky) adds one line to your Bluesky profile with a "Listening to" and the name of the song and the artist of your most recent scrobble. This one is self-hosted and runs via a cron job every few minutes.
 
 ![Paul's Bluesky Profile showing Listening to: Alright Hear This by Beastie Boys](lbtobsky.png)
+
+Too much oversharing? Probably, but I know a few folks have liked some of the music recommendations, so I'm going to share for now.
