@@ -1,0 +1,223 @@
+/* ── Design tokens ────────────────────────────────────────────
+   lp- prefix avoids collisions with MkDocs Material variables.
+   Defined here so all pages share the same palette; home.css
+   reuses them for home-page-specific layout.
+─────────────────────────────────────────────────────────────── */
+:root,
+[data-md-color-scheme="slate"] {
+    --lp-bg:             #000000;
+    --lp-bg-soft:        #0a0c12;
+    --lp-panel:          #0d1018;
+    --lp-panel-2:        #11151f;
+    --lp-edge:           rgba(255,255,255,0.08);
+    --lp-edge-soft:      rgba(255,255,255,0.05);
+    --lp-ink:            #e8ecf4;
+    --lp-ink-soft:       #9aa6bd;
+    --lp-ink-faint:      #5d6577;
+    --lp-blue:           #4d8cff;
+    --lp-blue-2:         #6ea8ff;
+    --lp-blue-glow:      rgba(77,140,255,0.35);
+    --lp-glow-top:       rgba(77,140,255,0.18);
+    --lp-glow-side:      rgba(77,140,255,0.08);
+    --lp-icon-hover-bg:  rgba(77,140,255,0.09);
+    --lp-btn-txt:        #001027;
+}
+
+[data-md-color-scheme="default"] {
+    --lp-bg:             #ffffff;
+    --lp-bg-soft:        #f4f6fc;
+    --lp-panel:          #f0f3fb;
+    --lp-panel-2:        #e8edf8;
+    --lp-edge:           rgba(0,0,0,0.10);
+    --lp-edge-soft:      rgba(0,0,0,0.05);
+    --lp-ink:            #0d1018;
+    --lp-ink-soft:       #4a5568;
+    --lp-ink-faint:      #9aa6bd;
+    --lp-blue:           #2563eb;
+    --lp-blue-2:         #3b82f6;
+    --lp-blue-glow:      rgba(37,99,235,0.22);
+    --lp-glow-top:       rgba(37,99,235,0.09);
+    --lp-glow-side:      rgba(37,99,235,0.04);
+    --lp-icon-hover-bg:  rgba(37,99,235,0.07);
+    --lp-btn-txt:        #ffffff;
+}
+
+/* ── MkDocs Material palette overrides ───────────────────────
+   Maps our tokens to Material's variable names so built-in
+   components (nav, search, admonitions, etc.) inherit the palette.
+─────────────────────────────────────────────────────────────── */
+[data-md-color-scheme="slate"] {
+    /* Surfaces */
+    --md-default-bg-color:            #0a0c12;
+    --md-default-bg-color--light:     rgba(255,255,255,0.05);
+    --md-default-bg-color--lighter:   rgba(255,255,255,0.025);
+    --md-default-bg-color--lightest:  rgba(255,255,255,0.01);
+
+    /* Text */
+    --md-default-fg-color:            rgba(232,236,244,0.87);
+    --md-default-fg-color--light:     rgba(154,166,189,0.70);
+    --md-default-fg-color--lighter:   rgba(154,166,189,0.32);
+    --md-default-fg-color--lightest:  rgba(154,166,189,0.07);
+
+    /* Primary (active states, tab indicator, etc.) */
+    --md-primary-fg-color:            #4d8cff;
+    --md-primary-fg-color--light:     #6ea8ff;
+    --md-primary-fg-color--dark:      #3a70e8;
+    --md-primary-bg-color:            #ffffff;
+    --md-primary-bg-color--light:     rgba(255,255,255,0.7);
+
+    /* Accent (hover states) */
+    --md-accent-fg-color:             #6ea8ff;
+    --md-accent-fg-color--transparent: rgba(77,140,255,0.1);
+    --md-accent-bg-color:             rgba(77,140,255,0.1);
+
+    /* Typeset */
+    --md-typeset-color:               #e8ecf4;
+    --md-typeset-a-color:             #6ea8ff;
+
+    /* Code */
+    --md-code-bg-color:               #0d1018;
+    --md-code-fg-color:               #e8ecf4;
+
+    /* Footer */
+    --md-footer-bg-color:             #000000;
+    --md-footer-bg-color--dark:       #000000;
+    --md-footer-fg-color:             #9aa6bd;
+    --md-footer-fg-color--light:      rgba(154,166,189,0.45);
+    --md-footer-fg-color--lighter:    rgba(154,166,189,0.28);
+}
+
+[data-md-color-scheme="default"] {
+    /* Surfaces */
+    --md-default-bg-color:            #ffffff;
+    --md-default-bg-color--light:     rgba(0,0,0,0.04);
+    --md-default-bg-color--lighter:   rgba(0,0,0,0.02);
+    --md-default-bg-color--lightest:  rgba(0,0,0,0.01);
+
+    /* Text */
+    --md-default-fg-color:            rgba(13,16,24,0.87);
+    --md-default-fg-color--light:     rgba(74,85,104,0.70);
+    --md-default-fg-color--lighter:   rgba(74,85,104,0.32);
+    --md-default-fg-color--lightest:  rgba(74,85,104,0.07);
+
+    /* Primary */
+    --md-primary-fg-color:            #2563eb;
+    --md-primary-fg-color--light:     #3b82f6;
+    --md-primary-fg-color--dark:      #1d4fd8;
+    --md-primary-bg-color:            #ffffff;
+    --md-primary-bg-color--light:     rgba(255,255,255,0.7);
+
+    /* Accent */
+    --md-accent-fg-color:             #3b82f6;
+    --md-accent-fg-color--transparent: rgba(37,99,235,0.1);
+    --md-accent-bg-color:             rgba(37,99,235,0.1);
+
+    /* Typeset */
+    --md-typeset-color:               #0d1018;
+    --md-typeset-a-color:             #2563eb;
+
+    /* Code */
+    --md-code-bg-color:               #f0f3fb;
+    --md-code-fg-color:               #0d1018;
+
+    /* Footer */
+    --md-footer-bg-color:             #f4f6fc;
+    --md-footer-bg-color--dark:       #e8edf8;
+    --md-footer-fg-color:             #4a5568;
+    --md-footer-fg-color--light:      rgba(74,85,104,0.45);
+    --md-footer-fg-color--lighter:    rgba(74,85,104,0.28);
+}
+
+/* ── Header ──────────────────────────────────────────────── */
+.md-header {
+    background: var(--lp-bg) !important;
+    box-shadow: none !important;
+    border-bottom: 1px solid var(--lp-edge);
+    color: var(--lp-ink) !important;
+}
+
+.md-header .md-header__button,
+.md-header .md-header__title,
+.md-header .md-ellipsis {
+    color: var(--lp-ink) !important;
+}
+
+.md-header .md-header__button:hover {
+    color: var(--lp-blue-2) !important;
+    opacity: 1;
+}
+
+.md-header .md-search__form {
+    background: var(--lp-panel) !important;
+    border: 1px solid var(--lp-edge) !important;
+    color: var(--lp-ink) !important;
+}
+
+.md-header .md-search__input {
+    color: var(--lp-ink) !important;
+}
+
+.md-header .md-search__input::placeholder {
+    color: var(--lp-ink-soft) !important;
+}
+
+/* ── Navigation tabs ─────────────────────────────────────── */
+.md-tabs {
+    background: var(--lp-bg) !important;
+    border-bottom: 1px solid var(--lp-edge);
+}
+
+.md-tabs__link {
+    color: var(--lp-ink-soft) !important;
+    opacity: 1 !important;
+}
+
+.md-tabs__link:hover,
+.md-tabs__link--active {
+    color: var(--lp-ink) !important;
+}
+
+.md-tabs__indicator {
+    background-color: var(--lp-blue) !important;
+}
+
+/* ── Page background ─────────────────────────────────────── */
+body {
+    background-color: var(--md-default-bg-color);
+}
+
+/* ── Sidebar navigation ──────────────────────────────────── */
+.md-nav__link--active,
+.md-nav__link--active:focus,
+.md-nav__link--active:hover {
+    color: var(--lp-blue-2) !important;
+}
+
+.md-nav__link:focus,
+.md-nav__link:hover {
+    color: var(--lp-blue) !important;
+}
+
+/* ── Search results dropdown ─────────────────────────────── */
+.md-search__scrollwrap {
+    background: var(--lp-panel) !important;
+}
+
+.md-search-result {
+    background: var(--lp-panel) !important;
+}
+
+.md-search-result__meta {
+    background: var(--lp-panel-2) !important;
+    color: var(--lp-ink-soft) !important;
+}
+
+/* ── Footer ──────────────────────────────────────────────── */
+.md-footer {
+    background: var(--lp-bg) !important;
+    border-top: 1px solid var(--lp-edge);
+}
+
+.md-footer-meta {
+    background: var(--lp-bg) !important;
+}
