@@ -222,3 +222,6 @@ paulcutlerorg.code-workspace
 # Hugo
 public/
 resources/
+
+# AI
+.claude/
