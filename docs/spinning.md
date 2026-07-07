@@ -2,7 +2,7 @@
 
 ![Phoebe Bridgers - Punisher (Blue with kind of Swirly Silver)](assets/punisher.jpg)
 
-## Now Spinning - June 2026
+## Now Spinning - July 2026
 
 <iframe
   src="https://prcutler.github.io/listenbrainz-widget/listenbrainz-now-playing.html"
@@ -25,8 +25,8 @@
 ### Streaming
 
 * Nine Inch Noize
-* Tori Amos - In Times of Dragons
-* Foo Fighters - Your Favorite Toy
+* Margo Price - Days of Unrest
+* Grateful Dead - Cornell '77
 
 
 ### White Whales
