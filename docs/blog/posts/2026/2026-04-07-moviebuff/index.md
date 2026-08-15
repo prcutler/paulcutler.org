@@ -32,7 +32,7 @@ Things I’ve updated and changed:
 - In each movie card, added the star ratings for the movie
 - Updated the datetime fields to be MON/DAY/YEAR and added commas to the movie's budget
 - Added a Font Awesome film icon in the upper left and made it and Moviebuff clickable to return to the home page
-- Added a custom footer that matches [silversaucer.com](~https://silversaucer.com~)
+- Added a custom footer that matches [silversaucer.com](https://silversaucer.com)
 - Added a CONTRIBUTING.md and CODE_OF_CONDUCT.md
 - Added installation instructions in the README
 
