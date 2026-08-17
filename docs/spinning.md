@@ -2,7 +2,7 @@
 
 ![Phoebe Bridgers - Punisher (Blue with kind of Swirly Silver)](assets/punisher.jpg)
 
-## Now Spinning - July 2026
+## Now Spinning - August 2026
 
 <iframe
   src="https://prcutler.github.io/listenbrainz-widget/listenbrainz-now-playing.html"
@@ -16,9 +16,9 @@
 
 ### Newish Records
 
+* Phoebe Bridgers - [Lost Weekend](https://www.discogs.com/release/38135790-Phoebe-Bridgers-Lost-Weekend-)
 * Johnny Blue Skies and the Dark Clouds - [Mutiny After Midnight](https://www.discogs.com/master/4160569-Johnny-Blue-Skies-Mutiny-After-Midnight)
-* Kacey Musgraves - Middle of Nowhere
-* Metric - [Romanticize the Dive](https://www.discogs.com/release/37137114-Metric-Romanticize-The-Dive)
+
 
 ### Older Records
 
@@ -26,7 +26,6 @@
 
 * Nine Inch Noize
 * Margo Price - Days of Unrest
-* Grateful Dead - Cornell '77
 
 
 ### White Whales
