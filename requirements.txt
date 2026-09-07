@@ -1,5 +1,5 @@
 annotated-types==0.8.0
-anyio==4.14.2
+anyio==4.15.0
 babel==2.18.0
 backrefs<=8.0
 bracex==3.0.1
@@ -42,7 +42,7 @@ packaging==26.3
 paginate==0.5.7
 pathspec==1.1.1
 pillow==12.3.0
-platformdirs==4.11.5
+platformdirs==4.11.7
 pycparser==3.0
 pydantic==2.13.5
 pydantic_core<=2.48.0
