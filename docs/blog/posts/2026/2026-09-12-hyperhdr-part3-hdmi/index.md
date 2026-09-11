@@ -29,6 +29,6 @@ That led to me swapping out HDMI cables, eventually buying 2 new 3' cables just 
 
 ![HBAVLink HB-S102H 2x1 HDMI Splitter](hbavlink-2.jpeg)
 
-But then I heard back from HBAVLink right away and they shipped me an [upgraded model](https://www.amazon.com/HBAVLINK-HDMI-Splitter-Out-60Hz/dp/B0F6392X29/ref=sr_1_1) - and shipped it overnight! Plugged that one in and I'm good to go. If you look at the Amazon page, you'll notice it doesn't explicitly say HDCP bypass, but it worked right away.
+But then I heard back from HBAVLink right away and they shipped me an [upgraded model](https://www.amazon.com/HBAVLINK-HDMI-Splitter-Out-60Hz/dp/B0F6392X29/ref=sr_1_1) - and shipped it overnight! Now that's customer service, kudos to them for the quick responses via email and fast shipping. Plugged that one in and I'm good to go. If you look at the Amazon page, you'll notice it doesn't explicitly say HDCP bypass, but it worked right away.
 
 Next up: Space requirements
