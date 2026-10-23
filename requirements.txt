@@ -41,7 +41,7 @@ neoteroi-mkdocs==1.2.0
 packaging==26.3
 paginate==0.5.7
 pathspec==1.1.1
-pillow==12.3.0
+pillow==13.0.0
 platformdirs==4.12.1
 pycparser==3.0
 pydantic==2.13.5
