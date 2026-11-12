@@ -2,7 +2,7 @@
 
 ![Phoebe Bridgers - Punisher (Blue with kind of Swirly Silver)](assets/punisher.jpg)
 
-## Now Spinning - August 2026
+## Now Spinning - November 2026
 
 <iframe
   src="https://prcutler.github.io/listenbrainz-widget/listenbrainz-now-playing.html"
@@ -25,7 +25,7 @@
 ### Streaming
 
 * Nine Inch Noize
-* Margo Price - Days of Unrest
+* George Michael - The Faith Tour
 
 
 ### White Whales
