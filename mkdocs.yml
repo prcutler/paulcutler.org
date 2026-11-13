@@ -60,17 +60,19 @@ extra:
     - icon: fontawesome/solid/rss
       link: https://www.paulcutler.org/feed_rss_created.xml
     - icon: fontawesome/solid/microphone
-      link: https://www.circuitpythonshow.com
-    - icon: fontawesome/brands/pixelfed
-      link: https://pixelfed.social/prcutler
-    - icon: fontawesome/solid/record-vinyl
-      link: https://www.discogs.com/user/prcutler
+      link: https://thebootloader.net
     - icon: fontawesome/brands/mastodon
       link: https://hachyderm.io/@prcutler
     - icon: fontawesome/brands/bluesky
       link: https://bsky.app/profile/paulcutler.org
     - icon: fontawesome/brands/github
       link: https://github.com/prcutler
+    - icon: fontawesome/brands/pixelfed
+      link: https://pixelfed.social/prcutler
+    - icon: fontawesome/solid/record-vinyl
+      link: https://www.discogs.com/user/prcutler
+    - icon: fontawesome/solid/film
+      link: https://moviebuff.silversaucer.com/users/prcutler
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/in/paulrcutler
     - icon: fontawesome/solid/envelope
