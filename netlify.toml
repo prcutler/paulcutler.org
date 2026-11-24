@@ -3,3 +3,6855 @@
   command = "mkdocs build"
   publish = "site/"
   environment = { PYTHON_VERSION = "3.13.7"}
+
+# Netlify uses the first rule that matches, so keep this order.
+
+# ---- Old feeds -> current RSS feed ----
+[[redirects]]
+  from = "/index.xml"
+  to = "/feed_rss_created.xml"
+  status = 301
+
+[[redirects]]
+  from = "/tags/:tag/index.xml"
+  to = "/feed_rss_created.xml"
+  status = 301
+
+[[redirects]]
+  from = "/categories/:cat/index.xml"
+  to = "/feed_rss_created.xml"
+  status = 301
+
+[[redirects]]
+  from = "/posts/index.xml"
+  to = "/feed_rss_created.xml"
+  status = 301
+
+# ---- Old Hugo project and list pages, plus their images (images now sit in each year folder) ----
+[[redirects]]
+  from = "/project/albumart/"
+  to = "/projects/2022/albumart/"
+  status = 301
+
+[[redirects]]
+  from = "/project/cps/"
+  to = "/projects/2022/circuitpythonshow/"
+  status = 301
+
+[[redirects]]
+  from = "/project/denon-remote-control/"
+  to = "/projects/2023/denon-remote-control/"
+  status = 301
+
+[[redirects]]
+  from = "/project/matrixportal-albumart/"
+  to = "/projects/2023/matrixportal-albumart/"
+  status = 301
+
+[[redirects]]
+  from = "/project/mlbpool2/"
+  to = "/projects/2018/mlbpool2/"
+  status = 301
+
+[[redirects]]
+  from = "/project/nflpool/"
+  to = "/projects/2017/nflpool/"
+  status = 301
+
+[[redirects]]
+  from = "/project/pi-dial/"
+  to = "/projects/2021/pi-dial/"
+  status = 301
+
+[[redirects]]
+  from = "/project/silversaucer/"
+  to = "/projects/2020/silversaucer/"
+  status = 301
+
+[[redirects]]
+  from = "/project/songmatrix/"
+  to = "/projects/2023/songmatrix/"
+  status = 301
+
+[[redirects]]
+  from = "/project/speakerstand-lights/"
+  to = "/projects/2021/speakerstand/"
+  status = 301
+
+[[redirects]]
+  from = "/project/stoneopen/"
+  to = "/projects/2012/stoneopen/"
+  status = 301
+
+[[redirects]]
+  from = "/project/the-bootloader/"
+  to = "/projects/2022/the-bootloader/"
+  status = 301
+
+[[redirects]]
+  from = "/project/"
+  to = "/projects/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/"
+  to = "/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/project/albumart/*"
+  to = "/projects/2022/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/project/cps/*"
+  to = "/projects/2022/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/project/denon-remote-control/*"
+  to = "/projects/2023/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/project/matrixportal-albumart/*"
+  to = "/projects/2023/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/project/mlbpool2/*"
+  to = "/projects/2018/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/project/nflpool/*"
+  to = "/projects/2017/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/project/pi-dial/*"
+  to = "/projects/2021/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/project/silversaucer/*"
+  to = "/projects/2020/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/project/songmatrix/*"
+  to = "/projects/2023/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/project/speakerstand-lights/*"
+  to = "/projects/2021/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/project/stoneopen/*"
+  to = "/projects/2012/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/project/the-bootloader/*"
+  to = "/projects/2022/:splat"
+  status = 301
+
+# ---- Old Hugo posts (/posts/YYYY/MM/title/, and the 2020 /post/YYYY-MM-DD-name/ form) ----
+[[redirects]]
+  from = "/posts/2018/04/goodbye-wordpress-hello-hugo/"
+  to = "/blog/2018/04/04/goodbye-wordpress-hello-hugo/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2018/04/nflpool-the-work-continues/"
+  to = "/blog/2018/04/25/nflpool---the-work-continues/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2018/04/password-validation-in-nflpool-and-mlbpool2/"
+  to = "/blog/2018/04/27/password-validation-in-nflpool-and-mlbpool2/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2018/05/python-dev-kit-humble-bundle/"
+  to = "/blog/2018/05/03/python-dev-kit-humble-bundle/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2018/08/there-is-no-offseason/"
+  to = "/blog/2018/08/06/there-is-no-offseason/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2018/10/it-was-a-good-week-of-python-and-me/"
+  to = "/blog/2018/10/07/it-was-a-good-week-of-python-and-me/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2019/06/learning-pytest-using-continuous-integration-with-azure-pipelines-or-ssh-key-hell-part-1/"
+  to = "/blog/2019/06/14/learning-pytest-using-continuous-integration-with-azure-pipelines-or-ssh-key-hell---part-1/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2019/06/setting-up-azure-pipelines-part-2/"
+  to = "/blog/2019/06/20/setting-up-azure-pipelines---part-2/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2019/06/finishing-setup-with-dependabot-and-pytest-reporting-and-project-goals-part-3/"
+  to = "/blog/2019/06/24/finishing-setup-with-dependabot-and-pytest-reporting-and-project-goals---part-3/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2019/07/azure-devops-python-sqlite-issue-part-4/"
+  to = "/blog/2019/07/04/azure-devops-python-sqlite-issue---part-4/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2020/01/starting-the-arcade-cabinet-again/"
+  to = "/blog/2020/01/26/starting-the-arcade-cabinet-again/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2020/01/control-panel-prototypes/"
+  to = "/blog/2020/01/29/control-panel-prototypes/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2020/03/more-control-panel-prototype-failures/"
+  to = "/blog/2020/03/15/more-control-panel-prototype-failures/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2020/03/pixelcade/"
+  to = "/blog/2020/03/24/pixelcade/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2020/03/future-arcade-planning/"
+  to = "/blog/2020/03/26/future-arcade-planning/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2020/04/video-prep/"
+  to = "/blog/2020/04/05/video-prep/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2020/04/practice-cuts/"
+  to = "/blog/2020/04/11/practice-cuts/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2020/04/retropie-update/"
+  to = "/blog/2020/04/14/retropie-update/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2020/07/another-reason-to-love-open-source/"
+  to = "/blog/2020/07/05/another-reason-to-love-open-source/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2020/07/introducing-silver-saucer/"
+  to = "/blog/2020/07/15/introducing-silver-saucer/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2020/12/stupid-pandemic/"
+  to = "/blog/2020/12/02/stupid-pandemic/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2020/12/the-one-piece-of-data-discogs-doesnt-have/"
+  to = "/blog/2020/12/10/the-one-piece-of-data-discogs-doesnt-have/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2020/12/pre-commit-git-hooks/"
+  to = "/blog/2020/12/12/pre-commit-git-hooks/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2020/12/discogs-authentication/"
+  to = "/blog/2020/12/15/discogs-authentication/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2020/12/silver-saucer-random-play-progress/"
+  to = "/blog/2020/12/18/silver-saucer-random-play-progress/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2020/12/displaying-the-album-information/"
+  to = "/blog/2020/12/23/displaying-the-album-information/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2021/01/wiring-up-play-singles/"
+  to = "/blog/2021/01/01/wiring-up-play-singles/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2021/01/play-singles-part-2/"
+  to = "/blog/2021/01/02/play-singles-part-2/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2021/01/silver-saucer-update/"
+  to = "/blog/2021/01/06/silver-saucer-update/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2021/02/listening-to-my-record-collection-alphabetically/"
+  to = "/blog/2021/02/14/listening-to-my-record-collection-alphabetically/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2021/02/always-learning/"
+  to = "/blog/2021/02/15/always-learning/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2021/03/preparing-silver-saucer-for-deployment/"
+  to = "/blog/2021/03/03/preparing-silver-saucer-for-deployment/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2021/03/silver-saucer-update-march-2021/"
+  to = "/blog/2021/03/15/silver-saucer-update---march-2021/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2021/03/richard-stallman-must-go/"
+  to = "/blog/2021/03/24/richard-stallman-must-go/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2021/05/my-first-pycon/"
+  to = "/blog/2021/05/14/my-first-pycon/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2021/07/retiring-my-first-python-projects/"
+  to = "/blog/2021/07/05/retiring-my-first-python-projects/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2021/07/introducing-pi-dial-part-one/"
+  to = "/blog/2021/07/10/introducing-pi-dial---part-one/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2021/07/introducing-pi-dial-part-two-oops/"
+  to = "/blog/2021/07/11/introducing-pi-dial---part-two---oops/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2021/07/introducing-pi-dial-part-three-prototyping/"
+  to = "/blog/2021/07/14/introducing-pi-dial---part-three---prototyping/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2021/07/introducing-pi-dial-part-four-adding-an-lcd/"
+  to = "/blog/2021/07/15/introducing-pi-dial---part-four---adding-an-lcd/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2021/08/progress-update/"
+  to = "/blog/2021/08/22/progress-update/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2021/09/introducing-pi-dial-part-5-a-detour-into-async/"
+  to = "/blog/2021/09/21/introducing-pi-dial---part-5---a-detour-into-async/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2021/09/pi-dial-part-6-when-is-a-list-not-a-list/"
+  to = "/blog/2021/09/30/pi-dial---part-6---when-is-a-list-not-a-list/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2021/10/introducing-pi-dial-part-7-fixing-the-lcd/"
+  to = "/blog/2021/10/27/introducing-pi-dial---part-7---fixing-the-lcd/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2021/12/december-2021-project-updates/"
+  to = "/blog/2021/12/01/december-2021-project-updates/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2021/12/adafruit-macropad-awesome-list/"
+  to = "/blog/2021/12/03/adafruit-macropad-awesome-list/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2021/12/silversaucer-and-fastapi-progress-update/"
+  to = "/blog/2021/12/05/silversaucer-and-fastapi-progress-update/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2021/12/silver-saucer-discogs-integration/"
+  to = "/blog/2021/12/08/silver-saucer-discogs-integration/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2021/12/the-python3-discogs-library/"
+  to = "/blog/2021/12/13/the-python3-discogs-library/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2021/12/worst.-deployment.-ever./"
+  to = "/blog/2021/12/21/worst-deployment-ever/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2021/12/december-2021-update-and-next-steps/"
+  to = "/blog/2021/12/22/december-2021-update-and-next-steps/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2021/12/the-right-tool-for-the-right-job/"
+  to = "/blog/2021/12/25/the-right-tool-for-the-right-job/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2022/01/led-matrix-progress/"
+  to = "/blog/2022/01/05/led-matrix-progress/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2022/01/circuitpython-2022/"
+  to = "/blog/2022/01/06/circuitpython-2022/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2022/01/introducing-the-circuitpython-show/"
+  to = "/blog/2022/01/12/introducing-the-circuitpython-show/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2022/01/silver-saucer-progress-january-2022/"
+  to = "/blog/2022/01/17/silver-saucer-progress-january-2022/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2022/01/the-podcast-has-been-submitted/"
+  to = "/blog/2022/01/25/the-podcast-has-been-submitted/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2022/02/the-circuitpython-show-progress/"
+  to = "/blog/2022/02/20/the-circuitpython-show-progress/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2022/03/march-2022-update/"
+  to = "/blog/2022/03/10/march-2022-update/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2022/06/june-2022-silversaucer-update/"
+  to = "/blog/2022/06/17/june-2022-silversaucer-update/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2022/06/silversaucer-completed/"
+  to = "/blog/2022/06/19/silversaucer-completed/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2022/09/six-months-of-the-circuitpythonshow/"
+  to = "/blog/2022/09/01/six-months-of-the-circuitpythonshow/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2022/09/introducing-the-bootloader/"
+  to = "/blog/2022/09/12/introducing-the-bootloader/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2022/12/next-circuitpython-projects-up/"
+  to = "/blog/2022/12/06/next-circuitpython-projects-up/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2022/12/the-circuitpython-show-year-one/"
+  to = "/blog/2022/12/31/the-circuitpython-show-year-one/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2022/12/favorite-albums-of-2022/"
+  to = "/blog/2022/12/31/favorite-albums-of-2022/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2023/04/the-circuitpython-show-returns/"
+  to = "/blog/2023/04/04/the-circuitpython-show-returns/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2023/09/matrixportal-album-art-display/"
+  to = "/blog/2023/09/02/matrixportal-album-art-display/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2023/09/introducing-songmatrix/"
+  to = "/blog/2023/09/20/introducing-songmatrix/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2023/11/white-whales/"
+  to = "/blog/2023/11/29/white-whales/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2023/12/favorite-albums-of-2023/"
+  to = "/blog/2023/12/31/favorite-albums-of-2023/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2024/04/fifteen-years-of-record-collecting/"
+  to = "/blog/2024/04/18/fifteen-years-of-record-collecting/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2024/07/one-door-closes-another-one-opens/"
+  to = "/blog/2024/07/06/one-door-closes-another-one-opens/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2024/08/the-bootloader-live-on-circuitpython-day-2024/"
+  to = "/blog/2024/08/04/the-bootloader-live-on-circuitpython-day-2024/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2024/12/the-return-of-the-circuitpython-show/"
+  to = "/blog/2024/12/23/the-return-of-the-circuitpython-show/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2025/01/favorite-albums-of-2024/"
+  to = "/blog/2025/01/01/favorite-albums-of-2024/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2025/04/what-im-watching-q1-2025/"
+  to = "/blog/2025/04/01/what-im-watching---q1-2025/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2025/07/what-im-watching-q2-2025/"
+  to = "/blog/2025/07/03/what-im-watching---q2-2025/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2025/08/updating-songmatrix/"
+  to = "/blog/2025/08/02/updating-songmatrix/"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2025/10/what-im-watching-q3-2025/"
+  to = "/blog/2025/10/01/what-im-watching---q3-2025/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2010-12-27-live-concerts-on-the-current/"
+  to = "/blog/2010/12/27/live-concerts-on-the-current/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2018-04-04-goodbye-wordpress-hello-hugo/"
+  to = "/blog/2018/04/04/goodbye-wordpress-hello-hugo/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2018-04-25-nflpool-the-work-continues/"
+  to = "/blog/2018/04/25/nflpool---the-work-continues/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2018-04-27-password-validation/"
+  to = "/blog/2018/04/27/password-validation-in-nflpool-and-mlbpool2/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2018-05-03-python-dev-kit-humble-bundle/"
+  to = "/blog/2018/05/03/python-dev-kit-humble-bundle/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2018-08-04-there-is-no-offseason/"
+  to = "/blog/2018/08/06/there-is-no-offseason/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2018-10-07-good-week-of-python/"
+  to = "/blog/2018/10/07/it-was-a-good-week-of-python-and-me/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2019-06-14-learning-pytest-part-1/"
+  to = "/blog/2019/06/14/learning-pytest-using-continuous-integration-with-azure-pipelines-or-ssh-key-hell---part-1/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2019-06-20-setting-up-azure-pipelines-part-2/"
+  to = "/blog/2019/06/20/setting-up-azure-pipelines---part-2/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2019-06-24-finishing-setup-part-3/"
+  to = "/blog/2019/06/24/finishing-setup-with-dependabot-and-pytest-reporting-and-project-goals---part-3/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2019-07-04-azure-sqlite-issue/"
+  to = "/blog/2019/07/04/azure-devops-python-sqlite-issue---part-4/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2020-01-26-starting-the-arcade-cabinet-again/"
+  to = "/blog/2020/01/26/starting-the-arcade-cabinet-again/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2020-01-29-control-panel-prototype/"
+  to = "/blog/2020/01/29/control-panel-prototypes/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2020-03-15-more-control-panel-failures/"
+  to = "/blog/2020/03/15/more-control-panel-prototype-failures/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2020-03-24-pixelcade/"
+  to = "/blog/2020/03/24/pixelcade/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2020-03-26-future-arcade-planning/"
+  to = "/blog/2020/03/26/future-arcade-planning/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2020-04-05-practice-prep/"
+  to = "/blog/2020/04/05/video-prep/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2020-04-11-practice-cuts/"
+  to = "/blog/2020/04/11/practice-cuts/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2020-04-13-retropie-update/"
+  to = "/blog/2020/04/14/retropie-update/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2020-07-05-another-reason-to-love-open-source/"
+  to = "/blog/2020/07/05/another-reason-to-love-open-source/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2020-07-15-introducing-silver-saucer/"
+  to = "/blog/2020/07/15/introducing-silver-saucer/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2020-12-02-stupid-pandemic/"
+  to = "/blog/2020/12/02/stupid-pandemic/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2020-12-10-one-thing-missing-from-discogs/"
+  to = "/blog/2020/12/10/the-one-piece-of-data-discogs-doesnt-have/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2020-12-12-pre-commit-git-hooks/"
+  to = "/blog/2020/12/12/pre-commit-git-hooks/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2020-12-14-discogs-authentication/"
+  to = "/blog/2020/12/15/discogs-authentication/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2020-12-18-random-play-progress/"
+  to = "/blog/2020/12/18/silver-saucer-random-play-progress/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2020-12-23-displaying-album-info/"
+  to = "/blog/2020/12/23/displaying-the-album-information/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2021-01-01-wiring-up-play-singles/"
+  to = "/blog/2021/01/01/wiring-up-play-singles/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2021-01-02-play-singles-part-2/"
+  to = "/blog/2021/01/02/play-singles-part-2/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2021-01-06-silversaucer-update/"
+  to = "/blog/2021/01/06/silver-saucer-update/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2021-02-14-listening-to-records-alpha/"
+  to = "/blog/2021/02/14/listening-to-my-record-collection-alphabetically/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2021-02-15-always-learning/"
+  to = "/blog/2021/02/15/always-learning/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2021-03-03-preparing-for-deployment/"
+  to = "/blog/2021/03/03/preparing-silver-saucer-for-deployment/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2021-03-15-silver-saucer-march-2021-update/"
+  to = "/blog/2021/03/15/silver-saucer-update---march-2021/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2021-03-24-richard-stallman-must-go/"
+  to = "/blog/2021/03/24/richard-stallman-must-go/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2021-05-14-my-first-pycon/"
+  to = "/blog/2021/05/14/my-first-pycon/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2021-07-05-retiring-my-first-python-projects/"
+  to = "/blog/2021/07/05/retiring-my-first-python-projects/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2021-07-10-introducing-pidial-part-one/"
+  to = "/blog/2021/07/10/introducing-pi-dial---part-one/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2021-07-11-introducing-pidial-part-two-oops/"
+  to = "/blog/2021/07/11/introducing-pi-dial---part-two---oops/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2021-07-14-introducing-pidial-part-three-prototyping/"
+  to = "/blog/2021/07/14/introducing-pi-dial---part-three---prototyping/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2021-07-15-introducing-pidial-part-4/"
+  to = "/blog/2021/07/15/introducing-pi-dial---part-four---adding-an-lcd/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2021-08-22-progress-update/"
+  to = "/blog/2021/08/22/progress-update/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2021-09-21-pidial-5-async-detour/"
+  to = "/blog/2021/09/21/introducing-pi-dial---part-5---a-detour-into-async/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2021-09-30-when-is-a-list-not-a-list/"
+  to = "/blog/2021/09/30/pi-dial---part-6---when-is-a-list-not-a-list/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2021-10-27-fixing-the-lcd/"
+  to = "/blog/2021/10/27/introducing-pi-dial---part-7---fixing-the-lcd/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2021-12-01-project-updates/"
+  to = "/blog/2021/12/01/december-2021-project-updates/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2021-12-03-macropad-awesome-list/"
+  to = "/blog/2021/12/03/adafruit-macropad-awesome-list/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2021-12-05-silversaucer-update/"
+  to = "/blog/2021/12/05/silversaucer-and-fastapi-progress-update/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2021-12-08-silversaucer-discogs-update/"
+  to = "/blog/2021/12/08/silver-saucer-discogs-integration/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2021-12-13-discogs-api-library/"
+  to = "/blog/2021/12/13/the-python3-discogs-library/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2021-12-21-worst-deployment-ever/"
+  to = "/blog/2021/12/21/worst-deployment-ever/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2021-12-22-dec-2021-update/"
+  to = "/blog/2021/12/22/december-2021-update-and-next-steps/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2021-12-25-the-right-tool-for-the-right-job/"
+  to = "/blog/2021/12/25/the-right-tool-for-the-right-job/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2022-01-05-LED-matrix-progress/"
+  to = "/blog/2022/01/05/led-matrix-progress/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2022-01-06-Circuitpython-2022/"
+  to = "/blog/2022/01/06/circuitpython-2022/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2022-01-12-introducing-the-circuitpython-show/"
+  to = "/blog/2022/01/12/introducing-the-circuitpython-show/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2022-01-17-silversaucer-progress-jan-2022/"
+  to = "/blog/2022/01/17/silver-saucer-progress-january-2022/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2022-01-25-podcast-submitted/"
+  to = "/blog/2022/01/25/the-podcast-has-been-submitted/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2022-02-20-circuitpythonshow-progress/"
+  to = "/blog/2022/02/20/the-circuitpython-show-progress/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2022-03-10-march-update/"
+  to = "/blog/2022/03/10/march-2022-update/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2022-06-17-silversaucer-update/"
+  to = "/blog/2022/06/17/june-2022-silversaucer-update/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2022-06-19-silversaucer-completed/"
+  to = "/blog/2022/06/19/silversaucer-completed/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2022-09-01-six-months-of-thecircuitpythonshow/"
+  to = "/blog/2022/09/01/six-months-of-the-circuitpythonshow/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2022-09-12-introducing-the-bootloader/"
+  to = "/blog/2022/09/12/introducing-the-bootloader/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2022-12-06-next-projects-up/"
+  to = "/blog/2022/12/06/next-circuitpython-projects-up/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2022-12-31-favorite-albums-of-2022/"
+  to = "/blog/2022/12/31/the-circuitpython-show-year-one/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2022-12-31-the-circuitpythonshow-thank-you/"
+  to = "/blog/2022/12/31/favorite-albums-of-2022/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2023-04-04-the-circuitpythonshow-returns/"
+  to = "/blog/2023/04/04/the-circuitpython-show-returns/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2023-09-02-matrixportal-albumart/"
+  to = "/blog/2023/09/02/matrixportal-album-art-display/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2023-09-20-introducing-songmatrix/"
+  to = "/blog/2023/09/20/introducing-songmatrix/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2023-11-29-white-whales/"
+  to = "/blog/2023/11/29/white-whales/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2023-12-31-favorite-albums-of-2023/"
+  to = "/blog/2023/12/31/favorite-albums-of-2023/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2024-04-18-record-collecting/"
+  to = "/blog/2024/04/18/fifteen-years-of-record-collecting/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2024-07-06-one-door-closes-another-one-opens/"
+  to = "/blog/2024/07/06/one-door-closes-another-one-opens/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2024-08-09-the-bootloader-live/"
+  to = "/blog/2024/08/04/the-bootloader-live-on-circuitpython-day-2024/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2024-12-23-the-circuitpythonshow-will-return/"
+  to = "/blog/2024/12/23/the-return-of-the-circuitpython-show/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2025-01-01-favorite-albums-of-2024/"
+  to = "/blog/2025/01/01/favorite-albums-of-2024/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2025-04-01-what-i-am-watching/"
+  to = "/blog/2025/04/01/what-im-watching---q1-2025/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2025-07-03-what-i-am-watching-q2-2025/"
+  to = "/blog/2025/07/03/what-im-watching---q2-2025/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2025-08-02-updating-songmatrix/"
+  to = "/blog/2025/08/02/updating-songmatrix/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2025-10-01-what-im-watching-q32025/"
+  to = "/blog/2025/10/01/what-im-watching---q3-2025/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2025-10-15-podcast-sponsoring/"
+  to = "/blog/2025/10/15/sponsor-the-podcasts/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2025-11-17-podtrak-p4next/"
+  to = "/blog/2025/11/17/the-zoom-podtrak-p4next/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2025-11-29-my-own-steam-machine/"
+  to = "/blog/2025/11/29/my-own-steam-machine/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2025-12-31-favorite-albums-of-2025/"
+  to = "/blog/2025/12/31/favorite-albums-of-2025/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2026-01-01-what-i-am-watching-q4/"
+  to = "/blog/2026/01/01/what-im-watching---q4-2025/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2026-03-29-circuitpython-bambulabs-library/"
+  to = "/blog/2026/03/29/bambu-labs-circuitpython-library/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2026-03-30-circuitpython-bambulabs-published/"
+  to = "/blog/2026/03/30/circuitpython-bambulabs-published/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2026-04-01-what-i-am-watching-q1-2026/"
+  to = "/blog/2026/04/01/what-im-watching---q1-2026/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2026-04-07-moviebuff/"
+  to = "/blog/2026/04/07/moviebuff/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2026-06-13-listenbrainz-all-the-things/"
+  to = "/blog/2026/06/13/listenbrainz-all-the-things/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2026-09-07-100-episodes/"
+  to = "/blog/2026/09/07/100-episodes/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2026-09-07-hyperhdr-part1/"
+  to = "/blog/2026/09/10/hyperhdr-part-1---an-introduction/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2026-09-11-hyperhdr-part2-bom/"
+  to = "/blog/2026/09/11/hyperhdr-part-2---bill-of-materials/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2026-09-12-hyperhdr-part3-hdmi/"
+  to = "/blog/2026/09/12/hyperhdr-part-3---the-hdmi-splitter/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2026-09-13-space/"
+  to = "/blog/2026/09/13/hyperhdr-part-4---space-constraints/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2026-09-15-hyperhdr-part-5-leds/"
+  to = "/blog/2026/09/15/hyperhdr-part-5---leds/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2026-10-07-hyperhdr-part6-installation/"
+  to = "/blog/2026/10/07/hyperhdr-part-6---the-installation/"
+  status = 301
+
+[[redirects]]
+  from = "/post/2026-11-13-moviebuff/"
+  to = "/blog/2026/11/13/moviebuff/"
+  status = 301
+
+# ---- Old WordPress-era posts (/blog/YYYY/MM/slug/), taken from each post's own url: field ----
+[[redirects]]
+  from = "/blog/2003/01/and-the-time-is/"
+  to = "/blog/2003/01/22/and-the-time-is/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/01/hello-world-2/"
+  to = "/blog/2003/01/22/hello-world-/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/01/rss-feed-working/"
+  to = "/blog/2003/01/22/rss-feed-working/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/02/date-thing/"
+  to = "/blog/2003/02/14/date-thing/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/02/gadsden-flag/"
+  to = "/blog/2003/02/14/gadsden-flag/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/02/misc-stuff/"
+  to = "/blog/2003/02/14/misc-stuff/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/02/stupid-winamp/"
+  to = "/blog/2003/02/15/stupid-winamp/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/02/daredevil/"
+  to = "/blog/2003/02/16/daredevil/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/02/rise-of-nations/"
+  to = "/blog/2003/02/19/rise-of-nations/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/02/tyson/"
+  to = "/blog/2003/02/23/tyson/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/02/ogg-this/"
+  to = "/blog/2003/02/24/ogg-this/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/03/dean-in-2004/"
+  to = "/blog/2003/03/06/dean-in-2004/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/03/we-need-some-stinkin-badgers/"
+  to = "/blog/2003/03/06/we-need-some-stinkin-badgers/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/03/the-balance-act/"
+  to = "/blog/2003/03/08/the-balance-act/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/03/on-wisconsin/"
+  to = "/blog/2003/03/12/on-wisconsin/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/03/criticism/"
+  to = "/blog/2003/03/13/criticism/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/03/big-dance/"
+  to = "/blog/2003/03/17/big-dance/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/04/go-marquette/"
+  to = "/blog/2003/04/05/go-marquette/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/04/red-hat-9/"
+  to = "/blog/2003/04/10/red-hat-9/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/04/under-construction/"
+  to = "/blog/2003/04/10/under-construction/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/04/quote-of-the-day/"
+  to = "/blog/2003/04/11/quote-of-the-day/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/04/whoa/"
+  to = "/blog/2003/04/11/whoa/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/04/phair-thee-well/"
+  to = "/blog/2003/04/21/phair-thee-well/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/04/300-reasons-why-we-love-the-simpsons/"
+  to = "/blog/2003/04/24/300-reasons-why-we-love-the-simpsons/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/04/evil-corporations-1-phone-companies/"
+  to = "/blog/2003/04/25/evil-corporations-1--phone-companies/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/04/know-your-rights-patriot-act-ii/"
+  to = "/blog/2003/04/25/know-your-rights-patriot-act-ii/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/05/you-call-this-archaeology/"
+  to = "/blog/2003/05/06/you-call-this-archaeology/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/05/evil-corporations-2-clear-channel/"
+  to = "/blog/2003/05/14/evil-corporations-2-clear-channel/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/05/mourn-voodooextreme/"
+  to = "/blog/2003/05/29/mourn-voodooextreme/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/06/on-this-one-im-with-colin-powell/"
+  to = "/blog/2003/06/02/on-this-one-im-with-colin-powell/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/06/radio-follow-up/"
+  to = "/blog/2003/06/02/radio-follow-up/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/06/v-the-second-generation/"
+  to = "/blog/2003/06/10/v-the-second-generation/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/07/eff-hat/"
+  to = "/blog/2003/07/08/eff-hat/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/07/quote-of-the-day-unemployment/"
+  to = "/blog/2003/07/08/quote-of-the-day--unemployment/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/07/eff-hat-update/"
+  to = "/blog/2003/07/12/eff-hat-update/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/07/how-not-to-get-sued-by-the-riaa/"
+  to = "/blog/2003/07/26/how-not-to-get-sued-by-the-riaa/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/07/it-doesnt-get-much-better/"
+  to = "/blog/2003/07/26/it-doesnt-get-much-better/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/07/why-is-it-so-hard-for-so-many-democrats-to-believe/"
+  to = "/blog/2003/07/29/why-is-it-so-hard-for-so-many-democrats-to-believe/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/07/radio-follow-up-2/"
+  to = "/blog/2003/07/30/radio-follow-up/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/07/eff-interviews/"
+  to = "/blog/2003/07/31/eff-interviews/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/08/go-pack/"
+  to = "/blog/2003/08/04/go-pack/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/08/indy-moved-up/"
+  to = "/blog/2003/08/07/indy-moved-up/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/08/missing-features-in-ms-windowsxp-64-bit/"
+  to = "/blog/2003/08/10/missing-features-in-ms-windowsxp-64-bit/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/08/phoenix/"
+  to = "/blog/2003/08/14/phoenix/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/08/bye-frankie/"
+  to = "/blog/2003/08/31/bye-frankie/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/09/grrr/"
+  to = "/blog/2003/09/02/grrr/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/09/better/"
+  to = "/blog/2003/09/03/better/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/09/oops-i-did-it-again/"
+  to = "/blog/2003/09/05/oops-i-did-it-again/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/09/work-in-progress/"
+  to = "/blog/2003/09/05/work-in-progress/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/09/berkes-back/"
+  to = "/blog/2003/09/09/berkes-back/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/09/star-wars-on-dvd-2004/"
+  to = "/blog/2003/09/17/star-wars-on-dvd--2004/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/09/bbc-dr-who-coupling/"
+  to = "/blog/2003/09/26/bbc--dr-who--coupling/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/09/misc-updates/"
+  to = "/blog/2003/09/26/misc-updates/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/09/my-neuros/"
+  to = "/blog/2003/09/28/my-neuros/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/09/green-good/"
+  to = "/blog/2003/09/30/green--good/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/10/one-down-one-to-go/"
+  to = "/blog/2003/10/06/one-down-one-to-go/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/10/yahoo-radio-mnf/"
+  to = "/blog/2003/10/07/yahoo-radio--mnf/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/10/alias/"
+  to = "/blog/2003/10/08/alias/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/10/back-in-the-saddle/"
+  to = "/blog/2003/10/21/back-in-the-saddle/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/10/someday-ill-buy-one-of-these/"
+  to = "/blog/2003/10/27/someday-ill-buy-one-of-these/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/10/happy-halloween/"
+  to = "/blog/2003/10/31/happy-halloween/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/11/dominating/"
+  to = "/blog/2003/11/03/dominating/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/11/coupling-the-good-and-bad/"
+  to = "/blog/2003/11/04/coupling--the-good-and-bad/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/11/top-5-80s-albums/"
+  to = "/blog/2003/11/04/top-5-80s-albums/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/11/badger-football/"
+  to = "/blog/2003/11/09/badger-football/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/11/matrix-revolutions/"
+  to = "/blog/2003/11/10/matrix-revolutions/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/11/yay/"
+  to = "/blog/2003/11/17/yay/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/11/happy-birthday-alex/"
+  to = "/blog/2003/11/19/happy-birthday-alex/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/11/jumping-the-shark/"
+  to = "/blog/2003/11/21/jumping-the-shark/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/11/the-opus-interview/"
+  to = "/blog/2003/11/21/the-opus-interview/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/11/speaking-of-opus/"
+  to = "/blog/2003/11/24/speaking-of-opus/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2003/11/and-baby-makes-4/"
+  to = "/blog/2003/11/27/and-baby-makes-4/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/08/hello-world-3/"
+  to = "/blog/2004/08/29/hello-world/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/08/what-a-weekend/"
+  to = "/blog/2004/08/30/what-a-weekend/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/08/duke-nukem-in-development-4ever/"
+  to = "/blog/2004/08/30/duke-nukem-in-development-4ever/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/08/thank-goodness-for-boing-boing/"
+  to = "/blog/2004/08/31/thank-goodness-for-boing-boing/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/08/the-passion-of-the-clerks/"
+  to = "/blog/2004/08/30/the-passion-of-the-clerks/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/08/do-you-have-a-wireless-network/"
+  to = "/blog/2004/08/31/do-you-have-a-wireless-network/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/08/gmail/"
+  to = "/blog/2004/09/01/gmail/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/09/let-the-music-play/"
+  to = "/blog/2004/09/02/let-the-music-play/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/09/obesity-its-a-good-thing/"
+  to = "/blog/2004/09/02/obesity-its-a-good-thing/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/09/only-girly-men-tell-lies/"
+  to = "/blog/2004/09/02/only-girly-men-tell-lies/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/09/chaska-offers-city-wide-80211-for-16/"
+  to = "/blog/2004/09/03/chaska-offers-city-wide-80211-for-16/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/09/go-badgers/"
+  to = "/blog/2004/09/04/go-badgers/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/09/more-gmail/"
+  to = "/blog/2004/09/04/more-gmail/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/09/packer-cuts/"
+  to = "/blog/2004/09/05/packer-cuts/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/09/gatorade-commercials/"
+  to = "/blog/2004/09/07/gatorade-commercials/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/09/re-packers/"
+  to = "/blog/2004/09/06/re-packers/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/09/and-were-back/"
+  to = "/blog/2004/09/10/and-were-back/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/09/bush-vs-jesus/"
+  to = "/blog/2004/09/11/bush-vs-jesus/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/09/kids-pictures/"
+  to = "/blog/2004/09/11/kids-pictures/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/09/badger-vs-unlv-review-91104/"
+  to = "/blog/2004/09/12/badger-vs-unlv-review--91104/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/09/help-a-fat-guy-out/"
+  to = "/blog/2004/09/12/help-a-fat-guy-out/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/09/save-betamax-national-call-in-day-september-14/"
+  to = "/blog/2004/09/13/save-betamax--national-call-in-day-september-14/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/09/sunday-sunday-sunday/"
+  to = "/blog/2004/09/12/sunday-sunday-sunday/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/09/linux-gaming/"
+  to = "/blog/2004/09/13/linux-gaming/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/09/papers-please/"
+  to = "/blog/2004/09/14/papers-please/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/09/found-a-home-for-gmail/"
+  to = "/blog/2004/09/15/found-a-home-for-gmail/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/09/mckenzies-back/"
+  to = "/blog/2004/09/15/mckenzies-back/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/09/go-howard/"
+  to = "/blog/2004/09/15/go-howard/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/09/world-on-fire/"
+  to = "/blog/2004/09/17/world-on-fire/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/09/more-video-games/"
+  to = "/blog/2004/09/18/more-video-games/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/09/there-and-back-again/"
+  to = "/blog/2004/09/20/there-and-back-again/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/09/off-to-la-la-land/"
+  to = "/blog/2004/09/21/off-to-la-la-land/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/09/back-from-hell-ay/"
+  to = "/blog/2004/09/24/back-from-hell-ay/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/09/take-back-the-web/"
+  to = "/blog/2004/09/24/take-back-the-web/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/09/vote-for-bush-and-a-hurricane-will-hit-you/"
+  to = "/blog/2004/09/26/vote-for-bush-and-a-hurricane-will-hit-you/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/09/gunfight-at-the-ok-corral/"
+  to = "/blog/2004/09/27/gunfight-at-the-ok-corral/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/09/more-firefox/"
+  to = "/blog/2004/09/27/more-firefox/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/09/ears-ringing/"
+  to = "/blog/2004/09/29/ears-ringing/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/09/when-it-rains-it-pours/"
+  to = "/blog/2004/09/28/when-it-rains-it-pours/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/09/section-505/"
+  to = "/blog/2004/09/30/section-505/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/nice-design/"
+  to = "/blog/2004/10/02/nice-design/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/dont-vote-campaign/"
+  to = "/blog/2004/10/04/dont-vote-campaign/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/long-day-ahead/"
+  to = "/blog/2004/10/04/long-day-ahead/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/go-go-eff/"
+  to = "/blog/2004/10/06/go-go-eff/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/back-from-orlando/"
+  to = "/blog/2004/10/11/back-from-orlando/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/mark-cuban-and-i-have-things-in-common/"
+  to = "/blog/2004/10/11/mark-cuban-and-i-have-things-in-common/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/flickr/"
+  to = "/blog/2004/10/13/flickr/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/my-music/"
+  to = "/blog/2004/10/12/my-music/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/test-post-from-gaming-party-january-03/"
+  to = "/blog/2004/10/13/test-post-from-gaming-party--january-03/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/upgrade-complete/"
+  to = "/blog/2004/10/13/upgrade-complete/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/whoops/"
+  to = "/blog/2004/10/13/whoops/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/another-stupid-ie-quirk/"
+  to = "/blog/2004/10/13/another-stupid-ie-quirk/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/flickr-follow-up/"
+  to = "/blog/2004/10/14/flickr-follow-up/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/wiki-added/"
+  to = "/blog/2004/10/14/wiki-added/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/bfg-arrival-the-reason-were-here/"
+  to = "/blog/2004/10/15/bfg-arrival---the-reason-were-here/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/jason-arriving/"
+  to = "/blog/2004/10/15/jason-arriving/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/off-to-partay/"
+  to = "/blog/2004/10/15/off-to-partay/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/random-goodness/"
+  to = "/blog/2004/10/15/random-goodness/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/site-updates/"
+  to = "/blog/2004/10/15/site-updates/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/bfg-gaming-update/"
+  to = "/blog/2004/10/16/bfg-gaming-update/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/bfg-sat-night-6/"
+  to = "/blog/2004/10/17/bfg-sat-night-6/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/bfg-sat-night-7/"
+  to = "/blog/2004/10/17/bfg-sat-night-7/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/more-pictures-uploaded/"
+  to = "/blog/2004/10/16/more-pictures-uploaded/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/mos-tequila/"
+  to = "/blog/2004/10/17/mas-tequila/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/and-the-pictures-are-uploaded/"
+  to = "/blog/2004/10/19/and-the-pictures-are-uploaded/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/and-the-winners-are/"
+  to = "/blog/2004/10/19/and-the-winners-are/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/vhex-is-a-winnah/"
+  to = "/blog/2004/10/19/vhex-is-a-winnah/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/last-starfighter-the-musical/"
+  to = "/blog/2004/10/20/last-starfighter-the-musical/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/espns-daily-quickie/"
+  to = "/blog/2004/10/25/espns-daily-quickie/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/good-sports-weekend/"
+  to = "/blog/2004/10/25/good-sports-weekend/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/a-public-service-announcemenet/"
+  to = "/blog/2004/10/26/a-public-service-announcement/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/progress/"
+  to = "/blog/2004/10/26/progress/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/taking-the-plunge/"
+  to = "/blog/2004/10/27/taking-the-plunge/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/grrr-spam/"
+  to = "/blog/2004/10/28/grrr--spam/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/ubuntu-holy-cow/"
+  to = "/blog/2004/10/29/ubuntu--holy-cow/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/wish-i-could-have-been-there/"
+  to = "/blog/2004/10/29/wish-i-could-have-been-there/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/mmm-pho/"
+  to = "/blog/2004/10/31/mmm-pho/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/10/daylight-savings-time/"
+  to = "/blog/2004/10/31/daylight-savings-time/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/11/technology-woes/"
+  to = "/blog/2004/11/01/technology-woes/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/11/and-so-it-begins/"
+  to = "/blog/2004/11/02/and-so-it-begins/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/11/here-we-go/"
+  to = "/blog/2004/11/03/here-we-go/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/11/minnesota-becoming-ohio/"
+  to = "/blog/2004/11/03/minnesota-becoming-ohio/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/11/and-its-over/"
+  to = "/blog/2004/11/03/and-its-over/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/11/a-breathed-of-fresh-air/"
+  to = "/blog/2004/11/04/a-breathed-of-fresh-air/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2004/11/jinzora/"
+  to = "/blog/2004/11/04/jinzora/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/01/back-again/"
+  to = "/blog/2005/01/10/back-again/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/01/radio-goodness/"
+  to = "/blog/2005/01/10/radio-goodness/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/01/i-will-get-a-mac-someday/"
+  to = "/blog/2005/01/12/i-will-get-a-mac-someday/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/01/nearlyfreespeechnet/"
+  to = "/blog/2005/01/11/nearlyfreespeechnet/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/01/the-2nd-best-christmas-present-i-received/"
+  to = "/blog/2005/01/11/the-2nd-best-christmas-present-i-received/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/01/why-drm-is-evil-and-your-dvd/"
+  to = "/blog/2005/01/12/why-drm-is-evil-and-what-it-means-to-your-dvd-collection/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/01/firefox/"
+  to = "/blog/2005/01/13/firefox/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/01/gates-just-doesnt-get-it/"
+  to = "/blog/2005/01/14/gates-just-doesnt-get-it/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/01/is-the-sherman-era-over/"
+  to = "/blog/2005/01/14/is-the-sherman-era-over/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/01/alias-40/"
+  to = "/blog/2005/01/14/alias-40/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/01/more-christmas-presents-books/"
+  to = "/blog/2005/01/15/more-christmas-presents-books/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/01/bluefish-screem/"
+  to = "/blog/2005/01/17/bluefish--screem/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/01/mmmm-football/"
+  to = "/blog/2005/01/17/mmmm-football/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/01/what-was-tivo-thinking/"
+  to = "/blog/2005/01/18/what-was-tivo-thinking/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/01/24-vs-alias/"
+  to = "/blog/2005/01/20/24-vs-alias/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/01/endangered-gizmos/"
+  to = "/blog/2005/01/25/endangered-gizmos/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/01/kcmp-better-than-i-expected/"
+  to = "/blog/2005/01/25/kcmp--better-than-i-expected/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/01/kcmp-launches-today/"
+  to = "/blog/2005/01/24/kcmp-launches-today/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/01/the-breakfast-club/"
+  to = "/blog/2005/01/26/the-breakfast-club/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/01/know-when-to-hold-em-know-when-to-fold-em/"
+  to = "/blog/2005/01/28/know-when-to-hold-em-know-when-to-fold-em/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/01/apt-movie-synopsis/"
+  to = "/blog/2005/01/30/an-asinine-hodgepodge/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/01/my-chips/"
+  to = "/blog/2005/01/30/my-chips/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/01/mythtv-filesharing/"
+  to = "/blog/2005/01/30/mythtv--filesharing/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/01/poker-results/"
+  to = "/blog/2005/01/30/poker-results/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/01/comment-spam/"
+  to = "/blog/2005/02/01/comment-spam/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/02/paper-sushi/"
+  to = "/blog/2005/02/03/paper-sushi/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/02/the-inauguration-you-didnt-see/"
+  to = "/blog/2005/02/03/the-inauguration-you-didnt-see/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/02/893-the-current/"
+  to = "/blog/2005/02/06/893-the-current/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/02/super-day/"
+  to = "/blog/2005/02/06/super-day/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/02/farve-4-ever/"
+  to = "/blog/2005/02/07/favre-4-ever/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/02/fairs-fair/"
+  to = "/blog/2005/02/10/fairs-fair/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/02/i-am-joes-hard-drive/"
+  to = "/blog/2005/02/10/i-am-joes-hard-drive/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/02/upgrade-complete-2/"
+  to = "/blog/2005/02/11/upgrade-complete/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/02/vacation/"
+  to = "/blog/2005/02/10/vacation/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/02/ubuntu-desktop-screenshot/"
+  to = "/blog/2005/02/11/ubuntu-desktop-screenshot/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/02/why-i-love-ubuntu/"
+  to = "/blog/2005/02/11/why-i-love-ubuntu/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/02/espncom-nba-stein-spree-sam-sulk-season-away/"
+  to = "/blog/2005/02/13/espncom--nba--stein-spree-sam-sulk-season-away/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/02/busy-weekend/"
+  to = "/blog/2005/02/14/busy-weekend/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/02/napster-2-go-reviews-start/"
+  to = "/blog/2005/02/14/napster-2-go-reviews-start/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/02/get-all-of-napster-for-free/"
+  to = "/blog/2005/02/14/get-all-of-napster-for-free/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/02/updated-again/"
+  to = "/blog/2005/02/19/updated-again/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/02/we-the-media/"
+  to = "/blog/2005/02/21/we-the-media/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/02/i-love-the-simpsons/"
+  to = "/blog/2005/02/21/i-love-the-simpsons/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/02/ive-been-slacking/"
+  to = "/blog/2005/02/27/ive-been-slacking/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/02/week-in-reivew-broadcast-flag-in-court/"
+  to = "/blog/2005/02/27/week-in-review--broadcast-flag-in-court/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/02/zoe-is-a-packer-fan/"
+  to = "/blog/2005/02/27/zoe-is-a-packer-fan/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/02/volunteering-at-mrp/"
+  to = "/blog/2005/02/28/volunteering-at-mpr/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/03/still-slacking/"
+  to = "/blog/2005/03/08/still-slacking/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/03/wow-wow/"
+  to = "/blog/2005/03/08/wow--wow/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/03/joys-of-running-an-experimental-os/"
+  to = "/blog/2005/03/12/joys-of-running-an-experimental-os/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/03/games-copyright/"
+  to = "/blog/2005/03/14/games--copyright/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/03/goodbye-billy/"
+  to = "/blog/2005/03/15/goodbye-billy/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/03/rarity-or-scarcity/"
+  to = "/blog/2005/03/22/rarity-or-scarcity/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/03/digital-music-on-linux/"
+  to = "/blog/2005/03/24/digital-music-on-linux/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/03/flickr-acquired-by-yahoo/"
+  to = "/blog/2005/03/24/flickr-acquired-by-yahoo/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/03/supreme-court-asking-the-right-questions/"
+  to = "/blog/2005/03/31/supreme-court-asking-the-right-questions/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/04/ah-april-fools-day/"
+  to = "/blog/2005/04/01/ah-april-fools-day/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/04/april-fools/"
+  to = "/blog/2005/04/01/april-fools/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/04/blizzards-april-fools/"
+  to = "/blog/2005/04/01/blizzards-april-fools/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/04/24-day-4-1000-1100-pm/"
+  to = "/blog/2005/04/05/24--day-4--1000--1100-pm/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/04/game-over-for-wow/"
+  to = "/blog/2005/04/04/game-over-for-wow/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/04/han-solo-in-carbonite/"
+  to = "/blog/2005/04/05/han-solo-in-carbonite/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/04/interview-with-jon-lech-johansen/"
+  to = "/blog/2005/04/05/interview-with-jon-lech-johansen/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/04/playing-with-a-new-theme/"
+  to = "/blog/2005/04/05/playing-with-a-new-theme/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/04/zoe-dances-on-the-deck/"
+  to = "/blog/2005/04/05/zoe-dances-on-the-deck/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/04/ubuntu-linux-504-is-out/"
+  to = "/blog/2005/04/08/ubuntu-linux-504-is-out/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/04/ubuntu-migration-almost-complete/"
+  to = "/blog/2005/04/10/ubuntu-migration-almost-complete/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/04/xeni-profile-from-la-times/"
+  to = "/blog/2005/04/10/xeni-profile-from-la-times/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/04/could-it-be/"
+  to = "/blog/2005/04/13/could-it-be/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/04/ipod-one/"
+  to = "/blog/2005/04/12/ipod-one/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/04/what-have-i-been-up-to-jinzora/"
+  to = "/blog/2005/04/17/what-have-i-been-up-to--jinzora/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/04/well-der/"
+  to = "/blog/2005/04/17/well-der/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/04/jinzora-netjuke-to-merge/"
+  to = "/blog/2005/04/20/jinzora--netjuke-to-merge/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/04/welcome-to-sunny-florida/"
+  to = "/blog/2005/04/20/welcome-to-sunny-florida/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/04/flickr-continues-to-amaze/"
+  to = "/blog/2005/04/22/flickr-continues-to-amaze/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/04/happy-earth-day/"
+  to = "/blog/2005/04/23/happy-earth-day/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/04/home-sweet-home/"
+  to = "/blog/2005/04/22/home-sweet-home/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/04/time-warner-vs-comcast/"
+  to = "/blog/2005/04/23/time-warner-vs-comcast/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/04/great-music-lives-here/"
+  to = "/blog/2005/04/24/great-music-lives-here/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/04/small-things-annoy-me/"
+  to = "/blog/2005/04/25/small-things-annoy-me/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/04/learning-curve/"
+  to = "/blog/2005/04/26/learning-curve/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/04/dell-2405-first-impressions/"
+  to = "/blog/2005/04/27/dell-2405-first-impressions/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/04/dell-2405-pictures/"
+  to = "/blog/2005/04/27/dell-2405-pictures/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/04/pc-world-reviews-ubuntu/"
+  to = "/blog/2005/04/27/pc-world-reviews-ubuntu/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/04/darth-vader-has-a-blog/"
+  to = "/blog/2005/04/28/darth-vader-has-a-blog/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/04/silwenaenet/"
+  to = "/blog/2005/04/30/silwenaenet/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/05/upcoming-time-travel-convention/"
+  to = "/blog/2005/05/02/upcoming-time-travel-convention/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/05/256/"
+  to = "/blog/2005/05/03/receiver-down-receiver-down/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/05/7-deadly-sins/"
+  to = "/blog/2005/05/04/7-deadly-sins/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/05/new-release-tuesday/"
+  to = "/blog/2005/05/04/new-release-tuesday/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/05/zoe-the-flowers/"
+  to = "/blog/2005/05/07/zoe--the-flowers/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/05/broadcast-flag-struck-down/"
+  to = "/blog/2005/05/09/broadcast-flag-struck-down/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/05/music-updates/"
+  to = "/blog/2005/05/09/music-updates/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/05/tv-stuff/"
+  to = "/blog/2005/05/10/tv-stuff/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/05/upgrade-complete-2-2/"
+  to = "/blog/2005/05/10/upgrade-complete/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/05/google-acquires-dodgeball/"
+  to = "/blog/2005/05/12/google-acquires-dodgeball/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/05/yahoo-music-service-launches/"
+  to = "/blog/2005/05/11/yahoo-music-service-launches/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/05/this-week-in-music/"
+  to = "/blog/2005/05/12/this-week-in-music/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/05/best-x-box-360-preview-yet/"
+  to = "/blog/2005/05/13/best-x-box-360-preview-yet/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/05/the-future-of-gnome/"
+  to = "/blog/2005/05/13/the-future-of-gnome/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/05/the-horror-that-is-blade-iii/"
+  to = "/blog/2005/05/13/the-horror-that-is-blade-iii/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/05/liz-phair-discography/"
+  to = "/blog/2005/05/15/liz-phair-discography/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/05/more-theme-stuff/"
+  to = "/blog/2005/05/16/more-theme-stuff/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/05/playstation3-unveiled/"
+  to = "/blog/2005/05/17/playstation3-unveiled/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/05/the-story-of-the-horsey/"
+  to = "/blog/2005/05/16/the-story-of-the-horsey/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/05/back-from-seattle/"
+  to = "/blog/2005/05/24/back-from-seattle/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/05/episode-iii/"
+  to = "/blog/2005/05/24/episode-iii/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/05/hp-dv1000/"
+  to = "/blog/2005/05/26/hp-dv1000/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/05/lost-season-finale/"
+  to = "/blog/2005/05/28/lost-season-finale/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/05/this-weeks-purchases/"
+  to = "/blog/2005/05/28/this-weeks-purchases/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/05/life-of-the-closed-mind/"
+  to = "/blog/2005/05/29/life-of-the-closed-mind/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/05/the-easter-eggs-of-episode-iii/"
+  to = "/blog/2005/05/28/the-easter-eggs-of-episode-iii/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/05/a-gamers-manifesto/"
+  to = "/blog/2005/05/30/a-gamers-manifesto/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/05/dr-who/"
+  to = "/blog/2005/05/31/dr-who/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/05/summer-of-code/"
+  to = "/blog/2005/06/01/summer-of-code/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/06/alias-season-4-finale/"
+  to = "/blog/2005/06/01/alias-season-4-finale/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/06/i-love-gnome/"
+  to = "/blog/2005/06/03/i-love-gnome/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/06/what-a-difference-a-year-makes/"
+  to = "/blog/2005/06/04/what-a-difference-a-year-makes/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/06/updated-photos/"
+  to = "/blog/2005/06/04/updated-photos/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/06/downtown/"
+  to = "/blog/2005/06/06/downtown/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/06/tclug/"
+  to = "/blog/2005/06/06/tclug/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/06/doubletake-in-x3-casting/"
+  to = "/blog/2005/06/07/doubletake-in-x3-casting/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/06/episode-iii-part-2/"
+  to = "/blog/2005/06/07/episode-iii-part-2/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/06/apple-intel/"
+  to = "/blog/2005/06/09/apple--intel/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/06/x3-follow-up/"
+  to = "/blog/2005/06/10/x3-follow-up/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/06/mac-mini-first-impressions/"
+  to = "/blog/2005/06/12/mac-mini-first-impressions/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/06/real-life-counter-strike/"
+  to = "/blog/2005/06/12/real-life-counter-strike/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/06/some-people-just-dont-get-it/"
+  to = "/blog/2005/06/12/some-people-just-dont-get-it/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/06/os-x-for-x86/"
+  to = "/blog/2005/06/12/os-x-for-x86/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/06/zoe-is-smarter-than-me/"
+  to = "/blog/2005/06/14/zoe-is-smarter-than-me/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/06/vhs-officially-dead/"
+  to = "/blog/2005/06/16/vhs-officially-dead/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/06/required-reading/"
+  to = "/blog/2005/06/19/required-reading/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/06/broadcast-flag-not-dead-yet-we-have-48-hours/"
+  to = "/blog/2005/06/21/broadcast-flag-not-dead-yet--we-have-48-hours/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/06/50-projects-for-you-and-your-mac-mini/"
+  to = "/blog/2005/06/21/50-projects-for-you-and-your-mac-mini/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/06/turn-your-laptop-into-a-picture-fram/"
+  to = "/blog/2005/06/22/turn-your-laptop-into-a-picture-fram/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/06/a-bit-warm/"
+  to = "/blog/2005/06/24/a-bit-warm/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/06/joining-the-revolution/"
+  to = "/blog/2005/06/24/joining-the-revolution/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/06/google-to-launch-video-service-monday/"
+  to = "/blog/2005/06/27/google-to-launch-video-service-monday/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/06/supreme-court-rules-against-grokster/"
+  to = "/blog/2005/06/27/supreme-court-rules-against-grokster/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/06/too-many-toilets-to-count/"
+  to = "/blog/2005/06/27/too-many-toilets-to-count/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/06/311/"
+  to = "/blog/2005/06/29/podcasting-now-in-itunes/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/06/burnit-club/"
+  to = "/blog/2005/06/30/burnit-club/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/06/cursed-i-tell-you/"
+  to = "/blog/2005/06/30/cursed-i-tell-you/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/06/playing-with-panorama/"
+  to = "/blog/2005/06/29/playing-with-panorama/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/06/security-updates/"
+  to = "/blog/2005/06/30/security-updates/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/06/lego-star-destroyer/"
+  to = "/blog/2005/06/30/lego-star-destroyer/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/06/smart-advertising/"
+  to = "/blog/2005/06/30/smart-advertising/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/06/trent-reznor-gets-it/"
+  to = "/blog/2005/06/30/trent-reznor-gets-it/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/07/blog-fixed-flickr-update/"
+  to = "/blog/2005/07/06/blog-fixed--flickr-update/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/07/322/"
+  to = "/blog/2005/07/07/behind-the-scenes-of-a-mmo/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/07/defamer-catches-dyslexic-fantastic-four-skywriter/"
+  to = "/blog/2005/07/06/defamer-catches-dyslexic-fantastic-four-skywriter/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/07/i-miss-irc/"
+  to = "/blog/2005/07/07/i-miss-irc/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/07/william-gibson-gets-it/"
+  to = "/blog/2005/07/07/william-gibson-gets-it/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/07/50-songs-for-50-states/"
+  to = "/blog/2005/07/08/50-songs-for-50-states/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/07/more-blog-programming/"
+  to = "/blog/2005/07/08/more-blog-programming/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/07/silwenaecom/"
+  to = "/blog/2005/07/10/silwenaecom/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/07/the-truth-behind-apples-switch/"
+  to = "/blog/2005/07/11/the-truth-behind-apples-switch/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/07/misc-stuff-2/"
+  to = "/blog/2005/07/15/misc-stuff/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/07/harry-potter/"
+  to = "/blog/2005/07/16/harry-potter/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/07/bob-mould-body-of-song/"
+  to = "/blog/2005/07/18/bob-mould-body-of-song/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/07/eff-suprise/"
+  to = "/blog/2005/07/18/eff-suprise/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/07/fun-with-flickr/"
+  to = "/blog/2005/07/17/fun-with-flickr/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/07/nice-touch/"
+  to = "/blog/2005/07/18/nice-touch/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/07/star-tribune-on-the-current/"
+  to = "/blog/2005/07/18/star-tribune-on-the-current/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/07/everybody-loves-ludwig/"
+  to = "/blog/2005/07/22/everybody-loves-ludwig/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/07/some-childrens-parents/"
+  to = "/blog/2005/07/22/some-childrens-parents/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/07/todays-meme/"
+  to = "/blog/2005/07/22/todays-meme/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/07/remember-remember-the-5th-of-november/"
+  to = "/blog/2005/07/23/remember-remember-the-5th-of-november/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/07/eff-blog-a-thon/"
+  to = "/blog/2005/07/24/eff-blog-a-thon/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/07/second-life/"
+  to = "/blog/2005/07/25/second-life/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/07/great-gaming-writing/"
+  to = "/blog/2005/07/26/great-gaming-writing/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/07/new-printer/"
+  to = "/blog/2005/07/26/new-printer/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/07/copyfighting/"
+  to = "/blog/2005/07/27/copyfighting/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/07/declaration-of-revocation/"
+  to = "/blog/2005/07/27/declaration-of-revocation/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/07/espn-voting/"
+  to = "/blog/2005/07/27/espn-voting/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/07/riaa-uses-more-power-they-dont-have/"
+  to = "/blog/2005/07/27/riaa-uses-more-power-they-dont-have/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/07/the-more-things-change-the-more-things-stay-the-same/"
+  to = "/blog/2005/07/27/the-more-things-change-the-more-things-stay-the-same/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/08/silwenaecom-2/"
+  to = "/blog/2005/08/15/silwenaecom/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/08/silwenaecom-update/"
+  to = "/blog/2005/08/15/silwenaecom-update/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/08/my-next-tv/"
+  to = "/blog/2005/08/16/my-next-tv/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/08/i-hate-internet-explorer/"
+  to = "/blog/2005/08/19/i-hate-internet-explorer/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/08/v-for-vendetta-delayed/"
+  to = "/blog/2005/08/19/v-for-vendetta-delayed/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/08/google-talk/"
+  to = "/blog/2005/08/24/google-talk/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/08/mythtv/"
+  to = "/blog/2005/08/26/mythtv/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/08/burning-man/"
+  to = "/blog/2005/08/28/burning-man/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/08/terrastation/"
+  to = "/blog/2005/08/30/terrastation/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/08/worship-this/"
+  to = "/blog/2005/08/30/worship-this/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/09/reamspire/"
+  to = "/blog/2005/09/03/reamspire/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/09/bandwidth-oops/"
+  to = "/blog/2005/09/06/bandwidth-oops/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/09/ubuntu-breezy-badger-colony-4-upgrade/"
+  to = "/blog/2005/09/08/ubuntu-breezy-badger-colony-4-upgrade/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/09/back-again-2/"
+  to = "/blog/2005/09/18/back-again/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/09/ubuntu-breezy-badger-update/"
+  to = "/blog/2005/09/18/ubuntu-breezy-badger-update/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/09/avast-matey/"
+  to = "/blog/2005/09/19/avast-matey/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/09/ubuntu-blog/"
+  to = "/blog/2005/09/19/ubuntu-blog/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/09/lastfm/"
+  to = "/blog/2005/09/22/lastfm/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/09/lastfm-follow-up/"
+  to = "/blog/2005/09/23/lastfm-follow-up/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/09/sonic/"
+  to = "/blog/2005/09/23/sonic/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/09/wordpress-updated/"
+  to = "/blog/2005/09/23/wordpress-updated/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/09/build-me-up-buttercup/"
+  to = "/blog/2005/09/24/build-me-up-buttercup/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/09/stupid-local-tv-broadcasters/"
+  to = "/blog/2005/09/24/stupid-local-tv-broadcasters/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/09/drupal-woes/"
+  to = "/blog/2005/09/25/drupal-woes/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/09/entrepeneur-or-scam-artist/"
+  to = "/blog/2005/09/25/entrepeneur-or-scam-artist/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/09/high-resolution-wallpapers/"
+  to = "/blog/2005/09/25/high-resolution-wallpapers/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/09/toyota-sienna/"
+  to = "/blog/2005/09/27/toyota-sienna/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/09/theme-upgraded/"
+  to = "/blog/2005/10/01/theme-upgraded/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/10/the-minnewiki/"
+  to = "/blog/2005/10/03/the-minnewiki/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/10/spam-karma-2/"
+  to = "/blog/2005/10/04/spam-karma-2/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/10/this-week-in-music-2/"
+  to = "/blog/2005/10/05/this-week-in-music/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/10/ubuntu-changes-gnome-taskbar/"
+  to = "/blog/2005/10/07/ubuntu-changes-gnome-taskbar/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/10/behind-the-scenes-at-893/"
+  to = "/blog/2005/10/08/behind-the-scenes-at-893/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/10/eff-defends-right-to-read-public-web-pages-without-getting-sued/"
+  to = "/blog/2005/10/08/eff-defends-right-to-read-public-web-pages-without-getting-sued/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/10/how-to-shave-your-head/"
+  to = "/blog/2005/10/08/how-to-shave-your-head/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/10/suse-10-oss-mini-review/"
+  to = "/blog/2005/10/08/suse-10-oss-mini-review/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/10/wireless-freedom/"
+  to = "/blog/2005/10/10/wireless-freedom/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/10/quake-iv/"
+  to = "/blog/2005/10/10/quake-iv/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/10/gnome-news/"
+  to = "/blog/2005/10/11/gnome-news/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/10/if-it-at-first-you-dont-succeed/"
+  to = "/blog/2005/10/11/if-it-at-first-you-dont-succeed/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/10/off-to-chicago/"
+  to = "/blog/2005/10/13/off-to-chicago/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/10/ubuntu-510-released/"
+  to = "/blog/2005/10/13/ubuntu-510-released/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/10/dsc00246/"
+  to = "/blog/2005/10/15/saturday-part-one/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/10/jenny-is-a-gamer/"
+  to = "/blog/2005/10/15/jenny-is-a-gamer/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/10/whirlyball/"
+  to = "/blog/2005/10/15/whirlyball/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/10/congrats-to-the-winners/"
+  to = "/blog/2005/10/17/congrats-to-the-winners/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/10/bfg-recap/"
+  to = "/blog/2005/10/17/bfg-recap/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/10/the-retroscope/"
+  to = "/blog/2005/10/19/the-retroscope/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/10/modding-my-x-box/"
+  to = "/blog/2005/10/20/modding-my-x-box/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/10/flock/"
+  to = "/blog/2005/10/23/flock/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/10/more-x-box-fun/"
+  to = "/blog/2005/10/24/more-x-box-fun/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/10/miyazaki-film-festifal/"
+  to = "/blog/2005/10/25/miyazaki-film-festival/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/10/flickr-launches-photo-printing/"
+  to = "/blog/2005/10/27/flickr-launches-photo-printing/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/10/whats-in-a-name/"
+  to = "/blog/2005/10/27/whats-in-a-name/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/10/mount-via-ssh/"
+  to = "/blog/2005/10/30/mount-via-ssh/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/10/blizzard-is-spying-on-you/"
+  to = "/blog/2005/11/01/blizzard-is-spying-on-you/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/10/happy-halloween-2/"
+  to = "/blog/2005/11/01/happy-halloween/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/11/will-resume-soon/"
+  to = "/blog/2005/11/07/will-resume-soon/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/11/watching-all-6-star-wars-at-the-same-time/"
+  to = "/blog/2005/11/13/watching-all-6-star-wars-at-the-same-time/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/11/directv-nfl-sunday-ticket/"
+  to = "/blog/2005/11/14/directv-nfl-sunday-ticket/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/11/on-vacation/"
+  to = "/blog/2005/11/16/on-vacation/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/11/support-bloggers-rights/"
+  to = "/blog/2005/11/16/support-bloggers-rights/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/11/basement-progress/"
+  to = "/blog/2005/11/18/basement-progress/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/11/latest-meme/"
+  to = "/blog/2005/11/18/latest-meme/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/11/linux-podcasts-collection/"
+  to = "/blog/2005/11/18/linux-podcasts-collection/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/11/xm-on-directv/"
+  to = "/blog/2005/11/18/xm-on-directv/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/11/flock-review/"
+  to = "/blog/2005/11/20/flock-review/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/11/link-o-the-day/"
+  to = "/blog/2005/11/20/link-o-the-day/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/11/mame-stuff/"
+  to = "/blog/2005/11/20/mame-stuff/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/11/projects-to-do-after-basement-is-completed/"
+  to = "/blog/2005/11/20/projects-to-do-after-basement-is-completed/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/11/random-football-thoughts/"
+  to = "/blog/2005/11/22/random-football-thoughts/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/11/2008-straw-poll/"
+  to = "/blog/2005/11/23/2008-straw-poll/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/11/installing-and-configuring-ubuntu-on-a-laptop/"
+  to = "/blog/2005/11/23/installing-and-configuring-ubuntu-on-a-laptop/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/11/madden-360-too-real/"
+  to = "/blog/2005/11/23/madden-360--too-real/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/11/wikis-as-websites/"
+  to = "/blog/2005/11/23/wikis-as-websites/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/11/htpc-case/"
+  to = "/blog/2005/11/24/htpc-case/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/11/my-first-wild-game/"
+  to = "/blog/2005/11/24/my-first-wild-game/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/11/radiohead-mash-ups/"
+  to = "/blog/2005/11/24/radiohead-mash-ups/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/11/game-over/"
+  to = "/blog/2005/11/26/game-over/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/11/rip-pat-morita/"
+  to = "/blog/2005/11/25/rip-pat-morita/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/11/10-things-that-make-ubuntu-a-neophytes-distribution/"
+  to = "/blog/2005/11/27/10-things-that-make-ubuntu-a-neophytes-distribution/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/11/evil-corporations-3-macrovision/"
+  to = "/blog/2005/11/27/evil-corporations-3-macrovision/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/11/freecultureorg-riaa-free-cds-holiday-gift-guide/"
+  to = "/blog/2005/11/27/freecultureorg-riaa-free-cds-holiday-gift-guide/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/11/marketing-to-mmog-players/"
+  to = "/blog/2005/11/27/marketing-to-mmog-players/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/11/apatheiaorg-down/"
+  to = "/blog/2005/11/27/apatheiaorg-down/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/11/ten-and-oh-and-then/"
+  to = "/blog/2005/11/29/ten-and-oh-and-then-/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/11/mp3tunescom/"
+  to = "/blog/2005/12/01/mp3tunescom/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/12/delicious-bookmarking/"
+  to = "/blog/2005/12/06/delicious-bookmarking/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/12/virgin-music-contest/"
+  to = "/blog/2005/12/06/virgin-music-contest/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/12/weekend-o-fun/"
+  to = "/blog/2005/12/06/weekend-o-fun/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/12/do-not-press-the-red-button/"
+  to = "/blog/2005/12/07/do-not-press-the-red-button/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/12/next-generation-consoles/"
+  to = "/blog/2005/12/08/next-generation-consoles/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/12/fight-the-power/"
+  to = "/blog/2005/12/09/fight-the-power/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/12/mpaa-censors-film-about-itself/"
+  to = "/blog/2005/12/09/mpaa-censors-film-about-itself/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/12/public-relations-is-a-machine/"
+  to = "/blog/2005/12/09/public-relations-is-a-machine/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/12/a-linux-social-experiment/"
+  to = "/blog/2005/12/11/a-linux-social-experiment/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/12/off-to-lambeau/"
+  to = "/blog/2005/12/11/off-to-lambeau/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/12/must-have-firefox-extensions/"
+  to = "/blog/2005/12/13/must-have-firefox-extensions/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/12/pack-wins/"
+  to = "/blog/2005/12/13/pack-wins/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/12/american-edit-dean-gray-tuesday/"
+  to = "/blog/2005/12/14/american-edit-dean-gray-tuesday/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/12/second-life-linux-port-update/"
+  to = "/blog/2005/12/15/second-life-linux-port-update/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/12/classic-doom-mod/"
+  to = "/blog/2005/12/16/classic-doom-mod/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/12/ubuntu-desktop-news/"
+  to = "/blog/2005/12/16/ubuntu-desktop-news/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/12/ebay-8-ft-one-of-a-kind-lego-star-wars-republic-attack-cruiser/"
+  to = "/blog/2005/12/17/ebay-8-ft-one-of-a-kind-lego-star-wars-republic-attack-cruiser/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/12/senate-rejects-extension-of-patriot-act/"
+  to = "/blog/2005/12/17/senate-rejects-extension-of-patriot-act/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/12/world-of-warcraft-installation/"
+  to = "/blog/2005/12/17/world-of-warcraft-installation/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/12/merry-christmas/"
+  to = "/blog/2005/12/25/merry-christmas/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/12/first-public-demo-of-second-life-on-linux/"
+  to = "/blog/2005/12/26/first-public-demo-of-second-life-on-linux/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/12/merry-christmas-for-linux/"
+  to = "/blog/2005/12/27/merry-christmas-for-linux/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2005/12/my-christmas-present/"
+  to = "/blog/2005/12/27/my-christmas-present/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/01/happy-new-year/"
+  to = "/blog/2006/01/01/happy-new-year/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/01/football/"
+  to = "/blog/2006/01/03/football/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/01/queen/"
+  to = "/blog/2006/01/04/queen/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/01/wisconsin-gets-it/"
+  to = "/blog/2006/01/09/wisconsin-gets-it/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/01/godaddy-screws-up/"
+  to = "/blog/2006/01/10/godaddy-screws-up/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/01/google-drm/"
+  to = "/blog/2006/01/10/google-drm/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/01/godaddy-follow-up/"
+  to = "/blog/2006/01/11/godaddy-follow-up/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/01/john-samuel/"
+  to = "/blog/2006/01/11/john-samuel/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/01/more-jack/"
+  to = "/blog/2006/01/12/more-jack/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/01/second-life-linux-alpha-client-soon/"
+  to = "/blog/2006/01/12/second-life-linux-alpha-client-soon/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/01/playoff-thoughts/"
+  to = "/blog/2006/01/16/playoff-thoughts/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/01/one-nokia-770-please/"
+  to = "/blog/2006/01/17/one-nokia-770-please/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/01/upgrading-mono-whoops/"
+  to = "/blog/2006/01/17/upgrading-mono--whoops/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/01/ubuntu-fun/"
+  to = "/blog/2006/01/19/ubuntu-fun/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/01/filezilla-3/"
+  to = "/blog/2006/01/19/filezilla-3/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/01/reformat-complete/"
+  to = "/blog/2006/01/21/reformat-complete/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/01/os-installation-master/"
+  to = "/blog/2006/01/23/os-installation-master/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/01/dell-2405-modelines/"
+  to = "/blog/2006/01/24/dell-2405-modelines/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/01/happy-birthday-current/"
+  to = "/blog/2006/01/24/happy-birthday-current/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/01/more-blogging/"
+  to = "/blog/2006/01/25/more-blogging/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/01/os-installation-headaches/"
+  to = "/blog/2006/01/24/os-installation-headaches/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/01/how-to-build-a-practical-pvr-htpc/"
+  to = "/blog/2006/01/25/how-to-build-a-practical-pvr--htpc/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/01/in-a-world-with-drm/"
+  to = "/blog/2006/01/25/in-a-world-with-drm/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/01/iriver-h10-on-ubuntu-linux-howto/"
+  to = "/blog/2006/01/26/iriver-h10-on-ubuntu-linux-howto/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/01/new-lost-theory/"
+  to = "/blog/2006/01/25/new-lost-theory/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/01/savage-2-to-be-available-on-linux/"
+  to = "/blog/2006/01/31/savage-2-to-be-available-on-linux/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/02/second-life-on-linux/"
+  to = "/blog/2006/02/02/second-life-on-linux/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/02/et-quake-wars-to-have-linux-client/"
+  to = "/blog/2006/02/04/et-quake-wars-to-have-linux-client/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/02/best-of-bootie-2005/"
+  to = "/blog/2006/02/09/best-of-bootie-2005/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/02/jacktracker/"
+  to = "/blog/2006/02/09/jacktracker/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/02/on-this-day-10-years-ago/"
+  to = "/blog/2006/02/09/on-this-day-10-years-ago/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/02/happy-birthday/"
+  to = "/blog/2006/02/09/happy-birthday/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/02/ubuntu-blog-2/"
+  to = "/blog/2006/02/09/ubuntu-blog/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/02/10-guides-for-a-new-ubuntu-user/"
+  to = "/blog/2006/02/11/10-guides-for-a-new-ubuntu-user/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/02/soon/"
+  to = "/blog/2006/02/24/soon/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/03/installfest-this-saturday/"
+  to = "/blog/2006/03/02/installfest-this-saturday/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/03/welcome-to-bloody-thursday/"
+  to = "/blog/2006/03/02/welcome-to-bloody-thursday/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/03/ea-could-lose-exclusive-nfl-gaming-rights/"
+  to = "/blog/2006/03/03/ea-could-lose-exclusive-nfl-gaming-rights/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/03/the-onion-av-club-feature/"
+  to = "/blog/2006/03/03/the-onion-av-club-feature/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/03/banshee-0107-out/"
+  to = "/blog/2006/03/08/banshee-0107-out/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/03/alan-moore-interview/"
+  to = "/blog/2006/03/17/alan-moore-interview/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/03/drm-drains-your-batter/"
+  to = "/blog/2006/03/17/drm-drains-your-battery/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/03/viiv-wont-check-for-piracy/"
+  to = "/blog/2006/03/17/viiv-wont-check-for-piracy/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/03/leias-metal-bikini/"
+  to = "/blog/2006/03/20/leias-metal-bikini/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/03/linux-blog-linux-games-banshee/"
+  to = "/blog/2006/03/23/linux-blog--linux-games--banshee/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/03/kleptones-new-album/"
+  to = "/blog/2006/03/26/kleptones-new-album/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/03/htpc-components-ordered/"
+  to = "/blog/2006/03/29/htpc-components-ordered/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/04/hold-the-government-accountable/"
+  to = "/blog/2006/04/13/hold-the-government-accountable/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/04/i-steal-television-because-i-have-to/"
+  to = "/blog/2006/04/14/i-steal-television-because-i-have-to/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/04/ins-outs-of-1080p-hdtv/"
+  to = "/blog/2006/04/18/ins--outs-of-1080p-hdtv/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/04/happy-earth-day-2/"
+  to = "/blog/2006/04/23/happy-earth-day/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/04/stop-the-riaa-join-the-petition/"
+  to = "/blog/2006/04/25/stop-the-riaa--join-the-petition/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/04/ubuntu-dapper1-the-edgy-eft/"
+  to = "/blog/2006/04/25/ubuntu-dapper1-the-edgy-eft/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/05/sonys-playstation3-unveiled/"
+  to = "/blog/2006/05/09/sonys-playstation3-unveiled/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/05/toshibas-hd-dvd-player-just-a-htpc/"
+  to = "/blog/2006/05/09/toshibas-hd-dvd-player-just-a-htpc/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/05/the-angry-liberal-club/"
+  to = "/blog/2006/05/11/the-angry-liberal-club/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/05/ubuntu-dapper-banshee/"
+  to = "/blog/2006/05/11/ubuntu-dapper--banshee/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/05/dear-lazy-web-i-love-you/"
+  to = "/blog/2006/05/13/dear-lazy-web-i-love-you/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/05/fantasy-leagues-for-women/"
+  to = "/blog/2006/05/14/fantasy-leagues-for-women/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2006/05/the-must-have-game-of-2006/"
+  to = "/blog/2006/05/14/the-must-have-game-of-2006/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/01/links-for-2007-01-22/"
+  to = "/blog/2007/01/22/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/01/website-updates/"
+  to = "/blog/2007/01/23/website-updates/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/01/links-for-2007-01-25/"
+  to = "/blog/2007/01/25/links-for-2007-01-25/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/01/games-delayed/"
+  to = "/blog/2007/01/26/games-delayed/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/01/pc-world-reviews-linux-audio-players/"
+  to = "/blog/2007/01/26/pc-world-reviews-linux-audio-players/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/01/links-for-2007-01-29/"
+  to = "/blog/2007/01/29/links-for-2007-01-29/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/01/links-for-2007-01-31/"
+  to = "/blog/2007/01/31/links-for-2007-01-31/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/02/links-for-2007-02-01/"
+  to = "/blog/2007/02/01/links-for-2007-02-01/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/02/links-for-2007-02-02/"
+  to = "/blog/2007/02/02/links-for-2007-02-02/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/02/links-for-2007-02-04/"
+  to = "/blog/2007/02/04/links-for-2007-02-04/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/02/ubuntu-610-burning-problem/"
+  to = "/blog/2007/02/04/ubuntu-610-burning-problem/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/02/ubuntu-feisty-fawn-first-impressions/"
+  to = "/blog/2007/02/04/ubuntu-feisty-fawn-first-impressions/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/02/links-for-2007-02-06/"
+  to = "/blog/2007/02/06/links-for-2007-02-06/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/02/links-for-2007-02-08/"
+  to = "/blog/2007/02/08/links-for-2007-02-08/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/02/which-file-extension-are-you/"
+  to = "/blog/2007/02/10/which-file-extension-are-you/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/02/geek-mafia/"
+  to = "/blog/2007/02/11/geek-mafia/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/02/howto-upgrading-to-banshee-0116-svn-on-ubuntu-610/"
+  to = "/blog/2007/02/11/howto-upgrading-to-banshee-0116-svn-on-ubuntu-610/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/02/links-for-2007-02-11/"
+  to = "/blog/2007/02/11/links-for-2007-02-11/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/02/dreamhaven-books/"
+  to = "/blog/2007/02/15/dreamhaven-books/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/02/im-on-your-desktop-stealing-your-panel/"
+  to = "/blog/2007/02/17/im-on-your-desktop-stealing-your-panel/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/02/links-for-2007-02-16/"
+  to = "/blog/2007/02/16/links-for-2007-02-16/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/02/love-hate-relationship/"
+  to = "/blog/2007/02/17/love--hate-relationship/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/02/avant-window-navigator-on-feisty-fawn-howto/"
+  to = "/blog/2007/02/17/avant-window-navigator-on-feisty-fawn-howto/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/02/links-for-2007-02-17/"
+  to = "/blog/2007/02/17/links-for-2007-02-17/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/02/ubuntu-feisty-fawn-herd-4-random-thoughts/"
+  to = "/blog/2007/02/17/ubuntu-feisty-fawn-herd-4-random-thoughts/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/02/links-for-2007-02-18/"
+  to = "/blog/2007/02/18/links-for-2007-02-18/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/02/links-for-2007-02-22/"
+  to = "/blog/2007/02/22/links-for-2007-02-22/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/02/links-for-2007-02-23/"
+  to = "/blog/2007/02/23/links-for-2007-02-23/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/02/links-for-2007-02-27/"
+  to = "/blog/2007/02/27/links-for-2007-02-27/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/03/banshee-mugshot-and-awn/"
+  to = "/blog/2007/03/01/banshee-mugshot-and-awn/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/03/foresight-linux/"
+  to = "/blog/2007/03/02/foresight-linux/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/03/volunteering-leads-me-to-foresight-linux/"
+  to = "/blog/2007/03/02/volunteering-leads-me-to-foresight-linux/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/03/links-for-2007-03-02/"
+  to = "/blog/2007/03/02/links-for-2007-03-02/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/03/switched-to-foresight-linux/"
+  to = "/blog/2007/03/03/switched-to-foresight-linux/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/03/links-for-2007-03-04/"
+  to = "/blog/2007/03/04/links-for-2007-03-04/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/03/new-gnome-journal-march-4th-2007/"
+  to = "/blog/2007/03/05/new-gnome-journal-march-4th-2007/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/03/banshee-0120-released/"
+  to = "/blog/2007/03/06/banshee-0120-released/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/03/conary-packaging-system/"
+  to = "/blog/2007/03/06/conary-packaging-system/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/03/links-for-2007-03-06/"
+  to = "/blog/2007/03/06/links-for-2007-03-06/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/03/links-for-2007-03-09/"
+  to = "/blog/2007/03/09/links-for-2007-03-09/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/03/links-for-2007-03-11/"
+  to = "/blog/2007/03/11/links-for-2007-03-11/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/03/links-for-2007-03-12/"
+  to = "/blog/2007/03/12/links-for-2007-03-12/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/03/t-minus-2-days/"
+  to = "/blog/2007/03/13/t-minus-2-days/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/03/gnome-218-t-minus-1-day/"
+  to = "/blog/2007/03/14/gnome-218--t-minus-1-day/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/03/hello-planet-foresight/"
+  to = "/blog/2007/03/14/hello-planet-foresight/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/03/simply-beautiful-gnome-218-and-foresight-11-released/"
+  to = "/blog/2007/03/15/simply-beautiful-gnome-218-and-foresight-11-released/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/03/links-for-2007-03-17/"
+  to = "/blog/2007/03/17/links-for-2007-03-17/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/03/links-for-2007-03-18/"
+  to = "/blog/2007/03/18/links-for-2007-03-18/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/03/links-for-2007-03-21/"
+  to = "/blog/2007/03/21/links-for-2007-03-21/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/03/links-for-2007-03-22/"
+  to = "/blog/2007/03/22/links-for-2007-03-22/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/03/links-for-2007-03-23/"
+  to = "/blog/2007/03/23/links-for-2007-03-23/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/03/epiphany-foresight/"
+  to = "/blog/2007/03/24/epiphany--foresight/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/03/links-for-2007-03-25/"
+  to = "/blog/2007/03/25/links-for-2007-03-25/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/03/microsoft-vista-0-for-3/"
+  to = "/blog/2007/03/26/microsoft-vista--0-for-3/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/03/foresight-linux-on-a-toshiba-a135-s4467-laptop/"
+  to = "/blog/2007/03/27/foresight-linux-on-a-toshiba-a135-s4467-laptop/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/03/links-for-2007-03-26/"
+  to = "/blog/2007/03/26/links-for-2007-03-26/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/03/foresight-newsletter/"
+  to = "/blog/2007/03/27/foresight-newsletter/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/03/quake-wars-gets-a-release-date/"
+  to = "/blog/2007/03/27/quake-wars-gets-a-release-date/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/03/links-for-2007-03-29/"
+  to = "/blog/2007/03/29/links-for-2007-03-29/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/03/top-5-distros-over-the-years/"
+  to = "/blog/2007/03/29/top-5-distros-over-the-years/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/03/foresight-newsletter-launched/"
+  to = "/blog/2007/03/30/foresight-newsletter-launched/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/03/links-for-2007-03-30/"
+  to = "/blog/2007/03/30/links-for-2007-03-30/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/04/links-for-2007-04-01/"
+  to = "/blog/2007/04/01/links-for-2007-04-01/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/04/distrowatch-weekly-4-2-2007/"
+  to = "/blog/2007/04/02/distrowatch-weekly-4-2-2007/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/04/links-for-2007-04-02/"
+  to = "/blog/2007/04/02/links-for-2007-04-02/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/04/links-for-2007-04-03/"
+  to = "/blog/2007/04/03/links-for-2007-04-03/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/04/gnome-30/"
+  to = "/blog/2007/04/05/gnome-30/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/04/links-for-2007-04-04/"
+  to = "/blog/2007/04/04/links-for-2007-04-04/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/04/foresight-to-do-list/"
+  to = "/blog/2007/04/05/foresight-to-do-list/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/04/links-for-2007-04-08/"
+  to = "/blog/2007/04/08/links-for-2007-04-08/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/04/links-for-2007-04-09/"
+  to = "/blog/2007/04/09/links-for-2007-04-09/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/04/foresight-linux-12-released/"
+  to = "/blog/2007/04/12/foresight-linux-12-released/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/04/links-for-2007-04-11/"
+  to = "/blog/2007/04/11/links-for-2007-04-11/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/04/links-for-2007-04-13/"
+  to = "/blog/2007/04/13/links-for-2007-04-13/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/04/links-for-2007-04-16/"
+  to = "/blog/2007/04/16/links-for-2007-04-16/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/04/the-tclug-meetings-are-back/"
+  to = "/blog/2007/04/20/the-tclug-meetings-are-back/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/04/getting-started-with-foresight-linux-user-guide/"
+  to = "/blog/2007/04/21/getting-started-with-foresight-linux-user-guide/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/04/gaming-on-foresight-linux/"
+  to = "/blog/2007/04/23/gaming-on-foresight-linux/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/04/links-for-2007-04-23/"
+  to = "/blog/2007/04/23/links-for-2007-04-23/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/04/foresight-newletter-issue-2-out/"
+  to = "/blog/2007/04/30/foresight-newsletter-issue-2-out/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/05/digg-melts-down-and-drm-continues-to-break/"
+  to = "/blog/2007/05/02/digg-melts-down-and-drm-continues-to-break/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/05/links-for-2007-05-02/"
+  to = "/blog/2007/05/02/links-for-2007-05-02/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/05/links-for-2007-05-06/"
+  to = "/blog/2007/05/06/links-for-2007-05-06/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/05/links-for-2007-05-08/"
+  to = "/blog/2007/05/08/links-for-2007-05-08/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/05/links-for-2007-05-09/"
+  to = "/blog/2007/05/09/links-for-2007-05-09/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/05/links-for-2007-05-12/"
+  to = "/blog/2007/05/12/links-for-2007-05-12/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/05/off-the-grid-2/"
+  to = "/blog/2007/05/13/off-the-grid/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/05/dear-lazyweb-bluetooth-adapters-on-linux/"
+  to = "/blog/2007/05/17/dear-lazyweb-bluetooth-adapters-on-linux/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/05/joost-beta-invites/"
+  to = "/blog/2007/05/17/joost-beta-invites/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/05/links-for-2007-05-16/"
+  to = "/blog/2007/05/16/links-for-2007-05-16/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/05/bladerunner-dvd-details/"
+  to = "/blog/2007/05/17/bladerunner-dvd-details/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/05/bluetooth-headset-alsa-update/"
+  to = "/blog/2007/05/17/bluetooth-headset--alsa-update/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/05/links-for-2007-05-17/"
+  to = "/blog/2007/05/17/links-for-2007-05-17/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/05/elisa/"
+  to = "/blog/2007/05/18/elisa/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/05/links-for-2007-05-18/"
+  to = "/blog/2007/05/18/links-for-2007-05-18/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/05/no-halo3-beta-for-me/"
+  to = "/blog/2007/05/18/no-halo3-beta-for-me/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/05/derivative-works/"
+  to = "/blog/2007/05/19/derivative-works/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/05/lovin-feedburner/"
+  to = "/blog/2007/05/19/lovin-feedburner/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/05/mark-shuttleworth-in-defense-of-independent-governance/"
+  to = "/blog/2007/05/19/mark-shuttleworth-in-defense-of-independent-governance/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/05/links-for-2007-05-20/"
+  to = "/blog/2007/05/20/links-for-2007-05-20/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/05/links-for-2007-05-23/"
+  to = "/blog/2007/05/23/links-for-2007-05-23/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/05/gnome-documentation-irony-101/"
+  to = "/blog/2007/05/27/gnome-documentation--irony-101/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/05/elisa-updates/"
+  to = "/blog/2007/05/28/elisa-updates/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/05/site5-issues/"
+  to = "/blog/2007/05/28/site5-issues/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/05/release-day-foresight-13/"
+  to = "/blog/2007/05/31/release-day-foresight-13/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/05/philip-k-dick/"
+  to = "/blog/2007/05/31/philip-k-dick/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/links-for-2007-06-02/"
+  to = "/blog/2007/06/02/links-for-2007-06-02/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/links-for-2007-06-03/"
+  to = "/blog/2007/06/03/links-for-2007-06-03/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/writing-docs-part-2/"
+  to = "/blog/2007/06/03/writing-docs--part-2/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/links-for-2007-06-04/"
+  to = "/blog/2007/06/04/links-for-2007-06-04/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/nadrinplacecom/"
+  to = "/blog/2007/06/05/nadrinplacecom/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/writing-foresight-docs-part-3/"
+  to = "/blog/2007/06/05/writing-foresight-docs-part-3/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/links-for-2007-06-05/"
+  to = "/blog/2007/06/05/links-for-2007-06-05/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/links-for-2007-06-06/"
+  to = "/blog/2007/06/06/links-for-2007-06-06/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/lastfm-2/"
+  to = "/blog/2007/06/08/lastfm/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/links-for-2007-06-10/"
+  to = "/blog/2007/06/10/links-for-2007-06-10/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/writing-foresight-docs-part-4/"
+  to = "/blog/2007/06/11/writing-foresight-docs-part-4/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/chicago-here-we-come/"
+  to = "/blog/2007/06/12/chicago-here-we-come/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/links-for-2007-06-15/"
+  to = "/blog/2007/06/15/links-for-2007-06-15/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/links-for-2007-06-16/"
+  to = "/blog/2007/06/16/links-for-2007-06-16/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/virtualization-bandwagon-jumping/"
+  to = "/blog/2007/06/16/virtualization-bandwagon-jumping/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/links-for-2007-06-17/"
+  to = "/blog/2007/06/17/links-for-2007-06-17/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/writing-foresight-docs-part-5/"
+  to = "/blog/2007/06/18/writing-foresight-docs--part-5/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/links-for-2007-06-18/"
+  to = "/blog/2007/06/18/links-for-2007-06-18/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/links-for-2007-06-19/"
+  to = "/blog/2007/06/19/links-for-2007-06-19/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/links-for-2007-06-20/"
+  to = "/blog/2007/06/20/links-for-2007-06-20/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/microsofts-linux-patent-deals/"
+  to = "/blog/2007/06/20/microsofts-linux-patent-deals/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/links-for-2007-06-21/"
+  to = "/blog/2007/06/21/links-for-2007-06-21/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/links-for-2007-06-22/"
+  to = "/blog/2007/06/22/links-for-2007-06-22/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/the-iphone-moral-quandary/"
+  to = "/blog/2007/06/22/the-iphone-moral-quandary/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/barcamp-chicago/"
+  to = "/blog/2007/06/23/barcamp-chicago/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/links-for-2007-06-23/"
+  to = "/blog/2007/06/23/links-for-2007-06-23/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/off-to-barcamp-chicago/"
+  to = "/blog/2007/06/23/off-to-barcamp-chicago/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/twitter/"
+  to = "/blog/2007/06/23/twitter/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/barcamp-chicago-day-1-recap/"
+  to = "/blog/2007/06/24/barcamp-chicago-day-1-recap/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/barcamp-chicago-day-2/"
+  to = "/blog/2007/06/24/barcamp-chicago-day-2/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/gnome-journal/"
+  to = "/blog/2007/06/24/gnome-journal/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/links-for-2007-06-24/"
+  to = "/blog/2007/06/24/links-for-2007-06-24/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/chicagobarcamp-pt-2/"
+  to = "/blog/2007/06/26/chicagobarcamp-day-2-recap/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/happy-birthday-bladerunner/"
+  to = "/blog/2007/06/26/happy-birthday-bladerunner/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/quake-wars-update/"
+  to = "/blog/2007/06/26/quake-wars-update/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/links-for-2007-06-26/"
+  to = "/blog/2007/06/26/links-for-2007-06-26/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/reno-vs-aclu/"
+  to = "/blog/2007/06/26/reno-vs-aclu/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/links-for-2007-06-27/"
+  to = "/blog/2007/06/27/links-for-2007-06-27/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/twins-game/"
+  to = "/blog/2007/06/30/twins-game/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/foresight-linux-newsletter-vol-1-issue-4/"
+  to = "/blog/2007/07/01/foresight-linux-newsletter-vol-1-issue-4/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/06/links-for-2007-06-30/"
+  to = "/blog/2007/06/30/links-for-2007-06-30/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/07/banshee-plugin-for-x-chat-gnome/"
+  to = "/blog/2007/07/01/banshee-plugin-for-x-chat-gnome/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/07/links-for-2007-07-01/"
+  to = "/blog/2007/07/01/links-for-2007-07-01/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/07/links-for-2007-07-03/"
+  to = "/blog/2007/07/03/links-for-2007-07-03/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/07/links-for-2007-07-04/"
+  to = "/blog/2007/07/04/links-for-2007-07-04/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/07/links-for-2007-07-05/"
+  to = "/blog/2007/07/05/links-for-2007-07-05/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/07/links-for-2007-07-06/"
+  to = "/blog/2007/07/06/links-for-2007-07-06/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/07/harmony-880-on-linux/"
+  to = "/blog/2007/07/07/harmony-880-on-linux/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/07/links-for-2007-07-07/"
+  to = "/blog/2007/07/07/links-for-2007-07-07/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/07/comcast-speeds/"
+  to = "/blog/2007/07/08/comcast-speeds/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/07/links-for-2007-07-08/"
+  to = "/blog/2007/07/08/links-for-2007-07-08/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/07/links-for-2007-07-09/"
+  to = "/blog/2007/07/09/links-for-2007-07-09/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/07/links-for-2007-07-10/"
+  to = "/blog/2007/07/10/links-for-2007-07-10/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/07/links-for-2007-07-11/"
+  to = "/blog/2007/07/11/links-for-2007-07-11/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/07/links-for-2007-07-12/"
+  to = "/blog/2007/07/12/links-for-2007-07-12/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/07/epiphany-and-me/"
+  to = "/blog/2007/07/16/epiphany-and-me/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/07/links-for-2007-07-15/"
+  to = "/blog/2007/07/15/links-for-2007-07-15/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/07/more-awn-eye-candy/"
+  to = "/blog/2007/07/15/more-awn-eye-candy/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/07/links-for-2007-07-16/"
+  to = "/blog/2007/07/16/links-for-2007-07-16/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/07/links-for-2007-07-17/"
+  to = "/blog/2007/07/17/links-for-2007-07-17/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/07/innovate-innovate/"
+  to = "/blog/2007/07/18/innovate--innovate/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/07/links-for-2007-07-18/"
+  to = "/blog/2007/07/18/links-for-2007-07-18/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/07/links-for-2007-07-19/"
+  to = "/blog/2007/07/19/links-for-2007-07-19/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/07/et-quake-wars-first-impressions/"
+  to = "/blog/2007/07/21/et-quake-wars-first-impressions/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/07/links-for-2007-07-21/"
+  to = "/blog/2007/07/21/links-for-2007-07-21/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/07/links-for-2007-07-22/"
+  to = "/blog/2007/07/22/links-for-2007-07-22/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/07/links-for-2007-07-24/"
+  to = "/blog/2007/07/24/links-for-2007-07-24/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/07/links-for-2007-07-28/"
+  to = "/blog/2007/07/28/links-for-2007-07-28/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/07/links-for-2007-07-30/"
+  to = "/blog/2007/07/30/links-for-2007-07-30/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/07/a-feather-in-conarys-hat/"
+  to = "/blog/2007/07/31/a-feather-in-conarys-hat/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/07/foresight-newsletter-issue-5-released/"
+  to = "/blog/2007/08/01/foresight-newsletter-issue-5-released/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/07/links-for-2007-07-31/"
+  to = "/blog/2007/07/31/links-for-2007-07-31/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/08/are-you-ready-for-some-football/"
+  to = "/blog/2007/08/01/are-you-ready-for-some-football/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/08/links-for-2007-08-02/"
+  to = "/blog/2007/08/02/links-for-2007-08-02/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/08/links-for-2007-08-03/"
+  to = "/blog/2007/08/03/links-for-2007-08-03/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/08/links-for-2007-08-04/"
+  to = "/blog/2007/08/04/links-for-2007-08-04/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/08/links-for-2007-08-05/"
+  to = "/blog/2007/08/05/links-for-2007-08-05/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/08/planning-for-the-inevitable/"
+  to = "/blog/2007/08/06/planning-for-the-inevitable/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/08/say-it-aint-so-mr-carmack/"
+  to = "/blog/2007/08/06/say-it-aint-so-mr-carmack/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/08/links-for-2007-08-14/"
+  to = "/blog/2007/08/14/links-for-2007-08-14/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/08/links-for-2007-08-26/"
+  to = "/blog/2007/08/26/links-for-2007-08-26/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/08/links-for-2007-08-30/"
+  to = "/blog/2007/08/30/links-for-2007-08-30/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/08/foresight-linux-newsletter-released/"
+  to = "/blog/2007/09/01/foresight-linux-newsletter-released/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/08/whered-who-go/"
+  to = "/blog/2007/09/01/whered-who-go/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/09/links-for-2007-09-01/"
+  to = "/blog/2007/09/01/links-for-2007-09-01/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/09/links-for-2007-09-06/"
+  to = "/blog/2007/09/06/links-for-2007-09-06/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/09/that-feeling-of-dread/"
+  to = "/blog/2007/09/07/that-feeling-of-dread/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/09/links-for-2007-09-07/"
+  to = "/blog/2007/09/07/links-for-2007-09-07/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/09/boom-crash/"
+  to = "/blog/2007/09/08/boom--crash/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/09/packagekit/"
+  to = "/blog/2007/09/08/packagekit/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/09/links-for-2007-09-11/"
+  to = "/blog/2007/09/11/links-for-2007-09-11/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/09/go-pack-go/"
+  to = "/blog/2007/09/13/go-pack-go/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/09/runnin-down-a-dream/"
+  to = "/blog/2007/09/18/runnin-down-a-dream/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/09/gnome-220-and-foresight-14-released/"
+  to = "/blog/2007/09/20/gnome-220-and-foresight-14-released/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/09/links-for-2007-09-21/"
+  to = "/blog/2007/09/21/links-for-2007-09-21/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/09/links-for-2007-09-24/"
+  to = "/blog/2007/09/24/links-for-2007-09-24/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/09/get-involved-with-foresight-linux/"
+  to = "/blog/2007/09/26/get-involved-with-foresight-linux/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/09/links-for-2007-09-26/"
+  to = "/blog/2007/09/26/links-for-2007-09-26/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/09/links-for-2007-09-30/"
+  to = "/blog/2007/09/30/links-for-2007-09-30/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/10/rolling-releases/"
+  to = "/blog/2007/10/02/rolling-releases/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/10/links-for-2007-10-03/"
+  to = "/blog/2007/10/03/links-for-2007-10-03/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/10/foresight-wiki/"
+  to = "/blog/2007/10/04/foresight-wiki/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/10/waiting-game-quake-wars/"
+  to = "/blog/2007/10/04/waiting-game-quake-wars/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/10/more-on-the-waiting-game-aka-quake-wars/"
+  to = "/blog/2007/10/06/more-on-the-waiting-game-aka-quake-wars/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/10/a-bug-hunting-we-will-go/"
+  to = "/blog/2007/10/11/a-bug-hunting-we-will-go/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/10/buying-spree/"
+  to = "/blog/2007/10/11/buying-spree/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/10/congratulations-eff/"
+  to = "/blog/2007/10/13/congratulations-eff/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/10/foresight-website-maintenance/"
+  to = "/blog/2007/10/12/foresight-website-maintenance/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/10/packers-vs-bears-10707/"
+  to = "/blog/2007/10/13/packers-vs-bears-10707/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/10/links-for-2007-10-13/"
+  to = "/blog/2007/10/13/links-for-2007-10-13/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/10/links-for-2007-10-14/"
+  to = "/blog/2007/10/14/links-for-2007-10-14/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/10/a-month-with-quod-libet/"
+  to = "/blog/2007/10/15/a-month-with-quod-libet/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/10/quake-wars-demo-out/"
+  to = "/blog/2007/10/16/quake-wars-demo-out/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/10/links-for-2007-10-16/"
+  to = "/blog/2007/10/16/links-for-2007-10-16/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/10/links-for-2007-10-17/"
+  to = "/blog/2007/10/17/links-for-2007-10-17/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/10/foresight-14-gnome-2201-appearance-issues/"
+  to = "/blog/2007/10/18/foresight-14--gnome-2201-appearance-issues/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/10/bad-comcast-bad/"
+  to = "/blog/2007/10/19/bad-comcast-bad/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/10/quake-wars-on-foresight-linux/"
+  to = "/blog/2007/10/22/quake-wars-on-foresight-linux/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/10/links-for-2007-10-22/"
+  to = "/blog/2007/10/22/links-for-2007-10-22/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/10/experimental-support-for-compiz-fusion/"
+  to = "/blog/2007/10/25/experimental-support-for-compiz-fusion/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/10/seagate-freeagent/"
+  to = "/blog/2007/10/25/seagate-freeagent/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/10/links-for-2007-10-25/"
+  to = "/blog/2007/10/25/links-for-2007-10-25/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/10/blade-runner/"
+  to = "/blog/2007/10/26/blade-runner/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/10/links-for-2007-10-26/"
+  to = "/blog/2007/10/26/links-for-2007-10-26/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/11/links-for-2007-11-03/"
+  to = "/blog/2007/11/03/links-for-2007-11-03/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/11/links-for-2007-11-04/"
+  to = "/blog/2007/11/04/links-for-2007-11-04/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/11/super-tecmo-brett/"
+  to = "/blog/2007/11/04/super-tecmo-brett/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/11/links-for-2007-11-05/"
+  to = "/blog/2007/11/05/links-for-2007-11-05/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/11/links-for-2007-11-06/"
+  to = "/blog/2007/11/06/links-for-2007-11-06/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/11/links-for-2007-11-08/"
+  to = "/blog/2007/11/08/links-for-2007-11-08/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/11/foresight-2-alpha-1-released/"
+  to = "/blog/2007/11/10/foresight-2-alpha-1-released/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/11/foresight-linux-20-alpha-screenshots/"
+  to = "/blog/2007/11/13/foresight-linux-20-alpha-screenshots/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/11/links-for-2007-11-15/"
+  to = "/blog/2007/11/15/links-for-2007-11-15/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/11/links-for-2007-11-16/"
+  to = "/blog/2007/11/16/links-for-2007-11-16/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/11/rock-band/"
+  to = "/blog/2007/11/19/rock-band/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/11/lawyers-guns-money/"
+  to = "/blog/2007/11/21/lawyers-guns--money/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/11/the-beauty-of-blu-ray/"
+  to = "/blog/2007/11/22/the-beauty-of-blu-ray/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/11/links-for-2007-11-24/"
+  to = "/blog/2007/11/24/links-for-2007-11-24/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/11/foresight-linux-20-alpha-bugs-wanted/"
+  to = "/blog/2007/11/27/foresight-linux-20-alpha-bugs-wanted/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/11/extreme/"
+  to = "/blog/2007/11/28/extreme/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/11/foresight-kde-edition/"
+  to = "/blog/2007/11/29/foresight-kde-edition/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/11/growing-the-foresight-community/"
+  to = "/blog/2007/11/28/growing-the-foresight-community/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/11/links-for-2007-11-28/"
+  to = "/blog/2007/11/28/links-for-2007-11-28/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/11/links-for-2007-11-29/"
+  to = "/blog/2007/11/29/links-for-2007-11-29/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/12/foresight-linux-newsletter-volume-i-issue-8-out/"
+  to = "/blog/2007/12/01/foresight-linux-newsletter-volume-i-issue-8-out/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/12/setting-up-a-foresight-2-build-environment-part-i/"
+  to = "/blog/2007/12/01/setting-up-a-foresight-2-build-environment-part-1/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/12/bladerunner-the-final-cut/"
+  to = "/blog/2007/12/02/bladerunner--the-final-cut/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/12/software-im-excited-about/"
+  to = "/blog/2007/12/11/software-im-excited-about/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/12/links-for-2007-12-17/"
+  to = "/blog/2007/12/17/links-for-2007-12-17/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/12/stop-the-spying/"
+  to = "/blog/2007/12/18/stop-the-spying/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/12/too-much-fun/"
+  to = "/blog/2007/12/19/too-much-fun/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/12/gnome-developers-kit/"
+  to = "/blog/2007/12/20/gnome-developers-kit/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/12/planet-foresight-is-moving/"
+  to = "/blog/2007/12/20/planet-foresight-is-moving/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/12/foresight-year-in-review/"
+  to = "/blog/2007/12/21/foresight-year-in-review/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/12/links-for-2007-12-21/"
+  to = "/blog/2007/12/21/links-for-2007-12-21/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/12/links-for-2007-12-22/"
+  to = "/blog/2007/12/22/links-for-2007-12-22/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/12/links-for-2007-12-23/"
+  to = "/blog/2007/12/23/links-for-2007-12-23/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/12/links-for-2007-12-24/"
+  to = "/blog/2007/12/24/links-for-2007-12-24/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/12/links-for-2007-12-26/"
+  to = "/blog/2007/12/26/links-for-2007-12-26/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/12/foresight-20-bittorrent-client-deluge/"
+  to = "/blog/2007/12/27/foresight-20-bittorrent-client-deluge/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/12/links-for-2007-12-28/"
+  to = "/blog/2007/12/28/links-for-2007-12-28/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/12/links-for-2007-12-29/"
+  to = "/blog/2007/12/29/links-for-2007-12-29/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2007/12/foresight-newsletter-9/"
+  to = "/blog/2007/12/31/foresight-newsletter-9/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/01/a-look-back-at-2007/"
+  to = "/blog/2008/01/01/a-look-back-at-2007/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/01/links-for-2008-01-02/"
+  to = "/blog/2008/01/02/links-for-2008-01-02/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/01/best-of-bootie-2007/"
+  to = "/blog/2008/01/03/best-of-bootie-2007/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/01/links-for-2008-01-03/"
+  to = "/blog/2008/01/03/links-for-2008-01-03/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/01/blog-updates/"
+  to = "/blog/2008/01/04/blog-updates/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/01/links-for-2008-01-04/"
+  to = "/blog/2008/01/04/links-for-2008-01-04/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/01/writing-foresight-docs-part-six/"
+  to = "/blog/2008/01/04/writing-foresight-docs-part-six/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/01/blu-ray-goes-for-the-knockout-blow/"
+  to = "/blog/2008/01/05/blu-ray-goes-for-the-knockout-blow/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/01/links-for-2008-01-05/"
+  to = "/blog/2008/01/05/links-for-2008-01-05/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/01/see-you-in-raleigh/"
+  to = "/blog/2008/01/05/see-you-in-raleigh/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/01/favorite-songs-of-2007/"
+  to = "/blog/2008/01/06/favorite-songs-of-2007/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/01/links-for-2008-01-07/"
+  to = "/blog/2008/01/07/links-for-2008-01-07/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/01/links-for-2008-01-12/"
+  to = "/blog/2008/01/12/links-for-2008-01-12/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/01/links-for-2008-01-13/"
+  to = "/blog/2008/01/13/links-for-2008-01-13/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/01/netflix/"
+  to = "/blog/2008/01/14/netflix/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/01/what-a-weekend-of-football/"
+  to = "/blog/2008/01/14/what-a-weekend-of-football/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/01/links-for-2008-01-17/"
+  to = "/blog/2008/01/17/links-for-2008-01-17/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/01/links-for-2008-01-18/"
+  to = "/blog/2008/01/18/links-for-2008-01-18/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/01/foresight-updates/"
+  to = "/blog/2008/01/19/foresight-updates/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/01/links-for-2008-01-19/"
+  to = "/blog/2008/01/19/links-for-2008-01-19/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/01/emotions/"
+  to = "/blog/2008/01/20/emotions/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/01/google-accounts/"
+  to = "/blog/2008/01/21/google-accounts/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/01/this-week-in-foresight/"
+  to = "/blog/2008/01/21/this-week-in-foresight/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/01/links-for-2008-01-31/"
+  to = "/blog/2008/01/31/links-for-2008-01-31/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/02/links-for-2008-02-01/"
+  to = "/blog/2008/02/01/links-for-2008-02-01/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/02/links-for-2008-02-02/"
+  to = "/blog/2008/02/02/links-for-2008-02-02/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/02/yahoo-and-me/"
+  to = "/blog/2008/02/02/yahoo-and-me/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/02/anniversaries/"
+  to = "/blog/2008/02/05/anniversaries/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/02/links-for-2008-02-07/"
+  to = "/blog/2008/02/07/links-for-2008-02-07/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/02/links-for-2008-02-09/"
+  to = "/blog/2008/02/09/links-for-2008-02-09/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/02/32-bit-firefox-on-64-bit-foresight/"
+  to = "/blog/2008/02/10/32-bit-firefox-on-64-bit-foresight/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/02/scale-part-1/"
+  to = "/blog/2008/02/13/scale-part-1/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/02/links-for-2008-02-14/"
+  to = "/blog/2008/02/14/links-for-2008-02-14/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/02/links-for-2008-02-19/"
+  to = "/blog/2008/02/19/links-for-2008-02-19/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/02/links-for-2008-02-20/"
+  to = "/blog/2008/02/20/links-for-2008-02-20/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/02/scale-part-2/"
+  to = "/blog/2008/02/20/scale-part-2/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/02/links-for-2008-02-25/"
+  to = "/blog/2008/02/25/links-for-2008-02-25/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/02/the-past-week-in-foresight/"
+  to = "/blog/2008/02/25/the-past-week-in-foresight/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/02/links-for-2008-02-26/"
+  to = "/blog/2008/02/26/links-for-2008-02-26/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/02/ut3-delays/"
+  to = "/blog/2008/02/27/ut3-delays/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/02/tasky-on-foresight-2/"
+  to = "/blog/2008/02/28/tasky-on-foresight-2/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/03/shuttle-chooses-foresight-for-the-shuttle-kpc/"
+  to = "/blog/2008/03/04/shuttle-chooses-foresight-for-the-shuttle-kpc/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/03/links-for-2008-03-05/"
+  to = "/blog/2008/03/05/links-for-2008-03-05/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/03/foresight-news/"
+  to = "/blog/2008/03/06/foresight-news/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/03/links-for-2008-03-06/"
+  to = "/blog/2008/03/06/links-for-2008-03-06/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/03/banshee-alpha/"
+  to = "/blog/2008/03/09/banshee-alpha/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/03/codecs/"
+  to = "/blog/2008/03/09/codecs/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/03/links-for-2008-03-09/"
+  to = "/blog/2008/03/09/links-for-2008-03-09/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/03/links-for-2008-03-14/"
+  to = "/blog/2008/03/14/links-for-2008-03-14/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/03/links-for-2008-03-16/"
+  to = "/blog/2008/03/16/links-for-2008-03-16/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/03/foresight-stuff-from-around-the-web/"
+  to = "/blog/2008/03/20/foresight-stuff-from-around-the-web/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/03/links-for-2008-03-20/"
+  to = "/blog/2008/03/20/links-for-2008-03-20/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/03/links-for-2008-03-22/"
+  to = "/blog/2008/03/22/links-for-2008-03-22/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/03/links-for-2008-03-23/"
+  to = "/blog/2008/03/23/links-for-2008-03-23/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/03/lenovo-thinkpad-t61/"
+  to = "/blog/2008/03/25/lenovo-thinkpad-t61/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/03/banshee-0982/"
+  to = "/blog/2008/03/27/banshee-0982/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/03/teaser-another-big-announcement/"
+  to = "/blog/2008/03/27/teaser-another-big-announcement/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/03/amusing/"
+  to = "/blog/2008/03/28/amusing/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/03/links-for-2008-03-28/"
+  to = "/blog/2008/03/28/links-for-2008-03-28/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/04/links-for-2008-04-04/"
+  to = "/blog/2008/04/04/links-for-2008-04-04/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/04/links-for-2008-04-06/"
+  to = "/blog/2008/04/06/links-for-2008-04-06/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/04/links-for-2008-04-07/"
+  to = "/blog/2008/04/07/links-for-2008-04-07/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/04/top-10-commands/"
+  to = "/blog/2008/04/10/top-10-commands/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/04/links-for-2008-04-12/"
+  to = "/blog/2008/04/12/links-for-2008-04-12/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/04/links-for-2008-04-13/"
+  to = "/blog/2008/04/13/links-for-2008-04-13/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/04/links-for-2008-04-15/"
+  to = "/blog/2008/04/15/links-for-2008-04-15/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/04/t61-lock-ups/"
+  to = "/blog/2008/04/15/t61-lock-ups/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/04/links-for-2008-04-16/"
+  to = "/blog/2008/04/16/links-for-2008-04-16/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/04/foresight-2020/"
+  to = "/blog/2008/04/18/foresight-2020/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/04/foresight-2020-join-the-flickr-group/"
+  to = "/blog/2008/04/18/foresight-2020--join-the-flickr-group/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/04/gnome-do-final-project-report/"
+  to = "/blog/2008/04/18/gnome-do-final-project-report/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/04/links-for-2008-04-18/"
+  to = "/blog/2008/04/18/links-for-2008-04-18/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/04/links-for-2008-04-19/"
+  to = "/blog/2008/04/19/links-for-2008-04-19/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/04/foresight-2020-conference-recap/"
+  to = "/blog/2008/04/21/foresight-2020-conference-recap/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/04/foresight-2020-recap-re-organizing-the-wiki/"
+  to = "/blog/2008/04/23/foresight-2020-recap--re-organizing-the-wiki/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/04/links-for-2008-04-24/"
+  to = "/blog/2008/04/24/links-for-2008-04-24/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/04/links-for-2008-04-25/"
+  to = "/blog/2008/04/25/links-for-2008-04-25/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/04/foresight-2020-recap-development-process/"
+  to = "/blog/2008/04/26/foresight-2020-recap-development-process/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/04/t61-lockups-follow-up/"
+  to = "/blog/2008/04/27/t61-lockups-follow-up/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/05/links-for-2008-05-05/"
+  to = "/blog/2008/05/05/links-for-2008-05-05/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/05/foresight-forums/"
+  to = "/blog/2008/05/07/foresight-forums/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/05/foresight-wiki-2/"
+  to = "/blog/2008/05/12/foresight-wiki/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/05/foresight-focus-updates/"
+  to = "/blog/2008/05/25/foresight-focus-updates/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/05/welcome-to-the-dd-wrt-revolution/"
+  to = "/blog/2008/05/25/welcome-to-the-dd-wrt-revolution/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/06/come-help-test-some-packages/"
+  to = "/blog/2008/06/04/come-help-test-some-packages/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/06/google-gadgets-on-foresight/"
+  to = "/blog/2008/06/05/google-gadgets-on-foresight/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/06/storm-troopin/"
+  to = "/blog/2008/06/05/storm-troopin/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/06/quality-assurance/"
+  to = "/blog/2008/06/13/quality-assurance/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/06/welcome-new-foresight-members/"
+  to = "/blog/2008/06/13/welcome-new-foresight-members/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/06/foresight-talk-in-the-twin-cities/"
+  to = "/blog/2008/06/23/foresight-talk-in-the-twin-cities/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/07/foresight-talk-this-weekend/"
+  to = "/blog/2008/07/22/foresight-talk-this-weekend/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/07/fame-glory/"
+  to = "/blog/2008/07/23/fame--glory/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/07/foresight-newsletter-volume-2-issue-1-out/"
+  to = "/blog/2008/07/24/foresight-newsletter-volume-2-issue-1-out/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/07/foresight-week-in-review/"
+  to = "/blog/2008/07/30/foresight-week-in-review/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/08/linux-void-podcast/"
+  to = "/blog/2008/08/11/linux-void-podcast/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/08/links-for-2008-08-12-deliciouscom/"
+  to = "/blog/2008/08/12/links-for-2008-08-12-deliciouscom/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/08/writing-foresight-docs-part-6/"
+  to = "/blog/2008/08/14/writing-foresight-docs-part-6/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/08/links-for-2008-08-15/"
+  to = "/blog/2008/08/15/links-for-2008-08-15/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/08/links-for-2008-08-16/"
+  to = "/blog/2008/08/16/links-for-2008-08-16/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/08/links-for-2008-08-20/"
+  to = "/blog/2008/08/20/links-for-2008-08-20/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/08/a-bug-huntin-we-will-go/"
+  to = "/blog/2008/08/25/a-bug-huntin-we-will-go/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/08/links-for-2008-08-25/"
+  to = "/blog/2008/08/25/links-for-2008-08-25/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/09/foresight-bug-week/"
+  to = "/blog/2008/09/02/foresight-bug-week/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/09/links-for-2008-09-04/"
+  to = "/blog/2008/09/04/links-for-2008-09-04/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/09/things-i-dislike-about-traveling/"
+  to = "/blog/2008/09/04/things-i-dislike-about-traveling/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/09/foresight-bug-week-wrap-up/"
+  to = "/blog/2008/09/08/foresight-bug-week-wrap-up/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/09/ouch/"
+  to = "/blog/2008/09/08/ouch/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/09/links-for-2008-09-10/"
+  to = "/blog/2008/09/10/links-for-2008-09-10/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/09/gregory-mcdonald-rip/"
+  to = "/blog/2008/09/11/gregory-mcdonald-rip/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/09/links-for-2008-09-11/"
+  to = "/blog/2008/09/11/links-for-2008-09-11/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/09/foresight-packages/"
+  to = "/blog/2008/09/21/foresight-packages/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/09/links-for-2008-09-21/"
+  to = "/blog/2008/09/21/links-for-2008-09-21/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/10/you-know-this-right/"
+  to = "/blog/2008/10/02/you-know-this-right/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/10/links-for-2008-10-23/"
+  to = "/blog/2008/10/23/links-for-2008-10-23/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/11/get-out-and-vote/"
+  to = "/blog/2008/11/04/get-out-and-vote/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/11/links-for-2008-11-17/"
+  to = "/blog/2008/11/17/links-for-2008-11-17/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/11/links-for-2008-11-30/"
+  to = "/blog/2008/11/30/links-for-2008-11-30/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/12/links-for-2008-12-04/"
+  to = "/blog/2008/12/04/links-for-2008-12-04/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/12/fringe/"
+  to = "/blog/2008/12/05/fringe/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/12/whered-whooo-go/"
+  to = "/blog/2008/12/05/whered-whooo-go/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/12/links-for-2008-12-09/"
+  to = "/blog/2008/12/09/links-for-2008-12-09/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2008/12/foresight-issues-update/"
+  to = "/blog/2008/12/23/foresight-issues-update/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/01/links-for-2009-01-11/"
+  to = "/blog/2009/01/11/links-for-2009-01-11/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/03/links-for-2009-03-01/"
+  to = "/blog/2009/03/01/links-for-2009-03-01/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/03/links-for-2009-03-02/"
+  to = "/blog/2009/03/02/links-for-2009-03-02/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/03/links-for-2009-03-04/"
+  to = "/blog/2009/03/04/links-for-2009-03-04/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/03/links-for-2009-03-10/"
+  to = "/blog/2009/03/10/links-for-2009-03-10/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/03/links-for-2009-03-22/"
+  to = "/blog/2009/03/22/links-for-2009-03-22/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/03/links-for-2009-03-23/"
+  to = "/blog/2009/03/23/links-for-2009-03-23/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/03/foresight-website/"
+  to = "/blog/2009/03/24/foresight-website/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/03/writing-gnome-docs-part-i/"
+  to = "/blog/2009/03/25/writing-gnome-docs-part-i/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/03/writing-gnome-docs-part-ii/"
+  to = "/blog/2009/03/26/writing-gnome-docs-part-ii/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/03/family-dd/"
+  to = "/blog/2009/03/27/family-dd/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/04/gnome-journal-needs-you/"
+  to = "/blog/2009/04/01/gnome-journal-needs-you/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/04/links-for-2009-04-03/"
+  to = "/blog/2009/04/04/links-for-2009-04-03/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/04/links-for-2009-04-05/"
+  to = "/blog/2009/04/06/links-for-2009-04-05/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/04/microblogging-on-foresight/"
+  to = "/blog/2009/04/08/microblogging-on-foresight/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/04/gnome-documentation-meeting/"
+  to = "/blog/2009/04/15/gnome-documentation-meeting/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/04/kvm-virtual-machine-manager-in-foresight/"
+  to = "/blog/2009/04/22/kvm--virtual-machine-manager-in-foresight/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/04/gnome-updates/"
+  to = "/blog/2009/04/27/gnome-updates/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/05/gnome-journal-issue-14-released/"
+  to = "/blog/2009/05/01/gnome-journal-issue-14-released/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/05/guadec/"
+  to = "/blog/2009/05/15/guadec/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/05/ubuntu-one/"
+  to = "/blog/2009/05/16/ubuntu-one/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/05/gnomeorg-revamp/"
+  to = "/blog/2009/05/21/gnomeorg-revamp/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/05/meet-snowy-tomboys-best-friend/"
+  to = "/blog/2009/05/28/meet-snowy-tomboys-best-friend/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/05/hello-planet-gnome/"
+  to = "/blog/2009/05/29/hello-planet-gnome/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/05/linux-journal-readers-choice-awards/"
+  to = "/blog/2009/05/29/linux-journal-readers-choice-awards/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/06/friends-of-gnome/"
+  to = "/blog/2009/06/09/friends-of-gnome/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/06/writing-open-source/"
+  to = "/blog/2009/06/12/writing-open-source/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/06/writing-open-source-day-2/"
+  to = "/blog/2009/06/13/writing-open-source-day-2/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/06/writing-open-source-2/"
+  to = "/blog/2009/06/16/writing-open-source/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/06/docs-team-community/"
+  to = "/blog/2009/06/17/docs-team--community/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/06/banshee-documentation/"
+  to = "/blog/2009/06/18/banshee-documentation/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/06/gnome-docs-hackfest-part-i/"
+  to = "/blog/2009/06/19/gnome-docs-hackfest-part-i/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/06/gnome-docs-hackfest-part-ii/"
+  to = "/blog/2009/06/23/gnome-docs-hackfest-part-ii/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/06/docs-team-meetings/"
+  to = "/blog/2009/06/24/docs-team-meetings/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/06/join-the-gnome-marketing-team/"
+  to = "/blog/2009/06/26/join-the-gnome-marketing-team/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/07/gnome-journal-issue-15-released/"
+  to = "/blog/2009/07/01/gnome-journal-issue-15-released/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/07/i-should-be-packing/"
+  to = "/blog/2009/07/02/i-should-be-packing/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/07/gran-canaria-day-1-2/"
+  to = "/blog/2009/07/05/gran-canaria-day-1--2/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/07/gran-canaria-part-ii/"
+  to = "/blog/2009/07/08/gran-canaria-part-ii/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/07/gnome-journal-issue-16/"
+  to = "/blog/2009/07/16/gnome-journal-issue-16/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/07/marketing-the-marketing-team/"
+  to = "/blog/2009/07/21/marketing-the-marketing-team/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/07/one-lunch-a-month/"
+  to = "/blog/2009/07/21/one-lunch-a-month/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/08/what-a-week/"
+  to = "/blog/2009/08/17/what-a-week/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/08/become-a-gnome-ambassador/"
+  to = "/blog/2009/08/24/become-a-gnome-ambassador/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/09/gnome-journal-issue-16-released/"
+  to = "/blog/2009/09/09/gnome-journal-issue-16-released/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/09/gnome-journal-2/"
+  to = "/blog/2009/09/17/happy-birthday-gnome-journal/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/09/gnome-2-28-released/"
+  to = "/blog/2009/09/24/gnome-228-released/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/09/im-going-to-ohio-linux-fest/"
+  to = "/blog/2009/09/24/im-going-to-ohio-linux-fest/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/09/an-introduction-to-gnome-3-0/"
+  to = "/blog/2009/09/28/an-introduction-to-gnome-30/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/10/2009-gnome-annual-report-kickoff/"
+  to = "/blog/2009/10/08/2009-gnome-annual-report-kickoff/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/10/gnome-marketing-hackfest/"
+  to = "/blog/2009/10/14/gnome-marketing-hackfest/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/10/utah-open-source-conference/"
+  to = "/blog/2009/10/17/utah-open-source-conference/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/10/gnome-journal-3/"
+  to = "/blog/2009/10/23/gnome-journal/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/10/gnome-marketing-hackfest-2/"
+  to = "/blog/2009/10/28/gnome-marketing-hackfest/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/10/mallard-documentation/"
+  to = "/blog/2009/10/28/mallard-documentation/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/11/gnome-marketing-hackfest-chicago-gnome-meetup/"
+  to = "/blog/2009/11/08/gnome-marketing-hackfest--chicago-gnome-meetup/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/11/gnome-3-0-talk-this-weekend/"
+  to = "/blog/2009/11/09/gnome-30-talk-this-weekend/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/11/marketing-hackfest-part-1/"
+  to = "/blog/2009/11/17/marketing-hackfest-part-1/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/11/google-wave/"
+  to = "/blog/2009/11/23/google-wave/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/11/gnome-journal-issue-17-out/"
+  to = "/blog/2009/11/25/gnome-journal-issue-17-out/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/12/banshee-documentation-2/"
+  to = "/blog/2009/12/02/banshee-documentation/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2009/12/ebook-readers-the-publishing-industry/"
+  to = "/blog/2009/12/10/ebook-readers--the-publishing-industry/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/01/cutting-the-cable/"
+  to = "/blog/2010/01/07/cutting-the-cable/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/01/gnome-marketing-team-meeting-today/"
+  to = "/blog/2010/01/14/gnome-marketing-team-meeting-today/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/01/debunking-gnome-3-0-myths/"
+  to = "/blog/2010/01/15/debunking-gnome-30-myths/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/01/a-follow-up-on-gnome-3-myths/"
+  to = "/blog/2010/01/17/a-follow-up-on-gnome-3-myths/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/01/2-29-release-notes/"
+  to = "/blog/2010/01/20/229-release-notes/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/01/gnome-accounts/"
+  to = "/blog/2010/01/20/gnome-accounts/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/01/gnome-odds-ends/"
+  to = "/blog/2010/01/22/gnome-odds--ends/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/01/cutting-the-cable-part-2/"
+  to = "/blog/2010/01/24/cutting-the-cable-part-2/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/02/gnome-journal-18-multimedia-released/"
+  to = "/blog/2010/02/05/gnome-journal-18--multimedia-released/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/02/cutting-the-cable-part-3-or-why-customer-service-matters/"
+  to = "/blog/2010/02/09/cutting-the-cable-part-3-or-why-customer-service-matters/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/02/gnome-sysadmin-team-update/"
+  to = "/blog/2010/02/13/gnome-sysadmin-team-update/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/02/the-day-the-saucers-came/"
+  to = "/blog/2010/02/25/the-day-the-saucers-came/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/03/plan-your-writing/"
+  to = "/blog/2010/03/10/plan-your-writing/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/03/upcoming-gnome-marketing-hackfest/"
+  to = "/blog/2010/03/18/upcoming-gnome-marketing-hackfest/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/03/gnome-fundraising/"
+  to = "/blog/2010/03/25/gnome-fundraising/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/03/gnome-journal-issue-19-is-out/"
+  to = "/blog/2010/03/30/gnome-journal-issue-19-is-out/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/04/gnome-foundation-board-affiliations-update/"
+  to = "/blog/2010/04/06/gnome-foundation-board-affiliations-update/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/05/hobbyists-hackers/"
+  to = "/blog/2010/05/01/hobbyists--hackers/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/05/gnome-developers-we-need-your-help/"
+  to = "/blog/2010/05/04/gnome-developers--we-need-your-help/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/05/gnome-marketing-hackfest-day-1/"
+  to = "/blog/2010/05/05/gnome-marketing-hackfest-day-1/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/05/marketing-hackfest-participating-and-interacting-in-communities/"
+  to = "/blog/2010/05/08/marketing-hackfest--participating-and-interacting-in-communities/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/05/quack-an-update-on-gnome-3-0-help/"
+  to = "/blog/2010/05/11/quack--an-update-on-gnome-30-help/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/05/1361/"
+  to = "/blog/2010/05/17/a-peek-under-the-covers/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/06/vinyl-revolution/"
+  to = "/blog/2010/06/05/vinyl-revolution/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/06/what-my-dad-taught-me-about-tech/"
+  to = "/blog/2010/06/20/what-my-dad-taught-me-about-tech/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/06/gnome-docs-team-meeting-tomorrow/"
+  to = "/blog/2010/06/23/gnome-docs-team-meeting-tomorrow/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/06/collaboration-across-borders/"
+  to = "/blog/2010/06/26/collaboration-across-borders/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/06/vinyl-revolution-2/"
+  to = "/blog/2010/06/27/vinyl-revolution/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/06/of-montreal-the-past-is-a-grotesque-animal-12/"
+  to = "/blog/2010/06/30/of-montreal--the-past-is-a-grotesque-animal-12/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/07/vinyl-revolution-music-of-the-week-june-29th/"
+  to = "/blog/2010/07/01/vinyl-revolution-music-of-the-week-june-29th/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/07/welcome-to-vinyl-revolution/"
+  to = "/blog/2010/07/02/welcome-to-vinyl-revolution/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/07/gnome-zazzle-store-sale/"
+  to = "/blog/2010/07/05/gnome-zazzle-store-sale/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/07/prince-purple-rain/"
+  to = "/blog/2010/07/05/prince-purple-rain/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/07/at-guadec/"
+  to = "/blog/2010/07/26/at-guadec/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/07/guadec-closing-ceremony-today-at-1715-in-paris/"
+  to = "/blog/2010/07/30/guadec-closing-ceremony-today-at-1715-in-paris/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/08/write-for-gnome-journal/"
+  to = "/blog/2010/08/03/write-for-gnome-journal/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/08/make-a-smart-playlist-to-see-your-amazon-purchases-in-banshee/"
+  to = "/blog/2010/08/06/make-a-smart-playlist-to-see-your-amazon-purchases-in-banshee/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/08/help-needed/"
+  to = "/blog/2010/08/12/help-needed/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/08/wanted-rocking-web-design/"
+  to = "/blog/2010/08/18/wanted-rocking-web-design/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/08/taking-snowy-for-a-walk-issue-1/"
+  to = "/blog/2010/08/26/taking-snowy-for-a-walk--issue-1/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/09/gnome-journal-issue-21-is-out/"
+  to = "/blog/2010/09/01/gnome-journal-issue-21-is-out/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/09/keep-on-rockin-me-baby/"
+  to = "/blog/2010/09/03/keep-on-rockin-me-baby/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/09/privacy-policies/"
+  to = "/blog/2010/09/11/privacy-policies/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/09/taking-snowy-for-a-walk-issue-2-alpha-dog/"
+  to = "/blog/2010/09/13/taking-snowy-for-a-walk--issue-2-alpha-dog/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/09/rolling-stones-25-best-record-stores/"
+  to = "/blog/2010/09/16/rolling-stones-25-best-record-stores/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/09/six-months-without-satellite-tv/"
+  to = "/blog/2010/09/17/six-months-without-satellite-tv/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/09/get-notified-about-new-releases/"
+  to = "/blog/2010/09/18/get-notified-about-new-releases/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/09/the-needle-doctor-is-moving/"
+  to = "/blog/2010/09/21/the-needle-doctor-is-moving/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/09/taking-snowy-for-a-walk-issue-3-what-users-want/"
+  to = "/blog/2010/09/22/taking-snowy-for-a-walk--issue-3--what-users-want/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/09/gnome-2-32-screenshots-needed/"
+  to = "/blog/2010/09/26/gnome-232-screenshots-needed/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/09/rock-and-roll-hall-of-fame-nominees-announced/"
+  to = "/blog/2010/09/29/rock-and-roll-hall-of-fame-nominees-announced/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/10/help-bryen-out/"
+  to = "/blog/2010/10/04/help-bryen-out/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/10/sysadmin-blog/"
+  to = "/blog/2010/10/04/sysadmin-blog/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/10/how-much-should-an-album-cost/"
+  to = "/blog/2010/10/18/how-much-should-an-album-cost/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/10/boston-summit/"
+  to = "/blog/2010/10/19/boston-summit/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/10/taking-snowy-for-a-walk-4-meet-the-cavalier-king-charles-spaniel/"
+  to = "/blog/2010/10/20/taking-snowy-for-a-walk-4--meet-the-cavalier-king-charles-spaniel/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/11/i-have-seen-the-future-of-tv/"
+  to = "/blog/2010/11/01/i-have-seen-the-future-of-tv/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/11/thank-you-stormy/"
+  to = "/blog/2010/11/04/thank-you-stormy/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/11/gnome-boston-summit-2010-kicks-off/"
+  to = "/blog/2010/11/06/gnome-boston-summit-2010-kicks-off/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/11/its-gameday/"
+  to = "/blog/2010/11/21/its-gameday/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/12/superchunk/"
+  to = "/blog/2010/12/02/superchunk/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/12/best-albums-of-2010/"
+  to = "/blog/2010/12/03/best-album-lists-of-2010/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/12/heard-it-on-the-radio/"
+  to = "/blog/2010/12/10/heard-it-on-the-radio/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/12/2009-gnome-annual-report-is-out/"
+  to = "/blog/2010/12/13/2009-gnome-annual-report-is-out/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/12/boxee-box/"
+  to = "/blog/2010/12/26/boxee-box/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2010/12/best-of-bootie-2010/"
+  to = "/blog/2010/12/28/best-of-bootie-2010/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2011/01/best-music-of-2010/"
+  to = "/blog/2011/01/01/best-music-of-2010/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2011/01/best-music-of-2010-2/"
+  to = "/blog/2011/01/01/best-music-of-2010/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2011/01/2010-music-sales/"
+  to = "/blog/2011/01/07/2010-music-sales/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2011/01/thanks/"
+  to = "/blog/2011/01/08/thanks/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2011/01/this-week-in-music-january-4th-11th-2011/"
+  to = "/blog/2011/01/12/this-week-in-music--january-4th--11th-2011/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2011/01/gnome-t-shirt-contest-update/"
+  to = "/blog/2011/01/12/gnome-t-shirt-contest-update/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2011/01/which-is-better-support-the-artists-or-the-indie-stores/"
+  to = "/blog/2011/01/13/which-is-better--support-the-artists-or-the-indie-stores/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2011/02/my-new-favorite-gnome-patch/"
+  to = "/blog/2011/02/28/my-new-favorite-gnome-patch/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2011/03/a-look-back-at-needles/"
+  to = "/blog/2011/03/24/a-look-back-at-needles/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2011/03/lets-get-back-at-it/"
+  to = "/blog/2011/03/24/lets-get-back-at-it/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2011/04/lcd-soundsystem-wraps-it-up/"
+  to = "/blog/2011/04/05/lcd-soundsystem-wraps-it-up/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2011/04/gnome-3-is-out/"
+  to = "/blog/2011/04/06/gnome-3-is-out/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2011/04/who-will-rock-the-garden-this-summer/"
+  to = "/blog/2011/04/06/who-will-rock-the-garden-this-summer/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2011/04/layne-stayley-41902/"
+  to = "/blog/2011/04/19/layne-stayley-41902/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2011/05/on-to-greener-pastures/"
+  to = "/blog/2011/05/03/on-to-greener-pastures/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2011/06/join-the-album-club/"
+  to = "/blog/2011/06/01/join-the-album-club/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2011/06/round-up/"
+  to = "/blog/2011/06/02/round-up/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2011/06/round-up-2/"
+  to = "/blog/2011/06/09/round-up/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2011/06/roundup-61711/"
+  to = "/blog/2011/06/17/roundup-61711/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2011/06/going-to-see-wits/"
+  to = "/blog/2011/06/22/going-to-see-wits/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2011/08/ready-player-one-is-the-best-book-youre-not-reading/"
+  to = "/blog/2011/08/22/ready-player-one-is-the-best-book-youre-not-reading/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2011/10/thanks-steve/"
+  to = "/blog/2011/10/06/thanks-steve/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2011/10/fork-the-fsf/"
+  to = "/blog/2011/10/09/fork-the-fsf/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2011/10/rpgkids/"
+  to = "/blog/2011/10/24/rpgkids/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2011/11/alan-moore-the-guy-fawkes-mask/"
+  to = "/blog/2011/11/27/alan-moore--the-guy-fawkes-mask/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2012/01/thank-you-eff/"
+  to = "/blog/2012/01/26/thank-you-eff/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2012/07/sign-the-declaration-of-internet-freedom/"
+  to = "/blog/2012/07/02/sign-the-declaration-of-internet-freedom/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2012/07/what-im-listening-to-new-music-releases-725/"
+  to = "/blog/2012/07/24/what-im-listening-to-new-music-releases-725/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2012/07/burning-down-the-house/"
+  to = "/blog/2012/07/25/burning-down-the-house/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2012/07/what-is-the-future-business-model-for-the-music-industry/"
+  to = "/blog/2012/08/01/what-is-the-future-business-model-for-the-music-industry/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/01/happy-new-year-and-welcome-back/"
+  to = "/blog/2013/01/01/happy-new-year-and-welcome-back/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/01/portal-2/"
+  to = "/blog/2013/01/01/portal-2/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/01/a-peek-under-the-hood-of-the-website-revamp/"
+  to = "/blog/2013/01/02/a-peek-under-the-hood-of-the-website-revamp/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/01/vinyl-will-never-die/"
+  to = "/blog/2013/01/02/vinyl-will-never-die/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/01/favorite-albums-of-2012/"
+  to = "/blog/2013/01/05/favorite-albums-of-2012/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/01/did-donald-driver-deserve-better/"
+  to = "/blog/2013/01/07/did-donald-driver-deserve-better/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/01/i-heard-it-on-the-radio/"
+  to = "/blog/2013/01/07/i-heard-it-on-the-radio/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/01/a-stormtrooper-on-vacation/"
+  to = "/blog/2013/01/08/a-stormtrooper-on-vacation/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/01/amazon-introduces-autorip/"
+  to = "/blog/2013/01/11/amazon-introduces-autorip/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/01/get-smart-about-football/"
+  to = "/blog/2013/01/12/get-smart-about-football/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/01/rip-aaron-swartz/"
+  to = "/blog/2013/01/12/rip-aaron-swartz/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/01/pathfinder-mmo-on-kickstarter/"
+  to = "/blog/2013/01/14/pathfinder-mmo-on-kickstarter/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/01/are-you-reading-nextdraft-if-not-you-should-be/"
+  to = "/blog/2013/01/15/are-you-reading-nextdraft--if-not-you-should-be/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/01/fringe-finale/"
+  to = "/blog/2013/01/18/fringe-finale/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/01/happy-8th-birthday-89-3-the-current/"
+  to = "/blog/2013/01/20/happy-8th-birthday-893-the-current/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/01/star-wars-the-phantom-menace-vinyl-re-release/"
+  to = "/blog/2013/01/21/star-wars-the-phantom-menace-vinyl-re-release/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/01/u-turn-audio-the-orbit-turntable/"
+  to = "/blog/2013/01/22/u-turn-audio--the-orbit-turntable/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/02/the-essential-smart-football-on-sale/"
+  to = "/blog/2013/02/01/the-essential-smart-football-on-sale/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/02/can-arcades-make-a-comeback/"
+  to = "/blog/2013/02/23/can-arcades-make-a-comeback/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/03/record-store-day-2013-is-fast-approaching/"
+  to = "/blog/2013/03/01/record-store-day-2013-is-fast-approaching/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/03/why-you-can-never-get-good-seats-at-concerts/"
+  to = "/blog/2013/03/18/why-you-can-never-get-good-seats-at-concerts/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/03/who-was-really-behind-the-destruction-of-the-death-star/"
+  to = "/blog/2013/03/18/who-was-really-behind-the-destruction-of-the-death-star/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/03/kicking-off-a-week-about-kickstarter-and-how-i-became-a-loyal-polyvinyl-records-customer/"
+  to = "/blog/2013/03/25/kicking-off-a-week-about-kickstarter-and-how-i-became-a-loyal-polyvinyl-records-customer/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/03/support-small-world-on-kickstarter-especially-for-table-top-day/"
+  to = "/blog/2013/03/26/support-small-world-on-kickstarter-especially-for-table-top-day/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/04/iain-banks/"
+  to = "/blog/2013/04/03/iain-banks/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/04/henry-rollins-spoken-word/"
+  to = "/blog/2013/04/07/henry-rollins--spoken-word/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/05/audis-latest-commercial-features-a-hilarious-take-on-old-spock-vs-new-spock/"
+  to = "/blog/2013/05/07/audis-latest-commercial-features-a-hilarious-take-on-old-spock-vs-new-spock/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/05/my-ouya-came/"
+  to = "/blog/2013/05/20/my-ouya-came/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/06/eff-why-metadata-matters/"
+  to = "/blog/2013/06/10/eff-why-metadata-matters/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/06/godspeed-mr-banks-1954-2013/"
+  to = "/blog/2013/06/10/godspeed-mr-banks--1954-2013/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/07/pearl-jam-mind-your-manners/"
+  to = "/blog/2013/07/15/pearl-jam--mind-your-manners/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/07/how-i-met-your-mother-comic-con-2013/"
+  to = "/blog/2013/07/23/how-i-met-your-mother--comic-con-2013/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/07/neil-gaiman-introduces-his-first-game-wayward-manor/"
+  to = "/blog/2013/07/26/neil-gaiman-introduces-his-first-game-wayward-manor/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/07/time-travel-is-real/"
+  to = "/blog/2013/07/26/time-travel-is-real/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/07/pretzels-thanks-to-hilah/"
+  to = "/blog/2013/07/28/pretzels-thanks-to-hilah/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/08/the-return-of-omni/"
+  to = "/blog/2013/08/02/the-return-of-omni/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/08/even-congress-denied-access-to-basic-details-of-nsa-spying/"
+  to = "/blog/2013/08/05/even-congress-denied-access-to-basic-details-of-nsa-spying/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/09/chvrches-the-bones-of-what-you-believe-in/"
+  to = "/blog/2013/09/24/chvrches--the-bones-of-what-you-believe-in/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/09/my-mid-life-crisis/"
+  to = "/blog/2013/09/26/my-mid-life-crisis/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/10/august-vinyl/"
+  to = "/blog/2013/10/01/august-vinyl/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/10/gearbox-wins-homeworld-auction/"
+  to = "/blog/2013/10/03/gearbox-wins-homeworld-auction/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/10/the-last-science-fiction-fantasy-meme/"
+  to = "/blog/2013/10/07/the-last-science-fiction--fantasy-meme/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/10/archer-danger-zone/"
+  to = "/blog/2013/10/12/archer--danger-zone/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/10/fun-in-the-sun/"
+  to = "/blog/2013/10/11/fun-in-the-sun/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/10/21-things-the-simpsons-predicted/"
+  to = "/blog/2013/10/22/21-things-the-simpsons-predicted/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/10/zombies-dont-have-a-chance-versus-nature/"
+  to = "/blog/2013/10/22/zombies-dont-have-a-chance-versus-nature/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/11/time-for-macaroni-cheese/"
+  to = "/blog/2013/11/03/time-for-macaroni--cheese/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/11/venn-breakfast-menu/"
+  to = "/blog/2013/11/28/venn-breakfast-menu/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/11/all-things-blade-runner/"
+  to = "/blog/2013/11/30/all-things-blade-runner/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/12/amazons-frustration-free-packaging/"
+  to = "/blog/2013/12/13/amazons-frustration-free-packaging/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/12/larry-elmore-the-complete-elmore-artbook/"
+  to = "/blog/2013/12/16/larry-elmore-the-complete-elmore-artbook/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/12/ten-years-of-giving-to-the-eff/"
+  to = "/blog/2013/12/18/ten-years-of-giving-to-the-eff/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/12/another-reason-why-i-love-the-current/"
+  to = "/blog/2013/12/23/another-reason-why-i-love-the-current/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/12/best-of-bootie-2013-released/"
+  to = "/blog/2013/12/24/best-of-bootie-2013-released/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2014/01/favorite-albums-of-2013/"
+  to = "/blog/2014/01/01/favorite-albums-of-2013/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2014/01/city-pages-oral-history-of-the-current/"
+  to = "/blog/2014/01/22/city-pages-oral-history-of-893-the-current/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2014/01/why-dungeons-dragons-matters/"
+  to = "/blog/2014/01/31/why-dungeons--dragons-matters/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2014/03/xbmc-13-frodo-beta-1-out/"
+  to = "/blog/2014/03/04/xbmc-13-gotham-beta-1-out/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2014/03/congrats-uwmbb/"
+  to = "/blog/2014/03/30/congratulations-wisconsin-mens-basketball/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2014/04/cherry-tree-blooming-in-kyoto-japan/"
+  to = "/blog/2014/04/01/cherry-tree-blooming-in-kyoto-japan/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2014/04/achievement-unlocked-geek-dad-cred/"
+  to = "/blog/2014/04/09/achievement-unlocked-geek-dad-cred/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2014/06/if-only-i-could/"
+  to = "/blog/2014/06/21/if-only-i-could/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2014/09/i-love-minnesota-music/"
+  to = "/blog/2014/09/15/i-love-minnesota-music/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2015/08/congratulations-alex/"
+  to = "/blog/2015/08/26/congratulations-alex/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2015/11/bloom-county-2015/"
+  to = "/blog/2015/11/04/bloom-county-2015/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2016/01/welcome-to-2016-and-my-quest-to-learn-python/"
+  to = "/blog/2016/01/05/welcome-to-2016-and-my-quest-to-learn-python/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2016/01/learning-python/"
+  to = "/blog/2016/01/07/learning-python/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2016/01/how-i-got-started-programming/"
+  to = "/blog/2016/01/10/how-i-got-started-programming/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2016/01/my-workflow-in-learning-python/"
+  to = "/blog/2016/01/15/my-workflow-in-learning-python/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2016/02/python-jumpstart-kickstarter/"
+  to = "/blog/2016/02/19/python-jumpstart-kickstarter/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2016/03/rebooting-my-productivity-without-technology/"
+  to = "/blog/2016/03/31/rebooting-my-productivity-without-technology/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2016/04/prince/"
+  to = "/blog/2016/04/22/prince-rogers-nelson-1958--2016/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2016/07/how-time-flies-or-why-i-still-havent-learned-python/"
+  to = "/blog/2016/07/22/how-time-flies-or-why-i-still-havent-learned-python/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2016/09/python-for-everybody-at-coursera-with-dr-chuck/"
+  to = "/blog/2016/09/16/python-for-everybody-at-coursera-with-dr-chuck/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2016/09/web-scraping-and-python/"
+  to = "/blog/2016/09/30/web-scraping-and-python/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2016/10/next-class-up-python-jumpstart-by-building-10-apps/"
+  to = "/blog/2016/10/06/next-class-up---python-jumpstart-by-building-10-apps/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2016/12/one-year-of-python/"
+  to = "/blog/2016/12/04/one-year-of-python/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2016/12/dwayne-crooks-on-learning-python-efficiently/"
+  to = "/blog/2016/12/16/dwayne-crooks-on-learning-python-efficiently/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2017/02/why-im-going-back-to-linux-after-five-years-of-using-macos/"
+  to = "/blog/2017/02/10/why-im-going-back-to-linux-after-five-years-of-using-macos/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2017/02/the-macos-apps-ill-miss-the-most/"
+  to = "/blog/2017/02/14/the-macos-apps-ill-miss-the-most/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2017/02/talk-python-training-consuming-http-services-in-python/"
+  to = "/blog/2017/02/23/talk-python-training---consuming-http-services-in-python-review/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2017/03/writing-python-to-learn/"
+  to = "/blog/2017/03/03/writing-python-to-learn/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2017/03/nflpool-0-1-milestone-completed/"
+  to = "/blog/2017/03/07/nflpool-01-milestone-completed/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2017/03/why-i-enjoy-writing-user-help-for-gnome/"
+  to = "/blog/2017/03/22/why-i-enjoy-writing-user-help-for-gnome/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2017/07/mongodb-for-python-for-developers/"
+  to = "/blog/2017/07/07/mongodb-for-python-for-developers/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2017/07/stay-on-target-or-why-python-app-still-isnt-built/"
+  to = "/blog/2017/07/09/stay-on-target-or-why-my-python-app-still-isnt-built/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2017/07/python-for-entrepeneurs-progress/"
+  to = "/blog/2017/07/11/python-for-entrepeneurs-progress/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2017/07/nflpool-prototyping-with-mongodb/"
+  to = "/blog/2017/07/20/nflpool-prototyping-with-mongodb/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2017/07/back-to-sqlite-for-nflpool/"
+  to = "/blog/2017/07/31/back-to-sqlite-for-nflpool/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2017/08/nflpool-progress-812017/"
+  to = "/blog/2017/08/02/nflpool-progress-812017/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2017/08/studying-vs-learning/"
+  to = "/blog/2017/08/04/studying-vs-learning/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2017/08/nflpool-progess-8817-making-a-users-picks-work/"
+  to = "/blog/2017/08/08/nflpool-progess-8817--making-a-users-picks-work/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2017/08/nflpool-progress-81317/"
+  to = "/blog/2017/08/14/nflpool-progress-81317/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2017/08/nflpool-is-live/"
+  to = "/blog/2017/08/18/nflpool-is-live/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2017/08/importing-nfl-statistics-into-nflpool/"
+  to = "/blog/2017/08/30/importing-nfl-statistics-into-nflpool/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2017/09/i-hate-sql-or-how-my-wife-finished-nflpool/"
+  to = "/blog/2017/09/06/i-hate-sql-or-how-my-wife-finished-nflpool/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2017/10/nflpool-a-kind-of-post-mortem/"
+  to = "/blog/2017/10/02/nflpool-a-kind-of-post-mortem/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2017/10/whats-next-for-nflpool/"
+  to = "/blog/2017/10/18/whats-next-for-nflpool/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2018/01/nflpool-2017-recap/"
+  to = "/blog/2018/01/29/nflpool-2017-recap/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2018/03/introducing-mlbpool2/"
+  to = "/blog/2018/03/07/introducing-mlbpool2/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2018/03/mlbpool2-mysql-mariadb/"
+  to = "/blog/2018/03/08/mlbpool2--mysql--mariadb/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2018/03/mysportsfeeds/"
+  to = "/blog/2018/03/09/where-i-get-stats-for-mlbpool-and-nflpool-mysportsfeeds-and-its-awesome/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2018/03/mlbpool2-is-live/"
+  to = "/blog/2018/03/23/mlbpool2-is-live/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2018/03/mlbpool2-letting-a-player-change-their-picks/"
+  to = "/blog/2018/03/23/mlbpool2--letting-a-player-change-their-picks/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/password-validation-in-nflpool-and-mlbpool2/"
+  to = "/blog/2018/04/27/password-validation-in-nflpool-and-mlbpool2/"
+  status = 301
+
+# ---- Old category pages -> blog category pages (keep after the posts) ----
+[[redirects]]
+  from = "/categories/:cat/"
+  to = "/blog/category/:cat/"
+  status = 301
+
+[[redirects]]
+  from = "/category/:cat/"
+  to = "/blog/category/:cat/"
+  status = 301
