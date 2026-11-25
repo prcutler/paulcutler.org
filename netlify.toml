@@ -6855,3 +6855,1036 @@
   from = "/category/:cat/"
   to = "/blog/category/:cat/"
   status = 301
+
+# ---- Images inside old Hugo post folders (/posts/YYYY/MM/slug/file.jpg) ----
+[[redirects]]
+  from = "/posts/2018/10/it-was-a-good-week-of-python-and-me/*"
+  to = "/blog/2018/2018-10-07-good-week-of-python/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2019/06/setting-up-azure-pipelines-part-2/*"
+  to = "/blog/2019/2019-06-20-setting-up-azure-pipelines-part-2/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2019/06/finishing-setup-with-dependabot-and-pytest-reporting-and-project-goals-part-3/*"
+  to = "/blog/2019/2019-06-24-finishing-setup-part-3/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2020/01/control-panel-prototypes/*"
+  to = "/blog/2020/2020-01-29-control-panel-prototype/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2020/03/more-control-panel-prototype-failures/*"
+  to = "/blog/2020/2020-03-15-more-control-panel-failures/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2020/03/pixelcade/*"
+  to = "/blog/2020/2020-03-24-pixelcade/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2020/04/practice-cuts/*"
+  to = "/blog/2020/2020-04-11-practice-cuts/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2020/07/another-reason-to-love-open-source/*"
+  to = "/blog/2020/2020-07-05-another-reason-to-love-open-source/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2020/07/introducing-silver-saucer/*"
+  to = "/blog/2020/2020-07-15-introducing-silver-saucer/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2020/12/the-one-piece-of-data-discogs-doesnt-have/*"
+  to = "/blog/2020/2020-12-10-one-thing-missing-from-discogs/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2020/12/displaying-the-album-information/*"
+  to = "/blog/2020/2020-12-23-displaying-album-info/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2021/01/play-singles-part-2/*"
+  to = "/blog/2021/2021-01-02-play-singles-part-2/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2021/02/listening-to-my-record-collection-alphabetically/*"
+  to = "/blog/2021/2021-02-14-listening-to-records-alpha/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2021/02/always-learning/*"
+  to = "/blog/2021/2021-02-15-always-learning/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2021/07/introducing-pi-dial-part-one/*"
+  to = "/blog/2021/2021-07-10-introducing-pidial-part-one/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2021/07/introducing-pi-dial-part-three-prototyping/*"
+  to = "/blog/2021/2021-07-14-introducing-pidial-part-three-prototyping/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2021/07/introducing-pi-dial-part-four-adding-an-lcd/*"
+  to = "/blog/2021/2021-07-15-introducing-pidial-part-4/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2021/08/progress-update/*"
+  to = "/blog/2021/2021-08-22-progress-update/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2021/12/silversaucer-and-fastapi-progress-update/*"
+  to = "/blog/2021/2021-12-05-silversaucer-update/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2021/12/silver-saucer-discogs-integration/*"
+  to = "/blog/2021/2021-12-08-silversaucer-discogs-update/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2021/12/the-right-tool-for-the-right-job/*"
+  to = "/blog/2021/2021-12-25-the-right-tool-for-the-right-job/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2022/01/led-matrix-progress/*"
+  to = "/blog/2022/2022-01-05-LED-matrix-progress/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2022/01/circuitpython-2022/*"
+  to = "/blog/2022/2022-01-06-Circuitpython-2022/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2022/01/introducing-the-circuitpython-show/*"
+  to = "/blog/2022/2022-01-12-introducing-the-circuitpython-show/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2022/01/silver-saucer-progress-january-2022/*"
+  to = "/blog/2022/2022-01-17-silversaucer-progress-jan-2022/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2022/01/the-podcast-has-been-submitted/*"
+  to = "/blog/2022/2022-01-25-podcast-submitted/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2022/02/the-circuitpython-show-progress/*"
+  to = "/blog/2022/2022-02-20-circuitpythonshow-progress/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2022/06/june-2022-silversaucer-update/*"
+  to = "/blog/2022/2022-06-17-silversaucer-update/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2022/12/next-circuitpython-projects-up/*"
+  to = "/blog/2022/2022-12-06-next-projects-up/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2023/09/matrixportal-album-art-display/*"
+  to = "/blog/2023/2023-09-02-matrixportal-albumart/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2023/09/introducing-songmatrix/*"
+  to = "/blog/2023/2023-09-20-introducing-songmatrix/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2023/11/white-whales/*"
+  to = "/blog/2023/2023-11-29-white-whales/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2023/12/favorite-albums-of-2023/*"
+  to = "/blog/2023/2023-12-31-favorite-albums-of-2023/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2024/04/fifteen-years-of-record-collecting/*"
+  to = "/blog/2024/2024-04-18-record-collecting/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/posts/2024/08/the-bootloader-live-on-circuitpython-day-2024/*"
+  to = "/blog/2024/2024-08-09-the-bootloader-live/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2018-10-07-good-week-of-python/*"
+  to = "/blog/2018/2018-10-07-good-week-of-python/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2019-06-20-setting-up-azure-pipelines-part-2/*"
+  to = "/blog/2019/2019-06-20-setting-up-azure-pipelines-part-2/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2019-06-24-finishing-setup-part-3/*"
+  to = "/blog/2019/2019-06-24-finishing-setup-part-3/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2020-01-29-control-panel-prototype/*"
+  to = "/blog/2020/2020-01-29-control-panel-prototype/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2020-03-15-more-control-panel-failures/*"
+  to = "/blog/2020/2020-03-15-more-control-panel-failures/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2020-03-24-pixelcade/*"
+  to = "/blog/2020/2020-03-24-pixelcade/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2020-04-11-practice-cuts/*"
+  to = "/blog/2020/2020-04-11-practice-cuts/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2020-07-05-another-reason-to-love-open-source/*"
+  to = "/blog/2020/2020-07-05-another-reason-to-love-open-source/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2020-07-15-introducing-silver-saucer/*"
+  to = "/blog/2020/2020-07-15-introducing-silver-saucer/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2020-12-10-one-thing-missing-from-discogs/*"
+  to = "/blog/2020/2020-12-10-one-thing-missing-from-discogs/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2020-12-23-displaying-album-info/*"
+  to = "/blog/2020/2020-12-23-displaying-album-info/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2021-01-02-play-singles-part-2/*"
+  to = "/blog/2021/2021-01-02-play-singles-part-2/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2021-02-14-listening-to-records-alpha/*"
+  to = "/blog/2021/2021-02-14-listening-to-records-alpha/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2021-02-15-always-learning/*"
+  to = "/blog/2021/2021-02-15-always-learning/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2021-07-10-introducing-pidial-part-one/*"
+  to = "/blog/2021/2021-07-10-introducing-pidial-part-one/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2021-07-14-introducing-pidial-part-three-prototyping/*"
+  to = "/blog/2021/2021-07-14-introducing-pidial-part-three-prototyping/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2021-07-15-introducing-pidial-part-4/*"
+  to = "/blog/2021/2021-07-15-introducing-pidial-part-4/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2021-08-22-progress-update/*"
+  to = "/blog/2021/2021-08-22-progress-update/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2021-12-05-silversaucer-update/*"
+  to = "/blog/2021/2021-12-05-silversaucer-update/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2021-12-08-silversaucer-discogs-update/*"
+  to = "/blog/2021/2021-12-08-silversaucer-discogs-update/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2021-12-25-the-right-tool-for-the-right-job/*"
+  to = "/blog/2021/2021-12-25-the-right-tool-for-the-right-job/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2022-01-05-LED-matrix-progress/*"
+  to = "/blog/2022/2022-01-05-LED-matrix-progress/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2022-01-06-Circuitpython-2022/*"
+  to = "/blog/2022/2022-01-06-Circuitpython-2022/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2022-01-12-introducing-the-circuitpython-show/*"
+  to = "/blog/2022/2022-01-12-introducing-the-circuitpython-show/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2022-01-17-silversaucer-progress-jan-2022/*"
+  to = "/blog/2022/2022-01-17-silversaucer-progress-jan-2022/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2022-01-25-podcast-submitted/*"
+  to = "/blog/2022/2022-01-25-podcast-submitted/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2022-02-20-circuitpythonshow-progress/*"
+  to = "/blog/2022/2022-02-20-circuitpythonshow-progress/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2022-06-17-silversaucer-update/*"
+  to = "/blog/2022/2022-06-17-silversaucer-update/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2022-12-06-next-projects-up/*"
+  to = "/blog/2022/2022-12-06-next-projects-up/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2023-09-02-matrixportal-albumart/*"
+  to = "/blog/2023/2023-09-02-matrixportal-albumart/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2023-09-20-introducing-songmatrix/*"
+  to = "/blog/2023/2023-09-20-introducing-songmatrix/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2023-11-29-white-whales/*"
+  to = "/blog/2023/2023-11-29-white-whales/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2023-12-31-favorite-albums-of-2023/*"
+  to = "/blog/2023/2023-12-31-favorite-albums-of-2023/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2024-04-18-record-collecting/*"
+  to = "/blog/2024/2024-04-18-record-collecting/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2024-08-09-the-bootloader-live/*"
+  to = "/blog/2024/2024-08-09-the-bootloader-live/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2026-03-29-circuitpython-bambulabs-library/*"
+  to = "/blog/2026/2026-03-29-circuitpython-bambulabs-library/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2026-04-07-moviebuff/*"
+  to = "/blog/2026/2026-04-07-moviebuff/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2026-06-13-listenbrainz-all-the-things/*"
+  to = "/blog/2026/2026-06-13-listenbrainz-all-the-things/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2026-09-07-hyperhdr-part1/*"
+  to = "/blog/2026/2026-09-07-hyperhdr-part1/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2026-09-12-hyperhdr-part3-hdmi/*"
+  to = "/blog/2026/2026-09-12-hyperhdr-part3-hdmi/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2026-09-13-space/*"
+  to = "/blog/2026/2026-09-13-space/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2026-09-15-hyperhdr-part-5-leds/*"
+  to = "/blog/2026/2026-09-15-hyperhdr-part-5-leds/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/post/2026-10-07-hyperhdr-part6-installation/*"
+  to = "/blog/2026/2026-10-07-hyperhdr-part6-installation/:splat"
+  status = 301
+
+# ---- Old tag pages whose tag is now a category ----
+[[redirects]]
+  from = "/tags/alex/"
+  to = "/blog/category/alex/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/alex/"
+  to = "/blog/category/alex/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/apple/"
+  to = "/blog/category/apple/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/apple/"
+  to = "/blog/category/apple/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/arcade/"
+  to = "/blog/category/arcade/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/arcade/"
+  to = "/blog/category/arcade/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/badgers/"
+  to = "/blog/category/badgers/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/badgers/"
+  to = "/blog/category/badgers/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/basketball/"
+  to = "/blog/category/basketball/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/basketball/"
+  to = "/blog/category/basketball/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/blog/"
+  to = "/blog/category/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/blog/"
+  to = "/blog/category/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/books/"
+  to = "/blog/category/books/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/books/"
+  to = "/blog/category/books/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/cd/"
+  to = "/blog/category/cd/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/cd/"
+  to = "/blog/category/cd/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/circuitpython/"
+  to = "/blog/category/circuitpython/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/circuitpython/"
+  to = "/blog/category/circuitpython/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/cooking/"
+  to = "/blog/category/cooking/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/cooking/"
+  to = "/blog/category/cooking/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/copyright/"
+  to = "/blog/category/copyright/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/copyright/"
+  to = "/blog/category/copyright/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/digital/"
+  to = "/blog/category/digital/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/digital/"
+  to = "/blog/category/digital/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/documentation/"
+  to = "/blog/category/documentation/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/documentation/"
+  to = "/blog/category/documentation/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/eff/"
+  to = "/blog/category/eff/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/eff/"
+  to = "/blog/category/eff/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/entertainment/"
+  to = "/blog/category/entertainment/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/entertainment/"
+  to = "/blog/category/entertainment/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/flickr/"
+  to = "/blog/category/flickr/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/flickr/"
+  to = "/blog/category/flickr/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/football/"
+  to = "/blog/category/football/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/football/"
+  to = "/blog/category/football/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/foresight/"
+  to = "/blog/category/foresight/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/foresight/"
+  to = "/blog/category/foresight/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/games/"
+  to = "/blog/category/games/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/games/"
+  to = "/blog/category/games/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/gaming/"
+  to = "/blog/category/gaming/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/gaming/"
+  to = "/blog/category/gaming/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/general/"
+  to = "/blog/category/general/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/general/"
+  to = "/blog/category/general/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/gnome/"
+  to = "/blog/category/gnome/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/gnome/"
+  to = "/blog/category/gnome/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/gnome-journal/"
+  to = "/blog/category/gnome-journal/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/gnome-journal/"
+  to = "/blog/category/gnome-journal/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/hardware/"
+  to = "/blog/category/hardware/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/hardware/"
+  to = "/blog/category/hardware/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/humor/"
+  to = "/blog/category/humor/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/humor/"
+  to = "/blog/category/humor/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/jack/"
+  to = "/blog/category/jack/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/jack/"
+  to = "/blog/category/jack/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/links/"
+  to = "/blog/category/links/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/links/"
+  to = "/blog/category/links/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/linux/"
+  to = "/blog/category/linux/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/linux/"
+  to = "/blog/category/linux/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/marketing/"
+  to = "/blog/category/marketing/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/marketing/"
+  to = "/blog/category/marketing/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/microsoft/"
+  to = "/blog/category/microsoft/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/microsoft/"
+  to = "/blog/category/microsoft/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/mlbpool2/"
+  to = "/blog/category/mlbpool2/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/mlbpool2/"
+  to = "/blog/category/mlbpool2/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/movies/"
+  to = "/blog/category/movies/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/movies/"
+  to = "/blog/category/movies/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/music/"
+  to = "/blog/category/music/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/music/"
+  to = "/blog/category/music/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/music-of-the-week/"
+  to = "/blog/category/music-of-the-week/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/music-of-the-week/"
+  to = "/blog/category/music-of-the-week/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/new/"
+  to = "/blog/category/new/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/new/"
+  to = "/blog/category/new/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/new-releases/"
+  to = "/blog/category/new-releases/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/new-releases/"
+  to = "/blog/category/new-releases/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/nflpool/"
+  to = "/blog/category/nflpool/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/nflpool/"
+  to = "/blog/category/nflpool/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/open-source/"
+  to = "/blog/category/open-source/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/open-source/"
+  to = "/blog/category/open-source/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/packers/"
+  to = "/blog/category/packers/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/packers/"
+  to = "/blog/category/packers/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/pc-games/"
+  to = "/blog/category/pc-games/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/pc-games/"
+  to = "/blog/category/pc-games/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/photography/"
+  to = "/blog/category/photography/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/photography/"
+  to = "/blog/category/photography/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/podcast/"
+  to = "/blog/category/podcast/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/podcast/"
+  to = "/blog/category/podcast/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/politics/"
+  to = "/blog/category/politics/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/politics/"
+  to = "/blog/category/politics/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/pyramid/"
+  to = "/blog/category/pyramid/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/pyramid/"
+  to = "/blog/category/pyramid/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/python/"
+  to = "/blog/category/python/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/python/"
+  to = "/blog/category/python/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/radio/"
+  to = "/blog/category/radio/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/radio/"
+  to = "/blog/category/radio/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/sports/"
+  to = "/blog/category/sports/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/sports/"
+  to = "/blog/category/sports/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/stores/"
+  to = "/blog/category/stores/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/stores/"
+  to = "/blog/category/stores/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/technology/"
+  to = "/blog/category/technology/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/technology/"
+  to = "/blog/category/technology/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/the-kids/"
+  to = "/blog/category/the-kids/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/the-kids/"
+  to = "/blog/category/the-kids/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/travel/"
+  to = "/blog/category/travel/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/travel/"
+  to = "/blog/category/travel/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/tv/"
+  to = "/blog/category/tv/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/tv/"
+  to = "/blog/category/tv/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/ubuntu/"
+  to = "/blog/category/ubuntu/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/ubuntu/"
+  to = "/blog/category/ubuntu/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/uncategorized/"
+  to = "/blog/category/uncategorized/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/uncategorized/"
+  to = "/blog/category/uncategorized/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/used/"
+  to = "/blog/category/used/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/used/"
+  to = "/blog/category/used/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/vinyl/"
+  to = "/blog/category/vinyl/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/vinyl/"
+  to = "/blog/category/vinyl/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/websites/"
+  to = "/blog/category/websites/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/websites/"
+  to = "/blog/category/websites/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/wordpress/"
+  to = "/blog/category/wordpress/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/wordpress/"
+  to = "/blog/category/wordpress/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/xbmc/"
+  to = "/blog/category/xbmc/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/xbmc/"
+  to = "/blog/category/xbmc/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/xbox/"
+  to = "/blog/category/xbox/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/xbox/"
+  to = "/blog/category/xbox/"
+  status = 301
+
+[[redirects]]
+  from = "/tags/zoe/"
+  to = "/blog/category/zoe/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/zoe/"
+  to = "/blog/category/zoe/"
+  status = 301
+
+# ---- Category paging, nested WordPress categories, WordPress uploads, favicon ----
+[[redirects]]
+  from = "/categories/:cat/page/*"
+  to = "/blog/category/:cat/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/category/:parent/:cat/"
+  to = "/blog/category/:cat/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/wp-content/*"
+  to = "/wp-content/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/favicon.ico"
+  to = "/img/favicon.svg"
+  status = 301
+
+[[redirects]]
+  from = "/tags/*"
+  to = "/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tag/*"
+  to = "/blog/"
+  status = 301
